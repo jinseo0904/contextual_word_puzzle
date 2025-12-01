@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Bee Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐝 Spelling Bee Game</h1>
+        
+        <!-- Setup Phase -->
+        <div id="setup-phase" class="phase active">
+            <div class="card">
+                <h2>Setup Game</h2>
+                
+                <div class="input-group">
+                    <label for="day-selector">🎯 Contextual Hints (Optional):</label>
+                    <select id="day-selector" class="day-selector">
+                        <option value="">No contextual hints (generic puzzle mode)</option>
+                        <option value="1">Use Day 1 sensor data for contextual hints</option>
+                        <option value="2" selected>Use Day 2 sensor data for contextual hints</option>
+                        <option value="3">Use Day 3 sensor data for contextual hints</option>
+                        <option value="4">Use Day 4 sensor data for contextual hints</option>
+                    </select>
+                    <p class="hint">Select a day to generate hints based on your actual activities from sensor data!</p>
+                </div>
+                
+                <div class="input-group">
+                    <label for="seed-input">Enter a seed word (7+ distinct letters):</label>
+                    <input type="text" id="seed-input" placeholder="e.g., sunflower, background">
+                    <p class="hint">If your word has more than 7 distinct letters, only the first 7 will be used.</p>
+                    <button id="validate-seed-btn" class="btn btn-primary">Validate Seed</button>
+                </div>
+                
+                <div id="seed-result" class="result-message"></div>
+                
+                <div id="center-selection" class="hidden">
+                    <label>Choose a center letter (required in all words):</label>
+                    <div id="letter-buttons" class="letter-buttons"></div>
+                    <button id="start-game-btn" class="btn btn-success">Start Game</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Game Phase -->
+        <div id="game-phase" class="phase">
+            <div class="two-column-layout">
+                <!-- Left Column: Game -->
+                <div class="game-column">
+            <div class="game-rules">
+                <h3>📋 Rules & Scoring</h3>
+                <div class="rules-columns">
+                    <div class="rules-column">
+                        <h4>Rules:</h4>
+                        <ul>
+                            <li>Words must be at least 4 letters</li>
+                            <li>Words must use ONLY the 7 letters shown</li>
+                            <li>Words must include the center letter (in yellow)</li>
+                            <li>Letters can be used more than once</li>
+                        </ul>
+                    </div>
+                    <div class="rules-column">
+                        <h4>Scoring:</h4>
+                        <ul>
+                            <li>4-letter word = 1 point</li>
+                            <li>5+ letter word = word length in points</li>
+                            <li>Pangram (uses all 7 letters) = +7 bonus</li>
+                            <li>Find 70% of points to reach Genius!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Score Section -->
+            <div class="score-section">
+                <div class="score-header">
+                    <h2 id="rank-title">Beginner</h2>
+                    <div class="score-display">
+                        <span id="current-score">0</span> / <span id="max-score">0</span> points
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <div class="rank-markers">
+                        <div class="rank-marker" style="left: 2%" title="Good Start"></div>
+                        <div class="rank-marker" style="left: 5%" title="Moving Up"></div>
+                        <div class="rank-marker" style="left: 8%" title="Good"></div>
+                        <div class="rank-marker" style="left: 15%" title="Solid"></div>
+                        <div class="rank-marker" style="left: 25%" title="Nice"></div>
+                        <div class="rank-marker" style="left: 40%" title="Great"></div>
+                        <div class="rank-marker" style="left: 50%" title="Amazing"></div>
+                        <div class="rank-marker" style="left: 70%" title="Genius"></div>
+                        <div class="rank-marker" style="left: 100%" title="Queen Bee"></div>
+                    </div>
+                </div>
+                <div class="rank-labels">
+                    <span>Beginner</span>
+                    <span>Good Start</span>
+                    <span>Moving Up</span>
+                    <span>Good</span>
+                    <span>Solid</span>
+                    <span>Nice</span>
+                    <span>Great</span>
+                    <span>Amazing</span>
+                    <span>Genius</span>
+                    <span>Queen Bee</span>
+                </div>
+            </div>
+            
+            <div class="game-info">
+                <div class="info-item">
+                    <strong>Letters:</strong> <span id="game-letters"></span>
+                </div>
+                <div class="info-item">
+                    <strong>Center Letter:</strong> <span id="game-center"></span>
+                </div>
+                <div class="info-item">
+                    <strong>Words Found:</strong> <span id="found-count">0</span> / <span id="total-count">0</span>
+                </div>
+                <div class="info-item">
+                    <strong>Pangrams Found:</strong> <span id="pangram-count">0</span> / <span id="total-pangrams">0</span>
+                </div>
+            </div>
+            
+            <!-- Honeycomb -->
+            <div class="honeycomb-container">
+                <svg id="honeycomb" viewBox="0 0 300 300" width="300" height="300">
+                    <!-- Will be populated by JavaScript -->
+                </svg>
+            </div>
+            
+            <!-- Word Input -->
+            <div class="word-input-section">
+                <div class="current-word" id="current-word"></div>
+                <input type="text" id="word-input" class="word-input" placeholder="Type your word">
+                <div class="button-group">
+                    <button id="delete-btn" class="btn btn-secondary">Delete</button>
+                    <button id="shuffle-btn" class="btn btn-secondary">Shuffle</button>
+                    <button id="submit-btn" class="btn btn-primary">Submit</button>
+                </div>
+                <div id="word-message" class="message"></div>
+            </div>
+            
+            <!-- Found Words -->
+            <div class="found-words-section">
+                <h3>Found Words</h3>
+                <div id="found-words-list" class="found-words-list"></div>
+            </div>
+            
+            <button id="new-game-btn" class="btn btn-secondary">New Game</button>
+                </div>
+                <!-- End Left Column -->
+                
+                <!-- Right Column: Hints -->
+                <div class="hints-column">
+                    <div class="hints-panel">
+                        <h2>💡 Hints</h2>
+                        
+                        <!-- Matrix Grid -->
+                        <div class="matrix-section">
+                            <h3>Word Grid</h3>
+                            <div class="matrix-info">
+                                <div class="matrix-legend">
+                                    <span><strong>WORDS:</strong> <span id="matrix-total">0</span></span>
+                                    <span><strong>POINTS:</strong> <span id="matrix-points">0</span></span>
+                                    <span><strong>PANGRAMS:</strong> <span id="matrix-pangrams">0</span></span>
+                                    <span><strong>BINGO:</strong> <span id="matrix-bingo">-</span></span>
+                                </div>
+                            </div>
+                            <div id="matrix-grid" class="matrix-grid">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                            <div id="two-letter-list" class="two-letter-list">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        
+                        <!-- Creative Hints -->
+                        <div class="creative-hints-section">
+                            <h3>Creative Hints 💎</h3>
+                            <div id="contextual-mode-indicator" class="contextual-indicator hidden">
+                                🎯 <strong>Contextual Mode:</strong> Hints personalized based on <span id="selected-day-display"></span> sensor data!
+                            </div>
+                            <button id="generate-hints-btn" class="btn btn-primary">Generate Hints with AI</button>
+                            <div id="hints-loading" class="hints-loading hidden">
+                                <div class="spinner"></div>
+                                <p>Generating creative hints... This may take a minute!</p>
+                            </div>
+                            <div id="creative-hints" class="creative-hints">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Right Column -->
+            </div>
+        </div>
+        
+        <!-- Debug Panel -->
+        <div class="debug-panel">
+            <div class="debug-header">
+                <h3>🔍 Debug Panel</h3>
+                <button id="toggle-debug-btn" class="btn-small">Show All Words</button>
+            </div>
+            <div id="debug-content" class="debug-content hidden">
+                <div class="debug-stats">
+                    <p><strong>Total Words:</strong> <span id="debug-total">0</span></p>
+                    <p><strong>Pangrams:</strong> <span id="debug-pangrams"></span></p>
+                </div>
+                <div id="debug-words-list" class="debug-words-list"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="spelling_bee.js"></script>
+</body>
+</html>
+
