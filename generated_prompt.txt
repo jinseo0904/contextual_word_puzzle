@@ -1,0 +1,279 @@
+Your task is to write a natural, flowing, diary-style narrative describing a person’s day, based entirely on the structured movement summary, POI data, and any available uEMA self-reports. The goal is to transform the raw movements, stays, times, and nearby places into a smooth, readable journal entry that feels personal, reflective, and human—while remaining strictly grounded in the provided data.
+
+====================
+WHAT YOU MUST DO
+	1.	Write the output in the first person (“I”).
+	2.	Create a narrative that feels like someone recounting their day in a journal.
+	3.	Mention each major movement:
+• where they started,
+• where they went,
+• what time they moved,
+• and how long they stayed.
+	4.	Integrate POIs in a subtle but frequent and meaningful way:
+• Mention POIs that someone reasonably passing through the area would notice.
+• You may reference multiple POIs along a path, but do NOT list them mechanically.
+• Group them when possible (e.g., “I passed a few cafés like Dunkin’, Starbucks, and Au Bon Pain”).
+• Mentions should feel like natural observations during movement.
+	5.	Make the narrative flow smoothly, not like a timeline or a report.
+	6.	Include small reflective comments that do not invent facts.
+	7.	Keep the narrative strictly grounded in the provided data.
+	8.	If the person returned to a location multiple times (e.g., the Snell Library area), acknowledge it as a recurring spot or home base.
+	9.	Smoothly transition between time blocks using natural language.
+	10.	Keep the tone casual, descriptive, and easy to read.
+
+====================
+INTEGRATING UEMA SELF-REPORTS (IMPORTANT)
+
+You may also receive uEMA self-reports, which include:
+• Pre-selected activity labels (e.g., “Sitting,” “Walking”).
+• Short voice-to-text statements (e.g., “I’m walking into the class.”)
+
+When integrating uEMA data:
+	1.	You may rewrite the self-report into natural phrasing, as long as the meaning stays identical.
+	•	If the report is “Sitting,” and the person is in the Snell Library area:
+“While I was in the Snell Library area, I remember sitting for a bit.”
+	•	If the report is “I’m walking into the class”:
+“At one point, I recorded a uEMA noting I was walking into class.”
+	2.	Do NOT fabricate or embellish self-reports.
+	•	No new dialogue.
+	•	No added context beyond what is literally in the report.
+	3.	Only integrate a self-report if:
+• It aligns with the movement data (time & location), and
+• It fits naturally into the narrative.
+	4.	Use uEMA self-reports sparingly and naturally, not as formal citations.
+
+If no uEMA data is provided, simply write the narrative without them.
+
+====================
+STYLE GUIDELINES
+
+• Do NOT list times mechanically. Use natural phrases (“later in the morning,” “around nine,” “in the afternoon”), while staying faithful to actual timing.
+• Refer to locations in human terms (“I made my way back toward the Snell Library area”), not cluster codes.
+• Use POIs to add context and texture—but do NOT over-describe them.
+• Avoid robotic phrasing or technical language (“cluster,” “centroid,” “transition,” “duration”).
+• Ensure each POI mention feels like something a person could realistically notice while walking past.
+
+====================
+CRITICAL RULES — DO NOT VIOLATE THESE
+	1.	Do NOT invent details not supported by data.
+• Do NOT assume wake-up time, weather, errands, tasks, inner thoughts, or emotions.
+• Reflections may be used only if they do not imply new facts.
+	2.	Clusters represent geographic areas, NOT specific buildings.
+• Never say the person went inside the named POI unless explicitly stated.
+• Instead of “I stayed at Amazon Boston,” write:
+“I spent some time in the Seaport area near the Amazon building.”
+• Instead of “I was at Snell Library,” write:
+“I was in the Snell Library area on campus.”
+	3.	Always use phrases like:
+• “in the area around ___,”
+• “near ___,”
+• “in the vicinity of ___,”
+• “around the ___ neighborhood.”
+unless the narrative explicitly confirms something stronger.
+	4.	Do NOT invent intentions or reasons for movement (“I went to buy coffee,” “I had class”).
+Neutral phrasing is allowed (“I spent some time there,” “I settled in for a bit”).
+	5.	Assumptions allowed:
+• Natural narrative smoothing (“It was a short walk,” “I made my way back”).
+• Light reflective comments (“It felt like a lot of back-and-forth today”).
+• Observations that come directly from POIs along the path (“I passed several cafes like Dunkin’ and Caffè Nero”).
+
+====================
+INPUT YOU WILL RECEIVE
+
+You will be given:
+	1.	POIs along transitions:
+From Grove Hall (Roxbury) to Snell Library (Fenway):
+  - Subway (fast food, 38m from path)
+  - Dunkin' (fast food, 47m from path)
+
+From Snell Library (Fenway) to Northeastern University (Fenway):
+  - Argo Tea (cafe, 9m from path)
+  - Sweet Tomatoes Pizza (fast food, 39m from path)
+  - Tu Taco (fast food, 44m from path)
+  - The Boston Globe Library (library, 45m from path)
+  - Dunkin' (fast food, 47m from path)
+  - Burger 373 (fast food, 48m from path)
+
+From Northeastern University (Fenway) to Snell Library (Fenway):
+  - Sweet Tomatoes Pizza (fast food, 21m from path)
+  - Tu Taco (fast food, 26m from path)
+  - Argo Tea (cafe, 27m from path)
+  - Burger 373 (fast food, 30m from path)
+  - Churchill's (fast food, 34m from path)
+  - Kigo Kitchen (fast food, 35m from path)
+  - Popeyes (fast food, 39m from path)
+  - Chaat House (fast food, 44m from path)
+
+From Snell Library (Fenway) to Amazon Boston (Seaport):
+  - Boston South Station (stop, 3m from path)
+  - Boston Back Bay (station, 7m from path)
+  - Ruggles (station, 9m from path)
+  - Au Bon Pain (fast food, 10m from path)
+  - South Station (station, 10m from path)
+  - McDonald's (fast food, 11m from path)
+  - Boston Back Bay (stop, 11m from path)
+  - Melting Sun (cafe, 15m from path)
+  - Dunkin' (fast food, 16m from path)
+  - Master Wok (fast food, 18m from path)
+  - Argo Tea (cafe, 23m from path)
+  - Ruggles (stop, 25m from path)
+  - Pink Taco (restaurant, 25m from path)
+  - Boston South Station (station, 26m from path)
+  - Auntie Anne's (fast food, 31m from path)
+  - Boston Wharf Co. Sign (attraction, 35m from path)
+  - Back Bay (stop, 36m from path)
+  - Row 34 (restaurant, 36m from path)
+  - Caffé Strega (cafe, 49m from path)
+
+From Amazon Boston (Seaport) to Snell Library (Fenway):
+  - Dunkin' (fast food, 11m from path)
+  - Au Bon Pain (fast food, 11m from path)
+  - Boston South Station (stop, 12m from path)
+  - Master Wok (fast food, 12m from path)
+  - Ruggles (station, 13m from path)
+  - Pink Taco (restaurant, 15m from path)
+  - Massachusetts Avenue (station, 17m from path)
+  - McDonald's (fast food, 19m from path)
+  - Melting Sun (cafe, 20m from path)
+  - Row 34 (restaurant, 23m from path)
+  - South Station (station, 24m from path)
+  - Boston Back Bay (station, 26m from path)
+  - Boston Back Bay (stop, 28m from path)
+  - Auntie Anne's (fast food, 29m from path)
+  - Back Bay (stop, 32m from path)
+  - Boston South Station (station, 33m from path)
+  - Caffè Nero (cafe, 33m from path)
+  - Sportello (restaurant, 39m from path)
+  - Ruggles (stop, 41m from path)
+  - Boston Wharf Co. Sign (attraction, 42m from path)
+  - La Colombe Coffee Roasters (cafe, 49m from path)
+  - Lolita (restaurant, 50m from path)
+
+From Snell Library (Fenway) to Ryder Hall (Fenway):
+  - Subway (fast food, 8m from path)
+  - Dunkin' (fast food, 46m from path)
+
+From Ryder Hall (Fenway) to Snell Library (Fenway):
+  - Subway (fast food, 7m from path)
+
+From Snell Library (Fenway) to Grove Hall (Roxbury):
+  - ilona (restaurant, 18m from path)
+  - Kura Sushi (fast food, 21m from path)
+  - ISEC Pedestrian Bridge (attraction, 33m from path)
+  - Starbucks (cafe, 33m from path)
+  - Farmer Horse Coffee (cafe, 34m from path)
+  - Ruggles (stop, 38m from path)
+  - Caffé Bene (cafe, 43m from path)
+  - MIDA (restaurant, 44m from path)
+  - Applebee's (restaurant, 49m from path)
+  - Uphams Corner (stop, 49m from path)
+	2.	Narrative summary (structured movements and stays):
+STAYS:
+  • Grove Hall (Roxbury): 12:00 AM - 8:27 AM (507 minutes)
+  • Snell Library (Fenway): 8:54 AM - 9:05 AM (11 minutes)
+  • Northeastern University (Fenway): 9:07 AM - 10:17 AM (70 minutes)
+  • Snell Library (Fenway): 10:20 AM - 11:09 AM (49 minutes)
+  • Amazon Boston (Seaport): 11:42 AM - 1:51 PM (129 minutes)
+  • Snell Library (Fenway): 2:18 PM - 2:48 PM (30 minutes)
+  • Ryder Hall (Fenway): 2:50 PM - 4:45 PM (115 minutes)
+  • Snell Library (Fenway): 4:49 PM - 9:21 PM (272 minutes)
+  • Grove Hall (Roxbury): 9:45 PM - 11:59 PM (134 minutes)
+
+MOVEMENTS:
+  • Grove Hall (Roxbury) → Snell Library (Fenway): departed 8:27 AM, arrived 8:54 AM (27 min, 2571m)
+  • Snell Library (Fenway) → Northeastern University (Fenway): departed 9:05 AM, arrived 9:07 AM (2 min, 194m)
+  • Northeastern University (Fenway) → Snell Library (Fenway): departed 10:17 AM, arrived 10:20 AM (3 min, 189m)
+  • Snell Library (Fenway) → Amazon Boston (Seaport): departed 11:09 AM, arrived 11:42 AM (33 min, 3761m)
+  • Amazon Boston (Seaport) → Snell Library (Fenway): departed 1:51 PM, arrived 2:18 PM (27 min, 3804m)
+  • Snell Library (Fenway) → Ryder Hall (Fenway): departed 2:48 PM, arrived 2:50 PM (2 min, 234m)
+  • Ryder Hall (Fenway) → Snell Library (Fenway): departed 4:45 PM, arrived 4:49 PM (4 min, 253m)
+  • Snell Library (Fenway) → Grove Hall (Roxbury): departed 9:21 PM, arrived 9:45 PM (24 min, 2523m)
+	3.	uEMA self-reports:
+uEMA self-reports for day 3:
+  - 08:22 AM: I just woke up.
+  - 08:34 AM: -Cycling
+  - 08:44 AM: -Sitting
+  - 08:55 AM: It's getting into Library standing.
+  - 09:05 AM: I'm walking to class leaving Snell Library.
+  - 09:15 AM: I'm sitting down repeating course material.
+  - 09:26 AM: -Sitting
+  - 09:36 AM: -Sitting
+  - 09:47 AM: -Sitting
+  - 09:58 AM: -Sitting
+  - 10:09 AM: -Sitting
+  - 10:29 AM: -Sitting
+  - 10:40 AM: -Sitting
+  - 10:50 AM: -Sitting
+  - 11:00 AM: -Sitting
+  - 11:10 AM: I was running to the train station.
+  - 11:21 AM: I'm writing Subway to go to Seaport.
+  - 11:32 AM: I'm walking to my friend's office in Seaport.
+  - 11:42 AM: I'm walking to my friend's office in Seaport.
+  - 11:53 AM: I'm sitting down waiting for my friend in the lobby.
+  - 12:05 PM: -Sitting
+  - 12:15 PM: -Sitting
+  - 12:25 PM: -Sitting
+  - 12:36 PM: -Sitting
+  - 12:46 PM: -Sitting
+  - 12:56 PM: -Sitting
+  - 01:08 PM: -Sitting
+  - 01:18 PM: -Sitting
+  - 01:28 PM: I'm walking to bathroom.
+  - 01:39 PM: I'm walking to bathroom.
+  - 01:50 PM: But it changed me. Mind is older one.
+  - 02:00 PM: I'm walking back to school from Seaport.
+  - 02:10 PM: I'm sitting here on the train. Going back to school.
+  - 02:30 PM: -Sitting
+  - 02:41 PM: -Sitting
+  - 02:52 PM: I'm walking into the class.
+  - 03:03 PM: -Sitting
+  - 03:13 PM: -Sitting
+  - 03:24 PM: -Sitting
+  - 03:43 PM: -Sitting
+  - 03:56 PM: -Sitting
+  - 04:07 PM: -Sitting
+  - 04:16 PM: -Sitting
+  - 04:27 PM: -Sitting
+  - 04:36 PM: -Walking
+  - 04:47 PM: I'm walking back to library.
+  - 05:08 PM: I just sat down, crave back to the library.
+  - 05:19 PM: -Sitting
+  - 05:29 PM: -Sitting
+  - 05:44 PM: -Sitting
+  - 05:50 PM: -Sitting
+  - 06:05 PM: -Sitting
+  - 06:16 PM: I'm sitting down, taking course.
+  - 06:25 PM: I'm walking to the bathroom.
+  - 06:34 PM: -Sitting
+  - 06:46 PM: I'm taking class sitting down.
+  - 06:55 PM: I'm sitting down taking class and Snell.
+  - 07:06 PM: -Sitting
+  - 07:19 PM: I'm sitting down taking class in library.
+  - 07:28 PM: I'm sitting down patient class in snow.
+  - 07:48 PM: I'm sitting down taking class in snow.
+  - 07:48 PM: -Sitting
+  - 08:01 PM: I'm sitting down taking classes now,
+  - 08:20 PM: Sitting down taking classes. Now
+  - 08:20 PM: -Sitting
+  - 08:35 PM: I'm opening door standing.
+  - 08:42 PM: Sitting down.
+  - 08:54 PM: I'm sitting down doing homework.
+  - 09:04 PM: I'm sitting down to being assignment.
+  - 09:13 PM: I'm walking in library.
+  - 09:25 PM: R-R-Others
+  - 09:35 PM: -Sitting
+  - 09:44 PM: -Sitting
+  - 09:55 PM: ST-Standing
+
+Use ALL available information while staying faithful to the rules above.
+
+====================
+OUTPUT
+
+Produce a single, continuous diary-style narrative written in the first person, covering the entire day from start to finish.
+
+No bullet points.
+No headings.
+Just one smooth, coherent journal entry.
+
+Write the diary entry now.
