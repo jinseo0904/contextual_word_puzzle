@@ -1,0 +1,98 @@
+Your task is to write a natural, flowing, diary-style narrative describing a person’s day, based entirely on the structured movement summary and POI data provided. The goal is to transform the raw movements, stays, times, and nearby places into a smooth, readable journal entry that feels personal, reflective, and human.
+
+====================
+WHAT YOU MUST DO
+	1.	Write the output in the first person (“I”).
+	2.	Create a narrative that feels like someone recounting their day in a journal.
+	3.	Mention each major movement:
+	•	where they started,
+	•	where they went,
+	•	what time they moved,
+	•	and how long they stayed.
+	4.	Integrate POIs in a subtle, contextual way:
+	•	Only mention POIs that a person would realistically notice while passing by.
+	•	You do NOT need to list all POIs.
+	•	You may group similar POIs (e.g., “passed multiple coffee shops like Dunkin’ and Starbucks”).
+	5.	Avoid sounding like a timeline or a report. Make it read smoothly.
+	6.	Include small reflective comments to make it feel like a real diary (e.g., noticing the weather, the feeling of switching locations, the contrast between places).
+	7.	Keep the narrative grounded strictly in the provided data. Do not invent trips that did not occur.
+	8.	If a location is visited multiple times (ex: Snell Library), acknowledge that it becomes a sort of “home base.”
+	9.	Smoothly transition between time blocks so it feels like natural storytelling.
+	10.	The tone should be casual, descriptive, and easy to read.
+
+====================
+STYLE GUIDELINES
+	•	Do NOT list times mechanically. They should appear naturally.
+	•	You may paraphrase time ranges as “late morning,” “early afternoon,” etc., but keep them consistent with the real times.
+	•	Mention places naturally (“I headed over to the Seaport next” instead of “Movement: C1 to C3”).
+	•	Use the distances and POIs only to add texture or context.
+	•	Avoid robotic phrasing or technical words like “cluster,” “transition,” or “stayed for 49.0 minutes.”
+	•	Do NOT over-describe POIs. One mention per path is enough.
+
+====================
+GOOD EXAMPLES OF THE TONE
+
+“I started my morning at home in Grove Hall, slowly getting ready before stepping outside around 8:30 AM. The walk toward campus brought me past the usual fast-food spots near Roxbury, those places that seem permanently busy in the morning. By the time I reached Snell Library, I had fully woken up.”
+
+“When I headed to Northeastern’s main campus a little after nine, it was barely a two-minute walk—just enough time to pass Argo Tea and the other student-center fast food places.”
+
+“Going to the Seaport felt like a complete change of scenery. The trip took me through Back Bay and South Station, all the familiar commuter landmarks.”
+
+This is the level of natural flow you should aim for.
+
+====================
+INPUT YOU WILL RECEIVE
+
+You will be given two major sections:
+	1.	POIs along transitions:
+	•	A list of nearby places along each path between two locations.
+	•	You should only use these to add light context, not to list them all.
+	2.	Narrative summary:
+	•	A structured list of stays (location + duration + times).
+	•	A structured list of movements (origin + destination + times + distances).
+
+Use both sections to reconstruct a coherent day.
+
+====================
+OUTPUT
+
+Your output should be a single, continuous, narrative-style journal entry, written in the first person, describing the entire day from beginning to end.
+
+No bullet points. No lists. No headings.
+Just a smooth, readable diary entry.
+
+====================
+NOW USE THIS ON THE ACTUAL INPUT
+
+POIs along transitions:
+<<<POI_DATA>>>
+
+Narrative summary:
+<<<MOVEMENT_SUMMARY>>>
+
+IMPORTANT RULES — DO NOT VIOLATE THESE:
+	1.	Do NOT invent details that are not supported by the data.
+	•	Do NOT assume when the person woke up.
+	•	Do NOT invent feelings, weather, errands, tasks, interactions, or anything that is not guaranteed by the timestamps and movements.
+	•	You may add general tone and reflection, but no fictional events or facts.
+	2.	Clusters represent geographic areas, NOT specific buildings.
+	•	Never state that the person was inside the exact POI that names the cluster.
+	•	Instead of “I stayed at Amazon Boston,” say:
+	•	“I stayed in the Seaport area near the Amazon building,” or
+	•	“I was around the Seaport area near that big Amazon office.”
+	•	Instead of “I was at Snell Library,” say:
+	•	“I was in the Snell Library area on campus.”
+	3.	For every location cluster, always phrase it as:
+	•	“in the area around ___”
+	•	“near ___”
+	•	“around the ___ neighborhood”
+	•	“in the vicinity of ___”
+unless the narrative summary explicitly confirms something stronger.
+	4.	Do NOT invent intentions or purposes (e.g., “I went to grab coffee,” “I went to study,” “I met someone”).
+	•	You may say neutral things like “I spent time there,” “I settled in for a bit,” etc.
+	5.	The only assumptions allowed are:
+	•	Natural language smoothing (e.g., “It was a short walk,” “I made my way back”).
+	•	Light, non-factual reflective comments that do not invent events (e.g., “It felt like I was back and forth a lot today,” “It was a long stretch of time in that area”).
+	•	Observational comments based only on POIs visible along the path (e.g., “I passed multiple cafés like Dunkin’ and Starbucks”).
+
+Follow all previous instructions, but ALWAYS obey rules 1–5 above. Write the diary entry now.

@@ -766,18 +766,17 @@ REQUIREMENTS FOR CONTEXTUAL CLUE:
 1. Reference SPECIFIC activities, times, or locations from the summary
 2. Use second person ("you") to make it personal and evocative
 3. Include concrete details: "earlier", "in the evening", "at the library", "between buildings", "while coding"
-4. Make it feel like someone observed your actual day
-5. Be suggestive and vivid, not generic or abstract
+4. Make the clue relatable to the participant's day
+5. Don't mention anything that's hard to understand, such as "sensors," "data gaps," "wrist acceleorometers," etc. Keep it simple and easy to understand.
 6. The clue must NEVER reveal the word directly
 7. Keep it under 15 words
-{'8. Add 💎 emoji at the end if particularly challenging' if is_pangram else ''}
+8. Use specific names and locations in the clues. For example, if day summary suggests the location "Snell Engineering Center," and the target word is "center," the clue should include "Snell Engineering" to help the players guess.
 
 GOOD EXAMPLES:
-- "runner" → "What you resembled while darting across campus earlier."
-- "erect" → "The posture you briefly shifted into during that practice moment in the evening."
-- "enter" → "Action you performed at least four times between locations."
-- "coding" → "Your main reported activity while wrist sensors went wild."
-- "library" → "The place you mentioned being at, though location data said otherwise."
+- "run" → "You ___ through the bakery and the coffee shop this morning."
+- "enter" → "You _____ the library this morning around 10am."
+- "coding" → "You reported attending a group study to do some ______this afternoon."
+- "library" → "The place you visited this morning around 10am."
 
 BAD EXAMPLES (too vague):
 - "Only a small amount of the day's activity was captured." ❌
