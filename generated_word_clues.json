@@ -1,0 +1,34 @@
+{
+  "selected_words": [
+    {
+      "word": "afternoon",
+      "clue": "I spent a good part of the ______ sitting, doing work, and occasionally walking to the bathroom.",
+      "reasoning": "The summary explicitly mentions spending the afternoon sitting and working."
+    },
+    {
+      "word": "area",
+      "clue": "I walked toward the Snell Library ______.",
+      "reasoning": "The summary starts by mentioning walking toward the Snell Library area."
+    },
+    {
+      "word": "near",
+      "clue": "Northeastern University is ______ Snell Library.",
+      "reasoning": "The summary says Northeastern University is 'just a short walk' from Snell Library, meaning it's near."
+    },
+    {
+      "word": "rent",
+      "clue": "I was heading back to Grove Hall, my place to ______ for the night.",
+      "reasoning": "The summary ends by mentioning settling in at Grove Hall for the night, implying it's where the person lives and pays rent."
+    },
+    {
+      "word": "rear",
+      "clue": "I walked ______ to Grove Hall at the end of the day.",
+      "reasoning": "The summary states the person walked back to Grove Hall at the end of the day."
+    },
+    {
+      "word": "rate",
+      "clue": "At some point I was just trying to ______ the day away while I sat in the lobby.",
+      "reasoning": "The person was spending hours just sitting, waiting in a lobby, which implies that they were just trying to 'rate' (pass) the time."
+    }
+  ]
+}

@@ -1,87 +1,78 @@
-Your task is to write a natural, flowing, diary-style narrative describing a person’s day, based entirely on the structured movement summary, POI data, and any available uEMA self-reports. The goal is to transform the raw movements, stays, times, and nearby places into a smooth, readable journal entry that feels personal, reflective, and human—while remaining strictly grounded in the provided data.
+Your task is to write a natural, flowing, diary-style narrative describing a person’s day, based entirely on:
+
+• A structured movement summary
+• POIs along each movement path
+• uEMA self-reports (labels or short transcripts)
+
+Your job is to turn these into a single, smooth first-person journal entry, grounded ONLY in the given data, with no invented facts.
 
 ====================
-WHAT YOU MUST DO
-	1.	Write the output in the first person (“I”).
-	2.	Create a narrative that feels like someone recounting their day in a journal.
-	3.	Mention each major movement:
-• where they started,
-• where they went,
-• what time they moved,
-• and how long they stayed.
-	4.	Integrate POIs in a subtle but frequent and meaningful way:
-• Mention POIs that someone reasonably passing through the area would notice.
-• You may reference multiple POIs along a path, but do NOT list them mechanically.
-• Group them when possible (e.g., “I passed a few cafés like Dunkin’, Starbucks, and Au Bon Pain”).
-• Mentions should feel like natural observations during movement.
-	5.	Make the narrative flow smoothly, not like a timeline or a report.
-	6.	Include small reflective comments that do not invent facts.
-	7.	Keep the narrative strictly grounded in the provided data.
-	8.	If the person returned to a location multiple times (e.g., the Snell Library area), acknowledge it as a recurring spot or home base.
-	9.	Smoothly transition between time blocks using natural language.
-	10.	Keep the tone casual, descriptive, and easy to read.
+CORE REQUIREMENTS
+	1.	Write in the first person (“I”).
+	2.	Do not assume anything that is not explicitly stated.
+	•	Do NOT assume when I woke up.
+	•	Do NOT assume specific activities like studying, homework, classes, errands, or office visits unless the self-report literally says so.
+	3.	Clusters represent geographic areas, not buildings.
+	•	Say “in the Snell Library area,” not “in Snell Library.”
+	•	Say “in the Seaport area near the Amazon building,” not “at Amazon Boston.”
+	4.	Narrative must cover all major movements (origin → destination → general timing → how long I stayed).
+	5.	Use POIs whenever naturally possible to give environmental texture.
+	•	Mention 1–3 POIs per movement path if they are realistic walk-by observations.
+	•	Group them: “I passed a few fast-food spots like Dunkin’ and McDonald’s.”
+	6.	Use uEMA self-reports sparingly and naturally.
+	•	Self-reports may be incorrectly transcribed (e.g., “writing Subway” may mean “riding subway”).
+	•	You may correct obvious ASR errors only if the correction is unambiguous and consistent with movement.
+	•	If not clear, quote it literally and neutrally (“I recorded something like ‘writing Subway’ around then”).
+	•	A self-report describes only that moment, not an extended block of time.
+	•	You may turn labels into natural sentences (“I was sitting for a bit”).
+	7.	Never list long chains of timestamps.
+	•	Summarize them (“I recorded myself sitting several times over the late morning”).
+	8.	Tone should be simple, reflective, human, and NOT a timeline or logbook.
+	9.	Never fabricate feelings, thoughts, or experiences.
+	•	Light, generic reflections like “It felt like a lot of back-and-forth” are allowed.
 
 ====================
-INTEGRATING UEMA SELF-REPORTS (IMPORTANT)
+HOW TO USE SELF-REPORTS
 
-You may also receive uEMA self-reports, which include:
-• Pre-selected activity labels (e.g., “Sitting,” “Walking”).
-• Short voice-to-text statements (e.g., “I’m walking into the class.”)
+uEMA entries should:
 
-When integrating uEMA data:
-	1.	You may rewrite the self-report into natural phrasing, as long as the meaning stays identical.
-	•	If the report is “Sitting,” and the person is in the Snell Library area:
+• Add light hints of activity when they align with place/time.
+• Never override movement data.
+• Never imply intentions, tasks, or routines not stated.
+
+Correct usage examples:
+	•	Label “Sitting” during a stay near Snell Library →
 “While I was in the Snell Library area, I remember sitting for a bit.”
-	•	If the report is “I’m walking into the class”:
-“At one point, I recorded a uEMA noting I was walking into class.”
-	2.	Do NOT fabricate or embellish self-reports.
-	•	No new dialogue.
-	•	No added context beyond what is literally in the report.
-	3.	Only integrate a self-report if:
-• It aligns with the movement data (time & location), and
-• It fits naturally into the narrative.
-	4.	Use uEMA self-reports sparingly and naturally, not as formal citations.
+	•	Transcript “I’m walking into the class” →
+“At one point I recorded, ‘I’m walking into the class,’ as I was moving across campus.”
+	•	Transcript with clear ASR error “I’m writing Subway” while traveling toward Seaport:
+“The transcript showed something like ‘I’m writing Subway,’ which I took to mean riding the subway as I headed toward the Seaport area.”
 
-If no uEMA data is provided, simply write the narrative without them.
+Self-reports should never:
 
-====================
-STYLE GUIDELINES
-
-• Do NOT list times mechanically. Use natural phrases (“later in the morning,” “around nine,” “in the afternoon”), while staying faithful to actual timing.
-• Refer to locations in human terms (“I made my way back toward the Snell Library area”), not cluster codes.
-• Use POIs to add context and texture—but do NOT over-describe them.
-• Avoid robotic phrasing or technical language (“cluster,” “centroid,” “transition,” “duration”).
-• Ensure each POI mention feels like something a person could realistically notice while walking past.
+• Be repeated verbatim for every timestamp
+• Produce invented narratives (“I spent hours taking classes,” “I was doing homework”)
+• Infer long activity blocks based on repeated “Sitting” labels
+• Imply entering buildings that are not guaranteed
 
 ====================
-CRITICAL RULES — DO NOT VIOLATE THESE
-	1.	Do NOT invent details not supported by data.
-• Do NOT assume wake-up time, weather, errands, tasks, inner thoughts, or emotions.
-• Reflections may be used only if they do not imply new facts.
-	2.	Clusters represent geographic areas, NOT specific buildings.
-• Never say the person went inside the named POI unless explicitly stated.
-• Instead of “I stayed at Amazon Boston,” write:
-“I spent some time in the Seaport area near the Amazon building.”
-• Instead of “I was at Snell Library,” write:
-“I was in the Snell Library area on campus.”
-	3.	Always use phrases like:
-• “in the area around ___,”
-• “near ___,”
-• “in the vicinity of ___,”
-• “around the ___ neighborhood.”
-unless the narrative explicitly confirms something stronger.
-	4.	Do NOT invent intentions or reasons for movement (“I went to buy coffee,” “I had class”).
-Neutral phrasing is allowed (“I spent some time there,” “I settled in for a bit”).
-	5.	Assumptions allowed:
-• Natural narrative smoothing (“It was a short walk,” “I made my way back”).
-• Light reflective comments (“It felt like a lot of back-and-forth today”).
-• Observations that come directly from POIs along the path (“I passed several cafes like Dunkin’ and Caffè Nero”).
+POI INTEGRATION RULES
+
+Encourage POI usage:
+
+• Try to incorporate POIs meaningfully for every movement.
+• Use them as environmental details you noticed while walking.
+• Never list them mechanically.
+• Mention only what feels human: cafés, restaurants, stations, landmarks, etc.
+
+Correct examples:
+	•	“On my way toward the Seaport area, I passed places like Au Bon Pain, Dunkin’, and McDonald’s.”
+	•	“Walking back toward campus, I moved past a few familiar spots near Back Bay station.”
 
 ====================
-INPUT YOU WILL RECEIVE
+INPUT FORMAT
 
-You will be given:
-	1.	POIs along transitions:
+POIs along transitions:
 From Grove Hall (Roxbury) to Snell Library (Fenway):
   - Subway (fast food, 38m from path)
   - Dunkin' (fast food, 47m from path)
@@ -167,7 +158,8 @@ From Snell Library (Fenway) to Grove Hall (Roxbury):
   - MIDA (restaurant, 44m from path)
   - Applebee's (restaurant, 49m from path)
   - Uphams Corner (stop, 49m from path)
-	2.	Narrative summary (structured movements and stays):
+
+Narrative summary:
 STAYS:
   • Grove Hall (Roxbury): 12:00 AM - 8:27 AM (507 minutes)
   • Snell Library (Fenway): 8:54 AM - 9:05 AM (11 minutes)
@@ -188,7 +180,8 @@ MOVEMENTS:
   • Snell Library (Fenway) → Ryder Hall (Fenway): departed 2:48 PM, arrived 2:50 PM (2 min, 234m)
   • Ryder Hall (Fenway) → Snell Library (Fenway): departed 4:45 PM, arrived 4:49 PM (4 min, 253m)
   • Snell Library (Fenway) → Grove Hall (Roxbury): departed 9:21 PM, arrived 9:45 PM (24 min, 2523m)
-	3.	uEMA self-reports:
+
+uEMA self-reports:
 uEMA self-reports for day 3:
   - 08:22 AM: I just woke up.
   - 08:34 AM: -Cycling
@@ -265,15 +258,15 @@ uEMA self-reports for day 3:
   - 09:44 PM: -Sitting
   - 09:55 PM: ST-Standing
 
-Use ALL available information while staying faithful to the rules above.
-
 ====================
 OUTPUT
 
-Produce a single, continuous diary-style narrative written in the first person, covering the entire day from start to finish.
+Write one continuous first-person diary narrative, covering the whole day from start to finish.
 
+No lists.
 No bullet points.
-No headings.
-Just one smooth, coherent journal entry.
+No invented facts.
+No mechanical timestamps.
+A human-sounding diary entry only.
 
 Write the diary entry now.

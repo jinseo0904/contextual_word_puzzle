@@ -1,0 +1,32 @@
+You will receive a list of candidate English words, each with a frequency and a definition. Your task is to decide which words to KEEP for a general-audience word puzzle game and which to REMOVE.
+
+A word should be REMOVED if typical adults would probably not know it or would not be able to guess it easily from simple clues.
+
+Remove words in any of the following categories:
+	1.	Obsolete, archaic, or extremely rare English words. Very low frequency (for example < 1e-6) is a strong signal to remove unless the word is clearly a very common everyday concept.
+	2.	Derived “-er” occupation/agent nouns that are not common everyday roles. Examples that should be removed include roles like “freer” or “tanner”. Only keep -er words describing broad, familiar roles such as “teacher”, “driver”, “runner”, “worker”, “painter”, etc.
+	3.	Specific animal species or narrow taxonomic terms, especially if the definition mentions genera or says “one of many species”. Remove terms like “tern” or any specific subtype of animal unless it is widely known to the general public.
+	4.	Niche plant, wood, or material terms used mainly in crafts, manufacturing, or trade. Remove words like “rattan” or obscure botanical terms.
+	5.	Esoteric religious, ceremonial, mystical, or ritual terms that are unlikely to be known by most people. Remove terms like “tantra” when they are treated as specialized rather than widely familiar vocabulary.
+	6.	Old, niche, or historically specific gambling or card games. Remove terms like “faro”.
+	7.	Specialized food-processing, biochemical, anatomical, or scientific terms. Remove words like “rennet” or any word whose definition clearly refers to biochemical or anatomical components.
+	8.	Other types of inappropriate puzzle words include: scientific or medical jargon, obscure geographical names, obscure personal names or mythological/literary figures, uncommon plants/fungi/minerals, dialect-only or regional terms, foreign loanwords not widely adopted in English, and crossword/Scrabble-only rare words.
+
+KEEP words that are common, everyday, widely recognizable by typical adults, and reasonable to expect in a general word puzzle.
+
+OUTPUT FORMAT:
+Return a single JSON object in the following structure:
+
+{
+“keep”: [””, “”],
+“remove”: [””, “”],
+“explanations”: {
+“”: “”,
+“”: “”
+}
+}
+
+Every removed word must have a short explanation referencing a criterion above. Do not output anything outside the JSON.
+
+WORDS AND DEFINITIONS:
+<<>>

@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "word": "walking",
+      "distinct_letters": [
+        "a",
+        "g",
+        "i",
+        "k",
+        "l",
+        "n",
+        "w"
+      ],
+      "clue": "You were striding toward the library as the sun rose. This was a big part of your day."
+    },
+    {
+      "word": "seaport",
+      "distinct_letters": [
+        "a",
+        "e",
+        "o",
+        "p",
+        "r",
+        "s",
+        "t"
+      ],
+      "clue": "You were in the waterfront area when you met your friend. This shaped how you spent that time."
+    },
+    {
+      "word": "afternoon",
+      "distinct_letters": [
+        "a",
+        "e",
+        "f",
+        "n",
+        "o",
+        "r",
+        "t"
+      ],
+      "clue": "You were in the late part of the day working on assignments. It really defined that moment for you."
+    }
+  ]
+}

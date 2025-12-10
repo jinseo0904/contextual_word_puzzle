@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "word": "walking",
+      "distinct_letters": [
+        "w",
+        "a",
+        "l",
+        "k",
+        "i",
+        "n",
+        "g"
+      ],
+      "clue": "You set out from Grove Hall to Snell Library before the day began, passing familiar spots. This was a big part of your day."
+    },
+    {
+      "word": "reading",
+      "distinct_letters": [
+        "r",
+        "e",
+        "a",
+        "d",
+        "i",
+        "n",
+        "g"
+      ],
+      "clue": "You spent a good chunk of time looked over the books at Snell Library. This captures what that part of the day was about."
+    },
+    {
+      "word": "project",
+      "distinct_letters": [
+        "p",
+        "r",
+        "o",
+        "j",
+        "e",
+        "c",
+        "t"
+      ],
+      "clue": "You worked on your assignment during the late afternoon, piecing together ideas. It really defined that moment for you."
+    }
+  ]
+}

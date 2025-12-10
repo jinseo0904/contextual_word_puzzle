@@ -1,0 +1,197 @@
+You are helping design an easy word game based on a person’s real day. Players will see a narrative summary of their day and a set of candidate words. Your job is to:
+	1.	Select only the words that are clearly related to the day, and
+	2.	Create very easy, fill-in-the-blank clues for those words, and
+	3.	Explain, in plain language, why each word is related to the day.
+
+====================
+INPUT YOU WILL RECEIVE
+
+You will be given:
+	1.	A narrative movement summary of the day, written in the first person, describing:
+
+	•	Where the person started,
+	•	Where they went (locations, buildings, neighborhoods, cities),
+	•	Approximately when they moved (times),
+	•	Any notable places they passed (cafés, restaurants, transit stations, etc.).
+
+	2.	A list of candidate words (lowercase, no definitions provided).
+
+Use only the information given in these two inputs.
+
+====================
+YOUR TASK
+
+Given the day summary and the word list:
+	1.	Carefully read the movement summary and identify all words from the list that have a clear, direct, concrete, or very easy-to-explain connection to the day. The connection can be:
+
+	•	A specific place mentioned in the summary (e.g., home, library, Seaport, campus),
+	•	A specific movement between places (e.g., returning from Seaport at 2 PM),
+	•	A specific time tied to an event (e.g., arriving at Ryder Hall at 2:50 PM),
+	•	A concrete object repeatedly encountered (e.g., coffee, sugar, trains),
+	•	A simple emotional or descriptive reaction (e.g., a “nice” break from campus).
+
+Do NOT select words if the connection is abstract, metaphorical, symbolic, or requires stretching the interpretation. If you cannot tie the word to one specific real moment in the day, drop it.
+	2.	For each selected word, create a VERY EASY clue:
+
+	•	Make it fill-in-the-blank when possible.
+	•	Tie it directly to one concrete moment, place, or detail from the summary.
+	•	The clue should be obvious to someone who just read their own day summary.
+	•	The clues must be easier than typical crossword clues.
+	•	Avoid archaic language, and avoid metaphorical or difficult phrasing.
+	•	If the word is rare or old-fashioned but still usable, make the clue extremely obvious (e.g., “a fancier old word for drinking”).
+
+	3.	For each selected word, write a short reasoning explanation (1–3 sentences) explaining exactly which part of the day you tied the word to and why the word makes sense.
+
+====================
+STYLE AND CLUE GUIDELINES
+	•	Difficulty should come from remembering the day, not from solving vocabulary puzzles.
+	•	Prefer clues tied to a single instance (a single movement, a single café, a specific time, etc.).
+	•	If the word is too obscure or cannot be cleanly grounded in the day, do not select it.
+	•	Avoid symbolic or abstract interpretations.
+	•	Do not pick any word just because you can force a justification.
+
+====================
+EXAMPLES OF GOOD OUTPUT STYLE
+
+Example for the word “been”:
+Clue: “I have ______ to Ryder Hall at 2:50 PM.”
+Reasoning: The summary explicitly mentions arriving at Ryder Hall at 2:50 PM.
+
+Example for the word “came”:
+Clue: “I ______ back from the Seaport around 2 PM.”
+Reasoning: The summary says the person returned from the Seaport in the early afternoon.
+
+Example for the word “became”:
+Clue: “Snell Library ______ your home base today.”
+Reasoning: The summary shows repeated returns to Snell, so it became their home base.
+
+Example for the word “mine”:
+Clue: “Unlike anything on campus, everything at 3 Hartford Street is ______.”
+Reasoning: 3 Hartford Street is their home, so everything there is “mine.”
+
+Example for the word “bean”:
+Clue: “Inside every Dunkin’ and Starbucks you passed today is the coffee ______.”
+Reasoning: The person walked past multiple coffee shops, which revolve around coffee beans.
+
+If a word cannot be tied to a specific place, time, or object from the day summary, drop it.
+
+====================
+OUTPUT FORMAT
+
+Return your answer as JSON with the following structure:
+
+{
+“selected_words”: [
+{
+“word”: “WORD_HERE”,
+“clue”: “FILL-IN-THE-BLANK CLUE HERE”,
+“reasoning”: “Explanation here.”
+}
+]
+}
+
+Do NOT include words you did not select. Do NOT invent new words.
+
+====================
+NOW USE THIS ON THE ACTUAL INPUT
+
+Day summary:
+I woke up and after a bit, I was already getting ready to leave Grove Hall. It was good to finally get going. The walk toward the Snell Library area passed by a few familiar spots—I noticed a Subway and a Dunkin’ along the way. Once I arrived at Snell, I didn’t stay long before heading over to Northeastern University, just a short walk. 
+
+I spent a good chunk of time sitting and reviewing course material there, then made my way back to Snell Library. I sat for a while again before deciding to head to the Seaport area. The walk was a bit longer, and I remember thinking about catching the train at some point, and even noting I was riding subway as I went – I think I meant I was taking it. I was meeting a friend in Seaport, and I was walking to their office. There was a lot of sitting around waiting in the lobby, and I kept finding myself sitting again, really just taking it easy.
+
+After a couple of hours, I started walking back toward school. I caught the train for a bit, just sitting and relaxing. Once back on campus, I walked into a class and settled in to sit for a while again. I spent a lot of the afternoon sitting, doing work, and occasionally walking to the bathroom. 
+
+Eventually, I walked back to Snell Library and spent a good part of the evening there. I kept sitting, taking classes, or working on assignments. I remember craving being back in the library at one point. There was a lot of sitting and taking classes, and even a bit of walking around. I walked to the bathroom once or twice. 
+
+Finally, after a long day, I started walking back to Grove Hall. I noticed a few things along the way—Farmer Horse Coffee, a Starbucks, and the Ruggles stop. It was nice to be heading back, and soon enough I was there, getting settled in for the night. I sat for a little while before finally calling it a day.
+
+Candidate words:
+after
+free
+area
+near
+front
+rate
+offer
+fear
+effort
+tree
+enter
+rare
+treat
+afternoon
+rent
+error
+roof
+earn
+fort
+refer
+rear
+root
+tear
+arena
+terror
+retreat
+torn
+fare
+referee
+reef
+narrator
+rotten
+tore
+roar
+rant
+rotate
+forefront
+raft
+terra
+torrent
+eater
+rotor
+tenor
+otter
+tart
+nero
+afar
+fern
+fret
+forte
+trot
+fanfare
+ornate
+ferret
+entrant
+taro
+aorta
+errant
+rote
+tartan
+orator
+affront
+retort
+tartar
+narrate
+entree
+renter
+rotator
+rafter
+errata
+reenter
+teeter
+tare
+entreat
+roofer
+rennet
+totter
+natter
+fetter
+aerate
+aerator
+forenoon
+treater
+ranter
+annotator
+offerer
+tooter
+terreen

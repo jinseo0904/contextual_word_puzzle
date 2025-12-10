@@ -1,0 +1,568 @@
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 188
+
+Word: aeronat
+Reason: Obsolete aeronautics term; rarely used (Criterion 1).
+
+Word: aeronef
+Reason: Obsolete aviation term; not commonly known (Criterion 1).
+
+Word: afer
+Reason: Obscure geographical or meteorological term; a specific wind name not widely recognized.
+
+Word: affear
+Reason: Obsolete verb; rarely used in modern English (Criterion 1).
+
+Word: affeer
+Reason: Obsolete English word; extremely rare.
+
+Word: affeerer
+Reason: Obsolete English word; extremely rare.
+
+Word: affeeror
+Reason: Obsolete English word; extremely rare.
+
+Word: afferent
+Reason: Category 5: Scientific, medical, or technical jargon – a biology term not commonly known by non-experts.
+
+Word: affret
+Reason: Obsolete English word; extremely rare.
+
+Word: affronte
+Reason: Obsolete English word; extremely rare.
+
+Word: affrontee
+Reason: Obsolete or archaic English word; rarely used today. (Criterion 1)
+
+Word: affronter
+Reason: Obsolete or archaic English word; rarely used today. (Criterion 1)
+
+Word: afore
+Reason: Obsolete or archaic form of 'before' (criterion 1).
+
+Word: afreet
+Reason: Obscure mythological figure; not widely known. (Criterion 7)
+
+Word: afront
+Reason: Obsolete or archaic preposition; low‑frequency usage. (Criterion 1)
+
+Word: anatron
+Reason: Scientific jargon; uncommon mineral. (Criterion 5)
+
+Word: anear
+Reason: Obsolete/archaic English word.
+
+Word: anorn
+Reason: Obsolete/archaic English word.
+
+Word: antre
+Reason: Obsolete/archaic English word.
+
+Word: arara
+Reason: Specific animal sub-species (category 3).
+
+Word: arear
+Reason: Obsolete/archaic English word.
+
+Word: arere
+Reason: Obsolete/archaic English word.
+
+Word: aret
+Reason: Obsolete vocabulary (archaic).
+
+Word: arete
+Reason: Scientific or technical jargon in geology; not everyday usage.
+
+Word: arna
+Reason: Specific animal sub-species beyond commonly known animals.
+
+Word: arnatto
+Reason: Obsolete or archaic spelling of annatto, a dyeing material not commonly known (Criterion 1)
+
+Word: arnee
+Reason: Specific animal sub-species (wild buffalo of India), rarely encountered (Criterion 3)
+
+Word: arnot
+Reason: Obsolete or archaic English word
+
+Word: arnotto
+Reason: Obsolete spelling of annatto, an uncommon term (Criterion 1)
+
+Word: arrant
+Reason: Obsolete or archaic English word (criterion 1)
+
+Word: arrear
+Reason: Category 1: An archaic form of ‘arrears’ not commonly used in modern English.
+
+Word: arret
+Reason: Obsolete or archaic English word (category 1).
+
+Word: atafter
+Reason: Obsolete form of 'after', not used in modern language (Criterion 1)
+
+Word: atoner
+Reason: Rare, low‑frequency noun not widely recognized, typical of words found only in specialized lists (Criterion 10)
+
+Word: atrinne
+Reason: Obsolete and rarely used; typical adults would not know it. (Criterion 1)
+
+Word: attar
+Reason: Foreign loanword not widely adopted into everyday English (criterion 11).
+
+Word: atter
+Reason: Obsolete archaic word – not in common usage.
+
+Word: atterrate
+Reason: Obsolete and not recognized by modern readers. (Criterion 1)
+
+Word: attorn
+Reason: Technical/legal jargon.
+
+Word: efferent
+Reason: Scientific/medical jargon (criterion 5).
+
+Word: effront
+Reason: Obsolete and archaic; uncommon in contemporary language. (Criterion 1)
+
+Word: efreet
+Reason: Obscure mythological figure from Arabic folklore; not widely known. (Criterion 7)
+
+Word: enfetter
+Reason: Archaic verb; uncommon in everyday usage. (Criterion 1)
+
+Word: enfree
+Reason: Obsolete; archaic word rarely used today.
+
+Word: enroot
+Reason: Obsolete; archaic verb not used in modern English.
+
+Word: enterer
+Reason: Extremely rare or low-frequency vocabulary; not commonly known.
+
+Word: enteron
+Reason: Scientific/medical jargon; used in anatomy.
+
+Word: entreater
+Reason: Extremely rare or low-frequency vocabulary; not commonly known.
+
+Word: erato
+Reason: Obscure mythological figure (Greek muse) – not widely recognized by general audiences.
+
+Word: erne
+Reason: specific animal sub-species beyond commonly known animals
+
+Word: etern
+Reason: Obsolete or archaic English word meaning 'eternal'.
+
+Word: eterne
+Reason: Archaic spelling of ‘eternal’ (Criterion 1)
+
+Word: fanfaron
+Reason: Obsolete or archaic word meaning 'bully' or 'swaggerer'.
+
+Word: fanner
+Reason: Extremely rare or low-frequency vocabulary; not commonly known.
+
+Word: faren
+Reason: Obsolete past participle of ‘fare’ used by Chaucer (Criterion 1)
+
+Word: farfet
+Reason: Obsolete or archaic word meaning 'far-fetched'.
+
+Word: fatner
+Reason: Extremely rare or low-frequency vocabulary; not commonly known.
+
+Word: fattener
+Reason: Obsolete or archaic English word; not commonly known.
+
+Word: fearer
+Reason: Obsolete or archaic English word; not commonly known.
+
+Word: feere
+Reason: Obsolete or archaic English word; not commonly known.
+
+Word: fenerate
+Reason: Obsolete or archaic English word; not commonly known.
+
+Word: feoffer
+Reason: Obsolete or archaic English word; not commonly known.
+
+Word: feofor
+Reason: Obsolete legal term; category 1.
+
+Word: ferae
+Reason: Obsolete biological classification; category 1.
+
+Word: fere
+Reason: Category 1: An archaic word meaning companion; not widely known today.
+
+Word: ferrara
+Reason: Obsolete or low-frequency vocabulary referring to a specific historical sword; not commonly known by general adults.
+
+Word: ferrate
+Reason: Scientific chemistry jargon (Criterion 5).
+
+Word: ferre
+Reason: Obsolete or archaic Latin comparative; not known to general audiences.
+
+Word: ferrer
+Reason: An archaic comparative form rarely used in modern English (criterion 1: obsolete).
+
+Word: ferreter
+Reason: Very rare occupational term; category 1.
+
+Word: ferretto
+Reason: Chemical terminology; category 5.
+
+Word: fetor
+Reason: Medical/Latin term; category 5.
+
+Word: fetterer
+Reason: Obsolete or archaic word; not commonly known (criterion 1).
+
+Word: foetor
+Reason: Obsolete or archaic word; not commonly known (criterion 1).
+
+Word: forefoot
+Reason: Scientific, medical, or technical jargon
+
+Word: forenoon
+Reason: Obsolete term for part of day; uncommon for general audience.
+
+Word: foreran
+Reason: Obsolete or archaic word; not commonly known (criterion 1).
+
+Word: forfete
+Reason: Obsolete or archaic word; not commonly known (criterion 1).
+
+Word: frater
+Reason: Obsolete or archaic English word; rarely known to general audiences.
+
+Word: fraternate
+Reason: Obscure, rarely used in everyday English; not widely recognizable (criterion 1).
+
+Word: fren
+Reason: Obsolete or archaic English word; a word from early modern literature not commonly known today.
+
+Word: frere
+Reason: Obsolete or archaic English word for a friar (criterion 1).
+
+Word: frett
+Reason: Obsolete or archaic English word (Category 1).
+
+Word: fretten
+Reason: Obsolete or archaic English word (Category 1).
+
+Word: fretter
+Reason: Obscure or low-frequency vocabulary.
+
+Word: froe
+Reason: Obsolete or archaic English word (category 1).
+
+Word: frontate
+Reason: Obsolete or archaic English word (Category 1).
+
+Word: fronton
+Reason: Obsolete or archaic English word, not commonly known.
+
+Word: frore
+Reason: Obsolete or archaic English word (Category 1).
+
+Word: frorn
+Reason: Obsolete or archaic English word (Category 1).
+
+Word: frote
+Reason: Obsolete English word (Criterion 1).
+
+Word: froterer
+Reason: Obsolete English word (Criterion 1).
+
+Word: nare
+Reason: Obsolete or archaic English word.
+
+Word: narre
+Reason: Obsolete archaic word – typical adults would not know or guess it.
+
+Word: nart
+Reason: Obsolete or archaic English word; hardly recognized by typical adults.
+
+Word: natron
+Reason: Scientific mineral term; not common everyday usage.
+
+Word: neer
+Reason: Obsolete or archaic English word
+
+Word: nere
+Reason: Obsolete or archaic English word.
+
+Word: nerre
+Reason: Obsolete English word (Criterion 1).
+
+Word: norn
+Reason: Obscure mythological figure (criterion 7)
+
+Word: norna
+Reason: Obscure mythological figure.
+
+Word: noter
+Reason: Obsolete or archaic English word.
+
+Word: oarfoot
+Reason: Specific animal sub-species, crustacean of genus Remipes (Criterion 3).
+
+Word: ofter
+Reason: Obsolete comparative word, not known to typical adults (criterion 1).
+
+Word: onerate
+Reason: Obsolete English word (Criterion 1).
+
+Word: orfe
+Reason: obsolete or archaic English word
+
+Word: ottar
+Reason: Obscure variant of Attar; not commonly known.
+
+Word: raff
+Reason: Obsolete or archaic English word, not commonly used or known today.
+
+Word: rafte
+Reason: obsolete or archaic English word
+
+Word: rana
+Reason: Scientific, medical, or technical jargon (genus name for frogs)
+
+Word: ranee
+Reason: Obsolete or archaic variant spelling of a title; uncommon in modern usage.
+
+Word: rata
+Reason: Uncommon plant species; obscure botanical term (criterion 8).
+
+Word: ratan
+Reason: Category 8: Uncommon plants, fungi, or minerals – a rare variant of 'rattan' not widely recognized by general audiences.
+
+Word: raton
+Reason: An obsolete term for a small rat (criterion 1: obsolete).
+
+Word: ratoon
+Reason: Old or obscure variant of ‘rattan cane’ (Criterion 1)
+
+Word: ratteen
+Reason: obsolete or archaic English word
+
+Word: ratten
+Reason: Category 10: Words mostly known from spelling bees, crosswords, or Scrabble lists; an obscure trade‑union cant term.
+
+Word: ratter
+Reason: Category 10: A specialized term for a rat‑catching device; low‑frequency vocabulary.
+
+Word: rattoon
+Reason: obsolete or archaic English word
+
+Word: reata
+Reason: Specific term for a lariat rope, rarely used in everyday language (criterion 10).
+
+Word: reefer
+Reason: Obsolete or archaic nautical term not commonly known to general audience (criterion 1).
+
+Word: reentrant
+Reason: Extremely rare or low‑frequency vocabulary; technical terminology not widely known.
+
+Word: refar
+Reason: Obsolete word; archaic usage not commonly known.
+
+Word: refret
+Reason: Obsolete; archaic usage not commonly known.
+
+Word: reft
+Reason: Obsolete archaic form of ‘bereft’ (Criterion 1)
+
+Word: renate
+Reason: Obsolete or archaic word (criterion 1).
+
+Word: renne
+Reason: Obsolete word; typical adults would not know it or guess it from clues.
+
+Word: renner
+Reason: Archaic term for a runner used in Chaucer; typical adults would not know or guess it from clues.
+
+Word: rente
+Reason: Technical financial jargon; not widely known to general audience.
+
+Word: renterer
+Reason: Rare, low-frequency term; not commonly used.
+
+Word: rete
+Reason: Technical anatomical term, not everyday usage (criterion 5)
+
+Word: retene
+Reason: Scientific chemical term; technical jargon not known to general audience.
+
+Word: retent
+Reason: Obsolete or archaic English word
+
+Word: retentor
+Reason: Scientific, medical, or technical jargon
+
+Word: retorter
+Reason: Very rare or low-frequency vocabulary
+
+Word: rette
+Reason: Obsolete vocabulary (archaic).
+
+Word: roarer
+Reason: Rare and low‑frequency vocabulary, mainly known from crosswords or spelling bees (category 10).
+
+Word: ronne
+Reason: obsolete or archaic English word
+
+Word: ronnen
+Reason: Obsolete or archaic English word
+
+Word: ront
+Reason: Obsolete or archaic English word.
+
+Word: rooftree
+Reason: Obsolete or archaic English word
+
+Word: roon
+Reason: obsolete or archaic English word
+
+Word: rooter
+Reason: Extremely rare or low-frequency vocabulary; not commonly known.
+
+Word: rota
+Reason: Low‑frequency, technical jargon (ecclesiastical court) not widely known by general audiences.
+
+Word: rote
+Reason: Archaic noun meaning ‘root’; largely obsolete in everyday usage and not widely recognized.
+
+Word: rotta
+Reason: Obscure term; not widely recognized.
+
+Word: tafferer
+Reason: Obsolete nautical term; not commonly known.
+
+Word: tare
+Reason: Category 5: Scientific, medical, or technical jargon – the noun for container weight is rarely known outside shipping contexts.
+
+Word: tarente
+Reason: Specific lizard species; falls under specific animal sub-species.
+
+Word: tarn
+Reason: Obsolete or archaic English word; a low‑frequency topographic term not widely known to general adults.
+
+Word: tarre
+Reason: Archaic verb; falls under obsolete language.
+
+Word: tartarean
+Reason: Obscure mythological adjective; not widely recognized.
+
+Word: tartrate
+Reason: Scientific, medical, or technical jargon
+
+Word: tartronate
+Reason: Chemical salt; technical jargon.
+
+Word: tearer
+Reason: Obsolete or low‑frequency vocabulary (rarely used in everyday language).
+
+Word: tenter
+Reason: Obscure textile/industrial term, not commonly known (criterion 5).
+
+Word: teret
+Reason: Obsolete word; archaic usage noted as [Obs.]
+
+Word: terete
+Reason: Extremely rare or low-frequency vocabulary; botanical term.
+
+Word: ternate
+Reason: Scientific/technical jargon used mainly in botanical contexts (criterion 5)
+
+Word: terrane
+Reason: scientific or technical jargon
+
+Word: terrar
+Reason: Obscure term; not a commonly known word (see Terrier reference).
+
+Word: terreen
+Reason: Obscure word; not widely recognized outside specialized references.
+
+Word: terrene
+Reason: Rare adjectival form meaning ‘earthly’ or geological term, not commonly known (Criterion 2)
+
+Word: terret
+Reason: Technical jargon specific to horse harness equipment; not general‑audience knowledge.
+
+Word: tetter
+Reason: Obsolete medical term; not commonly known (Criterion 1).
+
+Word: tofore
+Reason: Obsolete or archaic English word (criterion 1).
+
+Word: toforn
+Reason: Obsolete or archaic English word (criterion 1).
+
+Word: tora
+Reason: Obscure religious/legal term, specific to biblical context, not commonly known outside specialized circles.
+
+Word: toran
+Reason: Specific architectural term for a Buddhist temple gateway – obscure geographical/architectural term.
+
+Word: torana
+Reason: Category 10: A specific architectural term for a Buddhist temple gateway; obscure to general audiences.
+
+Word: toret
+Reason: Obsolete or archaic English word (criterion 1).
+
+Word: torta
+Reason: Highly technical mining term, not commonly known (criterion 5)
+
+Word: totara
+Reason: Specific plant species, uncommon for general audiences (criterion 8).
+
+Word: totear
+Reason: Obsolete or archaic English word (criterion 1).
+
+Word: toter
+Reason: Rare and low‑frequency vocabulary, mainly known from crosswords or spelling bees (category 10).
+
+Word: totterer
+Reason: Uncommon, obscure word not widely recognized (criterion 1).
+
+Word: trant
+Reason: Obsolete word (criterion 1)
+
+Word: tranter
+Reason: Obsolete word (criterion 1)
+
+Word: treen
+Reason: Obsolete adjective; uncommon in general audience.
+
+Word: tref
+Reason: technical jargon from religious law (scientific/medical/technical jargon)
+
+Word: tren
+Reason: Extremely rare, low-frequency vocabulary for a fish spear (criterion 2).
+
+Word: tret
+Reason: Obsolete archaic form of 'tread' – not used in everyday language.
+
+Word: troat
+Reason: Obsolete or archaic English word.
+
+Word: tron
+Reason: Obsolete or archaic English word, not commonly known
+
+Word: trona
+Reason: Scientific mineral term; not common everyday usage.
+
+Word: tronator
+Reason: Obsolete or archaic English word.
+
+Word: trone
+Reason: Obsolete word for a throne or small drain, not known to typical adults (criterion 1).
+
+Word: trotter
+Reason: Low-frequency vocabulary; uncommon usage as a noun for a horse or an animal's foot.

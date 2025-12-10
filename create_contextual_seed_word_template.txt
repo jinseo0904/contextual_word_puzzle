@@ -1,0 +1,55 @@
+You will receive a diary-style narrative describing a person’s day. Your task is to output 3–4 English words that follow strict spelling rules and relate clearly to events described in the diary.
+
+WORD RULES
+	1.	Each word must contain exactly seven distinct letters.
+	2.	The word must be at least seven letters long (repeating letters allowed).
+	3.	The word must be semantically grounded in the diary (activities, locations, movement, routines, etc.).
+
+CLUE RULES
+
+For each word, generate a natural, easy, narrative clue written in second person (“you”), following this structure:
+
+Sentence 1: A clear diary-grounded description referencing time and/or location when possible.
+Sentence 2: A simple, natural hint chosen from this list (avoid rigid phrasing):
+	•	“This was a big part of your day.”
+	•	“This shaped how you spent that time.”
+	•	“It really defined that moment for you.”
+	•	“This captures what that part of the day was about.”
+
+If any leakage risk occurs, automatically switch to a fill-in-the-blank version:
+	•	“You were focused on ______ during that time.”
+
+ANTI-LEAKAGE REQUIREMENTS
+
+The clue must NOT contain:
+	•	the word itself
+	•	any substring of the word of length ≥ 3
+	•	any obvious morphological relatives (walk/walked/walking, read/reading, etc.)
+
+OUTPUT FORMAT (STRICT)
+
+Output one JSON object only, exactly like this:
+
+{
+“candidates”: [
+{
+“word”: “”,
+“distinct_letters”: [””, “”, “”, “”, “”, “”, “”],
+“clue”: “”
+}
+]
+}
+	•	No markdown, no backticks, no commentary.
+
+FINAL SELF-CHECK (SILENT)
+
+Before outputting JSON, silently confirm:
+	•	The word truly uses exactly seven distinct letters
+	•	The clue contains no prohibited substrings
+	•	The clue follows 2-sentence structure unless using fill-in-the-blank
+	•	The JSON is valid and complete
+
+Now analyze the diary below.
+
+DIARY:
+<<>>
