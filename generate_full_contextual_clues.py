@@ -5,40 +5,57 @@ import json
 import re
 
 # ==========================================
-# ROBUST PROMPT
+# THREE-TIER GENERATION PROMPT
 # ==========================================
 CLUE_GENERATION_PROMPT = """
 ### CONTEXT
-You are a game engine for a specific puzzle game.
-Your task is to connect a "Diary Entry" to a list of "Constraint Words".
+You are a game engine for a puzzle based on a specific daily diary.
+Your goal is to write solvable clues for a "Fill-in-the-blank" game.
 
 ### INPUT DATA
-**Diary Summary:**
+**Diary:**
 {DIARY_SUMMARY}
 
-**Constraint Words:**
+**Word List:**
 {WORD_LIST}
 
-### TASK
-1. Go through all words in the "Constraint Words" list.
-2. For each word, write a single-sentence clue for each.
-3. The clue MUST reference a specific time, place, or feeling from the diary.
-4. Use the blank "_______" to represent the word.
+### INSTRUCTION
+Select exactly **5 words** from the list.
+For each, write a clue sentence with a blank "_______".
 
-### BRIDGE STRATEGIES (How to connect words that don't fit perfectly)
-- **Direct:** The word is literally in the text.
-- **Vibe:** The word matches the feeling (e.g. "FEAR" -> "You felt no _______ in the peaceful library").
-- **Action:** Connect verbs to movements (e.g. "ENTER" -> "You decided to _______ the library").
-- **Metaphor:** (e.g. "TREE" -> "You walked past nature, perhaps seeing a _______").
+### STRATEGY GUIDE (Use the highest tier possible)
+
+**TIER 1: DIRECT MATCH (Best)**
+If the word (or a variation) appears in the text or names a POI.
+- *Example:* Diary has "Caffe Nero". Word is "NERO".
+- *Clue:* "At 1:51 PM, you passed a coffee spot called Caffè _______."
+
+**TIER 2: CATEGORY MATCH**
+If the word describes a *type* of place you passed.
+- *Example:* Diary has "Sweet Tomatoes". Word is "EATER".
+- *Clue:* "At 9:07 AM, you passed Sweet Tomatoes, a likely stop for a hungry _______." (Hypothetical Role).
+- *Example:* Diary has "Library". Word is "ENTER".
+- *Clue:* "Around 8:27 AM, you arrived to _______ the library."
+
+**TIER 3: ABSTRACT / VIBE (Fallback)**
+If the word has no physical link, use a metaphor about the *feeling* or *movement*.
+- *Example:* Diary has "Rushed". Word is "RATE".
+- *Clue:* "At 9:05 AM, you moved with speed, increasing your heart _______."
+- *Avoid:* "You saw a RATE sign." (Fake detail).
+
+### MANDATORY RULES
+1. **START** every clue with a specific Time Anchor (e.g. "At 9:05 AM...").
+2. **DO NOT INVENT VISUALS.** Do not say "You saw a tree" if the diary doesn't mention a tree.
+3. **DO NOT INVENT ACTIONS.** Do not say "You ate" if the diary only says "passed".
 
 ### OUTPUT FORMAT
-You must output a valid JSON list. Do not explain yourself.
+Output ONLY a valid JSON list:
 [
   {
-    "word": "ENTER",
-    "clue": "Around 4:49 PM, you decided to _______ the library to find peace.",
-    "bridge_strategy": "Direct",
-    "relevance_score": 10
+    "word": "NERO",
+    "clue": "At 1:51 PM, you passed a coffee spot called Caffè _______.",
+    "bridge_strategy": "Tier 1: Direct Name",
+    "relevance_score": 5
   }
 ]
 """

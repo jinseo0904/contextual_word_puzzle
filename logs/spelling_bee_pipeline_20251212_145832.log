@@ -1,0 +1,754 @@
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HEAVY_PHONE_USE, HIGH_EXERTION, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, FOCUSED_OBSERVATION, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, SOCIAL_ATMOSPHERE, HIGH_EXERTION, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION, LOUD_ENVIRONMENT, DISTRACTED, HEAVY_PHONE_USE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION, DISTRACTED, HEAVY_PHONE_USE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, HEAVY_PHONE_USE, SOCIAL_ATMOSPHERE, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE, FOCUSED_OBSERVATION, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gpt-oss:20b) ---
+
+12:00 AM – 08:27 AM  
+Grove Hall (Roxbury)  
+I just woke up, the quiet at Grove Hall feels almost like a calm lullaby. The hallway is peaceful, a soft hush that lets me ease into the day. I sit on the benches, watching the sleepy campus light slowly turn on, a gentle reminder that even the busiest days begin with a moment of stillness.
+
+08:27 AM – 08:54 AM  
+Grove Hall (Roxbury) → Snell Library (Fenway)  
+I power‑walk, cycling my way through the early‑morning bustle. The air is alive with the sound of footsteps, and I find myself briefly sitting at the curb, scrolling through the latest campus news while a faint coffee scent wafts from a nearby Dunkin'. The subway platform buzzes in the distance, a distant thrum that keeps the rhythm of the city.
+
+08:54 AM – 09:05 AM  
+Snell Library (Fenway)  
+Rushed and high‑exertion, I stand in the library’s quiet corner, hands trembling from the long walk. I’m barely holding my breath as I read the syllabus for the next class, my mind already racing ahead. The quiet atmosphere feels like a sanctuary amid the morning’s frenzy, and I manage to stay focused despite the sudden burst of energy.
+
+09:05 AM – 09:07 AM  
+Snell Library (Fenway) → Northeastern University (Fenway)  
+I rush, phone glued to my screen, hurrying toward the campus center. The hallway is busy, people shouting in hurried waves, and I feel the pressure of my own heartbeat echoing in my ears. My phone’s notifications keep me distracted, yet I am determined to catch the next class before it starts.
+
+09:07 AM – 10:17 AM  
+Northeastern University (Fenway)  
+The lecture hall is loud and bustling, yet I carve a quiet corner to study. The social environment feels warm and friendly; I’m surrounded by classmates who are equally absorbed in the course material. I keep my head down and repeat the lecture notes, the calm of the quiet corners of the room a stark contrast to the noisy world outside.
+
+10:17 AM – 10:20 AM  
+Northeastern University (Fenway) → Snell Library (Fenway)  
+I rush back, watching the crowds as I cross the quad. The library’s doors open like a refuge; I inhale the smell of fresh paper and the distant hum of the city. The walk is short but filled with energy—each step a reminder of how fast the day can move when you’re focused on your goals.
+
+10:20 AM – 11:09 AM  
+Snell Library (Fenway)  
+Quiet, yet the library is a subtle hum of people working. I sit and watch the crowds, taking in the sights as my phone remains tucked away. The peace here lets me absorb the information without distraction, a perfect pause before the next rush.
+
+11:09 AM – 11:42 AM  
+Snell Library (Fenway) → Amazon Boston (Seaport)  
+I run, phone glued to my screen, navigating the maze of Boston’s streets. I pass by Subway, Dunkin’, and then a string of delights—Argo Tea, Sweet Tomatoes Pizza, Tu Taco, the Boston Globe Library, Dunkin’ again, Burger 373—all while people-watching the rush of commuters. The crowd’s energy is infectious; I can’t help but keep my eyes peeled, scanning the bustling avenue toward Seaport.
+
+11:42 AM – 01:51 PM  
+Amazon Boston (Seaport)  
+I settle into the quiet of the lobby, social and calm. I walk toward my friend’s office, the hallway still a mosaic of noise and chatter, but I focus on the rhythm of my steps. Sitting on a bench, I wait, feeling my mind settle into a calmer, older rhythm. I step into the bathroom, take a deep breath, and the world seems a little softer.
+
+01:51 PM – 02:18 PM  
+Amazon Boston (Seaport) → Snell Library (Fenway)  
+I rush, high‑exertion, glued to my phone, as I sprint back across the city. I pass a flurry of places—Dunkin’, Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald’s, Melting Sun, Row 34, Boston Back Bay, Auntie Anne’s, Caffè Nero, Sportello, and the iconic Boston Wharf Co. Sign—each spot adding to the cacophony of the bustling streets. The noise of traffic and chatter makes the city feel chaotic, but I keep my pace steady, people‑watching the crowds around me.
+
+02:18 PM – 02:48 PM  
+Snell Library (Fenway)  
+Quiet, yet loud in its own way as students chime in conversation. I’m sitting, the library’s hum becoming part of my focus. I notice the soft rustle of pages, the distant laugh of a friend, and the steady clack of keyboards, a gentle chorus in a quiet environment.
+
+02:48 PM – 02:50 PM  
+Snell Library (Fenway) → Ryder Hall (Fenway)  
+I rush, high‑exertion, scrolling through my phone, a distracted pulse that matches the sound of my sneakers on the pavement. I pass a few stops—Subway, Dunkin’—the city’s rhythm keeping up with mine as I head to my next destination.
+
+02:50 PM – 04:45 PM  
+Ryder Hall (Fenway)  
+Quiet and social, yet I am glued to my phone, scrolling and distracted by the stream of notifications. I walk into the class, take my seat, and listen as the professor talks. The hallway outside is calm, a soft lull between the noisy bursts of campus life.
+
+04:45 PM – 04:49 PM  
+Ryder Hall (Fenway) → Snell Library (Fenway)  
+I rush back, watching the crowds, feeling the city’s heartbeat pulse through the sidewalks. The short walk is a brief burst of activity, yet my mind remains focused on the next assignment that awaits me in the library.
+
+04:49 PM – 09:21 PM  
+Snell Library (Fenway)  
+Quiet and social, the library is a sanctuary where I sit and work. I recall the earlier moments of my day: the rushing, the scrolling, the people‑watching. The quiet corners keep me grounded as I take in the sights, my mind shifting from the busyness outside to the calm within. I feel the weight of the day lift with each page turned, each problem solved.
+
+09:21 PM – 09:45 PM  
+Snell Library (Fenway) → Grove Hall (Roxbury)  
+I move, focused on the scene before me, passing a string of stops—ilona, Kura Sushi, the ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffè Bene, MIDA, Applebee's, Uphams Corner. The city’s night is still lively, each place a bright spark against the dimming sky.
+
+09:45 PM – 11:59 PM  
+Grove Hall (Roxbury)  
+I arrive at Grove Hall, social and quiet, the environment buzzing with the after‑party vibe of the evening. I stand, breathing in the calm of the night, feeling the focus sharpen as the day’s noise settles into a gentle hum. The space is loud, but my mind stays centered, ready to absorb the final moments of the day before the city sleeps.
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "AFTER",
+    "clue": "You left the lecture hall and went ___ to the library.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 8
+  },
+  {
+    "word": "FREE",
+    "clue": "The silence at the library felt ___.",
+    "bridge_strategy": "Descriptive",
+    "relevance_score": 7
+  },
+  {
+    "word": "AREA",
+    "clue": "You walked into the library, surrounded by a ___ of books.",
+    "bridge_strategy": "Spatial",
+    "relevance_score": 9
+  },
+  {
+    "word": "NEAR",
+    "clue": "You paused at the curb, and the scent of coffee was ___ to the Dunkin'.",
+    "bridge_strategy": "Location",
+    "relevance_score": 8
+  },
+  {
+    "word": "FRONT",
+    "clue": "You arrived early enough to theoretically claim the ___ of the room.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 10
+  },
+  {
+    "word": "RATE",
+    "clue": "You passed a Dunkin', a place where you might have given a high ________.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "OFFER",
+    "clue": "You saw a fellow student who might have offered you a fresh ________.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "FEAR",
+    "clue": "You ran so fast, it was *as if* ________ was driving you.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 9
+  },
+  {
+    "word": "EFFORT",
+    "clue": "You walked from Snell to Amazon, a journey that demanded a lot of ________.",
+    "bridge_strategy": "Explicit",
+    "relevance_score": 8
+  },
+  {
+    "word": "TREE",
+    "clue": "You passed by a small ________ in the campus courtyard.",
+    "bridge_strategy": "Descriptive",
+    "relevance_score": 6
+  },
+  {
+    "word": "ENTER",
+    "clue": "You might ____ into the quiet corners of the library to focus.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "RARE",
+    "clue": "You saw a _______ chance to take a quick break.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 6
+  },
+  {
+    "word": "TREAT",
+    "clue": "You walked past a pizza place where you could have ordered a delicious _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "AFTERNOON",
+    "clue": "You spent a _______ studying at the library.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "RENT",
+    "clue": "You had to pay the _______ for using the library's computer.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 5
+  },
+  {
+    "word": "ROOF",
+    "clue": "You gazed up at the campus building, wondering if its shiny _______ could reflect the morning calm.",
+    "bridge_strategy": "Observational",
+    "relevance_score": 9
+  },
+  {
+    "word": "EARN",
+    "clue": "You felt you could ______ a deeper understanding by staying late at the library.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "FORT",
+    "clue": "You walked past a quiet corner, imagining it as a tiny _______ against the city's noise.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 7
+  },
+  {
+    "word": "REFER",
+    "clue": "You noticed a small sign that could ______ your way to the next lecture.",
+    "bridge_strategy": "Practical",
+    "relevance_score": 8
+  },
+  {
+    "word": "ERROR",
+    "clue": "You noticed a subtle ______ in your schedule, a discrepancy that made you double-check the times.",
+    "bridge_strategy": "Cognitive",
+    "relevance_score": 7
+  },
+  {
+    "word": "REAR",
+    "clue": "You walked past the library\u2019s back entrance, a place you might have used to find the quiet ______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "ROOT",
+    "clue": "You might have wondered about the root of your rush, the ______ of your hurried steps.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "TEAR",
+    "clue": "You ran so fast, it was as if a ______ was driving you.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 9
+  },
+  {
+    "word": "ARENA",
+    "clue": "You entered a lecture hall that felt like an ______ of ideas.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "TERROR",
+    "clue": "You could have felt terror at the crowded subway platform, a sense of ______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "RETREAT",
+    "clue": "You found a quiet corner in the library that felt like a peaceful _______.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 9
+  },
+  {
+    "word": "TORN",
+    "clue": "You felt _______ between the urgency of your schedule and the calm of the library.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "FARE",
+    "clue": "You stepped onto the subway platform, pondering the cost of your daily _______.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 8
+  },
+  {
+    "word": "REFEREE",
+    "clue": "You entered a class where the professor played the role of the _______.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 7
+  },
+  {
+    "word": "REEF",
+    "clue": "You paused at a stretch of calm that reminded you of a quiet _______.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "NARRATOR",
+    "clue": "The voice that recounts the day's events could be called the _______ of this diary.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 9
+  },
+  {
+    "word": "ROTTEN",
+    "clue": "The city streets sometimes carry the scent of food that could become _______ if left unattended.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 6
+  },
+  {
+    "word": "TORE",
+    "clue": "The relentless rush through campus could feel as though it _______ the student's concentration.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 7
+  },
+  {
+    "word": "ROAR",
+    "clue": "The bustling city sounds might have seemed like a _______ to some.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "RANT",
+    "clue": "Some may have observed a brief _______ of frustration during the morning commute.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "ROTATE",
+    "clue": "You were walking through the library, and if you were to ________ your attention to the next assignment, it might have been more efficient.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 9
+  },
+  {
+    "word": "FOREFRONT",
+    "clue": "You arrived early enough to theoretically claim the FOREFRONT of the room.",
+    "bridge_strategy": "Preserve Ambiguity",
+    "relevance_score": 9
+  },
+  {
+    "word": "RAFT",
+    "clue": "You might have found yourself on a _______ if you had taken the boat.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "TERRA",
+    "clue": "You could think of the _______ as a metaphor for the city's surface.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 9
+  },
+  {
+    "word": "TORRENT",
+    "clue": "You were surrounded by a _______ of commuters.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 9
+  },
+  {
+    "word": "EATER",
+    "clue": "You passed Sweet Tomatoes, a place where a hungry _______ might stop.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "ROTOR",
+    "clue": "You felt like a _______ spinning in the rhythm of the city.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 7
+  },
+  {
+    "word": "TENOR",
+    "clue": "You listened to a professor, the _______ of his voice echoing through the lecture hall.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "OTTER",
+    "clue": "You felt like an _______ gliding through the bustling streets.",
+    "bridge_strategy": "Simile",
+    "relevance_score": 6
+  },
+  {
+    "word": "TART",
+    "clue": "You walked past a bakery where you could have bought a _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "NERO",
+    "clue": "You passed a caf\u00e9 whose name might remind you of a Roman emperor, and you could have enjoyed a steaming ________.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "AFAR",
+    "clue": "You walked across campus, feeling the city ________ from your current location.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "FERN",
+    "clue": "You passed a quiet courtyard where one might spot a leafy ________.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "FRET",
+    "clue": "You felt a wave of anxiety, as if ________ was pulling at your thoughts.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "FORTE",
+    "clue": "The voices in the lecture hall rose as if they were playing a ________.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "TROT",
+    "clue": "You ran past the Dunkin', feeling as if a TROT was guiding you.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "FANFARE",
+    "clue": "You might have heard a distant FANFARE as the subway platform buzzed.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "ORNATE",
+    "clue": "You might have noticed the ORNATE detailing on the building's facade as you passed by.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 6
+  },
+  {
+    "word": "FERRET",
+    "clue": "You moved as if a FERRET were darting through the crowd.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 7
+  },
+  {
+    "word": "ENTRANT",
+    "clue": "You arrived early enough to theoretically claim the role of the ENTRANT in the room.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "TARO",
+    "clue": "You passed Argo Tea, a spot where you could have ordered a creamy _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "AORTA",
+    "clue": "You ran so fast, it felt like your _______ was beating a new rhythm.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "ERRANT",
+    "clue": "You felt somewhat _______ as you hurried between locations.",
+    "bridge_strategy": "Hedging",
+    "relevance_score": 7
+  },
+  {
+    "word": "ROTE",
+    "clue": "You spent the afternoon revisiting the _______ for the upcoming exam.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "TARTAN",
+    "clue": "You passed a street with colorful _______ signage.",
+    "bridge_strategy": "Ambiguous",
+    "relevance_score": 7
+  },
+  {
+    "word": "ORATOR",
+    "clue": "You listened to a lecture where the speaker might have been a skilled _______.",
+    "bridge_strategy": "Hedged",
+    "relevance_score": 8
+  },
+  {
+    "word": "AFFRONT",
+    "clue": "You navigated the crowded sidewalk as if an _______ of noise was pushing you forward.",
+    "bridge_strategy": "Hedged",
+    "relevance_score": 7
+  },
+  {
+    "word": "RETORT",
+    "clue": "You overheard a quick _______ during a brief conversation in the hallway.",
+    "bridge_strategy": "Hedged",
+    "relevance_score": 6
+  },
+  {
+    "word": "TARTAR",
+    "clue": "You passed a street vendor where one might find a creamy _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "NARRATE",
+    "clue": "You felt as if you were to _______ the day.",
+    "bridge_strategy": "Hedged",
+    "relevance_score": 8
+  },
+  {
+    "word": "ENTREE",
+    "clue": "You passed Sweet Tomatoes Pizza, a place where you might order a delicious _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "RENTER",
+    "clue": "You stepped into Grove Hall, a place where a RENTER might find a _______ from the day's noise.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "ROTATOR",
+    "clue": "You watched the subway platform buzz, where a subtle ROTATOR might be humming _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 6
+  },
+  {
+    "word": "RAFTER",
+    "clue": "You were seated in Snell Library, where a quiet RAFTER could be cradling the _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 6
+  },
+  {
+    "word": "ERRATA",
+    "clue": "While reviewing the syllabus, you could spot an ERRATA lurking in the _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "REENTER",
+    "clue": "You might reenter back into the quiet of the library after a busy morning.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "TEETER",
+    "clue": "You might teeter across the crowded quad.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 9
+  },
+  {
+    "word": "TARE",
+    "clue": "You might tare the luggage before leaving the library.",
+    "bridge_strategy": "Practical",
+    "relevance_score": 7
+  },
+  {
+    "word": "ENTREAT",
+    "clue": "You might entreat a quiet corner.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "ROOFER",
+    "clue": "You might roofer, a professional who works on roofs, for a fix.",
+    "bridge_strategy": "Professional",
+    "relevance_score": 7
+  },
+  {
+    "word": "RENNET",
+    "clue": "You might have tried cheese that had been made with RENNET.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "TOTTER",
+    "clue": "You felt as if you were TOTTER as you hurried past the caf\u00e9s.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "NATTER",
+    "clue": "You could have engaged in a friendly NATTER while waiting at the library.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "FETTER",
+    "clue": "You might have felt a FETTER of digital distraction holding you back.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "AERATE",
+    "clue": "You might have wanted to AERATE your mind during the quiet moments.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 9
+  },
+  {
+    "word": "AERATOR",
+    "clue": "You paused near the library's quiet corner, imagining a gentle AERATOR.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "FORENOON",
+    "clue": "You were in the quiet moments of the FORENOON, perhaps before the lunch rush.",
+    "bridge_strategy": "Timing",
+    "relevance_score": 8
+  },
+  {
+    "word": "TREATER",
+    "clue": "You passed Sweet Tomatoes, a place where you might enjoy a tasty TREATER.",
+    "bridge_strategy": "Location",
+    "relevance_score": 9
+  },
+  {
+    "word": "RANTER",
+    "clue": "You felt the urge to express yourself like a RANTER in the calm library.",
+    "bridge_strategy": "Emotional",
+    "relevance_score": 7
+  },
+  {
+    "word": "ANNOTATOR",
+    "clue": "You flipped through the syllabus, acting as an ANNOTATOR.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "OFFERER",
+    "clue": "You walked past a caf\u00e9 where an OFFERER could be selling a steaming cup of _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 8
+  },
+  {
+    "word": "TOOTER",
+    "clue": "You heard a TOOTER blare as a delivery truck rolled through the alley, announcing a _______.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  },
+  {
+    "word": "TERREEN",
+    "clue": "You crossed a TERREEN that felt like a hidden tunnel, guiding you toward the quiet of the library, the ________ of the day.",
+    "bridge_strategy": "Hypothetical",
+    "relevance_score": 7
+  }
+]

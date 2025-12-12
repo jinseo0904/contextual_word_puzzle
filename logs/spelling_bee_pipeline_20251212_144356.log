@@ -1,0 +1,732 @@
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, DISTRACTED, RUSHED, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, FOCUSED_OBSERVATION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, FOCUSED_OBSERVATION, RUSHED, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION, AUDIBLE_MOVEMENT, LOUD_ENVIRONMENT, HEAVY_PHONE_USE, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION, AUDIBLE_MOVEMENT, HEAVY_PHONE_USE, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, FOCUSED_OBSERVATION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gpt-oss:20b) ---
+
+12:00 AM – 08:27 AM – I was still curled up in the peaceful hush of Grove Hall (Roxbury). The quiet atmosphere let me drift into a soft dream, then I finally woke up, feeling the morning calm seep into the room.  
+
+08:27 AM – 08:54 AM – I hopped on my bike and power‑walked out of Grove Hall, the soft thud of wheels echoing as I passed a Subway and a Dunkin' on the way to Snell Library (Fenway). The streets were busy, but the rush of commuters didn’t dampen my resolve to get to class.  
+
+08:54 AM – 09:05 AM – I stood in the bustling library, the room filled with the noise of classmates. I hurried, clutching my notebook, and then left Snell Library heading toward Northeastern University (Fenway).  
+
+09:05 AM – 09:07 AM – I sprinted across campus, scrolling through my phone while I made a quick stop at Argo Tea, Sweet Tomatoes Pizza, Tu Taco, and Dunkin'—the crowds and my phone glued to my screen made this a frantic dash to my lecture.  
+
+09:07 AM – 10:17 AM – Back at Northeastern University, I settled into a quiet, though oddly loud, lecture hall and sat down, repeating the course material over and over, my mind both focused and buzzing with classmates’ chatter.  
+
+10:17 AM – 10:20 AM – With the lecture over, I hurried back to Snell Library, watching the crowds as I passed by Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill’s, Kigo Kitchen, Popeyes, and Chaat House—each stop a bright blip on my route.  
+
+10:20 AM – 11:09 AM – I lingered in the calm of Snell Library, gliding through the quiet as I stared at the shelves and people. I sat in silence, the library’s quiet letting me refocus after the rush.  
+
+11:09 AM – 11:42 AM – The train station called, and I ran toward it, my phone in one hand, the other clutching my bag. I passed Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, McDonald’s, Melting Sun, Dunkin', Master Wok, Argo Tea, Pink Taco, Auntie Anne’s, and even caught sight of the iconic Boston Wharf Co. Sign. The rush was real, but the social atmosphere of the station kept me moving.  
+
+11:42 AM – 01:51 PM – I arrived at Amazon Boston (Seaport) and sat in the quiet lobby, waiting for my friend. I walked to the bathroom, but my mind had shifted—an older version of myself, more patient and reflective.  
+
+01:51 PM – 02:18 PM – I hurried back to campus, sliding through the noisy crowds and the clatter of the subway, again noticing Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald’s, Melting Sun, Row 34, South Station, Back Bay, Auntie Anne’s, Caffè Nero, Sportello, the Boston Wharf Co. Sign, La Colombe Coffee Roasters, and Lolita—each a tiny beacon guiding my path.  
+
+02:18 PM – 02:48 PM – I returned to Snell Library, where the quiet was again calm but the surrounding bustle still buzzed. I sat there, quietly observing the world around me.  
+
+02:48 PM – 02:50 PM – In a rush, I hurried over to Ryder Hall (Fenway), hearing the clack of my shoes on the pavement and feeling the weight of my phone as I scrolled through messages.  
+
+02:50 PM – 04:45 PM – Inside Ryder Hall, I walked into class with a distracted mind, still glued to my phone, yet the quiet of the hall steadied my focus. I sat, then walked back and forth, all while my thoughts flickered between lectures and notifications.  
+
+04:45 PM – 04:49 PM – I rushed back to Snell Library, watching the crowds with my eyes peeled for the next opportunity to catch a glance at the subway.  
+
+04:49 PM – 09:21 PM – In the quiet and social atmosphere of Snell Library, I sat for hours, taking class, reading, and simply being. My notes, the clatter of keyboards, and the occasional shout from a distant student kept the environment lively but never overwhelming.  
+
+09:21 PM – 09:45 PM – I walked back to Grove Hall, noticing ilona, Kura Sushi, the ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffè Bene, MIDA, Applebee’s, and Uphams Corner along the way—each stop adding a layer of flavor to my evening.  
+
+09:45 PM – 11:59 PM – Back in Grove Hall, I stood in a focused, quiet environment, my mind a mix of calm and the buzz of a late‑night crowd. The quietness of the hall made the surrounding noise feel like a distant hum, but I still felt the pulse of the city around me.
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "AFTER",
+    "clue": "_______ 11:42 AM, you hurried toward the train station.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 9
+  },
+  {
+    "word": "FREE",
+    "clue": "The quiet lobby was a stress-_______ environment where you could relax.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "AREA",
+    "clue": "During your walk from 10:17 AM to 10:20 AM, you passed through the _______ around the library.",
+    "bridge_strategy": "Spatial",
+    "relevance_score": 8
+  },
+  {
+    "word": "NEAR",
+    "clue": "You saw Sweet Tomatoes Pizza _______ the library.",
+    "bridge_strategy": "Spatial",
+    "relevance_score": 9
+  },
+  {
+    "word": "FRONT",
+    "clue": "You looked up to the _______ of the building when you entered.",
+    "bridge_strategy": "Spatial",
+    "relevance_score": 8
+  },
+  {
+    "word": "RATE",
+    "clue": "At 09:07 AM, you sprinted across campus, trying to keep your speed at a steady ___.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 8
+  },
+  {
+    "word": "OFFER",
+    "clue": "At 10:17 AM, you were presented with an ___ of snacks.",
+    "bridge_strategy": "Commercial",
+    "relevance_score": 7
+  },
+  {
+    "word": "FEAR",
+    "clue": "At 11:09 AM, you ran toward the train station, and your ___ of missing the train spurred you forward.",
+    "bridge_strategy": "Emotional",
+    "relevance_score": 8
+  },
+  {
+    "word": "EFFORT",
+    "clue": "At 09:05 AM, you settled into a quiet lecture hall and worked with great ___ to review the material.",
+    "bridge_strategy": "Academic",
+    "relevance_score": 9
+  },
+  {
+    "word": "TREE",
+    "clue": "Your mind was a ___ of ideas at 12:00 AM.",
+    "bridge_strategy": "Natural",
+    "relevance_score": 6
+  },
+  {
+    "word": "ENTER",
+    "clue": "At 8:27\u202fAM, you were ready to _enter_ the quiet of Grove Hall.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 9
+  },
+  {
+    "word": "RARE",
+    "clue": "During the 10:17\u202fAM lecture, the hall felt like a _rare_ refuge of silence.",
+    "bridge_strategy": "Contextual",
+    "relevance_score": 8
+  },
+  {
+    "word": "TREAT",
+    "clue": "At 9:07\u202fAM, you paused for a quick _treat_ at Argo Tea.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "AFTERNOON",
+    "clue": "By 1:51\u202fPM, you realized the _afternoon_ had already begun to unfold.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 8
+  },
+  {
+    "word": "RENT",
+    "clue": "At 8:27\u202fAM, you rented a bike and paid a small _rent_ fee.",
+    "bridge_strategy": "Contextual",
+    "relevance_score": 7
+  },
+  {
+    "word": "ERROR",
+    "clue": "At 10:20 AM, you discovered an _ERROR_ in your notes after returning to Snell Library.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "ROOF",
+    "clue": "Under the library's _ROOF_, you hurried across campus at 9:07 AM to reach your lecture.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "EARN",
+    "clue": "At 9:07 AM, you were looking to _EARN_ a deeper understanding while rushing to class.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "FORT",
+    "clue": "At 10:20 AM, you felt like a _FORT_ of quiet amid the bustling library.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "REFER",
+    "clue": "At 11:09 AM, you intended to _REFER_ to the library catalog for your research.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "REAR",
+    "clue": "At 08:27\u202fAM, you left the _______ of Grove Hall and rode your bike into the city.",
+    "bridge_strategy": "Spatial",
+    "relevance_score": 9
+  },
+  {
+    "word": "ROOT",
+    "clue": "At 10:17\u202fAM, you traced the _______ of the lecture by reviewing the material again.",
+    "bridge_strategy": "Conceptual",
+    "relevance_score": 9
+  },
+  {
+    "word": "TEAR",
+    "clue": "At 11:09\u202fAM, a sudden _______ escaped your eye as the train rattled by.",
+    "bridge_strategy": "Emotional",
+    "relevance_score": 9
+  },
+  {
+    "word": "ARENA",
+    "clue": "At 09:07\u202fAM, the lecture hall felt like an _______ where ideas battled.",
+    "bridge_strategy": "Conceptual",
+    "relevance_score": 9
+  },
+  {
+    "word": "TERROR",
+    "clue": "At 11:42\u202fAM, a feeling of _______ washed over you as you realized you were late.",
+    "bridge_strategy": "Emotional",
+    "relevance_score": 9
+  },
+  {
+    "word": "RETREAT",
+    "clue": "After the lecture at 10:17\u202fAM, you sought a small ______ in Snell Library's quiet corner.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "TORN",
+    "clue": "At 11:09\u202fAM, you felt ______ between staying at the train station and heading back to campus.",
+    "bridge_strategy": "Contextual",
+    "relevance_score": 8
+  },
+  {
+    "word": "FARE",
+    "clue": "When you rode the subway at 8:27\u202fAM, you paid a modest ______ to reach the library.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 9
+  },
+  {
+    "word": "REFEREE",
+    "clue": "During the 9:07\u202fAM dash between caf\u00e9s, you acted like a ______, weighing each stop carefully.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 7
+  },
+  {
+    "word": "REEF",
+    "clue": "At 9:45\u202fPM, you pictured the streetlights as a bright ______, guiding your way home.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 6
+  },
+  {
+    "word": "NARRATOR",
+    "clue": "At 12:00\u202fAM, the diary\u2019s voice makes you feel like you are the _______ of your own story.",
+    "bridge_strategy": "Literal",
+    "relevance_score": 10
+  },
+  {
+    "word": "ROTTEN",
+    "clue": "During your late\u2011night study session at 09:45\u202fPM, the stale coffee left on the desk tasted so _______ it almost made you skip a drink.",
+    "bridge_strategy": "Literal",
+    "relevance_score": 9
+  },
+  {
+    "word": "TORE",
+    "clue": "At 09:05\u202fAM, you ____ across campus, racing past the crowds in a frantic dash.",
+    "bridge_strategy": "Literal",
+    "relevance_score": 10
+  },
+  {
+    "word": "ROAR",
+    "clue": "The crowd\u2019s _______ at 11:09\u202fAM near the train station was so loud it drowned out your thoughts.",
+    "bridge_strategy": "Literal",
+    "relevance_score": 9
+  },
+  {
+    "word": "RANT",
+    "clue": "Feeling the urge to express frustration at 10:20\u202fAM, you might have started a _______ to your friend over the phone.",
+    "bridge_strategy": "Literal",
+    "relevance_score": 8
+  },
+  {
+    "word": "ROTATE",
+    "clue": "At 10:20 AM, you watched the crowds as you _______ your attention between Sweet Tomatoes Pizza and Argo Tea.",
+    "bridge_strategy": "Time Anchor",
+    "relevance_score": 9
+  },
+  {
+    "word": "FOREFRONT",
+    "clue": "At 09:05 AM, you sprinted across campus and occupied the _______ of the lecture hall, arriving before your classmates.",
+    "bridge_strategy": "Time Anchor",
+    "relevance_score": 9
+  },
+  {
+    "word": "RAFT",
+    "clue": "At 11:09 AM, you ran toward the train station, feeling like a _______ of commuters navigating the crowded platform.",
+    "bridge_strategy": "Time Anchor",
+    "relevance_score": 9
+  },
+  {
+    "word": "TERRA",
+    "clue": "At 11:42 AM, you arrived at Amazon Boston and felt the _______ beneath your feet.",
+    "bridge_strategy": "Time Anchor",
+    "relevance_score": 9
+  },
+  {
+    "word": "TORRENT",
+    "clue": "At 08:27 AM, you hopped on your bike and power-walked, feeling the _______ of commuters passing by.",
+    "bridge_strategy": "Time Anchor",
+    "relevance_score": 9
+  },
+  {
+    "word": "EATER",
+    "clue": "At 10:20 AM, you became an _______ as you passed Sweet Tomatoes Pizza and Tu Taco.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "ROTOR",
+    "clue": "During the 11:42 AM\u201301:51 PM trip to Amazon Boston, you felt the train's _______ as it passed the station.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 8
+  },
+  {
+    "word": "TENOR",
+    "clue": "At 09:07 AM, the lecturer's _______ filled the quiet hall as you took notes.",
+    "bridge_strategy": "Auditory",
+    "relevance_score": 9
+  },
+  {
+    "word": "OTTER",
+    "clue": "At 11:09 AM, you felt as nimble as an _______ while rushing through the station.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 7
+  },
+  {
+    "word": "TART",
+    "clue": "After lunch at Sweet Tomatoes Pizza, you grabbed a _______ from a nearby bakery.",
+    "bridge_strategy": "Sensory",
+    "relevance_score": 8
+  },
+  {
+    "word": "NERO",
+    "clue": "At 02:18\u202fPM, you saw a bright sign at the caf\u00e9: a _______ coffee shop.",
+    "bridge_strategy": "Brand",
+    "relevance_score": 10
+  },
+  {
+    "word": "AFAR",
+    "clue": "At 10:20\u202fAM, you passed a crowd and felt _______ from the library.",
+    "bridge_strategy": "Distance",
+    "relevance_score": 9
+  },
+  {
+    "word": "FERN",
+    "clue": "At 09:00\u202fAM, you paused to admire the _______ in the library courtyard.",
+    "bridge_strategy": "Nature",
+    "relevance_score": 8
+  },
+  {
+    "word": "FRET",
+    "clue": "At 10:17\u202fAM, before the lecture, you began to _______ about the exam.",
+    "bridge_strategy": "Emotion",
+    "relevance_score": 9
+  },
+  {
+    "word": "FORTE",
+    "clue": "At 09:07\u202fAM, the lecture hall was so loud it sounded _______.",
+    "bridge_strategy": "Musical",
+    "relevance_score": 9
+  },
+  {
+    "word": "TROT",
+    "clue": "At 08:27\u202fAM, you were ___ ___ as you left Grove Hall.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "FANFARE",
+    "clue": "At 09:07\u202fAM, a sudden ___ ___ erupted as you sprinted across campus.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "ORNATE",
+    "clue": "At 08:54\u202fAM, the entrance to the lecture hall featured an ___ ___ arch.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "FERRET",
+    "clue": "At 10:17\u202fAM, you ___ ___ your notes from the backpack before class.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "ENTRANT",
+    "clue": "At 08:54\u202fAM, you arrived as an ___ ___ to the lecture hall.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "ROTE",
+    "clue": "Around 9:07\u202fAM, you were learning by _______ as you repeated the lecture notes.",
+    "bridge_strategy": "Narrative",
+    "relevance_score": 10
+  },
+  {
+    "word": "ERRANT",
+    "clue": "After the train ride around 11:09\u202fAM, you felt your thoughts were _______ as you struggled to locate the library.",
+    "bridge_strategy": "Narrative",
+    "relevance_score": 8
+  },
+  {
+    "word": "TARO",
+    "clue": "While stopping at Sweet Tomatoes Pizza around 9:07\u202fAM, you asked if the sandwich could be made with a creamy _______.",
+    "bridge_strategy": "Food",
+    "relevance_score": 6
+  },
+  {
+    "word": "AORTA",
+    "clue": "During the lecture at 9:07\u202fAM, you thought about the blood flow in your _______ as you tried to stay awake.",
+    "bridge_strategy": "Medical",
+    "relevance_score": 7
+  },
+  {
+    "word": "TARTAN",
+    "clue": "At the stop near 9:45\u202fPM, you spotted a friend wearing a bright _______ scarf.",
+    "bridge_strategy": "Fashion",
+    "relevance_score": 9
+  },
+  {
+    "word": "ORATOR",
+    "clue": "At 10:17\u202fAM, you stepped into the lecture hall ready to take on the role of an _________, addressing classmates about the day's material.",
+    "bridge_strategy": "Narrative",
+    "relevance_score": 9
+  },
+  {
+    "word": "AFFRONT",
+    "clue": "While rushing to the train at 11:09\u202fAM, a hurried stranger delivered a curt comment, a sharp _________ that made you step back.",
+    "bridge_strategy": "Narrative",
+    "relevance_score": 8
+  },
+  {
+    "word": "RETORT",
+    "clue": "During the 11:42\u202fAM subway ride, a fellow passenger made a snide remark, and you answered with a quick _________.",
+    "bridge_strategy": "Narrative",
+    "relevance_score": 8
+  },
+  {
+    "word": "NARRATE",
+    "clue": "After returning to Grove Hall at 11:59\u202fPM, you decided to _________ your day to a friend over coffee.",
+    "bridge_strategy": "Narrative",
+    "relevance_score": 9
+  },
+  {
+    "word": "TARTAR",
+    "clue": "At 10:20\u202fAM, the crowds outside the library formed a thick layer of ________ that made it hard to focus.",
+    "bridge_strategy": "Narrative",
+    "relevance_score": 9
+  },
+  {
+    "word": "ENTREE",
+    "clue": "Your first ______ at Sweet Tomatoes Pizza was a delicious salad.",
+    "bridge_strategy": "Double meaning \u2013 food dish and entry to a meal.",
+    "relevance_score": 8
+  },
+  {
+    "word": "RENTER",
+    "clue": "At 8:27\u202fAM, you were a ______ of a bike as you rode to class.",
+    "bridge_strategy": "Contextual reference to renting a bike.",
+    "relevance_score": 7
+  },
+  {
+    "word": "ROTATOR",
+    "clue": "The professor acted like a ______ during the lecture, swiftly switching between topics.",
+    "bridge_strategy": "Metaphor for rotating topics.",
+    "relevance_score": 6
+  },
+  {
+    "word": "RAFTER",
+    "clue": "The ______ of the lecture hall creaked as you entered at 9:07\u202fAM.",
+    "bridge_strategy": "Descriptive building detail.",
+    "relevance_score": 7
+  },
+  {
+    "word": "ERRATA",
+    "clue": "Before the next class at 11:42\u202fAM, you checked the ______ on the syllabus.",
+    "bridge_strategy": "Reference to a list of corrections.",
+    "relevance_score": 8
+  },
+  {
+    "word": "TEETER",
+    "clue": "Around 9:07\u202fAM, you ___ from one caf\u00e9 to another, phone in hand, as you hurried to your lecture.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 8
+  },
+  {
+    "word": "REENTER",
+    "clue": "At 11:09\u202fAM, after the train station, you ___ back into the quiet of Snell Library.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 9
+  },
+  {
+    "word": "TARE",
+    "clue": "At 10:17\u202fAM, you ___ off the excess noise of the lecture hall to focus on the material.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 8
+  },
+  {
+    "word": "ENTREAT",
+    "clue": "At 01:51\u202fPM, you ___ your friend to remain in the quiet lobby of Amazon Boston.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 7
+  },
+  {
+    "word": "ROOFER",
+    "clue": "During your walk to Ryder Hall at 02:48\u202fPM, you spotted the ____ of the building.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 7
+  },
+  {
+    "word": "RENNET",
+    "clue": "At 10:20\u202fAM, you had a ___ waiting in your pocket before heading back to Snell Library.",
+    "bridge_strategy": "Thematic (time reference)",
+    "relevance_score": 8
+  },
+  {
+    "word": "TOTTER",
+    "clue": "While racing to the lecture between 9:05\u202fAM and 9:07\u202fAM, you began to ____ across campus.",
+    "bridge_strategy": "Action/Movement",
+    "relevance_score": 9
+  },
+  {
+    "word": "NATTER",
+    "clue": "During the brief 10:17\u202fAM\u201310:20\u202fAM break, the students around you were ____ loudly.",
+    "bridge_strategy": "Social Interaction",
+    "relevance_score": 8
+  },
+  {
+    "word": "FETTER",
+    "clue": "At 2:18\u202fPM, the constant buzz of notifications seemed to ___ your focus.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 9
+  },
+  {
+    "word": "AERATE",
+    "clue": "The quiet of Snell Library was refreshed by ___ the stale air before the final lecture.",
+    "bridge_strategy": "Environmental",
+    "relevance_score": 8
+  },
+  {
+    "word": "AERATOR",
+    "clue": "During your bike ride at 08:27\u202fAM, the fresh air acted as an ______ for your lungs.",
+    "bridge_strategy": "Contextual",
+    "relevance_score": 8
+  },
+  {
+    "word": "FORENOON",
+    "clue": "At 10:17\u202fAM, you were still in the ______, just before the midday lecture began.",
+    "bridge_strategy": "Temporal",
+    "relevance_score": 9
+  },
+  {
+    "word": "TREATER",
+    "clue": "At 09:07\u202fAM, you were a ______ as you bought a coffee for your classmates.",
+    "bridge_strategy": "Food",
+    "relevance_score": 8
+  },
+  {
+    "word": "RANTER",
+    "clue": "During the rush from 10:17\u202fAM to 10:20\u202fAM, you were a ______, loudly voicing your frustration at the crowded path.",
+    "bridge_strategy": "Emotion",
+    "relevance_score": 7
+  },
+  {
+    "word": "ANNOTATOR",
+    "clue": "At 11:09\u202fAM, you were an ______, jotting down each cafe name as you hurried to the train station.",
+    "bridge_strategy": "Note-taking",
+    "relevance_score": 9
+  },
+  {
+    "word": "TOOTER",
+    "clue": "At 09:07\u202fAM, you hurried across campus, and a sudden horn honked\u2014an unmistakable _TOOTER_ announcing the bus arrival.",
+    "bridge_strategy": "Contextual",
+    "relevance_score": 9
+  },
+  {
+    "word": "TOOTER",
+    "clue": "At 11:09\u202fAM, as you approached Boston South Station, the loud horns of a passing bus sounded, reminding you of a _TOOTER_ in the city.",
+    "bridge_strategy": "Contextual",
+    "relevance_score": 8
+  },
+  {
+    "word": "OFFERER",
+    "clue": "At 10:17\u202fAM, you stepped into a lecture hall brimming with chatter, where the professor seemed to be an _OFFERER_ of knowledge, gently presenting each concept.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 9
+  },
+  {
+    "word": "OFFERER",
+    "clue": "At 02:18\u202fPM, after a long day, you walked past a street vendor offering snacks; you noticed the vendor was an _OFFERER_, always ready to hand out treats.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 8
+  },
+  {
+    "word": "TERREEN",
+    "clue": "At 02:48\u202fPM, while wandering between library aisles, you found a small green patch of grass\u2014a _TERREEN_, a brief oasis of calm amid the city's bustle.",
+    "bridge_strategy": "Literal",
+    "relevance_score": 9
+  }
+]
