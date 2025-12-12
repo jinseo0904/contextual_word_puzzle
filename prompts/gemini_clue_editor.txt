@@ -1,0 +1,16 @@
+I have a list of generated clues. Many of them are grammatically awkward, use words incorrectly, or sound like a robot wrote them.
+
+Your Task:
+Filter this JSON list. Keep ONLY the clues that meet these criteria:
+1. **Idiomatic:** The sentence sounds like something a native English speaker would actually say.
+2. **Grammatically Perfect:** No misuse of adjectives/verbs (e.g., "You were not utter").
+3. **Logically Sound:** No bizarre metaphors (e.g., "The campus was a comfortable terry").
+
+If a clue is "Direct" (based on a location or action), prioritize keeping it.
+If a clue is "Metaphorical" or "Thematic," be VERY skeptical. Discard it if it is vague.
+
+**Input JSON:**
+[Paste the JSON output here]
+
+**Output:**
+Return a JSON list of ONLY the valid, high-quality clues. Do not rewrite them, just select the good ones.

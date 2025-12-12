@@ -1,0 +1,251 @@
+You are helping design short, smartwatch-friendly ecological momentary assessment (EMA) questions that will ALSO serve as “priming” for a later word game.
+
+We have a list of words. For each word, your job is to decide whether it is suitable for a small, concrete, behavior-related EMA question. If it is, you must generate:
+	1.	A very short EMA question (3–4 words max) that fits on a smartwatch screen.
+	2.	3–4 multiple-choice options the user can tap.
+	3.	A generic word-game clue.
+	4.	Response-dependent clues: one separate clue for EACH answer option, that explicitly references the user’s answer and makes the word extremely easy to guess later.
+
+If the word is too obscure, technical, archaic, or hard to tie to a concrete behavior, mark it as unusable and skip question/clue generation.
+
+The EMA questions must be about concrete, real-life constructs, and NOT abstract philosophy. Keep them in the following domains ONLY:
+	•	Activities (what they did)
+	•	Daily routines (sleep, getting ready, commuting, etc.)
+	•	Habits (study habits, phone use, cooking, etc.)
+	•	Socialization / relationships (friends, family, romantic, pets)
+	•	Personality-related behavior (e.g., “did anyone annoy you?”, “were you kind?”)
+	•	Diet / eating habits (what they ate/drank, caffeine, sweets, etc.)
+	•	Physical activity / sports / movement
+	•	Simple daily environment exposure (e.g., cold, bright light) IF tied to behavior
+
+Do NOT ask abstract introspection questions like “What are your values?” This system is meant to be answered quickly on a watch.
+
+====================
+TASK SUMMARY
+
+For each word:
+	1.	Decide if it is “usable” for a simple, behavior-related EMA question.
+	2.	If usable, choose ONE construct from the list above and write:
+	•	A 3–4 word EMA question
+	•	3–4 short multiple-choice options
+	•	A generic clue
+	•	A response-specific clue for EACH option
+	3.	If not usable, mark it as unusable and explain briefly why (e.g., “too archaic,” “chemical term,” “no natural behavioral mapping”).
+
+The EMA question and options must make sense on their own without the word game context.
+
+====================
+DETAILED RULES
+	1.	EMA QUESTION
+
+	•	Maximum 4 words (ideally 2–4).
+	•	Must clearly fit one of these constructs: activity, routine, habit, socialization, personality-related behavior, diet, physical activity, or simple daily environment.
+	•	Must be understandable on its own.
+	•	Should NOT include the target word in the question text (but the word MAY appear as one of the answer options if appropriate).
+
+Examples of good EMA questions:
+	•	“How’s your day?”
+	•	“Drink coffee today?”
+	•	“See dogs today?”
+	•	“Cold outside?”
+	•	“Eat sweets?”
+	•	“Talk to anyone?”
+	•	“Sleep hours?”
+
+	2.	OPTIONS
+
+	•	3 or 4 options per question.
+	•	Each option must be short (1–2 words).
+	•	Options should be behaviorally meaningful and realistic.
+	•	It is allowed (but not required) for the target word to be one of the options, if it makes sense and is fun.
+	•	Options should be mutually exclusive and collectively reasonable.
+
+Examples:
+	•	For “How’s your day?” → [“Bad”, “Okay”, “Nice”, “Great”]
+	•	For “Drink coffee today?” → [“Yes”, “No”, “Decaf”]
+	•	For “See dogs today?” → [“Yes”, “No”, “On screen”]
+
+	3.	GENERIC CLUE
+
+	•	A short sentence referring to the earlier EMA question.
+	•	It should mention that the user answered that question earlier in the day.
+	•	It should strongly hint at the target word, but still be worded like a friendly reminder.
+
+Example generic clue for the word “nice”:
+	•	“This afternoon, you described your day. You said it felt pretty ______.”
+
+	4.	RESPONSE-DEPENDENT CLUES
+
+	•	You must give a distinct clue for EACH answer option.
+	•	Each clue should explicitly reference what the user chose.
+	•	Clues must make the target word extremely easy to guess.
+	•	They should be playful, concrete, and NON-cryptic.
+
+The structure:
+	•	“If user selects OPTION_A: CLUE_TEXT”
+	•	“If user selects OPTION_B: CLUE_TEXT”
+	•	etc.
+
+Examples for the word “iceman”, question “Cold outside?”, options [“Yes”, “No”, “A little”]:
+	•	If “Yes”: “You said it was cold outside. Stay out too long and you’ll turn into an ______.”
+	•	If “No”: “You said it wasn’t cold at all today. No risk of becoming an ______.”
+	•	If “A little”: “You said it was a little cold. Not quite enough to freeze you into an ______.”
+
+Examples for the word “nice”, question “How’s your day?”, options [“Bad”, “Okay”, “Nice”, “Great”]:
+	•	If “Bad”: “You said your day was bad. Hopefully it turns ______ tomorrow.”
+	•	If “Okay”: “You said your day was just okay. Not terrible, not yet ______.”
+	•	If “Nice”: “You literally said your day was ______. Easiest puzzle ever.”
+	•	If “Great”: “You said your day was great — even better than just ______.”
+
+	5.	USABILITY DECISION
+
+	•	Some words are not suitable:
+	•	too rare or archaic,
+	•	strongly technical/chemical,
+	•	religious/theological terms,
+	•	or too abstract to link naturally to behavior.
+	•	For these, do NOT force a question.
+	•	Mark them as usable = false and give a short reason.
+
+====================
+OUTPUT FORMAT
+
+Return your answer as valid JSON with this structure:
+
+[
+{
+“word”: “nice”,
+“usable”: true,
+“construct”: “mood”,
+“ema_question”: “How’s your day?”,
+“options”: [“Bad”, “Okay”, “Nice”, “Great”],
+“generic_clue”: “This afternoon, you described your day. You said it felt pretty ______.”,
+“response_clues”: {
+“Bad”: “You said your day was bad. Hopefully it turns ______ tomorrow.”,
+“Okay”: “You said your day was just okay. Not terrible, not yet ______.”,
+“Nice”: “You literally said your day was ______. Easiest puzzle ever.”,
+“Great”: “You said your day was great — even better than just ______.”
+}
+},
+{
+“word”: “iceman”,
+“usable”: true,
+“construct”: “environment”,
+“ema_question”: “Cold outside?”,
+“options”: [“Yes”, “No”, “A little”],
+“generic_clue”: “You checked in about the weather. Someone tough in the cold is an ______.”,
+“response_clues”: {
+“Yes”: “You said it was cold outside. Stay out there too long and you’ll turn into an ______.”,
+“No”: “You said it wasn’t cold today. No chance of you becoming an ______.”,
+“A little”: “You said it was a little cold. Not quite enough to freeze you into an ______.”
+}
+},
+{
+“word”: “acacine”,
+“usable”: false,
+“reason”: “Technical/chemical term with no natural behavioral EMA mapping.”
+}
+…
+]
+
+Important:
+	•	Make sure the JSON is syntactically valid.
+	•	Every word from the input list must appear exactly once in the output.
+	•	For usable words, DO NOT include a “reason” field.
+	•	For unusable words, DO include a “reason” field and omit EMA-related fields.
+
+====================
+NOW PROCESS THIS WORD LIST
+
+Here is the word list you should process:
+
+after
+free
+area
+near
+front
+rate
+offer
+fear
+effort
+tree
+enter
+rare
+treat
+afternoon
+rent
+error
+roof
+earn
+fort
+refer
+rear
+root
+tear
+arena
+terror
+retreat
+torn
+fare
+referee
+reef
+narrator
+rotten
+tore
+roar
+rant
+rotate
+forefront
+raft
+terra
+torrent
+eater
+rotor
+tenor
+otter
+tart
+nero
+afar
+fern
+fret
+forte
+trot
+fanfare
+ornate
+ferret
+entrant
+taro
+aorta
+errant
+rote
+tartan
+orator
+affront
+retort
+tartar
+narrate
+entree
+renter
+rotator
+rafter
+errata
+reenter
+teeter
+tare
+entreat
+roofer
+rennet
+totter
+natter
+fetter
+aerate
+aerator
+forenoon
+treater
+ranter
+annotator
+offerer
+tooter
+terreen
+
+Read all instructions carefully, then generate the JSON as specified.

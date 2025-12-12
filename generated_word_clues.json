@@ -1,34 +1,154 @@
 {
   "selected_words": [
     {
-      "word": "afternoon",
-      "clue": "I spent a good part of the ______ sitting, doing work, and occasionally walking to the bathroom.",
-      "reasoning": "The summary explicitly mentions spending the afternoon sitting and working."
+      "word": "true",
+      "clue": "You knew the schedule was _______; it matched your expectations.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 6
     },
     {
-      "word": "area",
-      "clue": "I walked toward the Snell Library ______.",
-      "reasoning": "The summary starts by mentioning walking toward the Snell Library area."
+      "word": "current",
+      "clue": "You were fully _______ during your walk to the library.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 5
     },
     {
-      "word": "near",
-      "clue": "Northeastern University is ______ Snell Library.",
-      "reasoning": "The summary says Northeastern University is 'just a short walk' from Snell Library, meaning it's near."
+      "word": "center",
+      "clue": "You spent most of the afternoon at the _______ of the Snell Library.",
+      "bridge_strategy": "Direct",
+      "relevance_score": 7
+    },
+    {
+      "word": "return",
+      "clue": "After a long day, you made your _______ back to Grove Hall.",
+      "bridge_strategy": "Direct",
+      "relevance_score": 8
+    },
+    {
+      "word": "recent",
+      "clue": "The _______ hours of the day were filled with quiet study.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 6
+    },
+    {
+      "word": "century",
+      "clue": "Walking past the old campus buildings felt like a _______ of history.",
+      "bridge_strategy": "Metaphorical",
+      "relevance_score": 3
+    },
+    {
+      "word": "centre",
+      "clue": "You spent most of the afternoon at the _______ of the Snell Library.",
+      "bridge_strategy": "Direct",
+      "relevance_score": 7
+    },
+    {
+      "word": "tree",
+      "clue": "Your path was lined with a _______ of campus trees.",
+      "bridge_strategy": "Metaphorical",
+      "relevance_score": 4
+    },
+    {
+      "word": "cent",
+      "clue": "You didn't need a _______ to pay for coffee at the stops you passed.",
+      "bridge_strategy": "Contrast",
+      "relevance_score": 4
+    },
+    {
+      "word": "enter",
+      "clue": "You had to _______ the Snell Library to access the quiet study area.",
+      "bridge_strategy": "Direct",
+      "relevance_score": 8
+    },
+    {
+      "word": "entry",
+      "clue": "Your _______ to the library was smooth and untroubled.",
+      "bridge_strategy": "Direct",
+      "relevance_score": 8
+    },
+    {
+      "word": "cute",
+      "clue": "Despite the busy schedule, you found the day _______.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 5
     },
     {
       "word": "rent",
-      "clue": "I was heading back to Grove Hall, my place to ______ for the night.",
-      "reasoning": "The summary ends by mentioning settling in at Grove Hall for the night, implying it's where the person lives and pays rent."
+      "clue": "You did not need to _______ anything during your campus trip.",
+      "bridge_strategy": "Contrast",
+      "relevance_score": 3
     },
     {
-      "word": "rear",
-      "clue": "I walked ______ to Grove Hall at the end of the day.",
-      "reasoning": "The summary states the person walked back to Grove Hall at the end of the day."
+      "word": "currency",
+      "clue": "Your time was the most valuable _______ of the day.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 6
     },
     {
-      "word": "rate",
-      "clue": "At some point I was just trying to ______ the day away while I sat in the lobby.",
-      "reasoning": "The person was spending hours just sitting, waiting in a lobby, which implies that they were just trying to 'rate' (pass) the time."
+      "word": "teen",
+      "clue": "You approached the walk with a lively _______ spirit.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 5
+    },
+    {
+      "word": "cure",
+      "clue": "The quiet library was the _______ to your academic fatigue.",
+      "bridge_strategy": "Metaphorical",
+      "relevance_score": 7
+    },
+    {
+      "word": "tune",
+      "clue": "Your steps followed a gentle _______ as you moved between locations.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 6
+    },
+    {
+      "word": "terry",
+      "clue": "Your day felt as soft and comforting as _______ fabric.",
+      "bridge_strategy": "Metaphorical",
+      "relevance_score": 2
+    },
+    {
+      "word": "turner",
+      "clue": "You were a natural _______ of paths, turning at every corner.",
+      "bridge_strategy": "Metaphorical",
+      "relevance_score": 5
+    },
+    {
+      "word": "runner",
+      "clue": "You felt like a swift _______ during your campus stroll.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 6
+    },
+    {
+      "word": "tent",
+      "clue": "The library felt like a _______ of knowledge, temporary yet comforting.",
+      "bridge_strategy": "Metaphorical",
+      "relevance_score": 4
+    },
+    {
+      "word": "tenure",
+      "clue": "You reflected on the _______ of your studies while studying.",
+      "bridge_strategy": "Direct",
+      "relevance_score": 5
+    },
+    {
+      "word": "utter",
+      "clue": "You did not _______ a word while waiting in the quiet library.",
+      "bridge_strategy": "Contrast",
+      "relevance_score": 6
+    },
+    {
+      "word": "cutter",
+      "clue": "You were a quick _______ of tasks, slicing through the afternoon.",
+      "bridge_strategy": "Metaphorical",
+      "relevance_score": 4
+    },
+    {
+      "word": "erect",
+      "clue": "After walking, you felt your shoulders _______ with relief.",
+      "bridge_strategy": "Thematic",
+      "relevance_score": 6
     }
   ]
 }

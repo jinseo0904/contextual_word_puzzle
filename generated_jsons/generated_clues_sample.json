@@ -1,0 +1,531 @@
+[
+  {
+    "word": "AFTER",
+    "clue": "_______ 9:45 PM, the library\u2019s quiet gave way to the social vibe outside.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "FREE",
+    "clue": "At 11:42 AM, you felt _______ as you waited in the quiet lobby.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 10
+  },
+  {
+    "word": "AREA",
+    "clue": "Back in the library at 02:18 PM, the atmosphere swung from a bustling corridor to a calm study _______.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "NEAR",
+    "clue": "At 02:48 PM, you felt _______ the library as you settled into a quiet corner.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 10
+  },
+  {
+    "word": "FRONT",
+    "clue": "At 04:49 PM, you stepped into the library from the _______ side of the hallway.",
+    "bridge_strategy": "Action",
+    "relevance_score": 10
+  },
+  {
+    "word": "RATE",
+    "clue": "At 10:17\u202fAM in Northeastern University, you decided to _______ the quietness of the lecture against the chatter around you.",
+    "bridge_strategy": "Action",
+    "relevance_score": 10
+  },
+  {
+    "word": "OFFER",
+    "clue": "Between 11:42\u202fAM and 1:51\u202fPM in Amazon Boston, you received a warm _______ from a friend waiting in the lobby.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "FEAR",
+    "clue": "During the quiet hour at 9:21\u202fPM in the library, you felt no _______ in the stillness.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 10
+  },
+  {
+    "word": "EFFORT",
+    "clue": "From 02:18\u202fPM to 02:48\u202fPM in Snell Library, you made an extra _______ to finish your notes before the evening.",
+    "bridge_strategy": "Action",
+    "relevance_score": 10
+  },
+  {
+    "word": "TREE",
+    "clue": "While walking back to Grove Hall at 9:45\u202fPM, you passed a lone street _______ that seemed to echo the city\u2019s rhythm.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 10
+  },
+  {
+    "word": "ENTER",
+    "clue": "At 4:49\u202fPM, you decided to _______ the library to escape the hurried chatter of the hallway.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "RARE",
+    "clue": "The calm after the 11:42\u202fPM rush at Amazon Boston felt like a _______ moment in the otherwise bustling city.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "TREAT",
+    "clue": "When you hurried to Amazon Boston at 11:09\u202fAM, you considered buying a quick bite as a small _______ for your busy day.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "AFTERNOON",
+    "clue": "The 2:18\u202fPM return to Snell Library marked the end of a hectic _______ filled with campus chatter.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "RENT",
+    "clue": "The quiet study space in the library felt like a rented _______ of silence amid the surrounding noise.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 7
+  },
+  {
+    "word": "ERROR",
+    "clue": "At 8:27\u202fAM in Grove Hall, the silence felt like a small _______ in the otherwise peaceful morning.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "ROOF",
+    "clue": "While rushing back to the library at 10:20\u202fAM, you glanced up at the _______ of the building and wondered about the view.",
+    "bridge_strategy": "Action",
+    "relevance_score": 9
+  },
+  {
+    "word": "EARN",
+    "clue": "During the lecture from 9:07\u202fAM to 10:17\u202fAM, you felt you were _______ing the knowledge you need for the semester.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "FORT",
+    "clue": "In the quiet lobby of Amazon Boston at 11:42\u202fAM, you felt like a fortified _______ against the outside bustle.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "REFER",
+    "clue": "At 11:09\u202fAM, as you hurried to the train, you remembered to _______ to the library map before leaving.",
+    "bridge_strategy": "Action",
+    "relevance_score": 9
+  },
+  {
+    "word": "REAR",
+    "clue": "At 02:48 PM, as you settled into the library, the calm seemed to gather at the _______ of the study room.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 8
+  },
+  {
+    "word": "ROOT",
+    "clue": "During the 02:18 PM return to Snell Library, you sensed the _______ of collaboration as students shared ideas.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 7
+  },
+  {
+    "word": "TEAR",
+    "clue": "While waiting in the Amazon Boston lobby from 11:42 AM to 01:51 PM, a single _______ escaped you as the city buzzed outside.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 6
+  },
+  {
+    "word": "ARENA",
+    "clue": "At 09:07 AM, the classroom felt like an _______ of thoughts and noise.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 8
+  },
+  {
+    "word": "TERROR",
+    "clue": "At 08:54 AM, as you hurried into the Snell Library, a sudden _______ crept over you.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 7
+  },
+  {
+    "word": "RETREAT",
+    "clue": "From 11:42 AM to 1:51 PM at Amazon Boston, you sought a _______ to escape the bustle.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "TORN",
+    "clue": "At 10:17 AM in class, you felt _______ between the chatter of classmates and the lecture's calm.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "FARE",
+    "clue": "During your rush at 11:09 AM to the train station, you hoped the _______ for the commuter bus would be low enough to stay on schedule.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 6
+  },
+  {
+    "word": "REFEREE",
+    "clue": "At 09:05 AM as you hurried back to Northeastern, you acted as the _______ of your own schedule, deciding which way to turn.",
+    "bridge_strategy": "Action",
+    "relevance_score": 7
+  },
+  {
+    "word": "REEF",
+    "clue": "At 02:50 PM in Ryder Hall, the quiet study room felt like a _______ amid the sea of students.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 8
+  },
+  {
+    "word": "NARRATOR",
+    "clue": "During the quiet at 10:20 AM in the library, you imagined a different _______ weaving the story of your day.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "ROTTEN",
+    "clue": "At 11:09 AM, the scent of stale coffee from a nearby stall seemed _______ in the bustling train station.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "TORE",
+    "clue": "At 10:17 AM, you _______ through the lecture notes, trying to keep up with the pace of the class.",
+    "bridge_strategy": "Action",
+    "relevance_score": 10
+  },
+  {
+    "word": "ROAR",
+    "clue": "At 09:05 AM, the corridor seemed to _______ as students hurried by in a blur of movement.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 10
+  },
+  {
+    "word": "RANT",
+    "clue": "At 02:50 PM, a fellow student began to _______ about deadlines while the classroom buzzed around you.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "ROTATE",
+    "clue": "At 08:27 AM in Grove Hall, the quiet hum made you feel your thoughts begin to _______ as you walked toward the library.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "FOREFRONT",
+    "clue": "At 10:17 AM in class, you watched the lecturer take the _______ of the lecture hall.",
+    "bridge_strategy": "Action",
+    "relevance_score": 10
+  },
+  {
+    "word": "RAFT",
+    "clue": "At 09:21 PM on your way back to the dorm, the street lights and crowds made you feel like a _______ drifting through the city.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 8
+  },
+  {
+    "word": "TERRA",
+    "clue": "During your quiet study at 02:18 PM in the Snell Library, the calm surroundings grounded you, reminding you of _______.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 7
+  },
+  {
+    "word": "TORRENT",
+    "clue": "At 11:09 AM near Boston South Station, the rush of commuters surged around you like a _______.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 9
+  },
+  {
+    "word": "EATER",
+    "clue": "During your frantic walk to the train station at 11:09\u201111:42, you felt like a hungry _EATER_ amid the food stalls.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "ROTOR",
+    "clue": "In the lecture room at 09:07\u201110:17, the air\u2011conditioner's rotor whispered as you tried to concentrate.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "TENOR",
+    "clue": "At 02:18\u201102:48 in the Snell Library, the tenor of the room shifted between collaborative chatter and quiet focus.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "OTTER",
+    "clue": "Back at Grove Hall from 09:45\u201111:59, you moved through the crowded hall like a quiet otter, slipping past the noise.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 7
+  },
+  {
+    "word": "TART",
+    "clue": "While passing the restaurants at 11:09\u201111:42, the sweet tart aroma of pastries made you pause briefly.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "NERO",
+    "clue": "At 11:42 AM in the Amazon Boston lobby, you felt like a _______.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "AFAR",
+    "clue": "At 09:45 PM, as you walked back to Grove Hall, everything seemed _______.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "FERN",
+    "clue": "When you passed the Starbucks at 08:27 AM, you imagined a green _______.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 7
+  },
+  {
+    "word": "FRET",
+    "clue": "At 09:07 AM, as you hurried back to the university, you had no time to _______.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "FORTE",
+    "clue": "At 09:05 AM, the hum of the air conditioner became a _______ in the lecture.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "TROT",
+    "clue": "Between 08:54 and 09:05 AM, you _______ through the library corridors, chasing the lecture start.",
+    "bridge_strategy": "Action",
+    "relevance_score": 9
+  },
+  {
+    "word": "FANFARE",
+    "clue": "At 09:05 AM, as you hurried back to the university, a sudden _______ erupted, announcing the start of class.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "ORNATE",
+    "clue": "While sitting in Ryder Hall from 02:50 to 04:45 PM, you imagined the classroom walls as an _______ tapestry of knowledge.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 7
+  },
+  {
+    "word": "FERRET",
+    "clue": "Throughout the day, your thoughts darted like a _______ slipping between calm and bustling.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "ENTRANT",
+    "clue": "At 08:27 AM, you decided to _______ the library to find a quiet corner.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "TARO",
+    "clue": "During the 11:42 AM pause in the Amazon Boston lobby, you imagined a comforting, sweet root\u2014like a _______\u2014to calm your restless mind.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 7
+  },
+  {
+    "word": "AORTA",
+    "clue": "At 10:17 AM in the crowded lecture hall, your pulse surged, reminding you of an _______ carrying life through the campus.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 8
+  },
+  {
+    "word": "ERRANT",
+    "clue": "Between 9:07 and 10:17 AM, while walking through the bustling corridor, your thoughts felt errant, drifting from one lecture to the next.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 6
+  },
+  {
+    "word": "ROTE",
+    "clue": "From 10:20 to 11:09 AM, you repeated the same _______ of notes in the library, each word echoing the last.",
+    "bridge_strategy": "Action",
+    "relevance_score": 7
+  },
+  {
+    "word": "TARTAN",
+    "clue": "At 9:21-9:45 PM, the library's rhythm of footsteps and whispered conversations formed a _______ of academic life.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 6
+  },
+  {
+    "word": "ORATOR",
+    "clue": "During the lecture at 02:18 PM in Ryder Hall, a student became the class's _______.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "AFFRONT",
+    "clue": "While waiting at Amazon Boston at 11:42 AM, a group of students offered you an _______.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "RETORT",
+    "clue": "In Snell Library at 08:54 AM, a classmate gave a sharp _______.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "TARTAR",
+    "clue": "At 10:20 AM when you hurried to Snell Library, the lingering coffee left a _______ on your tongue.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 7
+  },
+  {
+    "word": "NARRATE",
+    "clue": "In Snell Library at 09:21 PM, you began to _______ your day's journey.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "ENTREE",
+    "clue": "At 11:42 AM, you hurried into the lobby and decided to _______ the space for a brief pause.",
+    "bridge_strategy": "Action",
+    "relevance_score": 10
+  },
+  {
+    "word": "RENTER",
+    "clue": "At 02:18 PM, as you walked through the library corridor, you felt a new _______ share the quiet space.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 10
+  },
+  {
+    "word": "ROTATOR",
+    "clue": "At 09:45 PM, the flickering lights of the ISEC Pedestrian Bridge seemed to spin like a _______.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 10
+  },
+  {
+    "word": "RAFTER",
+    "clue": "At 01:51 PM, you looked up at the high _______ in the Amazon lobby, feeling the building held together like a frame.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 10
+  },
+  {
+    "word": "ERRATA",
+    "clue": "During the 10:17 AM lecture, you spotted an _______ on the slide and noted it.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "REENTER",
+    "clue": "At 4:49 PM, you decided to _______ the library, returning to a familiar quiet.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 10
+  },
+  {
+    "word": "TEETER",
+    "clue": "During the frantic 09:05-09:07 rush between library and university, your thoughts seemed to _______ between calm and chaos.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "TARE",
+    "clue": "At 11:09 AM, as you hurried past the crowded Amazon station, you tried to _______ the city noise, hoping for silence.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 7
+  },
+  {
+    "word": "ENTREAT",
+    "clue": "At 02:50 PM, you felt the urge to _______ the quiet in the bustling Ryder Hall, longing for a moment of solitude.",
+    "bridge_strategy": "Action",
+    "relevance_score": 6
+  },
+  {
+    "word": "ROOFER",
+    "clue": "At 09:45 PM, walking back to Grove Hall, you gazed at the _______ of the city, its lights flickering above.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 5
+  },
+  {
+    "word": "RENNET",
+    "clue": "During the quiet study at 10:20\u202fAM in the Snell Library, you felt so still you decided to _RENNET_ the surrounding noise.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "TOTTER",
+    "clue": "At 09:05\u202fAM, as you hurried from Snell Library to Northeastern, your steps seemed to _TOTTER_ in the crowded corridor.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "NATTER",
+    "clue": "At 11:42\u202fAM in the Amazon Boston lobby, you began to _NATTER_ with a friend about the day's lectures.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "FETTER",
+    "clue": "At 02:18\u202fPM, when you returned to the Snell Library, you wanted to _FETTER_ your restless thoughts with quiet reading.",
+    "bridge_strategy": "Action",
+    "relevance_score": 7
+  },
+  {
+    "word": "AERATE",
+    "clue": "At 08:27\u202fAM in Grove Hall, you inhaled the fresh air and decided to _AERATE_ the dorm\u2019s calm atmosphere.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "AERATOR",
+    "clue": "At 10:17 AM in class, you noticed the _______ as the air\u2011conditioner hummed, filling the room with cool mist.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 9
+  },
+  {
+    "word": "FORENOON",
+    "clue": "At 9:07 AM, just before noon, you felt the urge to _______ a quick snack after walking through the campus.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "TREATER",
+    "clue": "At 08:54 AM, you passed a little coffee place you usually skip; it seemed like a perfect spot to _______ a warm latte.",
+    "bridge_strategy": "Vibe",
+    "relevance_score": 8
+  },
+  {
+    "word": "RANTER",
+    "clue": "At 04:45 PM, you overheard a RANTER in the hallway as you hurried back to the library, his voice echoing off the lockers.",
+    "bridge_strategy": "Action",
+    "relevance_score": 7
+  },
+  {
+    "word": "ANNOTATOR",
+    "clue": "At 02:18 PM, back in Snell Library, you decided to become an _______ by taking meticulous notes during the lecture.",
+    "bridge_strategy": "Action",
+    "relevance_score": 8
+  },
+  {
+    "word": "OFFERER",
+    "clue": "At 08:27 AM, the coffee shop near Snell Library was the _______ that offered you a warm espresso.",
+    "bridge_strategy": "Action",
+    "relevance_score": 9
+  },
+  {
+    "word": "TOOTER",
+    "clue": "At 11:09 AM, the train horn at South Station served as the _______ that welcomed you to the city.",
+    "bridge_strategy": "Action",
+    "relevance_score": 9
+  },
+  {
+    "word": "TERREEN",
+    "clue": "At 02:48 PM, the library's layout formed a calming _______ that guided your studies.",
+    "bridge_strategy": "Metaphor",
+    "relevance_score": 8
+  }
+]
+

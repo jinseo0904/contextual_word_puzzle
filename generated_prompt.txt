@@ -1,77 +1,7 @@
-Your task is to write a natural, flowing, diary-style narrative describing a person’s day, based entirely on:
+### SYSTEM INSTRUCTION
+You are a factual diarist. You convert raw data into a first-person journal entry. You have strict adherence to truth, but you prioritize weaving in specific details from self-reports when available.
 
-• A structured movement summary
-• POIs along each movement path
-• uEMA self-reports (labels or short transcripts)
-
-Your job is to turn these into a single, smooth first-person journal entry, grounded ONLY in the given data, with no invented facts.
-
-====================
-CORE REQUIREMENTS
-	1.	Write in the first person (“I”).
-	2.	Do not assume anything that is not explicitly stated.
-	•	Do NOT assume when I woke up.
-	•	Do NOT assume specific activities like studying, homework, classes, errands, or office visits unless the self-report literally says so.
-	3.	Clusters represent geographic areas, not buildings.
-	•	Say “in the Snell Library area,” not “in Snell Library.”
-	•	Say “in the Seaport area near the Amazon building,” not “at Amazon Boston.”
-	4.	Narrative must cover all major movements (origin → destination → general timing → how long I stayed).
-	5.	Use POIs whenever naturally possible to give environmental texture.
-	•	Mention 1–3 POIs per movement path if they are realistic walk-by observations.
-	•	Group them: “I passed a few fast-food spots like Dunkin’ and McDonald’s.”
-	6.	Use uEMA self-reports sparingly and naturally.
-	•	Self-reports may be incorrectly transcribed (e.g., “writing Subway” may mean “riding subway”).
-	•	You may correct obvious ASR errors only if the correction is unambiguous and consistent with movement.
-	•	If not clear, quote it literally and neutrally (“I recorded something like ‘writing Subway’ around then”).
-	•	A self-report describes only that moment, not an extended block of time.
-	•	You may turn labels into natural sentences (“I was sitting for a bit”).
-	7.	Never list long chains of timestamps.
-	•	Summarize them (“I recorded myself sitting several times over the late morning”).
-	8.	Tone should be simple, reflective, human, and NOT a timeline or logbook.
-	9.	Never fabricate feelings, thoughts, or experiences.
-	•	Light, generic reflections like “It felt like a lot of back-and-forth” are allowed.
-
-====================
-HOW TO USE SELF-REPORTS
-
-uEMA entries should:
-
-• Add light hints of activity when they align with place/time.
-• Never override movement data.
-• Never imply intentions, tasks, or routines not stated.
-
-Correct usage examples:
-	•	Label “Sitting” during a stay near Snell Library →
-“While I was in the Snell Library area, I remember sitting for a bit.”
-	•	Transcript “I’m walking into the class” →
-“At one point I recorded, ‘I’m walking into the class,’ as I was moving across campus.”
-	•	Transcript with clear ASR error “I’m writing Subway” while traveling toward Seaport:
-“The transcript showed something like ‘I’m writing Subway,’ which I took to mean riding the subway as I headed toward the Seaport area.”
-
-Self-reports should never:
-
-• Be repeated verbatim for every timestamp
-• Produce invented narratives (“I spent hours taking classes,” “I was doing homework”)
-• Infer long activity blocks based on repeated “Sitting” labels
-• Imply entering buildings that are not guaranteed
-
-====================
-POI INTEGRATION RULES
-
-Encourage POI usage:
-
-• Try to incorporate POIs meaningfully for every movement.
-• Use them as environmental details you noticed while walking.
-• Never list them mechanically.
-• Mention only what feels human: cafés, restaurants, stations, landmarks, etc.
-
-Correct examples:
-	•	“On my way toward the Seaport area, I passed places like Au Bon Pain, Dunkin’, and McDonald’s.”
-	•	“Walking back toward campus, I moved past a few familiar spots near Back Bay station.”
-
-====================
-INPUT FORMAT
-
+### INPUT DATA
 POIs along transitions:
 From Grove Hall (Roxbury) to Snell Library (Fenway):
   - Subway (fast food, 38m from path)
@@ -258,15 +188,37 @@ uEMA self-reports for day 3:
   - 09:44 PM: -Sitting
   - 09:55 PM: ST-Standing
 
-====================
-OUTPUT
+### INSTRUCTIONS
+Follow these steps in order.
 
-Write one continuous first-person diary narrative, covering the whole day from start to finish.
+**STEP 1: DATA MAPPING**
+1. **Locations:** Map every location to "the [Name] area" or "near [Name]." (Never "inside [Name]").
+2. **Activities:** Scan uEMA reports during "STAYS." Look for repeated phrases (e.g., "taking class," "studying," "waiting for friend"). These are your *activities*.
+3. **Transport:** Scan uEMA reports during "MOVEMENTS." Look for keywords like "cycling," "subway," "running," or "train." If found, that is your *mode of transport*.
+4. **ASR Correction:** If a report says "writing subway," interpret as "riding subway." If "standing class," interpret as "attending class."
 
-No lists.
-No bullet points.
-No invented facts.
-No mechanical timestamps.
-A human-sounding diary entry only.
+**STEP 2: NARRATIVE GENERATION**
+Write the diary entry chronologically.
+- **Time Anchors (CRITICAL):** You MUST start every major transition or arrival with a specific time (rounded to the nearest 5-10 mins).
+- **Weave the Logs:** Instead of saying "I stayed there," say "I stayed there, noting that I was [uEMA activity]."
+- **POIs:** Mention 1-2 POIs per trip as landmarks you passed.
 
-Write the diary entry now.
+### STYLE & LOGIC RULES
+**On Timing:**
+- YES: "Around 8:20 PM..."
+- YES: "Shortly after 11:10 AM..."
+- NO: "At 11:12:43..."
+
+**On Activities (The "Human" Touch):**
+- *If uEMA says "Cycling":*
+  - YES: "I headed toward the Downtown area, noting that I was cycling part of the way."
+  - NO: "I went to the Downtown area." (Too vague)
+- *If uEMA says "Friend's office":*
+  - YES: "I arrived around 11:40 AM, recording that I was visiting a friend's office."
+  - NO: "I entered the office building." (Assumes entry not stated)
+- *If uEMA repeats "Taking class":*
+  - YES: "I stayed for several hours, repeatedly recording that I was taking classes."
+  - NO: "I studied hard." (Hallucinated intensity)
+
+### OUTPUT
+Write only the final diary entry. Start directly with the narrative.

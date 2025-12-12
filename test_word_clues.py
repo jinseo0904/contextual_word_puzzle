@@ -9,6 +9,7 @@ import json
 import requests
 import argparse
 import sys
+import time
 from typing import Dict, List, Any
 
 
@@ -53,9 +54,38 @@ def load_pruned_words_json(json_path: str) -> List[str]:
 
 
 def build_full_prompt(template: str, narrative: str, word_list: str) -> str:
-    """Build the complete prompt by replacing placeholders."""
-    full_prompt = template.replace('<<<DAY_SUMMARY>>>', narrative)
-    full_prompt = full_prompt.replace('<<<WORD_LIST>>>', word_list)
+    """Build the complete prompt by replacing placeholders.
+    
+    Handles both old format (<<<DAY_SUMMARY>>>, <<<WORD_LIST>>>) 
+    and new format (<<>> appears twice - first for day summary, second for word list).
+    """
+    # Check for new format with <<>> placeholders
+    if '<<>>' in template:
+        # Count occurrences to determine replacement order
+        occurrences = template.count('<<>>')
+        if occurrences >= 2:
+            # Replace first <<>> with narrative, second with word_list
+            parts = template.split('<<>>', 2)
+            if len(parts) == 3:
+                full_prompt = parts[0] + narrative + parts[1] + word_list + parts[2]
+            else:
+                # Fallback: replace all occurrences in order
+                full_prompt = template.replace('<<>>', narrative, 1)
+                full_prompt = full_prompt.replace('<<>>', word_list, 1)
+                # If there are more, they'll remain (shouldn't happen)
+        elif occurrences == 1:
+            # Only one placeholder - assume it's for the word list (day summary might be elsewhere)
+            full_prompt = template.replace('<<>>', word_list)
+            # Check if narrative is already in template or needs to be added
+            if narrative not in full_prompt:
+                print("Warning: Only one <<>> placeholder found, assuming it's for word list")
+        else:
+            full_prompt = template
+    else:
+        # Old format with explicit placeholders
+        full_prompt = template.replace('<<<DAY_SUMMARY>>>', narrative)
+        full_prompt = full_prompt.replace('<<<WORD_LIST>>>', word_list)
+    
     return full_prompt
 
 
@@ -88,27 +118,100 @@ def query_ollama(prompt: str, model: str = "gpt-oss:20b", ollama_url: str = "htt
 
 
 def parse_json_response(response: str) -> Dict[str, Any]:
-    """Try to extract and parse JSON from the response."""
+    """Try to extract and parse JSON from the response.
+    
+    Handles various response formats:
+    - JSON in markdown code blocks (```json ... ``` or ``` ... ```)
+    - Plain JSON object or array
+    - JSON with extra text before/after
+    - Arrays will be wrapped in {'selected_words': [...]}
+    """
     import re
     
+    if not response or not response.strip():
+        print("Warning: Empty response from LLM")
+        return None
+    
     # Try to find JSON in markdown code blocks first
-    json_match = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', response, re.DOTALL)
-    if json_match:
-        json_str = json_match.group(1)
+    # Look for ```json or ``` followed by content and closing ```
+    code_block_pattern = r'```(?:json)?\s*\n?(.*?)```'
+    code_block_match = re.search(code_block_pattern, response, re.DOTALL)
+    
+    if code_block_match:
+        # Extract content from code block
+        code_content = code_block_match.group(1).strip()
+        # Try to parse the entire code block content as JSON
+        json_str = code_content
     else:
-        # Try to find JSON object directly
-        start_idx = response.find('{')
-        end_idx = response.rfind('}') + 1
+        # No code block found, try to find JSON directly
+        # Check for both objects { and arrays [
+        obj_start = response.find('{')
+        arr_start = response.find('[')
         
-        if start_idx == -1 or end_idx == 0:
+        # Determine which comes first and what type we're dealing with
+        if obj_start == -1 and arr_start == -1:
+            print("Warning: No JSON object or array found in response")
             return None
+        
+        if arr_start != -1 and (obj_start == -1 or arr_start < obj_start):
+            # Array comes first or is the only JSON structure
+            start_idx = arr_start
+            is_array = True
+            open_char = '['
+            close_char = ']'
+        else:
+            # Object comes first
+            start_idx = obj_start
+            is_array = False
+            open_char = '{'
+            close_char = '}'
+        
+        # Find the matching closing bracket/brace by counting
+        bracket_count = 0
+        end_idx = start_idx
+        for i in range(start_idx, len(response)):
+            if response[i] == open_char:
+                bracket_count += 1
+            elif response[i] == close_char:
+                bracket_count -= 1
+                if bracket_count == 0:
+                    end_idx = i + 1
+                    break
+        
+        if bracket_count != 0:
+            print(f"Warning: Unbalanced {open_char}{close_char} in JSON response")
+            # Fallback to last closing bracket/brace
+            end_idx = response.rfind(close_char) + 1
+            if end_idx == 0:
+                print(f"Warning: No closing {close_char} found")
+                return None
+        
         json_str = response[start_idx:end_idx]
     
     try:
-        return json.loads(json_str)
+        parsed = json.loads(json_str)
+        
+        # Handle arrays - wrap them in the expected format
+        if isinstance(parsed, list):
+            print("Note: Response is an array, wrapping in {'selected_words': [...]}")
+            parsed = {'selected_words': parsed}
+        
+        # Validate structure
+        if not isinstance(parsed, dict):
+            print(f"Warning: JSON root is not an object or array (type: {type(parsed)})")
+            return None
+        
+        if 'selected_words' not in parsed:
+            print("Warning: JSON does not contain 'selected_words' key")
+            print(f"Found keys: {list(parsed.keys())}")
+            return None
+        
+        return parsed
     except json.JSONDecodeError as e:
         print(f"Warning: Could not parse JSON: {e}")
-        print(f"JSON string preview: {json_str[:200]}...")
+        print(f"JSON string preview (first 500 chars): {json_str[:500]}...")
+        if len(json_str) > 500:
+            print(f"... (truncated, total length: {len(json_str)} chars)")
         return None
 
 
@@ -120,20 +223,43 @@ def display_results(response: str, parsed_json: Dict[str, Any] = None):
     
     if parsed_json and 'selected_words' in parsed_json:
         selected_words = parsed_json['selected_words']
+        
+        if not isinstance(selected_words, list):
+            print(f"\nWarning: 'selected_words' is not a list (type: {type(selected_words)})")
+            print("\nRaw response:")
+            print(response)
+            print("=" * 80)
+            return
+        
         print(f"\nSelected {len(selected_words)} words from the list:\n")
         
         for i, word_data in enumerate(selected_words, 1):
+            if not isinstance(word_data, dict):
+                print(f"{i}. Invalid word data (not a dict): {word_data}")
+                continue
+                
             word = word_data.get('word', 'N/A')
             clue = word_data.get('clue', 'N/A')
             reasoning = word_data.get('reasoning', 'N/A')
             
-            print(f"{i}. Word: {word.upper()}")
-            print(f"   Clue: {clue}")
-            print(f"   Reasoning: {reasoning}")
+            print(f"{i}. Word: {word.upper() if isinstance(word, str) else word}")
+            print(f"   Clue: {clue if isinstance(clue, str) else 'N/A'}")
+            print(f"   Reasoning: {reasoning if isinstance(reasoning, str) else 'N/A'}")
             print()
+        
+        if len(selected_words) == 0:
+            print("No words were selected by the LLM.")
+            print("This might mean:")
+            print("  - The words didn't match the strict selection criteria")
+            print("  - The narrative doesn't contain relevant details for these words")
+            print("  - The LLM response format was incorrect")
     else:
         print("\nRaw response (JSON parsing failed):")
         print(response)
+        print("\nTroubleshooting:")
+        print("  - Check if the response contains valid JSON")
+        print("  - Verify the response includes 'selected_words' key")
+        print("  - The LLM may have failed to follow the output format")
     
     print("=" * 80)
 
@@ -259,7 +385,10 @@ def main():
     print(f"Model: {args.model}")
     print(f"URL: {args.ollama_url}")
     try:
+        start_time = time.time()
         response = query_ollama(full_prompt, model=args.model, ollama_url=args.ollama_url)
+        end_time = time.time()
+        llm_duration = end_time - start_time
     except Exception as e:
         print(f"\nError: {e}", file=sys.stderr)
         sys.exit(1)
@@ -286,6 +415,7 @@ def main():
     print("=" * 80)
     print("Test completed!")
     print("=" * 80)
+    print(f"\n[DEBUG] LLM generation took {llm_duration:.2f} seconds ({llm_duration/60:.2f} minutes)")
 
 
 if __name__ == "__main__":

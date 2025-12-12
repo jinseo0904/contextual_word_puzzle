@@ -1,0 +1,524 @@
+```json
+[
+  {
+    "word":"after",
+    "usable":true,
+    "construct":"routine",
+    "ema_question":"After lunch?",
+    "options":["Yes","No","Maybe"],
+    "generic_clue":"You earlier answered the question 'After lunch?'. You said it was ______.",
+    "response_clues":{
+      "Yes":"You said you did it after ______.",
+      "No":"You said you did it before ______.",
+      "Maybe":"You said you might do it after ______."
+    }
+  },
+  {
+    "word":"free",
+    "usable":true,
+    "construct":"time",
+    "ema_question":"Free time?",
+    "options":["Yes","No","Busy"],
+    "generic_clue":"You earlier answered the question 'Free time?'. You said you had ______.",
+    "response_clues":{
+      "Yes":"You said you had free time ______.",
+      "No":"You said you had no free time ______.",
+      "Busy":"You said you were busy, no free time ______."
+    }
+  },
+  {
+    "word":"area",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"near",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"front",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rate",
+    "usable":false,
+    "reason":"Not a behavior question."
+  },
+  {
+    "word":"offer",
+    "usable":true,
+    "construct":"socialization",
+    "ema_question":"Offer help?",
+    "options":["Yes","No","Not yet"],
+    "generic_clue":"You earlier answered the question 'Offer help?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you offered help ______.",
+      "No":"You said you did not offer help ______.",
+      "Not yet":"You said you have not yet offered help ______."
+    }
+  },
+  {
+    "word":"fear",
+    "usable":false,
+    "reason":"Emotion not a concrete behavior."
+  },
+  {
+    "word":"effort",
+    "usable":false,
+    "reason":"Abstract effort not a concrete behavior."
+  },
+  {
+    "word":"tree",
+    "usable":true,
+    "construct":"environment",
+    "ema_question":"Saw a tree?",
+    "options":["Yes","No","Not yet"],
+    "generic_clue":"You earlier answered the question 'Saw a tree?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you saw a tree ______.",
+      "No":"You said you did not see a tree ______.",
+      "Not yet":"You said you have not yet seen a tree ______."
+    }
+  },
+  {
+    "word":"enter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rare",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"treat",
+    "usable":true,
+    "construct":"diet",
+    "ema_question":"Got a treat?",
+    "options":["Yes","No","Maybe"],
+    "generic_clue":"You earlier answered the question 'Got a treat?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you got a treat ______.",
+      "No":"You said you did not get a treat ______.",
+      "Maybe":"You said you might get a treat ______."
+    }
+  },
+  {
+    "word":"afternoon",
+    "usable":false,
+    "reason":"Not a behavior question."
+  },
+  {
+    "word":"rent",
+    "usable":true,
+    "construct":"routine",
+    "ema_question":"Paid rent?",
+    "options":["Yes","No","Not yet"],
+    "generic_clue":"You earlier answered the question 'Paid rent?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you paid rent ______.",
+      "No":"You said you did not pay rent ______.",
+      "Not yet":"You said you have not yet paid rent ______."
+    }
+  },
+  {
+    "word":"error",
+    "usable":false,
+    "reason":"Not a behavior question."
+  },
+  {
+    "word":"roof",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"earn",
+    "usable":true,
+    "construct":"habit",
+    "ema_question":"Earned money?",
+    "options":["Yes","No","Almost"],
+    "generic_clue":"You earlier answered the question 'Earned money?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you earned money ______.",
+      "No":"You said you did not earn money ______.",
+      "Almost":"You said you almost earned money ______."
+    }
+  },
+  {
+    "word":"fort",
+    "usable":false,
+    "reason":"Too rare for typical behavior."
+  },
+  {
+    "word":"refer",
+    "usable":true,
+    "construct":"socialization",
+    "ema_question":"Refer someone?",
+    "options":["Yes","No","Not yet"],
+    "generic_clue":"You earlier answered the question 'Refer someone?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you referred someone ______.",
+      "No":"You said you did not refer someone ______.",
+      "Not yet":"You said you have not yet referred someone ______."
+    }
+  },
+  {
+    "word":"rear",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"root",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tear",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"arena",
+    "usable":true,
+    "construct":"activity",
+    "ema_question":"Visited arena?",
+    "options":["Yes","No","Not yet"],
+    "generic_clue":"You earlier answered the question 'Visited arena?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you visited an arena ______.",
+      "No":"You said you did not visit an arena ______.",
+      "Not yet":"You said you have not yet visited an arena ______."
+    }
+  },
+  {
+    "word":"terror",
+    "usable":false,
+    "reason":"Emotion, not a concrete behavior."
+  },
+  {
+    "word":"retreat",
+    "usable":false,
+    "reason":"Too rare for typical behavior."
+  },
+  {
+    "word":"torn",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"fare",
+    "usable":true,
+    "construct":"routine",
+    "ema_question":"Paid fare?",
+    "options":["Yes","No","Not yet"],
+    "generic_clue":"You earlier answered the question 'Paid fare?'. You said you ______.",
+    "response_clues":{
+      "Yes":"You said you paid fare ______.",
+      "No":"You said you did not pay fare ______.",
+      "Not yet":"You said you have not yet paid fare ______."
+    }
+  },
+  {
+    "word":"referee",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"reef",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"narrator",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rotten",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tore",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"roar",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rant",
+    "usable":false,
+    "reason":"Too rare for typical behavior."
+  },
+  {
+    "word":"rotate",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"forefront",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"raft",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"terra",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"torrent",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"eater",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rotor",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tenor",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"otter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tart",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"nero",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"afar",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"fern",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"fret",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"forte",
+    "usable":false,
+    "reason":"Not a concrete behavior."
+  },
+  {
+    "word":"trot",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"fanfare",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"ornate",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"ferret",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"entrant",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"taro",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"aorta",
+    "usable":false,
+    "reason":"Medical term, no behavior mapping."
+  },
+  {
+    "word":"errant",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rote",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tartan",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"orator",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"affront",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"retort",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tartar",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"narrate",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"entree",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"renter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rotator",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rafter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"errata",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"reenter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"teeter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tare",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"entreat",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"roofer",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"rennet",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"totter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"natter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"fetter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"aerate",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"aerator",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"forenoon",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"treater",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"ranter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"annotator",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"offerer",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"tooter",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  },
+  {
+    "word":"terreen",
+    "usable":false,
+    "reason":"No clear behavior mapping."
+  }
+]
+```

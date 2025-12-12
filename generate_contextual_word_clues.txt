@@ -96,7 +96,7 @@ Do NOT include words you did not select. Do NOT invent new words.
 NOW USE THIS ON THE ACTUAL INPUT
 
 Day summary:
-<<<DAY_SUMMARY>>>
+<<>>
 
 Candidate words:
-<<<WORD_LIST>>>
+<<>>

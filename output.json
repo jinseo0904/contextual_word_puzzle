@@ -1,0 +1,127 @@
+[
+  {
+    "word": "true",
+    "clue": "It is _______ that you spent a long time at Snell Library today.",
+    "strategy_used": "Idiom"
+  },
+  {
+    "word": "current",
+    "clue": "You moved with the _______ of the crowd between classes.",
+    "strategy_used": "Idiom"
+  },
+  {
+    "word": "center",
+    "clue": "You found yourself in the _______ of activity at the Seaport.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "return",
+    "clue": "You made a _______ to Grove Hall after a busy day.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "recent",
+    "clue": "The _______ events of the day left you exhausted.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "century",
+    "clue": "You felt like you were living in a different _______ when you walked through the old campus buildings.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "centre",
+    "clue": "You were at the _______ of the library, surrounded by stacks.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "tree",
+    "clue": "You passed several _______ on your walk from Grove Hall to Snell Library.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "cent",
+    "clue": "You paid a small amount, maybe a few _______ for a coffee.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "enter",
+    "clue": "You _______ into the library and settled in for a study session.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "entry",
+    "clue": "Your _______ into the campus was through the main gate.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "cute",
+    "clue": "You spotted a _______ mascot at the Seaport.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "rent",
+    "clue": "You had to _______ a seat in the library during peak hours.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "currency",
+    "clue": "You treated your time as the campus _______ for the day.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "teen",
+    "clue": "You felt like a _______ again during your walk.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "cure",
+    "clue": "You found a _______ for your fatigue by taking a nap.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "tune",
+    "clue": "You marched to the beat of your own _______ today.",
+    "strategy_used": "Idiom"
+  },
+  {
+    "word": "terry",
+    "clue": "You noticed a _______ pattern on the library carpet.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "turner",
+    "clue": "You were a _______ of the day, turning from class to class.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "runner",
+    "clue": "You were a _______ of the campus, moving quickly between locations.",
+    "strategy_used": "Implicit"
+  },
+  {
+    "word": "tent",
+    "clue": "You certainly didn't see a _______ in the library.",
+    "strategy_used": "Negative"
+  },
+  {
+    "word": "tenure",
+    "clue": "You certainly didn't see _______ in the library.",
+    "strategy_used": "Negative"
+  },
+  {
+    "word": "utter",
+    "clue": "You felt _______ exhausted after the long day.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "cutter",
+    "clue": "You used a _______ to cut your notes during study.",
+    "strategy_used": "Vibe"
+  },
+  {
+    "word": "erect",
+    "clue": "You stood _______ during the lecture.",
+    "strategy_used": "Vibe"
+  }
+]

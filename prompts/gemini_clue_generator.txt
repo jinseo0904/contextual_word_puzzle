@@ -1,41 +1,9 @@
 ### INPUT DATA
 Day summary:
-I woke up and after a bit, I was already getting ready to leave Grove Hall. It was good to finally get going. The walk toward the Snell Library area passed by a few familiar spots—I noticed a Subway and a Dunkin’ along the way. Once I arrived at Snell, I didn’t stay long before heading over to Northeastern University, just a short walk. 
-
-I spent a good chunk of time sitting and reviewing course material there, then made my way back to Snell Library. I sat for a while again before deciding to head to the Seaport area. The walk was a bit longer, and I remember thinking about catching the train at some point, and even noting I was riding subway as I went – I think I meant I was taking it. I was meeting a friend in Seaport, and I was walking to their office. There was a lot of sitting around waiting in the lobby, and I kept finding myself sitting again, really just taking it easy.
-
-After a couple of hours, I started walking back toward school. I caught the train for a bit, just sitting and relaxing. Once back on campus, I walked into a class and settled in to sit for a while again. I spent a lot of the afternoon sitting, doing work, and occasionally walking to the bathroom. 
-
-Eventually, I walked back to Snell Library and spent a good part of the evening there. I kept sitting, taking classes, or working on assignments. I remember craving being back in the library at one point. There was a lot of sitting and taking classes, and even a bit of walking around. I walked to the bathroom once or twice. 
-
-Finally, after a long day, I started walking back to Grove Hall. I noticed a few things along the way—Farmer Horse Coffee, a Starbucks, and the Ruggles stop. It was nice to be heading back, and soon enough I was there, getting settled in for the night. I sat for a little while before finally calling it a day.
+<<>>
 
 Candidate words:
-true
-current
-center
-return
-recent
-century
-centre
-tree
-cent
-enter
-entry
-cute
-rent
-currency
-teen
-cure
-tune
-terry
-turner
-runner
-tent
-tenure
-utter
-cutter
-erect
+<<>>
 
 ### INSTRUCTIONS
 For EACH word in the "Target Word List", generate a single sentence clue. The target word must be the answer to the blank (represented by "_______") in the sentence.

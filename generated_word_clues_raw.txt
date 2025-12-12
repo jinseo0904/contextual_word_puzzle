@@ -1,0 +1,154 @@
+```json
+[
+  {
+    "word": "true",
+    "clue": "Your routine felt _________ during the entire day.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 6
+  },
+  {
+    "word": "current",
+    "clue": "You followed the current of traffic when heading to the subway.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 8
+  },
+  {
+    "word": "center",
+    "clue": "You found yourself in the _________ of campus as you moved from the library to Seaport.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 5
+  },
+  {
+    "word": "return",
+    "clue": "You were _________ back to Grove Hall after the long day.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 9
+  },
+  {
+    "word": "recent",
+    "clue": "You had a _________ visit to the Snell Library earlier that day.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 9
+  },
+  {
+    "word": "century",
+    "clue": "Your day felt like a brief _________ of learning.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "centre",
+    "clue": "Your thoughts were at the _________ of your study.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 5
+  },
+  {
+    "word": "tree",
+    "clue": "The campus layout reminded you of a _________, with paths branching like limbs.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "cent",
+    "clue": "You didn't spend a _________ during your coffee stops.",
+    "bridge_strategy": "Contrast",
+    "relevance_score": 6
+  },
+  {
+    "word": "enter",
+    "clue": "You had to _________ the library to access the study materials.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 9
+  },
+  {
+    "word": "entry",
+    "clue": "The _________ to the Seaport office felt welcoming.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 8
+  },
+  {
+    "word": "cute",
+    "clue": "The coffee shop at Ruggles stop was surprisingly _________.",
+    "bridge_strategy": "Direct",
+    "relevance_score": 8
+  },
+  {
+    "word": "rent",
+    "clue": "You did not have to pay _________ for your nights at Grove Hall.",
+    "bridge_strategy": "Contrast",
+    "relevance_score": 7
+  },
+  {
+    "word": "currency",
+    "clue": "The _________ of your time was measured in hours of study.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 6
+  },
+  {
+    "word": "teen",
+    "clue": "You felt like a _________ on campus during the walk to the library.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "cure",
+    "clue": "Your study session felt like a _________ for boredom.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "tune",
+    "clue": "Your footsteps matched a subtle _________ as you moved.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 5
+  },
+  {
+    "word": "terry",
+    "clue": "The library’s cozy chairs felt like a _________ towel.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "turner",
+    "clue": "Your day turned like a _________ of pages in a book.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "runner",
+    "clue": "You were not a _________ during your lengthy walks.",
+    "bridge_strategy": "Contrast",
+    "relevance_score": 7
+  },
+  {
+    "word": "tent",
+    "clue": "Your study nook was a small _________ for ideas.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "tenure",
+    "clue": "Your stay in the library felt like a brief _________ of learning.",
+    "bridge_strategy": "Thematic",
+    "relevance_score": 5
+  },
+  {
+    "word": "utter",
+    "clue": "You did not _________ a single word while waiting in the lobby.",
+    "bridge_strategy": "Contrast",
+    "relevance_score": 6
+  },
+  {
+    "word": "cutter",
+    "clue": "You sliced through your schedule like a _________.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  },
+  {
+    "word": "erect",
+    "clue": "You felt almost _________ while sitting for long periods.",
+    "bridge_strategy": "Metaphorical",
+    "relevance_score": 4
+  }
+]
+```

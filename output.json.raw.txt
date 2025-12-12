@@ -1,0 +1,7 @@
+```json
+{
+  "word": "{{CURRENT_WORD}}",
+  "clue": "You walked against the _______ of the crowd.",
+  "strategy_used": "Idiom"
+}
+```
