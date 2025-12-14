@@ -1,0 +1,155 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-22
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-22.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- describe (freq: 0.000036)
+- building (freq: 0.000195)
+- midnight (freq: 0.000020)
+- landmark (freq: 0.000008)
+- justice (freq: 0.000093)
+- payment (freq: 0.000046)
+- cigarette (freq: 0.000012)
+- privilege (freq: 0.000016)
+- commitment (freq: 0.000027)
+- enormous (freq: 0.000018)
+
+Randomly selected candidate: midnight
+Selected seed word: midnight
+
+[2/4] Generating spelling bee puzzle for seed word 'midnight'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'midnight'
+✓ Found 23 words for candidate 'midnight' with center letter 'd'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'minding' (freq: 1.32e-06) because it contains 'mind' (freq: 2.57e-04) [affix]
+
+✓ Generated puzzle with 22 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: MIDNIGHT
+Clue: 
+Distinct letters: d, g, h, i, m, n, t
+Center letter: d (required in all words)
+Total valid words: 22
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. mind                 (freq: 2.57e-04)
+   2. hiding               (freq: 2.09e-05)
+   3. midnight             (freq: 2.04e-05)
+   4. dining               (freq: 1.38e-05)
+   5. digging              (freq: 9.77e-06)
+   6. hindi                (freq: 6.61e-06)
+   7. digit                (freq: 5.89e-06)
+   8. ding                 (freq: 4.27e-06)
+   9. hind                 (freq: 3.16e-06)
+  10. timid                (freq: 1.78e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+✓ Loaded 22 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 6 words with frequency 0.0
+  Examples: dimit, indign, midding, niding, nitid, tingid
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 7 words always included (frequency > threshold)
+✓ 9 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 9 words in batches of 5...
+
+  Processing batch 1/2 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/2 (4 words)...
+    Sending 4 words with definitions to LLM
+    Result: 0 kept, 4 removed
+
+✓ Processed 2 batch(es)
+  Kept: 3 words
+  Removed: 6 words
+
+  ✓ All 3 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 6
+
+Word: dight
+Reason: Both senses of 'dight' (to prepare or to have sex) are archaic and not in common use (Category 1). The word is obscure and would not be guessed by a general audience.
+
+Word: dint
+Reason: The noun and verb usage of 'dint' is archaic and rare (Category 1: obsolete/rare words). Even though the phrase 'by dint of' is somewhat familiar, the standalone word is unlikely to be guessed by most adults.
+
+Word: ditt
+Reason: Obscure, archaic reference; not known by general audience, criterion 1.
+
+Word: indin
+Reason: Highly specialized chemical term describing a red crystalline substance; falls under criterion 7 (specialized scientific terminology).
+
+Word: tiding
+Reason: Old word meaning 'tidings'; it is archaic and uncommon, meeting criterion 1.
+
+Word: tind
+Reason: Obsolete term for 'to kindle'; not recognizable to typical adults and therefore falls under criterion 1 (archaic/very rare).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-22.json
+✓ Saved 10 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 22
+  - Removed (frequency = 0.0): 6
+  - Always included (frequency > 5e-06): 7
+  - Processed by LLM: 9
+    * Kept: 3
+    * Removed: 6
+Final words: 10
+Total removed: 12 (54.5%)
+  - Zero frequency: 6
+  - Removed by LLM: 6
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-22.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-22.log
+======================================================================

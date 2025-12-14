@@ -5,12 +5,12 @@ import json
 import re
 
 # ==========================================
-# THREE-TIER GENERATION PROMPT
+# CONTEXTUAL GENERATION PROMPT (v5)
 # ==========================================
 CLUE_GENERATION_PROMPT = """
 ### CONTEXT
-You are a game engine for a puzzle based on a specific daily diary.
-Your goal is to write solvable clues for a "Fill-in-the-blank" game.
+You are a game engine generating puzzle clues from a user's diary.
+The user must fill in the blank "_______" to guess the word.
 
 ### INPUT DATA
 **Diary:**
@@ -20,41 +20,37 @@ Your goal is to write solvable clues for a "Fill-in-the-blank" game.
 {WORD_LIST}
 
 ### INSTRUCTION
-Select exactly **5 words** from the list.
-For each, write a clue sentence with a blank "_______".
+Select all words that can *factually* describe the diary events.
+Write a clue for each using one of the **Accepted Framing Strategies**.
 
-### STRATEGY GUIDE (Use the highest tier possible)
+### ACCEPTED FRAMING STRATEGIES
+1. **Time/Space Labeling:** Use the word to label *when* or *where* something happened.
+   - *Word:* AFTERNOON. *Diary:* User was at library at 2 PM.
+   - *Clue:* "You spent a good chunk of this _______ studying at Snell Library."
+   - *Word:* AREA. *Diary:* User went to Seaport.
+   - *Clue:* "You traveled to the Seaport _______ today."
 
-**TIER 1: DIRECT MATCH (Best)**
-If the word (or a variation) appears in the text or names a POI.
-- *Example:* Diary has "Caffe Nero". Word is "NERO".
-- *Clue:* "At 1:51 PM, you passed a coffee spot called Caffè _______."
+2. **Logical Association:** Use a word that is physically necessary for an object/action in the diary.
+   - *Word:* FARE. *Diary:* User took the subway.
+   - *Clue:* "You probably paid _______ today when taking the subway."
+   - *Word:* EATER. *Diary:* User passed a restaurant.
+   - *Clue:* "You passed Sweet Tomatoes, a likely stop for a hungry _______."
 
-**TIER 2: CATEGORY MATCH**
-If the word describes a *type* of place you passed.
-- *Example:* Diary has "Sweet Tomatoes". Word is "EATER".
-- *Clue:* "At 9:07 AM, you passed Sweet Tomatoes, a likely stop for a hungry _______." (Hypothetical Role).
-- *Example:* Diary has "Library". Word is "ENTER".
-- *Clue:* "Around 8:27 AM, you arrived to _______ the library."
+3. **Action Paraphrasing:** Use the word to describe a movement mentioned in the text.
+   - *Word:* REENTER. *Diary:* User went back to library.
+   - *Clue:* "You went to Snell in the morning, and then you _______-ed it after class."
 
-**TIER 3: ABSTRACT / VIBE (Fallback)**
-If the word has no physical link, use a metaphor about the *feeling* or *movement*.
-- *Example:* Diary has "Rushed". Word is "RATE".
-- *Clue:* "At 9:05 AM, you moved with speed, increasing your heart _______."
-- *Avoid:* "You saw a RATE sign." (Fake detail).
-
-### MANDATORY RULES
-1. **START** every clue with a specific Time Anchor (e.g. "At 9:05 AM...").
-2. **DO NOT INVENT VISUALS.** Do not say "You saw a tree" if the diary doesn't mention a tree.
-3. **DO NOT INVENT ACTIONS.** Do not say "You ate" if the diary only says "passed".
+### BANNED STRATEGIES (Strict)
+- **NO IMAGINATION:** Do not say "You imagined an AERATOR" or "You moved like an OTTER."
+- **NO FAKE FEELINGS:** Do not say "You felt FEAR" unless the diary explicitly says "I was scared."
 
 ### OUTPUT FORMAT
-Output ONLY a valid JSON list:
+Output ONLY a valid JSON list.
 [
   {
-    "word": "NERO",
-    "clue": "At 1:51 PM, you passed a coffee spot called Caffè _______.",
-    "bridge_strategy": "Tier 1: Direct Name",
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
     "relevance_score": 5
   }
 ]

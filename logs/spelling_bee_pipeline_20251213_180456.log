@@ -1,0 +1,772 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-04
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-04.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- gradually (freq: 0.000016)
+- brigade (freq: 0.000008)
+- yesterday (freq: 0.000081)
+- anxiety (freq: 0.000028)
+- emphasis (freq: 0.000016)
+- although (freq: 0.000200)
+- aggressive (freq: 0.000021)
+- routine (freq: 0.000023)
+- diabetes (freq: 0.000015)
+- numbers (freq: 0.000096)
+
+Randomly selected candidate: although
+Selected seed word: although
+
+[2/4] Generating spelling bee puzzle for seed word 'although'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'although'
+✓ Found 91 words for candidate 'although' with center letter 't'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'atoll' (freq: 7.08e-07) because it contains 'toll' (freq: 1.20e-05) [frequency]
+  - Dropped 'loath' (freq: 4.68e-07) because it contains 'oath' (freq: 9.12e-06) [frequency]
+  - Dropped 'gagtooth' (freq: 0.00e+00) because it contains 'tooth' (freq: 1.20e-05) [frequency]
+
+✓ Generated puzzle with 88 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: ALTHOUGH
+Clue: 
+Distinct letters: a, g, h, l, o, t, u
+Center letter: t (required in all words)
+Total valid words: 88
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. that                 (freq: 1.02e-02)
+   2. thought              (freq: 3.89e-04)
+   3. though               (freq: 3.16e-04)
+   4. although             (freq: 2.00e-04)
+   5. total                (freq: 1.62e-04)
+   6. tough                (freq: 5.89e-05)
+   7. taught               (freq: 4.79e-05)
+   8. tool                 (freq: 3.63e-05)
+   9. tall                 (freq: 3.31e-05)
+  10. ought                (freq: 2.24e-05)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+✓ Loaded 88 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 15 words with frequency 0.0
+  Examples: agouta, glout, gult, hautgout, houtou, loggat, loutou, outhaul, outlaugh, tath...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 17 words always included (frequency > threshold)
+✓ 56 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 56 words in batches of 5...
+
+  Processing batch 1/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 2/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 3/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 4/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 5/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 6/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['anything']
+    Result: 0 kept, 5 removed
+  Processing batch 7/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 8/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 9/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 10/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 11/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/12 (1 words)...
+    Sending 1 words with definitions to LLM
+    Result: 0 kept, 1 removed
+
+✓ Processed 12 batch(es)
+  Kept: 16 words
+  Removed: 40 words
+
+  ✓ All 16 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 40
+
+Word: altho
+Reason: An archaic or reformed spelling of "although"; not commonly known by typical adults.
+
+Word: attal
+Reason: Obsolete and extremely rare word; typical adults would not know it.
+
+Word: aught
+Reason: Obsolete/archaic word with very low frequency; typical adults would not know it.
+
+Word: galoot
+Reason: Slang noun for a worthless or noisy fellow; not widely known or easily guessed (Category 8).
+
+Word: galt
+Reason: An obscure or undefined term with no widespread usage; not recognizable in everyday vocabulary.
+
+Word: gault
+Reason: Geological term for clay beds; specialized scientific vocabulary.
+
+Word: ghat
+Reason: Geographical term used mainly in Indian context; too niche for a general audience.
+
+Word: ghaut
+Reason: Indian term for a mountain pass or range; highly specialized and unlikely to be guessed.
+
+Word: glottal
+Reason: Specialized phonetic/linguistic term; not common in everyday language.
+
+Word: golgotha
+Reason: Esoteric religious term; unlikely to be known by most people.
+
+Word: goot
+Reason: Archaic word for goat; not used in modern English.
+
+Word: gutta
+Reason: Specialized architectural term; not part of everyday vocabulary.
+
+Word: hath
+Reason: Archaic form of 'has', rare and not expected to be known by general audiences. (Criterion 1)
+
+Word: haught
+Reason: Archaic adjective for 'haughty'; obsolete and not expected in general vocabulary (criterion 1).
+
+Word: hault
+Reason: Obsolete word meaning 'lofty; haughty'; too rare for general audiences (Category 1).
+
+Word: haut
+Reason: Obsolete adjective meaning haughty; unlikely to be guessed by a general audience.
+
+Word: holt
+Reason: Obsolete, archaic word meaning a piece of woodland; very low frequency and unlikely to be known by typical adults. (Criterion 1)
+
+Word: hoult
+Reason: Obsolete word meaning a small wood; not in common usage.
+
+Word: lata
+Reason: Niche medical/psychiatric term describing a specific neurosis; not common knowledge.
+
+Word: latah
+Reason: Specific neurological condition among Malays; specialized medical terminology (criterion 7).
+
+Word: lath
+Reason: Craft/industrial term used mainly in construction; not everyday vocabulary.
+
+Word: loth
+Reason: Obsolete variant of "loath"; not recognized by typical adults.
+
+Word: loto
+Reason: Redirect to a less common form of 'Lotto'; not a commonly recognized standalone word (criterion 1).
+
+Word: luth
+Reason: Specific animal species (leatherback turtle); falls under specialized animal terms (criterion 3).
+
+Word: otto
+Reason: A proper name with obscure reference; not a common everyday word. (Criterion 8)
+
+Word: tagal
+Reason: Regional name for a specific ethnic group; not widely recognized in general English.
+
+Word: tagalog
+Reason: The word refers to a specific language and ethnic group, which is too niche for general-audience puzzles. It falls under the guideline of removing specialized or uncommon terms that typical adults would not know or guess easily.
+
+Word: taha
+Reason: Specific species of African bird; falls under specific animal species that general adults would not know.
+
+Word: tatou
+Reason: Specific animal species (giant armadillo); too narrow for general recognition (Category 3).
+
+Word: tatt
+Reason: Obsolete, niche craft term; not widely known to typical adults (criterion 1).
+
+Word: tatta
+Reason: Very obscure, culturally specific term with very low frequency; typical adults would not know it.
+
+Word: tatu
+Reason: Obscure word for an armadillo; not widely known.
+
+Word: tautog
+Reason: Specific fish species; specialized terminology unsuitable for general puzzle (Category 3).
+
+Word: thaught
+Reason: Archaic synonym for "thwart"; uncommon in modern usage.
+
+Word: thoth
+Reason: Specific mythological deity; niche knowledge unlikely to be guessed by general adults.
+
+Word: tola
+Reason: Obsolete/archaic unit of weight from British India; extremely rare.
+
+Word: tolt
+Reason: Obscure legal writ; not a common everyday concept (Category 1).
+
+Word: tolu
+Reason: Specialized botanical term for a balsam tree; not a common everyday word.
+
+Word: tota
+Reason: Specific animal species (the grivet monkey); not widely known.
+
+Word: tull
+Reason: Obsolete verb with very low frequency; typical adults would not know it.
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-04.json
+✓ Saved 33 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 88
+  - Removed (frequency = 0.0): 15
+  - Always included (frequency > 5e-06): 17
+  - Processed by LLM: 56
+    * Kept: 16
+    * Removed: 40
+Final words: 33
+Total removed: 55 (62.5%)
+  - Zero frequency: 15
+  - Removed by LLM: 40
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-04.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-04.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-04.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, HIGH_EXERTION, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, AUDIBLE_MOVEMENT, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, SOCIAL_ATMOSPHERE, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, AUDIBLE_MOVEMENT, DISTRACTED, LOUD_ENVIRONMENT, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, AUDIBLE_MOVEMENT, DISTRACTED, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, QUIET_ATMOSPHERE, HEAVY_PHONE_USE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>LOUD_ENVIRONMENT, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM – 8:27 AM. Woke up in Grove Hall, Roxbury. It was a quiet morning, a little bit of a social atmosphere too. Just easing into the day.
+
+8:27 AM. Rushed out of Grove Hall and headed towards Snell Library in Fenway. I cycled, then sat for a moment catching my breath. Passed a string of places – Subway, and of course, a Dunkin’. 
+
+8:54 AM. Got into Snell Library, feeling the pressure already. I was walking to class, leaving Snell. The library was bustling.
+
+9:05 AM. Hurried from Snell Library to Northeastern University, also in Fenway. I was glued to my screen, distracted, and trying to get there quickly. So many spots around - Argo Tea, Sweet Tomatoes Pizza, Tu Taco, even the Boston Globe Library, Dunkin', and Burger 373.
+
+9:07 AM – 10:17 AM. Settled down at Northeastern University, repeating course material. It was loud, but a strange mix of social and quiet. I was just sitting there.
+
+10:17 AM. Power-walked back to Snell Library. Passed Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, and Chaat House along the way.
+
+10:20 AM – 11:09 AM. Back at Snell Library, just sitting, trying to focus. It was quiet, with just the audible movement of other students.
+
+11:09 AM. Raced out of Snell Library, running to the train station to get to Seaport. I was writing to confirm Subway plans. So many places blurred by – Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne’s, the Boston Wharf Co. Sign, Back Bay, Row 34, and Caffé Strega.
+
+11:42 AM – 1:51 PM. Arrived at Amazon Boston in Seaport, walking to my friend's office. Settled into the lobby, then sat, waiting for her. Just sitting there, but my mind felt…older. I walked to the bathroom briefly.
+
+1:51 PM. Hurried back towards school, leaving Amazon Boston. I was sitting on the train, heading back to Snell Library. Passed Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, and Lolita.
+
+2:18 PM – 2:48 PM. Back at Snell Library, just sitting. A mix of quiet and social energy, with the audible movement of people and the general noise.
+
+2:48 PM. Power-walked over to Ryder Hall, also in Fenway, passing Subway and Dunkin'.
+
+2:50 PM – 4:45 PM. Walked into class at Ryder Hall, then sat. Was walking around during class. It was distracted, but a quiet atmosphere with a little bit of social energy.
+
+4:45 PM. Rushed back to Snell Library, passing the Subway.
+
+4:49 PM – 9:21 PM. Back at Snell Library, craving to be back. Just sat down, taking courses. Walked to the bathroom. Sat down taking class. Sat down taking class in the library. Sat down patient taking class in the snow. Sat down taking classes now. Sitting down taking classes. Opening the door standing. Sat down. Sat down doing homework. Sat down assigning. Walking in the library.
+
+9:21 PM. Left Snell Library, heading back to Grove Hall. Passed ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, and Uphams Corner along the way.
+
+9:45 PM – 11:59 PM. Back in Grove Hall. Standing. Quiet atmosphere. Social atmosphere. Loud environment. Focused observation.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "TOTAL",
+    "clue": "Counting all the times you sat down, the _______ is surprisingly high.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "THOUGH",
+    "clue": "The library was bustling with noise, _______ you found moments of quiet to focus.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "THAT",
+    "clue": "You spent a good portion of the day at Snell Library, _______ is clear from your diary.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "THOUGHT",
+    "clue": "After arriving at Amazon Boston, you had a _______ that your mind felt older.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ALTHOUGH",
+    "clue": "The environment was often loud, _______ you were still able to study.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOUGH",
+    "clue": "The day felt _______, with constant rushing between buildings and classes.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TAUGHT",
+    "clue": "After arriving at Northeastern, you were _______ a course while glued to your screen.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOOL",
+    "clue": "Your laptop was an essential _______ for taking courses at Snell Library and Northeastern.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TALL",
+    "clue": "You passed numerous _______ buildings on your way from Seaport to Grove Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "OUGHT",
+    "clue": "You _______ to have rested after a long day of running between Snell and Northeastern.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TOLL",
+    "clue": "The constant back and forth between Snell Library and other locations felt like a _______ on your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TOOTH",
+    "clue": "Between the constant rushing and sitting, your day felt like a painful _______ extraction.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GOAT",
+    "clue": "You were constantly rushing from place to place, acting like a tireless _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "HALT",
+    "clue": "Several times throughout the day, you came to a _______ at Snell Library, just sitting and trying to focus.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when taking the train to Seaport at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "HALT",
+    "clue": "At 9:45 PM, you came to a _______ in Grove Hall, standing in a quiet atmosphere.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TOOT",
+    "clue": "You repeatedly went back and forth, almost as if sounding a _______ with your movements between Snell Library and other locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ today when you took the train to Seaport at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TOUT",
+    "clue": "You passed Dunkin' so many times, you could _______ its coffee to anyone!",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GLUT",
+    "clue": "You passed an overwhelming _______ of Dunkin' and Subway locations today.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "ALLOT",
+    "clue": "You _______-ed a significant portion of your day to studying at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "TAUT",
+    "clue": "Your schedule seemed particularly _______, rushing between Snell, Northeastern, and Amazon Boston.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "OUTGO",
+    "clue": "The diary details numerous instances of your _______, travelling between Grove Hall, Snell Library, Northeastern, and Seaport.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "OUTGO",
+    "clue": "Your various trips between locations demonstrate a significant amount of _______.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  }
+]
+[
+  {
+    "word": "THAT",
+    "clue": "One"
+  },
+  {
+    "word": "THOUGHT",
+    "clue": "Idea that pops into your head"
+  },
+  {
+    "word": "THOUGH",
+    "clue": "Despite this"
+  },
+  {
+    "word": "ALTHOUGH",
+    "clue": "___ it's raining, we'll still have a picnic"
+  },
+  {
+    "word": "TOTAL",
+    "clue": "Complete sum"
+  },
+  {
+    "word": "TOUGH",
+    "clue": "Resilient, like old leather"
+  },
+  {
+    "word": "TAUGHT",
+    "clue": "Imparted knowledge, past tense"
+  },
+  {
+    "word": "TOOL",
+    "clue": "Hammer or screwdriver, for example"
+  },
+  {
+    "word": "TALL",
+    "clue": "High in stature"
+  },
+  {
+    "word": "OUGHT",
+    "clue": "Should, in a moral sense"
+  },
+  {
+    "word": "THOU",
+    "clue": "Archaic second-person pronoun"
+  },
+  {
+    "word": "TATTOO",
+    "clue": "Permanent skin art"
+  },
+  {
+    "word": "TOLL",
+    "clue": "Price paid for road use, perhaps"
+  },
+  {
+    "word": "TOOTH",
+    "clue": "Part of a smile"
+  },
+  {
+    "word": "GOAT",
+    "clue": "Animal known for eating anything"
+  },
+  {
+    "word": "OATH",
+    "clue": "Solemn promise"
+  },
+  {
+    "word": "HALT",
+    "clue": "Come to a stop"
+  },
+  {
+    "word": "LOOT",
+    "clue": "Pirate's treasure"
+  },
+  {
+    "word": "THUG",
+    "clue": "A tough, lawless person"
+  },
+  {
+    "word": "ALTO",
+    "clue": "Voice range lower than soprano"
+  },
+  {
+    "word": "GOTH",
+    "clue": "Darkly romantic style"
+  },
+  {
+    "word": "LOTTO",
+    "clue": "Numbers game with a jackpot"
+  },
+  {
+    "word": "TOUT",
+    "clue": "Promote enthusiastically"
+  },
+  {
+    "word": "GOUT",
+    "clue": "Painful joint inflammation"
+  },
+  {
+    "word": "TOOT",
+    "clue": "Brief horn sound"
+  },
+  {
+    "word": "HOOT",
+    "clue": "Owl's sound"
+  },
+  {
+    "word": "TAUT",
+    "clue": "Like a stretched rubber band"
+  },
+  {
+    "word": "GLUT",
+    "clue": "Excessive amount"
+  },
+  {
+    "word": "ALLOT",
+    "clue": "Assign or distribute"
+  },
+  {
+    "word": "TOGA",
+    "clue": "Ancient Roman garment"
+  },
+  {
+    "word": "GLOAT",
+    "clue": "Behave in a smugly self-satisfied way"
+  },
+  {
+    "word": "LOUT",
+    "clue": "Rambler or wanderer, perhaps"
+  },
+  {
+    "word": "OUTGO",
+    "clue": "Expenses, as opposed to income"
+  }
+]
+Finalized clues saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/finalized_words_and_clue_lists/finalized_spelling_bee_words_and_clues_20251213_180456.json

@@ -1,0 +1,442 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-22
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-22.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- describe (freq: 0.000036)
+- building (freq: 0.000195)
+- midnight (freq: 0.000020)
+- landmark (freq: 0.000008)
+- justice (freq: 0.000093)
+- payment (freq: 0.000046)
+- cigarette (freq: 0.000012)
+- privilege (freq: 0.000016)
+- commitment (freq: 0.000027)
+- enormous (freq: 0.000018)
+
+Randomly selected candidate: midnight
+Selected seed word: midnight
+
+[2/4] Generating spelling bee puzzle for seed word 'midnight'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'midnight'
+✓ Found 23 words for candidate 'midnight' with center letter 'd'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'minding' (freq: 1.32e-06) because it contains 'mind' (freq: 2.57e-04) [affix]
+
+✓ Generated puzzle with 22 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: MIDNIGHT
+Clue: 
+Distinct letters: d, g, h, i, m, n, t
+Center letter: d (required in all words)
+Total valid words: 22
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. mind                 (freq: 2.57e-04)
+   2. hiding               (freq: 2.09e-05)
+   3. midnight             (freq: 2.04e-05)
+   4. dining               (freq: 1.38e-05)
+   5. digging              (freq: 9.77e-06)
+   6. hindi                (freq: 6.61e-06)
+   7. digit                (freq: 5.89e-06)
+   8. ding                 (freq: 4.27e-06)
+   9. hind                 (freq: 3.16e-06)
+  10. timid                (freq: 1.78e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_midnight_2025-12-13-18-22.json
+✓ Loaded 22 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 6 words with frequency 0.0
+  Examples: dimit, indign, midding, niding, nitid, tingid
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 7 words always included (frequency > threshold)
+✓ 9 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 9 words in batches of 5...
+
+  Processing batch 1/2 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/2 (4 words)...
+    Sending 4 words with definitions to LLM
+    Result: 0 kept, 4 removed
+
+✓ Processed 2 batch(es)
+  Kept: 3 words
+  Removed: 6 words
+
+  ✓ All 3 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 6
+
+Word: dight
+Reason: Both senses of 'dight' (to prepare or to have sex) are archaic and not in common use (Category 1). The word is obscure and would not be guessed by a general audience.
+
+Word: dint
+Reason: The noun and verb usage of 'dint' is archaic and rare (Category 1: obsolete/rare words). Even though the phrase 'by dint of' is somewhat familiar, the standalone word is unlikely to be guessed by most adults.
+
+Word: ditt
+Reason: Obscure, archaic reference; not known by general audience, criterion 1.
+
+Word: indin
+Reason: Highly specialized chemical term describing a red crystalline substance; falls under criterion 7 (specialized scientific terminology).
+
+Word: tiding
+Reason: Old word meaning 'tidings'; it is archaic and uncommon, meeting criterion 1.
+
+Word: tind
+Reason: Obsolete term for 'to kindle'; not recognizable to typical adults and therefore falls under criterion 1 (archaic/very rare).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-22.json
+✓ Saved 10 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 22
+  - Removed (frequency = 0.0): 6
+  - Always included (frequency > 5e-06): 7
+  - Processed by LLM: 9
+    * Kept: 3
+    * Removed: 6
+Final words: 10
+Total removed: 12 (54.5%)
+  - Zero frequency: 6
+  - Removed by LLM: 6
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-22.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-22.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-22.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, HIGH_EXERTION, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, FOCUSED_OBSERVATION, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, LOUD_ENVIRONMENT, DISTRACTED, HEAVY_PHONE_USE, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, DISTRACTED, HEAVY_PHONE_USE, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, HEAVY_PHONE_USE, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM - 8:27 AM, I woke up in Grove Hall, Roxbury. It was a quiet morning, a peaceful start, though a little social – I could hear muffled chatter. I just stayed put, letting the calm settle in.
+
+8:27 AM, I rushed out of Grove Hall, heading towards Snell Library in Fenway. I was cycling, trying to make good time, then sat for a moment catching my breath. I passed a string of spots – Subway, Dunkin’ – a familiar Boston scene.
+
+8:54 AM, I quickly made my way *into* Snell Library. It was a hectic push to get settled before class, and I was already feeling rushed.
+
+9:05 AM, Walking out of Snell Library, I headed towards Northeastern University, still in Fenway. I was distracted, glued to my screen as I walked, completely missing things. I passed Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, another Dunkin’, Burger 373 – so many choices, but I barely registered them. 
+
+9:07 AM - 10:17 AM, I sat down at Northeastern University, trying to repeat course material, but the environment was loud and social, almost chaotic. I was sitting, trying to focus, but the noise kept pulling me away.
+
+10:17 AM, I quickly hurried back to Snell Library, passing Sweet Tomatoes Pizza, Tu Taco, Argo Tea, and Burger 373 again. I was focused on reaching my destination, barely noticing anything around me. 
+
+10:20 AM - 11:09 AM, Back at Snell Library, I sat down, trying to concentrate on my work, though it was still a bit noisy.
+
+11:09 AM, I was running to catch the train at Snell Library, aiming for Amazon Boston in Seaport. I wrote the subway and walked to the office. I passed so many places on the way– Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega – it was a blur of city life.
+
+11:42 AM - 1:51 PM, I walked to my friend’s office in Amazon Boston, Seaport, then sat waiting in the lobby. I was sitting down, then walked to the bathroom, but I had a strange feeling, like my mind had aged. 
+
+1:51 PM, Walking back to school from Seaport, I sat on the train. I passed Dunkin’, Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita – another whirlwind of sights.
+
+2:18 PM - 2:48 PM, I sat back down at Snell Library. It was busy, noisy, but I tried to block it out and focus on my work.
+
+2:48 PM, I hurried over to Ryder Hall, passing Subway and Dunkin' again.
+
+2:50 PM - 4:45 PM, I walked into class at Ryder Hall, sat down, and started taking notes. I spent a while sitting, then walking around.
+
+4:45 PM, I hurried back to Snell Library, passing the Subway.
+
+4:49 PM - 9:21 PM, I craved being back at Snell Library, so I just sat down. I sat taking course after course, and walked to the bathroom. I was sitting down taking classes, and then sitting down again. I opened the door standing. I was sitting down doing homework, working on assignments, and simply walking around the library.
+
+9:21 PM, I left Snell Library and made my way back to Grove Hall, passing ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, and finally reaching Uphams Corner.
+
+9:45 PM - 11:59 PM, Back in Grove Hall, I just stood around, watching everything. It was a strange mix of quiet and loud, social and peaceful. And then, it was time for bed.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "MIND",
+    "clue": "The user felt like their _______ had aged while waiting at their friend\u2019s office in Amazon Boston.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "DIGGING",
+    "clue": "You spent the day _______ into course material, even while surrounded by noise at Northeastern University.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "MIDNIGHT",
+    "clue": "The diary entries started around _______, marking the beginning of a very long day.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "HIDING",
+    "clue": "You were subtly _______ from the chaos, trying to focus while passing by busy restaurants.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "DIGIT",
+    "clue": "You saw countless addresses and times \u2013 a sea of _______ in the city.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "HIND",
+    "clue": "You traveled *behind* many people on the subway and around Boston - walking in their _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TIMID",
+    "clue": "You mentioned feeling a strange feeling, like your mind had aged, suggesting you were somewhat _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "DING",
+    "clue": "You may have heard a _______ as the subway doors opened at South Station.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  }
+]
+[
+  {
+    "word": "MIND",
+    "clue": "Intellect or thought process"
+  },
+  {
+    "word": "HIDING",
+    "clue": "Keeping out of sight"
+  },
+  {
+    "word": "MIDNIGHT",
+    "clue": "Twelve o'clock at night"
+  },
+  {
+    "word": "DINING",
+    "clue": "Taking a meal"
+  },
+  {
+    "word": "DIGGING",
+    "clue": "Excavating with a shovel"
+  },
+  {
+    "word": "HINDI",
+    "clue": "Language of Bollywood"
+  },
+  {
+    "word": "DIGIT",
+    "clue": "Number from zero to nine"
+  },
+  {
+    "word": "DING",
+    "clue": "Sound a bell might make"
+  },
+  {
+    "word": "HIND",
+    "clue": "Part of the rear of an animal"
+  },
+  {
+    "word": "TIMID",
+    "clue": "Shy and lacking confidence"
+  }
+]
+Finalized clues saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/finalized_words_and_clue_lists/finalized_spelling_bee_words_and_clues_20251213_182244.json

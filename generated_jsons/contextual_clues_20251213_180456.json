@@ -1,0 +1,152 @@
+[
+  {
+    "word": "TOTAL",
+    "clue": "Counting all the times you sat down, the _______ is surprisingly high.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "THOUGH",
+    "clue": "The library was bustling with noise, _______ you found moments of quiet to focus.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "THAT",
+    "clue": "You spent a good portion of the day at Snell Library, _______ is clear from your diary.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "THOUGHT",
+    "clue": "After arriving at Amazon Boston, you had a _______ that your mind felt older.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ALTHOUGH",
+    "clue": "The environment was often loud, _______ you were still able to study.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOUGH",
+    "clue": "The day felt _______, with constant rushing between buildings and classes.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TAUGHT",
+    "clue": "After arriving at Northeastern, you were _______ a course while glued to your screen.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOOL",
+    "clue": "Your laptop was an essential _______ for taking courses at Snell Library and Northeastern.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TALL",
+    "clue": "You passed numerous _______ buildings on your way from Seaport to Grove Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "OUGHT",
+    "clue": "You _______ to have rested after a long day of running between Snell and Northeastern.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TOLL",
+    "clue": "The constant back and forth between Snell Library and other locations felt like a _______ on your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TOOTH",
+    "clue": "Between the constant rushing and sitting, your day felt like a painful _______ extraction.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GOAT",
+    "clue": "You were constantly rushing from place to place, acting like a tireless _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "HALT",
+    "clue": "Several times throughout the day, you came to a _______ at Snell Library, just sitting and trying to focus.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when taking the train to Seaport at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "HALT",
+    "clue": "At 9:45 PM, you came to a _______ in Grove Hall, standing in a quiet atmosphere.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TOOT",
+    "clue": "You repeatedly went back and forth, almost as if sounding a _______ with your movements between Snell Library and other locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ today when you took the train to Seaport at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TOUT",
+    "clue": "You passed Dunkin' so many times, you could _______ its coffee to anyone!",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GLUT",
+    "clue": "You passed an overwhelming _______ of Dunkin' and Subway locations today.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "ALLOT",
+    "clue": "You _______-ed a significant portion of your day to studying at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "TAUT",
+    "clue": "Your schedule seemed particularly _______, rushing between Snell, Northeastern, and Amazon Boston.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "OUTGO",
+    "clue": "The diary details numerous instances of your _______, travelling between Grove Hall, Snell Library, Northeastern, and Seaport.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "OUTGO",
+    "clue": "Your various trips between locations demonstrate a significant amount of _______.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  }
+]

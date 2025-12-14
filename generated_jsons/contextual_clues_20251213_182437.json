@@ -1,0 +1,242 @@
+[
+  {
+    "word": "GOING",
+    "clue": "The diary details a day of _______ back and forth between Snell Library and other locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "STOP",
+    "clue": "You made multiple _______ at Dunkin' and Subway throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "POST",
+    "clue": "You were scribbling notes on your phone, perhaps for a social media _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "INTO",
+    "clue": "You walked _______ Snell Library several times throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "POSITION",
+    "clue": "You spent a lot of time in a seated _______, especially at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "SPOT",
+    "clue": "Snell Library was your go-to _______ for studying today.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "POSITION",
+    "clue": "After waiting in the lobby, you finally took a _______ at your friend's office.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SONG",
+    "clue": "The quiet hum of the library could almost be described as a peaceful _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SPOT",
+    "clue": "You frequently returned to Snell Library, making it your preferred _______ to study.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "ONGOING",
+    "clue": "Your day felt like an _______ series of movements between libraries and buildings.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "ONTO",
+    "clue": "You moved _______ the next location in a hectic race against the clock.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "OPTION",
+    "clue": "Sweet Tomatoes Pizza was one _______ among many eateries you passed today.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "NOTION",
+    "clue": "The quiet hum of the library gave you the _______ of peaceful solitude.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "OPPOSITION",
+    "clue": "The loud but strangely quiet atmosphere at Northeastern created a sense of _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "ONION",
+    "clue": "You passed many layers of restaurants, like peeling an _______, traveling between locations.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOSS",
+    "clue": "You were constantly on the move, _______-ing between Snell Library, Northeastern, and Amazon Boston.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "NOON",
+    "clue": "You spent a significant amount of time at Snell Library well past _______, studying and taking class.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "GOSSIP",
+    "clue": "You passed by several restaurants\u2014Subway, Dunkin\u2019, Applebee's\u2014places where people might share _______ over a meal.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TOPPING",
+    "clue": "You passed several restaurants, including Sweet Tomatoes Pizza, making it easy to add a _______ to your meal.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "POPPING",
+    "clue": "You were _______ back and forth between Snell Library, Northeastern, and Amazon all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You passed several train stations like South Station, suggesting you paid a _______ to travel.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "IGNITION",
+    "clue": "Before your day started, you needed the _______ to get your energy up.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "POOP",
+    "clue": "You spent a lot of time just sitting, and sometimes needing to make a quick trip to the bathroom - even when you just needed to _______!",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "PISTON",
+    "clue": "Like a _______ in an engine, you were constantly moving between Snell Library and other locations today.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TOOT",
+    "clue": "You passed Dunkin\u2019 multiple times, perhaps hoping for a sweet _______ to keep you energized.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "POTION",
+    "clue": "You stopped at Argo Tea and Starbucks, perhaps searching for a calming _______ to help you focus.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SOOT",
+    "clue": "As the snow began to fall at 4:49 PM, a thin layer of _______ might have settled on the library windows.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "TONGS",
+    "clue": "If you stopped at Pink Taco, you might need _______ to enjoy your meal.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "POSIT",
+    "clue": "You seemed to _______ yourself in Snell Library, spending hours there throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "POTTING",
+    "clue": "If you wanted a break from studying, you might enjoy the peaceful activity of _______ plants.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "SOPPING",
+    "clue": "The snow started to fall, potentially _______ the streets as you studied late at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SOPPING",
+    "clue": "After a long day of walking around, your socks might have been _______ after the snow started falling.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOGS",
+    "clue": "Considering you were rushing all day, you likely put on some comfortable _______ before heading out.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "SOPPING",
+    "clue": "If you were caught in the snowfall at 9:21 PM, you could've ended up _______ wet on your way back to Grove Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SOPPING",
+    "clue": "After a long day of walking around, your socks might have been _______ wet after the snow started falling at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "SPITTOON",
+    "clue": "You passed numerous restaurants - Dunkin', Subway, and more - which might have had a _______ nearby if it was an old-fashioned establishment.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TIPTOP",
+    "clue": "Despite the busy day, you described your time at Grove Hall as strangely calming, a _______ end to a long day.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TIPTOP",
+    "clue": "You spent much of the day rushing between locations, aiming for a _______ level of productivity.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  }
+]

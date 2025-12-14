@@ -1,0 +1,317 @@
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, RUSHED, HIGH_EXERTION, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>LOUD_ENVIRONMENT, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, FOCUSED_OBSERVATION, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, HIGH_EXERTION, AUDIBLE_MOVEMENT, RUSHED, LOUD_ENVIRONMENT, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, LOUD_ENVIRONMENT, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, HIGH_EXERTION, AUDIBLE_MOVEMENT, RUSHED, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, QUIET_ATMOSPHERE, HEAVY_PHONE_USE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>LOUD_ENVIRONMENT, FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gpt-oss:20b) ---
+
+12:00 AM – 08:27 AM – **Grove Hall (Roxbury)**  
+I just woke up, the room still wrapped in a quiet, almost dream‑like calm. The first few minutes were peaceful; I sat on the edge of my bed, breathing slowly, letting the soft hush of the dorm settle around me. My phone lay untouched on the nightstand, a silent companion in the stillness of early morning.
+
+08:27 AM – 08:54 AM – **Grove Hall (Roxbury) → Snell Library (Fenway)**  
+I rushed out, power‑walking down the hallway toward the library. The campus was buzzing, a chaotic blend of footsteps and chatter. I passed a row of familiar spots—Subway, Dunkin', and the scent of fresh coffee from Argo Tea drifting in from the courtyard. The movement felt urgent, a burst of energy as I hurried toward my first class.
+
+08:54 AM – 09:05 AM – **Snell Library (Fenway)**  
+Standing in the library’s high‑energy zone, I felt a rush of exertion. I was standing, eyes flicking across the shelves as I read over my notes, feeling the pulse of academic focus. The library was noisy, but inside, I was in a quiet bubble, surrounded by the calm of concentration.
+
+09:05 AM – 09:07 AM – **Snell Library (Fenway → Northeastern University (Fenway))**  
+I hurried across campus, my phone glued to my side as I scrolled quickly to keep track of the time. The walk was hectic—Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', and Burger 373 all flanked the route. Every stop felt rushed, a flurry of stops that blurred into a single stream of motion.
+
+09:07 AM – 10:17 AM – **Northeastern University (Fenway)**  
+In class, the atmosphere was a strange mix of loud and quiet. While the professor talked, the hallway buzzed with students; yet inside, my chair felt calm and serene. I sat, taking in the material, and my phone remained untouched—this was my sanctuary of stillness. I was just sitting, the world around me a soft, peaceful hum.
+
+10:17 AM – 10:20 AM – **Northeastern University (Fenway → Snell Library (Fenway))**  
+I hurried back, my feet pounding the pavement. The rush was real—Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House flanked my path like a string of glowing streetlights. I was watching the crowds, taking in the sights, feeling the city’s pulse.
+
+10:20 AM – 11:09 AM – **Snell Library (Fenway)**  
+I settled back into a quiet study space, the atmosphere calm. I sat, scrolling lightly on my phone to glance at a message, my focus returning to the page. The library’s hush settled around me like a blanket.
+
+11:09 AM – 11:42 AM – **Snell Library (Fenway → Amazon Boston (Seaport))**  
+I ran to the train station, heart beating fast. The route was a whirlwind—Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega. Every stop was a snapshot in a rapid montage, and I was glued to my phone, checking the schedule and my friend's arrival time.
+
+11:42 AM – 01:51 PM – **Amazon Boston (Seaport)**  
+I lingered in a quiet corner of the lobby, the bustle outside a distant roar. The environment was calm, my friend still not arrived. I sat, scrolling through emails and scrolling the feed, my phone a constant companion. Walking to the bathroom felt like a mini‑escape; I returned to the lobby, feeling the city’s pulse shift from quiet to slightly louder as the afternoon wore on.
+
+01:51 PM – 02:18 PM – **Amazon Boston (Seaport → Snell Library (Fenway))**  
+On my way back, I hurried through the city, my phone glued to my screen as I scanned the signs. I passed a string of spots—Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Auntie Anne's, Back Bay, Caffé Nero, Sportello, La Colombe Coffee Roasters, Lolita. The rush was palpable; I was rushing through the chaos, taking in the sights, my pulse in sync with the city’s heartbeat.
+
+02:18 PM – 02:48 PM – **Snell Library (Fenway)**  
+Back at the library, the quiet returned. I sat, scrolling lightly, letting the calm settle over me. The space was peaceful, a stark contrast to the rush that had just passed.
+
+02:48 PM – 02:50 PM – **Snell Library (Fenway → Ryder Hall (Fenway))**  
+I hurried across the courtyard to Ryder Hall, my phone scrolling rapidly, glued to the screen. The walk was short but hectic—Subway, Dunkin' flanked the path, a familiar rhythm of the campus.
+
+02:50 PM – 04:45 PM – **Ryder Hall (Fenway)**  
+I entered the classroom with a distracted glow, phone still on my chest. I sat, taking in the lecture; the room was quiet and serene, a calm oasis amid the hectic day. I was scrolling occasionally, but mostly listening, the class a place to focus.
+
+04:45 PM – 04:49 PM – **Ryder Hall (Fenway → Snell Library (Fenway))**  
+I rushed back to the library, power‑walking across the quad. I watched the crowds as they moved around me, the city’s rhythm alive. Subway’s familiar station marked my departure, a quiet nod to the path I’d taken.
+
+04:49 PM – 09:21 PM – **Snell Library (Fenway)**  
+I sat again, the library’s atmosphere calm. I was watching the crowd as students streamed in and out, a gentle, quiet hum of activity. My phone hovered nearby, scrolling lazily. I took in the night’s studies, feeling the library’s peaceful embrace. Between classes, I walked to the bathroom and back, the routine a gentle loop that anchored my day.
+
+09:21 PM – 09:45 PM – **Snell Library (Fenway → Grove Hall (Roxbury))**  
+I left the library, my feet moving quickly through the evening chill. I passed a string of spots—ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner—each a bright signpost in the twilight. My phone remained glued to my wrist as I made my way back to Grove Hall.
+
+09:45 PM – 11:59 PM – **Grove Hall (Roxbury)**  
+Back in the dorm, the room was loud and buzzing with the final echoes of the day. I stood, the walls alive with student chatter. The atmosphere was chaotic, yet somehow soothing as I settled in for the night. I let the day’s noise settle into a quiet lull, preparing for tomorrow’s rush.
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "AFTER",
+    "clue": "You spent a good chunk of this ____ studying at Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "FREE",
+    "clue": "You had a ____ break after your 11:42 AM visit to Amazon Boston.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "AREA",
+    "clue": "You traveled to the Seaport ____ today.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "NEAR",
+    "clue": "You were ____ the library during your 08:54 AM study session.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "EFFORT",
+    "clue": "You probably had a lot of ____ when you stood in the library\u2019s high\u2011energy zone at 9:05\u202fAM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ENTER",
+    "clue": "You ______ into the classroom at 02:50 PM.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "AFTERNOON",
+    "clue": "You spent a good chunk of this ___ studying at Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "RETREAT",
+    "clue": "You found a quiet RETREAT at 10:20 AM in Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "NARRATOR",
+    "clue": "You are the ____ of this diary.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TORRENT",
+    "clue": "You went into a torrent of commuters while heading to the library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "EATER",
+    "clue": "You passed Sweet Tomatoes, a likely stop for a hungry ___.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "NERO",
+    "clue": "You visited a ____ at 02:18 PM.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "TROT",
+    "clue": "You moved at a ____ pace during your walk from Grove Hall to Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "ERRANT",
+    "clue": "You probably moved ____ today when rushing across campus.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ROTE",
+    "clue": "You followed the ____ of daily study at Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "NARRATE",
+    "clue": "You ___ the events of the day in this diary.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "REENTER",
+    "clue": "You went to Snell in the morning, and then you ______-ed it after class.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "FORENOON",
+    "clue": "You spent a good chunk of the _______ studying at Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  }
+]

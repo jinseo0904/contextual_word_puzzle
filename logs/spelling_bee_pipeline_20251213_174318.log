@@ -1,0 +1,863 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-17-43
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-43.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- indication (freq: 0.000012)
+- blessing (freq: 0.000012)
+- rainbow (freq: 0.000012)
+- factory (freq: 0.000036)
+- facilitate (freq: 0.000010)
+- external (freq: 0.000033)
+- another (freq: 0.000550)
+- mineral (freq: 0.000011)
+- phoenix (freq: 0.000016)
+- elevator (freq: 0.000009)
+
+Randomly selected candidate: facilitate
+Selected seed word: facilitate
+
+[2/4] Generating spelling bee puzzle for seed word 'facilitate'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'facilitate'
+✓ Found 158 words for candidate 'facilitate' with center letter 'e'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'alate' (freq: 1.55e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'alife' (freq: 3.89e-08) because it contains 'life' (freq: 7.76e-04) [frequency]
+  - Dropped 'cella' (freq: 1.26e-07) because it contains 'cell' (freq: 7.41e-05) [frequency]
+  - Dropped 'cleft' (freq: 8.71e-07) because it contains 'left' (freq: 4.17e-04) [frequency]
+  - Dropped 'elate' (freq: 2.14e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'facet' (freq: 1.51e-06) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'affile' (freq: 0.00e+00) because it contains 'file' (freq: 5.62e-05) [frequency]
+  - Dropped 'efface' (freq: 3.55e-08) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'facete' (freq: 0.00e+00) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'leafet' (freq: 0.00e+00) because it contains 'leaf' (freq: 1.66e-05) [frequency]
+  - Dropped 'efflate' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'electic' (freq: 1.66e-08) because it contains 'elect' (freq: 1.07e-05) [frequency]
+  - Dropped 'facette' (freq: 0.00e+00) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'leaflet' (freq: 1.32e-06) because it contains 'leaf' (freq: 1.66e-05) [frequency]
+  - Dropped 'califate' (freq: 0.00e+00) because it contains 'fate' (freq: 2.29e-05) [frequency]
+  - Dropped 'facetiae' (freq: 0.00e+00) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'telltale' (freq: 7.94e-07) because it contains 'tale' (freq: 1.95e-05) [frequency]
+  - Dropped 'titillate' (freq: 7.94e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'catalectic' (freq: 0.00e+00) because it contains 'tale' (freq: 1.95e-05) [frequency]
+  - Dropped 'acatalectic' (freq: 0.00e+00) because it contains 'tale' (freq: 1.95e-05) [frequency]
+
+✓ Generated puzzle with 138 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: FACILITATE
+Clue: 
+Distinct letters: a, c, e, f, i, l, t
+Center letter: e (required in all words)
+Total valid words: 138
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. life                 (freq: 7.76e-04)
+   2. little               (freq: 5.62e-04)
+   3. feel                 (freq: 4.68e-04)
+   4. left                 (freq: 4.17e-04)
+   5. tell                 (freq: 3.39e-04)
+   6. face                 (freq: 2.82e-04)
+   7. late                 (freq: 2.19e-04)
+   8. felt                 (freq: 1.35e-04)
+   9. title                (freq: 1.26e-04)
+  10. effect               (freq: 1.05e-04)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+✓ Loaded 138 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 29 words with frequency 0.0
+  Examples: accite, ailette, alfet, allect, allice, attle, calaite, calicle, cete, cetic...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 30 words always included (frequency > threshold)
+✓ 79 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 79 words in batches of 5...
+
+  Processing batch 1/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 3/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 4/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['feet']
+    Result: 3 kept, 2 removed
+  Processing batch 5/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 7/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 8/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['court-leet', 'pollock']
+    Result: 1 kept, 5 removed
+  Processing batch 9/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 10/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['strife']
+    Result: 0 kept, 5 removed
+  Processing batch 11/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 13/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 14/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 15/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 16/16 (4 words)...
+    Sending 4 words with definitions to LLM
+    Result: 0 kept, 4 removed
+
+✓ Processed 16 batch(es)
+  Kept: 24 words
+  Removed: 56 words
+
+  ✓ All 24 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 56
+
+Word: acetal
+Reason: Very rare chemical term with extremely low frequency (criterion 1).
+
+Word: acetate
+Reason: Chemical term for a salt of acetic acid; very low everyday usage, fits criterion 1.
+
+Word: acetic
+Reason: Low everyday usage; primarily a chemical term for vinegar acid (criterion 7)
+
+Word: aiel
+Reason: Obsolete term; extremely rare usage. (Criterion 1)
+
+Word: alee
+Reason: Nautical/meteorological term not widely known to typical adults (criterion 1).
+
+Word: atte
+Reason: Archaic prepositional phrase meaning 'at the'; not in common usage (Category 1).
+
+Word: caeca
+Reason: Anatomical term (plural of cecum); too specialized for a general word puzzle.
+
+Word: caecal
+Reason: Medical/biochemical term referring to the cecum; specialized jargon not suitable for general audiences (Criterion 7).
+
+Word: caffeic
+Reason: Specialized biochemical term referring to a compound derived from coffee; not commonly known to general adults.
+
+Word: calcite
+Reason: Mineral-specific; not common knowledge for general audience (criterion 1)
+
+Word: calice
+Reason: Archaic variant of chalice; very low frequency and unlikely to be known by typical adults. (Criterion 1)
+
+Word: calle
+Reason: An archaic term for a head covering; not recognized by typical adults and unlikely to be guessed from simple clues. (Criterion 1: obsolete/rare word)
+
+Word: callet
+Reason: Archaic term for prostitute; extremely rare and not expected in a general‑audience puzzle (Criterion 1).
+
+Word: cate
+Reason: Obsolete noun meaning 'food'; uncommon in modern language, meets criterion 1.
+
+Word: catel
+Reason: Obsolete noun; archaic usage. (Criterion 1)
+
+Word: ceil
+Reason: Archaic verb meaning to roof a room; uncommon in modern usage (Category 1).
+
+Word: cetacea
+Reason: Technical biological term for the order of marine mammals, not commonly known by typical adults (criterion 1).
+
+Word: ciliate
+Reason: Scientific biological term describing cells or organs surrounded by cilia; not commonly known by typical adults.
+
+Word: clee
+Reason: Dutch term meaning 'claw'; obscure and not widely recognized.
+
+Word: court-leet
+Reason: Specific legal term referring to a local court; a niche concept unlikely known to general adults (Category 8: specialized legal jargon).
+
+Word: effet
+Reason: Specific name for the common newt, a niche biological term; too specialized for a general puzzle.
+
+Word: effete
+Reason: Very uncommon and archaic usage; typical adults would likely not know this word (criteria 1).
+
+Word: eleatic
+Reason: Specialized philosophical term; obscure. (Criterion 1)
+
+Word: faecal
+Reason: Medical/scientific term referring to feces; specialized jargon not expected to be known by most adults. (Criterion 7)
+
+Word: faille
+Reason: Obscure textile term for a type of silk, outside everyday vocabulary (criterion 4).
+
+Word: falcate
+Reason: Describes a hooked shape, used mainly in botany and astronomy, not widely recognized (criterion 1).
+
+Word: feal
+Reason: Obsolete word meaning faithful; very low frequency (criterion 1).
+
+Word: fecal
+Reason: An anatomical/medical adjective referring to feces; specialized jargon, meets criterion 7.
+
+Word: fele
+Reason: Obsolete archaic term meaning 'many'; not recognizable by general audience.
+
+Word: felicitate
+Reason: Archaic verb meaning 'to congratulate' or 'to make happy'; unlikely to be guessed (criterion 1).
+
+Word: fette
+Reason: Obsolete archaic verb meaning 'to fetch'; unlikely to be guessed by typical adults.
+
+Word: fice
+Reason: Obsolete word for a small dog; very low frequency (Category 1).
+
+Word: fief
+Reason: Archaic medieval term for an estate; not commonly known by typical adults (Category 1).
+
+Word: fife
+Reason: Specialized musical instrument used mainly in military contexts; not a common everyday word.
+
+Word: flet
+Reason: Obsolete word meaning 'skimmed'; very low frequency and obscure (Criterion 1).
+
+Word: flete
+Reason: Obsolete verb; archaic usage. (Criterion 1)
+
+Word: flite
+Reason: Obsolete term meaning to scold; not recognized by general audience (Category 1).
+
+Word: icefall
+Reason: Specialized geological term, not common everyday vocabulary (Category 7).
+
+Word: lactate
+Reason: A biochemical term referring to the salt of lactic acid; specialized scientific vocabulary not common to general audiences. (Criterion 7: specialized biochemical term)
+
+Word: leal
+Reason: Obsolete archaic word meaning 'loyal'; very low frequency and unlikely to be known by typical adults. (Criterion 1)
+
+Word: leat
+Reason: Specialized term for an artificial water trench; not common everyday vocabulary (criteria 1).
+
+Word: leef
+Reason: Obsolete archaic word; not in common usage.
+
+Word: leet
+Reason: Extremely rare archaic verb meaning 'to allow' (Category 1: very low frequency, obscure).
+
+Word: lete
+Reason: Very old form of 'let'; not used by typical adults (Category 1).
+
+Word: lette
+Reason: Ancient form of "let"; extremely rare and not known by most adults (criteria 1).
+
+Word: lief
+Reason: Archaic adjective meaning 'dear' or 'willing'; almost unknown to modern readers (Category 1).
+
+Word: lite
+Reason: Archaic definition meaning 'little'; not commonly used in modern everyday language, making it unlikely to be guessed.
+
+Word: tace
+Reason: Proper noun for a specific church cross, obscure geographical reference (criterion 8).
+
+Word: tacet
+Reason: Obsolete musical direction; not widely recognized by general adults (Criterion 1).
+
+Word: tael
+Reason: Foreign currency unit from China; not a common everyday English word.
+
+Word: taille
+Reason: Obsolete or historically specific term for a tax or a tally, and a French word for tenor voice; low frequency and unfamiliar to most people.
+
+Word: teel
+Reason: Obsolete spelling for sesame; not widely recognized (criteria 1).
+
+Word: teil
+Reason: Obscure botanical term for the lime/linden tree; a niche plant term (Category 4).
+
+Word: telic
+Reason: Philosophical adjective meaning 'final end or purpose', too specialized for general use (criterion 1).
+
+Word: tete
+Reason: Obscure hair style; rare in everyday language (criterion 4)
+
+Word: tice
+Reason: Archaic verb meaning 'to entice'; not commonly used or known by general audience. (Criterion 1)
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-43.json
+✓ Saved 54 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 138
+  - Removed (frequency = 0.0): 29
+  - Always included (frequency > 5e-06): 30
+  - Processed by LLM: 79
+    * Kept: 24
+    * Removed: 56
+Final words: 54
+Total removed: 84 (60.9%)
+  - Zero frequency: 29
+  - Removed by LLM: 56
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-43.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-43.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-43.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, HEAVY_PHONE_USE, HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>LOUD_ENVIRONMENT, SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, RUSHED, AUDIBLE_MOVEMENT, HIGH_EXERTION, LOUD_ENVIRONMENT, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>LOUD_ENVIRONMENT, SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, RUSHED, AUDIBLE_MOVEMENT, HIGH_EXERTION, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, DISTRACTED, HEAVY_PHONE_USE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM – 8:27 AM. Woke up in Grove Hall, Roxbury. It was a quiet morning, a peaceful start to the day. Just… settling in. 
+
+8:27 AM. Hurried out of Grove Hall and started power-walking towards Snell Library in Fenway. Passed Dunkin' and a Subway along the way. It was a bustling scene, lots of people already on the move. I was sitting for a moment, catching my breath before heading in. 
+
+8:54 AM. Rushed into Snell Library, needing to get settled for class. It was hectic getting in, a real push to find a spot. I was walking to class, leaving Snell, and passed by Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, and even Burger 373.
+
+9:05 AM. Still rushing, completely distracted by my phone as I walked from Snell Library to Northeastern University in Fenway. I was glued to my screen, barely noticing the sights – though I do remember passing Tu Taco, Argo Tea, Burger 373, The Boston Globe Library, and even Sweet Tomatoes Pizza again.
+
+9:07 AM – 10:17 AM. Settled down at Northeastern University, trying to repeat course material. It was a loud environment despite my best efforts, a lot of social activity happening around me. I was just sitting, trying to focus.
+
+10:17 AM. Raced back to Snell Library, needing to grab something. Passed Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, and even Chaat House. 
+
+10:20 AM – 11:09 AM. Back at Snell Library, finally able to sit and focus. Quiet atmosphere, though you could still hear movement around me. Just… sitting.
+
+11:09 AM. A mad dash from Snell Library to Amazon Boston in Seaport. Running to the train station! Writing the Subway to go to Seaport. Walking to my friend’s office, passing Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Melting Sun, Dunkin', Master Wok, and even the Boston Wharf Co. Sign.
+
+11:42 PM – 1:51 PM. Finally arrived at Amazon Boston in Seaport. Walking to my friend's office, then just sitting in the lobby, waiting. I was also walking to the bathroom... but it made me feel older somehow. Just sitting for a long while. 
+
+1:51 PM. Headed back to Snell Library from Seaport. A lot of activity on the train. I was sitting there, heading back to school, passing Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, and McDonald’s. Saw Melting Sun, Row 34, and South Station as well, and even Back Bay and Auntie Anne’s.
+
+2:18 PM – 2:48 PM. Back at Snell Library, just sitting. A bit of a loud environment, lots of movement. I was just sitting for a while.
+
+2:48 PM. Quick walk over to Ryder Hall. Passed a Subway and Dunkin’ again, it seems like those are everywhere!
+
+2:50 PM – 4:45 PM. Settled into class at Ryder Hall. Walking into class, then sitting and taking notes. Just... walking and sitting. 
+
+4:45 PM. Raced back to Snell Library. Passed a Subway again, and I was watching the crowds, taking in the sights. 
+
+4:49 PM – 9:21 PM. Back at Snell Library. Really craving being back here. Sat down and took course material. Was walking to the bathroom again, and took class sitting down. I was opening the door standing. I was sitting down doing homework, sitting down to being assignments. The library was filled with activity as I walked in. 
+
+9:21 PM. Leaving Snell Library and heading back to Grove Hall. Passed ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, and Farmer Horse Coffee, then Ruggles, Caffé Bene, MIDA, Applebee’s, and finally Uphams Corner. 
+
+9:45 PM – 11:59 PM. Back in Grove Hall, finally. Standing for a moment, then settling down. It’s a bit noisy, but mostly quiet.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "LIFE",
+    "clue": "Your day was filled with constant movement, a whirlwind of _______ spent walking between buildings.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "LEFT",
+    "clue": "You _______ Grove Hall at 8:27 AM to head to Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "LITTLE",
+    "clue": "Despite a busy day, you found _______ moments of quiet while sitting in Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "FEEL",
+    "clue": "Going to the bathroom at Amazon Boston made you _______ older somehow.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TELL",
+    "clue": "The diary entries _______ the story of a very active day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LATE",
+    "clue": "You were rushing around, clearly trying not to be _______ for class.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "FELT",
+    "clue": "Going to the bathroom at Amazon Boston _______ 'older' somehow.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FACE",
+    "clue": "You were 'opening the door _______' at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "FEET",
+    "clue": "You spent the day on your _______, walking between buildings and rushing to class.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "FILE",
+    "clue": "You were likely taking notes and creating a _______ in class at Ryder Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "CELL",
+    "clue": "You were distracted by your _______ as you walked from Snell Library to Northeastern University.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FLEET",
+    "clue": "You moved with a _______-footed pace, rushing between Snell Library and Northeastern University.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TALE",
+    "clue": "This diary entry tells the _______ of a busy day of walking and studying.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "LEAF",
+    "clue": "As seasons change, a _______ might fall as you walk the campus, much like your constant movement.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "CAFE",
+    "clue": "You passed multiple _______, including Dunkin\u2019 and Starbucks, throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ELECT",
+    "clue": "You spent time at Northeastern _______-ive to Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "AFFILIATE",
+    "clue": "Amazon Boston is an _______ of the Seaport area, where you went at 11:09 AM.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "CAFE",
+    "clue": "You walked past Au Bon Pain, a popular _______, while heading to Seaport.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "CAFE",
+    "clue": "You passed Dunkin' multiple times, making it a frequent stop for a quick _______ break.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TILE",
+    "clue": "The floor of Snell Library might be made of _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FLEE",
+    "clue": "You seemed to _______ from Snell Library to Amazon Boston and back again.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FEAT",
+    "clue": "Traveling between Grove Hall, Snell Library, and Seaport in one day is quite the _______ of endurance!",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LACE",
+    "clue": "You walked back and forth, seemingly to _______ up loose ends at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FACILITATE",
+    "clue": "The library is meant to _______ learning and studying, which you did for most of the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "ECLECTIC",
+    "clue": "The sheer number of restaurants you passed \u2013 from Tu Taco to Kura Sushi \u2013 makes your day seem quite _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FLEECE",
+    "clue": "With all the walking and rushing, you might want to grab a warm _______ to stay comfortable.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CITE",
+    "clue": "As a student, you\u2019ll need to _______ your sources when working on assignments at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FLEA",
+    "clue": "You spent a lot of time walking around today, you might have gotten a _______ bite or two.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FETAL",
+    "clue": "You mention the bathroom making you feel older, almost like a _______ stage of life.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "TACTILE",
+    "clue": "The library environment, with its constant movement and people, offered a _______ experience as you walked in.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when you took the subway to Seaport at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "LATTICE",
+    "clue": "The ISEC Pedestrian Bridge you passed at 9:21 PM features a _______ design.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ELICIT",
+    "clue": "Walking to the bathroom at Amazon Boston seemed to _______ a feeling of being older.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FACILE",
+    "clue": "Despite a loud environment at Northeastern, you were trying to repeat course material with _______ ease.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ today when taking the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TITTLE",
+    "clue": "You were taking notes in class, meticulously adding every _______ to your assignments.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FETE",
+    "clue": "After walking to your friend's office, you were waiting for the _______ to begin.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FILLET",
+    "clue": "You passed many restaurants today, maybe even one serving _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "CLEAT",
+    "clue": "You were constantly on the _______ of running and rushing throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CLEF",
+    "clue": "The rhythm of your day was a constant change, like a musical _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TATTLE",
+    "clue": "You passed so many restaurants today, it's as if they were _______-ing on your hunger.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TEAT",
+    "clue": "You passed Au Bon Pain and Starbucks multiple times, perhaps seeking a warm _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ICICLE",
+    "clue": "The constant rushing and returning could leave you feeling as cold as an _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FETTLE",
+    "clue": "After a long day of rushing around, you were trying to get your thoughts in _______ at Northeastern University.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ECLAT",
+    "clue": "The bustling scene at Snell Library and the crowds you observed had a certain _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  }
+]
+Validated clues saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/finalized_words_and_clue_lists/finalized_spelling_bee_words_and_clues_20251213_174318.json

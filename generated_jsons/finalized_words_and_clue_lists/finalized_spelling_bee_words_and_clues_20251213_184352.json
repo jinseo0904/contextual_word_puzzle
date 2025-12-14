@@ -1,0 +1,136 @@
+{
+  "seed_word": "FEBRUARY",
+  "seed_word_clue": "",
+  "distinct_letters": [
+    "a",
+    "b",
+    "e",
+    "f",
+    "r",
+    "u",
+    "y"
+  ],
+  "center_letter": "y",
+  "total_words": 17,
+  "words": [
+    {
+      "word": "year",
+      "contextual_clue": "This diary documents a single _______ of travel and study.",
+      "generic_clue": "Twelve months' time",
+      "frequency": 0.000912,
+      "score": 4.0
+    },
+    {
+      "word": "baby",
+      "contextual_clue": "N/A",
+      "generic_clue": "Infant, in common parlance",
+      "frequency": 0.000182,
+      "score": 0
+    },
+    {
+      "word": "february",
+      "contextual_clue": "N/A",
+      "generic_clue": "Month of Valentine's Day",
+      "frequency": 0.000107,
+      "score": 0
+    },
+    {
+      "word": "barry",
+      "contextual_clue": "N/A",
+      "generic_clue": "Newman of 'Seinfeld'",
+      "frequency": 1.82e-05,
+      "score": 0
+    },
+    {
+      "word": "array",
+      "contextual_clue": "The diary details an _______ of restaurants and shops passed during your travels.",
+      "generic_clue": "An impressive display",
+      "frequency": 1.26e-05,
+      "score": 5.0
+    },
+    {
+      "word": "buyer",
+      "contextual_clue": "You passed numerous restaurants and cafes – a potential stop for a hungry _______.",
+      "generic_clue": "Shopper, at the store",
+      "frequency": 1.07e-05,
+      "score": 4.0
+    },
+    {
+      "word": "ferry",
+      "contextual_clue": "N/A",
+      "generic_clue": "Boat that crosses a harbor",
+      "frequency": 1.05e-05,
+      "score": 0
+    },
+    {
+      "word": "ruby",
+      "contextual_clue": "N/A",
+      "generic_clue": "A precious red gemstone",
+      "frequency": 9.55e-06,
+      "score": 0
+    },
+    {
+      "word": "berry",
+      "contextual_clue": "You passed Dunkin' countless times, likely craving a _______-flavored refreshment.",
+      "generic_clue": "Strawberry or blueberry, for example",
+      "frequency": 9.33e-06,
+      "score": 4.0
+    },
+    {
+      "word": "fury",
+      "contextual_clue": "You rushed between locations with noticeable _______, from Snell to Northeastern.",
+      "generic_clue": "Intense anger",
+      "frequency": 8.13e-06,
+      "score": 4.0
+    },
+    {
+      "word": "bury",
+      "contextual_clue": "You seemed to _______ yourself in work at Snell Library, trying to block out distractions.",
+      "generic_clue": "Inter with the dead",
+      "frequency": 7.76e-06,
+      "score": 5.0
+    },
+    {
+      "word": "abbey",
+      "contextual_clue": "N/A",
+      "generic_clue": "Monastery or convent",
+      "frequency": 7.59e-06,
+      "score": 0
+    },
+    {
+      "word": "furry",
+      "contextual_clue": "N/A",
+      "generic_clue": "Like a kitten's coat",
+      "frequency": 3.63e-06,
+      "score": 0
+    },
+    {
+      "word": "bray",
+      "contextual_clue": "N/A",
+      "generic_clue": "Donkey's loud call",
+      "frequency": 2.04e-06,
+      "score": 0
+    },
+    {
+      "word": "fray",
+      "contextual_clue": "The constant movement between buildings and locations created a bit of a _______ to your day.",
+      "generic_clue": "Unravel or wear thin",
+      "frequency": 1.91e-06,
+      "score": 4.0
+    },
+    {
+      "word": "beefy",
+      "contextual_clue": "You passed Burger 373, a restaurant known for its _______ offerings.",
+      "generic_clue": "Like a well-built athlete",
+      "frequency": 5.5e-07,
+      "score": 4.0
+    },
+    {
+      "word": "affray",
+      "contextual_clue": "N/A",
+      "generic_clue": "Brief, chaotic scuffle",
+      "frequency": 1.74e-07,
+      "score": 0
+    }
+  ]
+}

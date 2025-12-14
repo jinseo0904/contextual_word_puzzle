@@ -1,0 +1,134 @@
+[
+  {
+    "word": "TOTAL",
+    "clue": "Counting all the times you sat down, the _______ is surprisingly high.",
+    "score": 5,
+    "reason": "The diary repeatedly mentions 'sat down', making the clue valid and directly related to the text."
+  },
+  {
+    "word": "THAT",
+    "clue": "You spent a good portion of the day at Snell Library, _______ is clear from your diary.",
+    "score": 5,
+    "reason": "The diary clearly indicates frequent visits and significant time spent at Snell Library."
+  },
+  {
+    "word": "THOUGHT",
+    "clue": "After arriving at Amazon Boston, you had a _______ that your mind felt older.",
+    "score": 5,
+    "reason": "The diary explicitly states the writer had a feeling their mind felt older after arriving at Amazon Boston."
+  },
+  {
+    "word": "HALT",
+    "clue": "Several times throughout the day, you came to a _______ at Snell Library, just sitting and trying to focus.",
+    "score": 5,
+    "reason": "The diary explicitly mentions repeatedly returning to Snell Library and 'just sitting', representing a clear 'halt' in the day's movement and activity. This is a direct paraphrase of the actions described."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when taking the train to Seaport at 11:09 AM.",
+    "score": 5,
+    "reason": "The diary explicitly states travel 'to Seaport' via train. Train travel nearly always involves a 'fare', making this a highly logical and valid association."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ today when you took the train to Seaport at 11:09 AM.",
+    "score": 5,
+    "reason": "Taking the train logically implies paying a fare. This is a reasonable and accurate association."
+  },
+  {
+    "word": "ALLOT",
+    "clue": "You _______-ed a significant portion of your day to studying at Snell Library.",
+    "score": 5,
+    "reason": "The diary heavily features time spent at Snell Library, indicating a deliberate allocation of time."
+  },
+  {
+    "word": "TAUT",
+    "clue": "Your schedule seemed particularly _______, rushing between Snell, Northeastern, and Amazon Boston.",
+    "score": 5,
+    "reason": "The diary details constant rushing and moving between locations, creating a sense of a tightly scheduled, or 'taut', day."
+  },
+  {
+    "word": "OUTGO",
+    "clue": "The diary details numerous instances of your _______, travelling between Grove Hall, Snell Library, Northeastern, and Seaport.",
+    "score": 5,
+    "reason": "The diary is fundamentally a record of the author's movements and travel between various locations, strongly supporting 'outgo' as a relevant descriptor."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "score": 5,
+    "reason": "The diary specifically mentions taking the subway at 11:09 AM, logically implying payment of a fare."
+  },
+  {
+    "word": "OUTGO",
+    "clue": "Your various trips between locations demonstrate a significant amount of _______.",
+    "score": 5,
+    "reason": "The diary overwhelmingly describes travel and movement between different places, making 'outgo' a highly relevant descriptor."
+  },
+  {
+    "word": "THOUGH",
+    "clue": "The library was bustling with noise, _______ you found moments of quiet to focus.",
+    "score": 4,
+    "reason": "The diary describes both bustling environments and moments of quiet at the library. The contrast is valid."
+  },
+  {
+    "word": "ALTHOUGH",
+    "clue": "The environment was often loud, _______ you were still able to study.",
+    "score": 4,
+    "reason": "The diary describes loud environments alongside the writer sitting and studying, implying the ability to focus despite the noise."
+  },
+  {
+    "word": "TOUGH",
+    "clue": "The day felt _______, with constant rushing between buildings and classes.",
+    "score": 4,
+    "reason": "The diary details a very rushed and busy day, making 'tough' a valid descriptor of the experience. The constant movement and pressure support this."
+  },
+  {
+    "word": "TOOL",
+    "clue": "Your laptop was an essential _______ for taking courses at Snell Library and Northeastern.",
+    "score": 4,
+    "reason": "The diary consistently mentions being 'glued to your screen' while taking courses, clearly indicating a laptop (or similar device) was essential for learning. It acted as a tool."
+  },
+  {
+    "word": "TOLL",
+    "clue": "The constant back and forth between Snell Library and other locations felt like a _______ on your day.",
+    "score": 4,
+    "reason": "The repeated travel does create a sense of strain, aligning with the idea of a 'toll'. Though not explicit, it's a reasonable interpretation."
+  },
+  {
+    "word": "HALT",
+    "clue": "At 9:45 PM, you came to a _______ in Grove Hall, standing in a quiet atmosphere.",
+    "score": 4,
+    "reason": "The diary states 'Standing' at 9:45 PM, implying a pause or halt. Action paraphrasing is accurate."
+  },
+  {
+    "word": "GLUT",
+    "clue": "You passed an overwhelming _______ of Dunkin' and Subway locations today.",
+    "score": 4,
+    "reason": "The diary does show frequent passing of Dunkin' and Subway, supporting the idea of an overabundance or 'glut'."
+  },
+  {
+    "word": "TAUGHT",
+    "clue": "After arriving at Northeastern, you were _______ a course while glued to your screen.",
+    "score": 3,
+    "reason": "The diary states 'repeating course material' at Northeastern, implying being 'taught' or reviewing lessons. It's not directly stated, but strongly implied."
+  },
+  {
+    "word": "OUGHT",
+    "clue": "You _______ to have rested after a long day of running between Snell and Northeastern.",
+    "score": 3,
+    "reason": "The diary describes a very hectic day. It's logical to assume the person 'ought' to have rested, but it's a suggestion rather than a fact or strong implication. The diary doesn't explicitly mention wanting or needing rest."
+  },
+  {
+    "word": "TOOT",
+    "clue": "You repeatedly went back and forth, almost as if sounding a _______ with your movements between Snell Library and other locations.",
+    "score": 3,
+    "reason": "The diary describes a lot of travel between locations, particularly Snell Library. 'Toot' as a metaphor for repeated movement is somewhat valid, but relies on metaphorical interpretation."
+  },
+  {
+    "word": "TOUT",
+    "clue": "You passed Dunkin' so many times, you could _______ its coffee to anyone!",
+    "score": 3,
+    "reason": "Dunkin' is mentioned repeatedly. 'Tout' implies promotion, which is a reasonable link but relies on interpretation and isn't explicitly stated."
+  }
+]

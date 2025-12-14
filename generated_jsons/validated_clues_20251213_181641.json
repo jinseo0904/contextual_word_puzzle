@@ -1,0 +1,224 @@
+[
+  {
+    "word": "BLEND",
+    "clue": "The constant movement between locations created a _______ of activity in your day.",
+    "score": 5,
+    "reason": "The diary details constant movement between locations, strongly supporting 'blend' as a descriptor of the day's activity."
+  },
+  {
+    "word": "BLEND",
+    "clue": "The sounds of the library and the city seemed to _______ together as you studied.",
+    "score": 5,
+    "reason": "The diary mentions being in both the library and the city, often simultaneously (walking between them). This supports the idea of sounds 'blending' together."
+  },
+  {
+    "word": "IDLE",
+    "clue": "After a hectic morning, you often found moments to be _______, especially back at Snell Library.",
+    "score": 5,
+    "reason": "The diary frequently mentions rushing and then seeking quiet space at Snell Library, making 'idle' a valid descriptor of those moments."
+  },
+  {
+    "word": "EDIBLE",
+    "clue": "You passed numerous _______ establishments today, including Dunkin', Subway, and Sweet Tomatoes Pizza.",
+    "score": 5,
+    "reason": "The diary repeatedly lists restaurants and food establishments passed during the day, directly supporting 'edible' as a descriptor."
+  },
+  {
+    "word": "LEGGED",
+    "clue": "You spent a significant portion of your day _______, rushing between buildings and locations.",
+    "score": 5,
+    "reason": "The diary is filled with descriptions of rushing, walking, and moving between locations, making 'legged' (implying active movement) a valid descriptor."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "score": 5,
+    "reason": "The diary explicitly states taking the subway, and taking the subway logically implies paying a fare."
+  },
+  {
+    "word": "GLIDE",
+    "clue": "You seemed to _______ between Snell Library and Ryder Hall all day.",
+    "score": 5,
+    "reason": "The diary shows repeated, quick trips between Snell Library and Ryder Hall, creating a sense of effortless and frequent movement resembling gliding."
+  },
+  {
+    "word": "LINDEN",
+    "clue": "You passed by many establishments, but none were named _______.",
+    "score": 5,
+    "reason": "The diary lists numerous establishments that were passed, and a review confirms 'Linden' is not among them. This is a direct observation from the text."
+  },
+  {
+    "word": "INDELIBLE",
+    "clue": "The many locations you visited\u2014Snell Library, Amazon, Grove Hall\u2014left an _______ impression on your day.",
+    "score": 5,
+    "reason": "The diary details numerous locations visited throughout the day, making a lasting impression a valid connection."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "score": 5,
+    "reason": "The diary explicitly mentions taking the subway, logically implying the need to pay a fare."
+  },
+  {
+    "word": "ILLEGIBLE",
+    "clue": "After a long day of rushing and writing on the subway, your notes might be _______.",
+    "score": 5,
+    "reason": "The diary explicitly states rushing and writing on the subway. It's logical to assume hasty notes might be illegible."
+  },
+  {
+    "word": "LEGGING",
+    "clue": "You were constantly _______ between buildings and locations throughout the day.",
+    "score": 5,
+    "reason": "The diary is filled with descriptions of rushing between locations (Snell, Northeastern, Amazon, Ryder Hall etc.).  'Legging it' is a common idiom for moving quickly between places, making this a strong connection."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "score": 5,
+    "reason": "The diary explicitly mentions taking the subway at 11:09 AM. Subway travel requires payment of a fare, making this a logical and valid association."
+  },
+  {
+    "word": "ELIDE",
+    "clue": "You frequently skipped over details or _______-d parts of your journey, quickly moving from location to location.",
+    "score": 5,
+    "reason": "The diary frequently lists locations with very brief descriptions of the journeys between them, suggesting details are skipped over. 'Elide' directly means omitting, aligning well with the diary's style."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "score": 5,
+    "reason": "The diary explicitly states taking the subway. A fare is required to ride the subway, making this a valid logical association."
+  },
+  {
+    "word": "FARE",
+    "clue": "A _______ was needed to ride the subway from Amazon Boston back toward school.",
+    "score": 5,
+    "reason": "The diary states taking the subway.  A fare is required to ride the subway, making this a valid logical association."
+  },
+  {
+    "word": "LINE",
+    "clue": "You waited in a _______ for the train to Amazon Boston at 11:09 AM.",
+    "score": 4,
+    "reason": "The diary states 'running to the train station', implying waiting in line is a logical assumption, even if not explicitly stated."
+  },
+  {
+    "word": "BLIND",
+    "clue": "You were sometimes distracted while walking, almost like you were _______ to your surroundings.",
+    "score": 4,
+    "reason": "The diary states 'glued to my screen, distracted as I walked'. This directly supports being unaware or 'blind' to surroundings."
+  },
+  {
+    "word": "BLEEDING",
+    "clue": "After a long day of rushing, you mentioned your mind felt older, almost _______-dry of energy.",
+    "score": 4,
+    "reason": "The diary explicitly states the narrator felt their mind felt 'older', and 'dry' is a reasonable synonym for depleted energy after a tiring day. Strong contextual link."
+  },
+  {
+    "word": "LEGEND",
+    "clue": "You passed so many restaurants and stores, the list reads like a local _______ of eateries and shops.",
+    "score": 4,
+    "reason": "The diary contains a lengthy list of businesses passed, making 'legend' a fitting metaphor. The sheer volume of places supports this association."
+  },
+  {
+    "word": "ELIGIBLE",
+    "clue": "You moved between different buildings, presumably _______ to attend classes or work on assignments.",
+    "score": 4,
+    "reason": "The diary explicitly states going to class and working on assignments. The movement between buildings directly supports the idea of being 'eligible' or permitted to be there for those purposes."
+  },
+  {
+    "word": "LEND",
+    "clue": "Hopefully, the library will _______ you the resources you need to succeed in your courses.",
+    "score": 4,
+    "reason": "Libraries are known for lending resources, and the diary clearly indicates the person is at the library for study, making this a reasonable connection."
+  },
+  {
+    "word": "LINING",
+    "clue": "You were constantly walking and _______ up to take the train.",
+    "score": 4,
+    "reason": "The diary details frequent use of the subway, and people typically 'line up' to board trains. The context supports this association."
+  },
+  {
+    "word": "NEGLIGIBLE",
+    "clue": "The amount of time you spent actually *standing* around was _______, as you were constantly on the move.",
+    "score": 4,
+    "reason": "The diary consistently describes rushing and moving, with brief mentions of 'sitting' or 'standing around', indicating a relatively small amount of time spent stationary."
+  },
+  {
+    "word": "LEGIBLE",
+    "clue": "You were taking notes in class, hoping your handwriting was _______.",
+    "score": 4,
+    "reason": "The diary mentions 'taking notes', implying the need for understandable handwriting. 'Legible' is a logical assumption in this context, though not explicitly stated."
+  },
+  {
+    "word": "INEDIBLE",
+    "clue": "Despite passing many restaurants, you didn't mention eating anything _______ today.",
+    "score": 4,
+    "reason": "The diary explicitly mentions passing numerous restaurants without indicating any food consumption, making this a reasonably valid observation."
+  },
+  {
+    "word": "GELID",
+    "clue": "Despite the bustling activity around you, Snell Library often felt _______ and calm, providing a welcome respite.",
+    "score": 4,
+    "reason": "The diary often contrasts the busyness of travel with seeking quiet in Snell Library. 'Gelid' means icy or cold, and while not a perfect fit, it evokes a sense of calmness and coolness as a contrast to the hectic pace."
+  },
+  {
+    "word": "BELL",
+    "clue": "A _______ might signal the end of a class at Ryder Hall at 4:45 PM.",
+    "score": 3,
+    "reason": "A bell is a common signal for the end of class, but it's not directly mentioned in the diary. It's a reasonable association but not a direct fact."
+  },
+  {
+    "word": "BILL",
+    "clue": "After stopping for coffee, you probably had to pay a _______.",
+    "score": 3,
+    "reason": "The diary mentions passing multiple coffee shops (Dunkin', Starbucks, Farmer Horse Coffee). Paying a bill is a logical inference, but not stated."
+  },
+  {
+    "word": "NEEDLE",
+    "clue": "Despite all the rushing, you felt as if your mind was becoming _______-sharp, thinking about course material.",
+    "score": 3,
+    "reason": "The diary mentions 'repeating course material' and feeling mentally engaged, which loosely connects to becoming 'sharp'. However, the connection isn't strongly implied, making it a moderate connection."
+  },
+  {
+    "word": "BLEED",
+    "clue": "With all of the rushing from place to place, your time seemed to _______ away.",
+    "score": 3,
+    "reason": "The diary emphasizes constant rushing and movement. While 'bleed' is a slightly metaphorical connection, the sense of time slipping away is plausible given the frantic pace described."
+  },
+  {
+    "word": "LEDGE",
+    "clue": "Perhaps you felt as though you were on the _______ of exhaustion, constantly rushing between locations.",
+    "score": 3,
+    "reason": "While the diary describes a hectic pace and feeling overwhelmed, 'ledge' feels metaphorical and less directly supported by the text. The exhaustion is present but 'ledge' is a weaker association."
+  },
+  {
+    "word": "BILE",
+    "clue": "After a long day of rushing around, you noted your mind felt older, as if filled with _______.",
+    "score": 3,
+    "reason": "While 'older' suggests weariness, 'bile' is a somewhat metaphorical connection and not directly stated or strongly implied. It's a possible association, but not a strong one."
+  },
+  {
+    "word": "BELIE",
+    "clue": "You may have had a hard time making your notes _______-vable after a long day of rushing.",
+    "score": 3,
+    "reason": "The diary details a hectic and rushed day. While plausible that notes might be difficult to decipher, it's a weak connection - not explicitly stated."
+  },
+  {
+    "word": "GILDING",
+    "clue": "You were at Snell Library and Ryder Hall, both places with a certain _______ to their architecture.",
+    "score": 3,
+    "reason": "While libraries and halls *can* have gilding, it's not explicitly stated or strongly implied by the diary entries. It's a possible association, but not definitive."
+  },
+  {
+    "word": "DIDDLE",
+    "clue": "You seemed to _______ away the hours, repeatedly sitting and working at Snell Library.",
+    "score": 3,
+    "reason": "The diary mentions 'sitting' repeatedly, but 'diddle' implies a more frivolous wasting of time.  While the repetition *could* suggest this, it isn't a strong link. The activity is described as working/studying."
+  },
+  {
+    "word": "GILD",
+    "clue": "You may have wished to _______ your time at Snell Library, craving the quiet space.",
+    "score": 3,
+    "reason": "The diary expresses a desire for quiet at Snell Library. 'Gild' implies enhancing something, which fits the desire for a better experience, but isn't a direct, strong connection."
+  }
+]

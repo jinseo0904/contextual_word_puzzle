@@ -1,0 +1,331 @@
+[
+  {
+    "word": "line",
+    "contextual_clue": "You waited in a _______ for the train to Amazon Boston at 11:09 AM.",
+    "generic_clue": "Queue, perhaps",
+    "frequency": 0.000309,
+    "score": 4.0
+  },
+  {
+    "word": "bill",
+    "contextual_clue": "N/A",
+    "generic_clue": "Restaurant request",
+    "frequency": 0.000141,
+    "score": 0
+  },
+  {
+    "word": "bell",
+    "contextual_clue": "N/A",
+    "generic_clue": "Sound a chime",
+    "frequency": 3.89e-05,
+    "score": 0
+  },
+  {
+    "word": "bible",
+    "contextual_clue": "N/A",
+    "generic_clue": "Holy scripture",
+    "frequency": 3.47e-05,
+    "score": 0
+  },
+  {
+    "word": "blind",
+    "contextual_clue": "You were sometimes distracted while walking, almost like you were _______ to your surroundings.",
+    "generic_clue": "Without sight",
+    "frequency": 3.31e-05,
+    "score": 4.0
+  },
+  {
+    "word": "legend",
+    "contextual_clue": "You passed so many restaurants and stores, the list reads like a local _______ of eateries and shops.",
+    "generic_clue": "Mythical tale",
+    "frequency": 2.75e-05,
+    "score": 4.0
+  },
+  {
+    "word": "eligible",
+    "contextual_clue": "You moved between different buildings, presumably _______ to attend classes or work on assignments.",
+    "generic_clue": "Qualified to participate",
+    "frequency": 1.95e-05,
+    "score": 4.0
+  },
+  {
+    "word": "lied",
+    "contextual_clue": "N/A",
+    "generic_clue": "Wasn't truthful",
+    "frequency": 1.62e-05,
+    "score": 0
+  },
+  {
+    "word": "bleeding",
+    "contextual_clue": "After a long day of rushing, you mentioned your mind felt older, almost _______-dry of energy.",
+    "generic_clue": "Losing vital fluid",
+    "frequency": 1.2e-05,
+    "score": 4.0
+  },
+  {
+    "word": "needle",
+    "contextual_clue": "N/A",
+    "generic_clue": "Sewing tool",
+    "frequency": 9.55e-06,
+    "score": 0
+  },
+  {
+    "word": "blend",
+    "contextual_clue": "The constant movement between locations created a _______ of activity in your day.",
+    "generic_clue": "Combine ingredients, as for a smoothie",
+    "frequency": 8.91e-06,
+    "score": 5.0
+  },
+  {
+    "word": "lend",
+    "contextual_clue": "Hopefully, the library will _______ you the resources you need to succeed in your courses.",
+    "generic_clue": "Offer for temporary use",
+    "frequency": 8.32e-06,
+    "score": 4.0
+  },
+  {
+    "word": "lining",
+    "contextual_clue": "You were constantly walking and _______ up to take the train.",
+    "generic_clue": "Interior covering of a coat, perhaps",
+    "frequency": 7.59e-06,
+    "score": 4.0
+  },
+  {
+    "word": "glen",
+    "contextual_clue": "N/A",
+    "generic_clue": "Narrow valley in the Scottish Highlands",
+    "frequency": 7.41e-06,
+    "score": 0
+  },
+  {
+    "word": "bleed",
+    "contextual_clue": "N/A",
+    "generic_clue": "Lose blood, as from a cut",
+    "frequency": 5.25e-06,
+    "score": 0
+  },
+  {
+    "word": "idle",
+    "contextual_clue": "After a hectic morning, you often found moments to be _______, especially back at Snell Library.",
+    "generic_clue": "Not working; loafing around",
+    "frequency": 5.01e-06,
+    "score": 5.0
+  },
+  {
+    "word": "nile",
+    "contextual_clue": "N/A",
+    "generic_clue": "River flowing through Egypt",
+    "frequency": 4.37e-06,
+    "score": 0
+  },
+  {
+    "word": "edible",
+    "contextual_clue": "You passed numerous _______ establishments today, including Dunkin', Subway, and Sweet Tomatoes Pizza.",
+    "generic_clue": "Safe to consume",
+    "frequency": 4.27e-06,
+    "score": 5.0
+  },
+  {
+    "word": "gill",
+    "contextual_clue": "N/A",
+    "generic_clue": "Fish breathing apparatus",
+    "frequency": 4.27e-06,
+    "score": 0
+  },
+  {
+    "word": "legged",
+    "contextual_clue": "You spent a significant portion of your day _______, rushing between buildings and locations.",
+    "generic_clue": "Having supports for walking",
+    "frequency": 3.16e-06,
+    "score": 5.0
+  },
+  {
+    "word": "glee",
+    "contextual_clue": "N/A",
+    "generic_clue": "Joyful, exuberant delight",
+    "frequency": 3.09e-06,
+    "score": 0
+  },
+  {
+    "word": "ledge",
+    "contextual_clue": "N/A",
+    "generic_clue": "Protrusion from a cliff, perhaps",
+    "frequency": 2.57e-06,
+    "score": 0
+  },
+  {
+    "word": "negligible",
+    "contextual_clue": "The amount of time you spent actually *standing* around was _______, as you were constantly on the move.",
+    "generic_clue": "So small it doesn't matter much",
+    "frequency": 2.45e-06,
+    "score": 4.0
+  },
+  {
+    "word": "giggle",
+    "contextual_clue": "N/A",
+    "generic_clue": "Light, silly laugh",
+    "frequency": 2.24e-06,
+    "score": 0
+  },
+  {
+    "word": "libel",
+    "contextual_clue": "N/A",
+    "generic_clue": "A written defamation",
+    "frequency": 2.19e-06,
+    "score": 0
+  },
+  {
+    "word": "glide",
+    "contextual_clue": "You seemed to _______ between Snell Library and Ryder Hall all day.",
+    "generic_clue": "Move smoothly and effortlessly",
+    "frequency": 2.14e-06,
+    "score": 5.0
+  },
+  {
+    "word": "bile",
+    "contextual_clue": "N/A",
+    "generic_clue": "Yellowish digestive fluid",
+    "frequency": 1.62e-06,
+    "score": 0
+  },
+  {
+    "word": "bled",
+    "contextual_clue": "N/A",
+    "generic_clue": "Lost blood, as a wound might",
+    "frequency": 1.62e-06,
+    "score": 0
+  },
+  {
+    "word": "lien",
+    "contextual_clue": "N/A",
+    "generic_clue": "Legal claim against property",
+    "frequency": 1.58e-06,
+    "score": 0
+  },
+  {
+    "word": "linden",
+    "contextual_clue": "You passed by many establishments, but none were named _______.",
+    "generic_clue": "Tree known for its heart-shaped leaves",
+    "frequency": 1.58e-06,
+    "score": 5.0
+  },
+  {
+    "word": "dill",
+    "contextual_clue": "N/A",
+    "generic_clue": "Herb often paired with pickles",
+    "frequency": 1.29e-06,
+    "score": 0
+  },
+  {
+    "word": "nibble",
+    "contextual_clue": "N/A",
+    "generic_clue": "Eat delicately, like a mouse",
+    "frequency": 7.08e-07,
+    "score": 0
+  },
+  {
+    "word": "indelible",
+    "contextual_clue": "The many locations you visited—Snell Library, Amazon, Grove Hall—left an _______ impression on your day.",
+    "generic_clue": "Permanent, as a strong impression",
+    "frequency": 6.61e-07,
+    "score": 5.0
+  },
+  {
+    "word": "legible",
+    "contextual_clue": "You were taking notes in class, hoping your handwriting was _______.",
+    "generic_clue": "Easy to read, not scribbled",
+    "frequency": 6.31e-07,
+    "score": 4.0
+  },
+  {
+    "word": "gelding",
+    "contextual_clue": "N/A",
+    "generic_clue": "Castrated male horse",
+    "frequency": 5.37e-07,
+    "score": 0
+  },
+  {
+    "word": "glib",
+    "contextual_clue": "N/A",
+    "generic_clue": "Smooth-talking and superficial",
+    "frequency": 4.37e-07,
+    "score": 0
+  },
+  {
+    "word": "inedible",
+    "contextual_clue": "Despite passing many restaurants, you didn't mention eating anything _______ today.",
+    "generic_clue": "Not fit to eat",
+    "frequency": 4.27e-07,
+    "score": 4.0
+  },
+  {
+    "word": "gilding",
+    "contextual_clue": "N/A",
+    "generic_clue": "Applying thin gold leaf",
+    "frequency": 3.8e-07,
+    "score": 0
+  },
+  {
+    "word": "illegible",
+    "contextual_clue": "After a long day of rushing and writing on the subway, your notes might be _______.",
+    "generic_clue": "Unreadable handwriting, perhaps",
+    "frequency": 3.55e-07,
+    "score": 5.0
+  },
+  {
+    "word": "belie",
+    "contextual_clue": "N/A",
+    "generic_clue": "To disbelieve",
+    "frequency": 2.82e-07,
+    "score": 0
+  },
+  {
+    "word": "gild",
+    "contextual_clue": "N/A",
+    "generic_clue": "Cover with a thin layer of gold",
+    "frequency": 2.69e-07,
+    "score": 0
+  },
+  {
+    "word": "diddle",
+    "contextual_clue": "N/A",
+    "generic_clue": "Waste time with trivial matters",
+    "frequency": 2.45e-07,
+    "score": 0
+  },
+  {
+    "word": "legging",
+    "contextual_clue": "You were constantly _______ between buildings and locations throughout the day.",
+    "generic_clue": "Slim-fitting stretch pants",
+    "frequency": 1.62e-07,
+    "score": 5.0
+  },
+  {
+    "word": "lidded",
+    "contextual_clue": "N/A",
+    "generic_clue": "Having a covering or cap",
+    "frequency": 1.41e-07,
+    "score": 0
+  },
+  {
+    "word": "negligee",
+    "contextual_clue": "N/A",
+    "generic_clue": "Light, flowing dressing gown",
+    "frequency": 7.76e-08,
+    "score": 0
+  },
+  {
+    "word": "elide",
+    "contextual_clue": "You frequently skipped over details or _______-d parts of your journey, quickly moving from location to location.",
+    "generic_clue": "Omit, as a syllable",
+    "frequency": 5.62e-08,
+    "score": 5.0
+  },
+  {
+    "word": "gelid",
+    "contextual_clue": "Despite the bustling activity around you, Snell Library often felt _______ and calm, providing a welcome respite.",
+    "generic_clue": "Like a glacier",
+    "frequency": 2.04e-08,
+    "score": 4.0
+  }
+]

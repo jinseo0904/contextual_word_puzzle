@@ -1,0 +1,822 @@
+{
+  "seed_word": "CLASSROOM",
+  "seed_word_clue": "You were focused on ______ during that time. This captures what that part of the day was about.",
+  "distinct_letters": [
+    "c",
+    "l",
+    "a",
+    "s",
+    "r",
+    "o",
+    "m"
+  ],
+  "center_letter": "a",
+  "total_words": 161,
+  "words": [
+    {
+      "word": "also",
+      "frequency": 0.00155,
+      "definition": "1. In like manner; likewise. [Obs.] 2. In addition; besides; as well; further; too. Lay up for yourselves treasures in heaven . . . for where your treasure is, there will your heart be also. Matt. vi. 20. 3. Even as; as; so. [Obs.] Chaucer. Syn. -- Also, Likewise, Too. These words are used by way of transition, in leaving one thought and passing to another. Also is the widest term. It denotes that what follows is all so, or entirely like that which preceded, or may be affirmed with the same truth; as, \"If you were there, I was there also;\" \"If our situation has some discomforts, it has also many sources of enjoyment.\" Too is simply less formal and pointed than also; it marks the transition with a lighter touch; as, \"I was there too;\" \"a courtier yet a patriot too.\" Pope. Likewise denotes literally \"in like manner,\" and hence has been thought by some to be more specific than also. \"It implies,\" says Whately, \"some connection or agreement between the words it unites. We may say, ` He is a poet, and likewise a musician; ' but we should not say, ` He is a prince, and likewise a musician,' because there is no natural connection between these qualities.\" This distinction, however, is often disregarded."
+    },
+    {
+      "word": "call",
+      "frequency": 0.000324,
+      "definition": "1. To command or request to come or be present; to summon; as, to call a servant. Call hither Clifford; bid him come amain Shak. 2. To summon to the discharge of a particular duty; to designate for an office, or employment, especially of a religious character; -- often used of a divine summons; as, to be called to the ministry; sometimes, to invite; as, to call a minister to be the pastor of a church. Paul . . . called to be an apostle Rom. i. 1. The Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them. Acts xiii. 2. 3. To invite or command to meet; to convoke; -- often with together; as, the President called Congress together; to appoint and summon; as, to call a meeting of the Board of Aldermen. Now call we our high court of Parliament. Shak. 4. To give name to; to name; to address, or speak of, by a specifed name. If you would but call me Rosalind. Shak. And God called the light Day, and the darkness he called Night. Gen. i. 5. 5. To regard or characterize as of a certain kind; to denominate; to designate. What God hath cleansed, that call not thou common. Acts x. 15. 6. To state, or estimate, approximately or loosely; to characterize without strict regard to fact; as, they call the distance ten miles; he called it a full day's work. [The] army is called seven hundred thousand men. Brougham. 7. To show or disclose the class, character, or nationality of. [Obs.] This speech calls him Spaniard. Beau. & Fl. 8. To utter in a loud or distinct voice; -- often with off; as, to call, or call off, the items of an account; to call the roll of a military company. No parish clerk who calls the psalm so clear. Gay. 9. To invoke; to appeal to. I call God for a witness. 2 Cor. i. 23 [Rev. Ver. ] 10. To rouse from sleep; to awaken. If thou canst awake by four o' the clock. I prithee call me. Sleep hath seized me wholly. Shak. To call a bond, to give notice that the amount of the bond will be paid. -- To call a party (Law), to cry aloud his name in open court, and command him to come in and perform some duty requiring his presence at the time on pain of what may befall him. -- To call back, to revoke or retract; to recall; to summon back. -- To call down, to pray for, as blessing or curses. -- To call forth, to bring or summon to action; as, to call forth all the faculties of the mind. -- To call in, (a) To collect; as, to call in debts or money; ar to withdraw from cirulation; as, to call in uncurrent coin. (b) To summon to one's side; to invite to come together; as, to call in neighbors. -- To call (any one) names, to apply contemptuous names (to any one). -- To call off, to summon away; to divert; as, to call off the attention; to call off workmen from their employment. -- To call out. (a) To summon to fight; to challenge. (b) To summon into service; as, to call out the militia. -- To call over, to recite separate particulars in order, as a roll of names. -- To call to account, to demand explanation of. -- To call to mind, to recollect; to revive in memory. -- To call to order, to request to come to order; as: (a) A public meeting, when opening it for business. (b) A person, when he is transgressing the rules of debate. -- To call to the bar, to admit to practice in courts of law. -- To call up. (a) To bring into view or recollection; as to call up the image of deceased friend. (b) To bring into action or discussion; to demand the consideration of; as, to call up a bill before a legislative body. Syn. -- To name; denominate; invite; bid; summon; convoke; assemble; collect; exhort; warn; proclaim; invoke; appeal to; designate. To Call, Convoke, Summon. Call is the generic term; as, to call a public meeting. To convoke is to require the assembling of some organized body of men by an act of authority; as, the king convoked Parliament. To summon is to require attendance by an act more or less stringent anthority; as, to summon a witness.\n\n1. To speak in loud voice; to cry out; to address by name; -- sometimes with to. You must call to the nurse. Shak. The angel of God called to Hagar. Gen. xxi. 17. 2. To make a demand, requirement, or request. They called for rooms, and he showed them one. Bunyan. 3. To make a brief visit; also, to stop at some place designated, as for orders. He ordered her to call at the house once a week. Temple. To call for (a) To demand; to require; as, a crime calls for punishment; a survey, grant, or deed calls for the metes and bounds, or the quantity of land, etc., which it describes. (b) To give an order for; to request. \"Whenever the coach stopped, the sailor called for more ale.\" Marryat. -- To call on, To call upon, (a) To make a short visit to; as, call on a friend. (b) To appeal to; to invite; to request earnestly; as, to call upon a person to make a speech. (c) To solicit payment, or make a demand, of a debt. (d) To invoke or play to; to worship; as, to call upon God. -- To call out To call or utter loudly; to brawl.\n\n1. The act of calling; -- usually with the voice, but often otherwise, as by signs, the sound of some instrument, or by writing; a summons; an entreaty; an invitation; as, a call for help; the bugle's call. \"Call of the trumpet.\" Shak. I rose as at thy call, but found thee not. Milton. 2. A signal, as on a drum, bugle, trumpet, or pipe, to summon soldiers or sailors to duty. 3. (Eccl.)  An invitation to take charge of or serve a church as its pastor. 4. A requirement or appeal arising from the circumstances of the case; a moral requirement or appeal. Dependence is a perpetual call upon hummanity. Addison. Running into danger without any call of duty. Macaulay. 5. A divine vocation or summons. St. Paul himself believed he did well, and that he had a call to it, when he persecuted the Christians. Locke. 6. Vocation; employment. Note: [In this sense, calling is generally used.] 7. A short visit; as, to make a call on a neighbor; also, the daily coming of a tradesman to solicit orders. The baker's punctual call. Cowper. 8. (Hunting)  A note blown on the horn to encourage the hounds. 9. (Naut.)  A whistle or pipe, used by the boatswain and his mate, to summon the sailors to duty. 10. (Fowling)  The cry of a bird; also a noise or cry in imitation of a bird; or a pipe to call birds by imitating their note or cry. 11. (Amer. Land Law)  A reference to, or statement of, an object, course, distance, or other matter of description in a survey or grant reguiring or calling for a carresponding object, etc., on the land. 12. The privilege to demand the delivery of stock, grain, or any commodity, at a fixed, price, at or within a certain time agreed on. [Brokers' Cant] 13. See Assessment, 4. At call, or On call, liable to be demanded at any moment without previous notice; as money on deposit. -- Call bird, a bird taught to allure others into a snare. -- Call boy (a) A boy who calls the actors in a theater; a boy who transmits the orders of the captain of a vessel to the engineer, helmsman, etc. (b) A waiting boy who answers a cal, or cames at the ringing of a bell; a bell boy. -- Call note, the note naturally used by the male bird to call the female. It is artifically applied by birdcatchers as a decoy. Latham. -- Call of the house (Legislative Bodies), a calling over the names of members, to discover who is absent, or for other purposes; a calling of names with a view to obtaining the ayes and noes from the persons named. -- Call to the bar, admission to practice in the courts."
+    },
+    {
+      "word": "small",
+      "frequency": 0.000324,
+      "definition": "1. Having little size, compared with other things of the same kind; little in quantity or degree; diminutive; not large or extended in dimension; not great; not much; inconsiderable; as, a small man; a small river. To compare Great things with small. Milton. 2. Being of slight consequence; feeble in influence or importance; unimportant; trivial; insignificant; as, a small fault; a small business. 3. Envincing little worth or ability; not large-minded; -- sometimes, in reproach, paltry; mean. A true delineation of the smallest man is capable of interesting the reatest man. Carlyle. 4. Not prolonged in duration; not extended in time; short; as, after a small space. Shak. 5. Weak; slender; fine; gentle; soft; not loud. \"A still, small voice.\" 1 Kings xix. 12. Great and small,of all ranks or degrees; -- used especially of persons. \"His quests, great and small.\" Chaucer. -- Small arms, muskets, rifles, pistols, etc., in distinction from cannon. -- Small beer. See under Beer. -- Small coal. (a) Little coals of wood formerly used to light fires. Gay. (b) Coal about the size of a hazelnut, separated from the coarser parts by screening. -- Small craft (Naut.), a vessel, or vessels in general, of a small size. -- Small fruits. See under Fruit. -- Small hand, a certain size of paper. See under Paper. -- Small hours. See under Hour. -- Small letter. (Print.), a lower-case letter. See Lower-case, and Capital letter, under Capital, a. -- Small piece, a Scotch coin worth about 2 -- Small register. See the Note under 1st Register, 7. -- Small stuff (Naut.), spun yarn, marline, and the smallest kinds of rope. R. H. Dana, Jr. -- Small talk, light or trifling conversation; chitchat. -- Small wares (Com.), various small textile articles, as tapes, braid, tringe, and the like. M`Culloch.\n\n1. In or to small extent, quantity, or degree; little; slightly. [Obs.] \"I wept but small.\" Chaucer. \"It small avails my mood.\" Shak. 2. Not loudly; faintly; timidly. [Obs. or Humorous] You may speak as small as you will. Shak.\n\n1. The small or slender part of a thing; as, the small of the leg or of the back. 2. pl.  Smallclothes. [Colloq.] Hood. Dickens. 3. pl.  Same as Little go. See under Little, a.\n\nTo make little or less. [Obs.]"
+    },
+    {
+      "word": "local",
+      "frequency": 0.000269,
+      "definition": "Of or pertaining to a particular place, or to a definite region or portion of space; restricted to one place or region; as, a local custom. Gives to airy nothing A local habitation and a name. Shak. Local actions (Law), actions such as must be brought in a particular county, where the cause arises; -- distinguished from transitory actions. -- Local affection (Med.), a disease or ailment confined to a particular part or organ, and not directly affecting the system. -- Local attraction (Magnetism), an attraction near a compass, causing its needle to deviate from its proper direction, especially on shipboard. -- Local battery (Teleg.), the battery which actuates the recording instruments of a telegraphic station, as distinguished from the battery furnishing a current for the line. -- Local circuit (Teleg.), the circuit of the local battery. -- Local color. (a) (Paint.) The color which belongs to an object, and is not caused by accidental influences, as of reflection, shadow, etc. (b) (Literature) Peculiarities of the place and its inhabitants where the scene of an action or story is laid. -- Local option, the right or obligation of determining by popular vote within certain districts, as in each county, city, or town, whether the sale of alcoholic beverages within the district shall be allowed.\n\n1. (Railroad)  A train which receives and deposits passengers or freight along the line of the road; a train for the accommodation of a certain district. [U.S.] 2. On newspaper cant, an item of news relating to the place where the paper is published. [U.S.]"
+    },
+    {
+      "word": "class",
+      "frequency": 0.000229,
+      "definition": "1. A group of individuals ranked together as possessing common characteristics; as, the different classes of society; the educated class; the lower classes. 2. A number of students in a school or college, of the same standing, or pursuing the same studies. 3. A comprehensive division of animate or inanimate objects, grouped together on account of their common characteristics, in any classification in natural science, and subdivided into orders, families, tribes, gemera, etc. 4. A set; a kind or description, species or variety. She had lost one class energies. Macaulay. 5. (Methodist Church)  One of the sections into which a church or congregation is divided, and which is under the supervision of a class leader. Class of a curve (Math.), the kind of a curve as expressed by the number of tangents that can be drawn from any point to the curve. A circle is of the second class. -- Class meeting (Methodist Church), a meeting of a class under the charge of a class leader, for counsel and relegious instruction.\n\n1. To arrange in classes; to classify or refer to some class; as, to class words or passages. Note: In scientific arrangement, to classify is used instead of to class. Dana. 2. To divide into classes, as students; to form into, or place in, a class or classes.\n\nTo grouped or classed. The genus or famiky under which it classes. Tatham."
+    },
+    {
+      "word": "across",
+      "frequency": 0.000178,
+      "definition": "From side to side; athwart; crosswise, or in a direction opposed to the length; quite over; as, a bridge laid across a river. Dryden. To come across, to come upon or meet incidentally. Freeman. -- To go across the country, to go by a direct course across a region without following the roads.\n\n1. From side to side; crosswise; as, with arms folded across. Shak. 2. Obliquely; athwart; amiss; awry. [Obs.] The squint-eyed Pharisees look across at all the actions of Christ. Bp. Hall."
+    },
+    {
+      "word": "mass",
+      "frequency": 7.41e-05,
+      "definition": "1. (R. C. Ch.)  The sacrifice in the sacrament of the Eucharist, or the consecration and oblation of the host. 2. (Mus.)  The portions of the Mass usually set to music, considered as a musical composition; -- namely, the Kyrie, the Gloria, the Credo, the Sanctus, and the Agnus Dei, besides sometimes an Offertory and the Benedictus. Canon of the Mass. See Canon. -- High Mass, Mass with incense, music, the assistance of a deacon, subdeacon, etc. -- Low Mass, Mass which is said by the priest through-out, without music. -- Mass bell, the sanctus bell. See Sanctus. -- Mass book, the missal or Roman Catholic service book.\n\nTo celebrate Mass. [Obs.] Hooker.\n\n1. A quantity of matter cohering together so as to make one body, or an aggregation of particles or things which collectively make one body or quantity, usually of considerable size; as, a mass of ore, metal, sand, or water. If it were not for these principles, the bodies of the earth, planets, comets, sun, and all things in them, would grow cold and freeze, and become inactive masses. Sir I. Newton. A deep mass of continual sea is slower stirred To rage. Savile. 2. (Phar.)  A medicinal substance made into a cohesive, homogeneous lump, of consistency suitable for making pills; as, blue mass. 3. A large quantity; a sum. All the mass of gold that comes into Spain. Sir W. Raleigh. He had spent a huge mass of treasure. Sir J. Davies. 4. Bulk; magnitude; body; size. This army of such mass and charge. Shak. 5. The principal part; the main body. Night closed upon the pursuit, and aided the mass of the fugitives in their escape. Jowett (Thucyd.). 6. (Physics)  The quantity of matter which a body contains, irrespective of its bulk or volume. Note: Mass and weight are often used, in a general way, as interchangeable terms, since the weight of a body is proportional to its mass (under the same or equal gravitative forces), and the mass is usually ascertained from the weight. Yet the two ideas, mass and weight, are quite distinct. Mass is the quantity of matter in a body; weight is the comparative force with which it tends towards the center of the earth. A mass of sugar and a mass of lead are assumed to be equal when they show an equal weight by balancing each other in the scales. Blue mass. See under Blue. -- Mass center (Geom.), the center of gravity of a triangle. -- Mass copper, native copper in a large mass. -- Mass meeting, a large or general assembly of people, usually a meeting having some relation to politics. -- The masses, the great body of the people, as contrasted with the higher classes; the populace.\n\nTo form or collect into a mass; to form into a collective body; to bring together into masses; to assemble. But mass them together and they are terrible indeed. Coleridge."
+    },
+    {
+      "word": "arms",
+      "frequency": 6.61e-05,
+      "definition": "1. Instruments or weapons of offense or defense. He lays down his arms, but not his wiles. Milton. Three horses and three goodly suits of arms. Tennyson. 2. The deeds or exploits of war; military service or science. \"Arms and the man I sing.\" Dryden. 3. (Law)  Anything which a man takes in his hand in anger, to strike or assault another with; an aggressive weapon. Cowell. Blackstone. 4. (Her.)  The ensigns armorial of a family, consisting of figures and colors borne in shields, banners, etc., as marks of dignity and distinction, and descending from father to son. 5. (Falconry)  The legs of a hawk from the thigh to the foot. Halliwell. Bred to arms, educated to the profession of a soldier. -- In arms, armed for war; in a state of hostility. -- Small arms, portable firearms known as muskets, rifles, carbines, pistols, etc. -- A stand of arms, a complete set for one soldier, as a musket, bayonet, cartridge box and belt; frequently, the musket and bayonet alone. -- To arms! a summons to war or battle. -- Under arms, armed and equipped and in readiness for battle, or for a military parade. Arm's end, Arm's length, Arm's reach. See under Arm."
+    },
+    {
+      "word": "calm",
+      "frequency": 3.47e-05,
+      "definition": "Freodom from motion, agitation, or disturbance; a cessation or abeence of that which causes motion or disturbance, as of winds or waves; tranquility; stilness; quiet; serenity. The wind ceased, and there was a great calm. Mark. iv. 39. A calm before a storm is commonly a peace of a man's own making. South.\n\n1. To make calm; to render still or quet, as elements; as, to calm the winds. To calm the tempest raised by Eolus. Dryden. 2. To deliver from agitation or excitement; to still or soothe, as the mind or passions. Passions which seem somewhat calmed. Syn. -- To still; quiet; appease; ally; pacigy; tranquilize; soothe; compose; assuage; check; restrain.\n\n1. Not stormy; without motion, as of winds or waves; still; quiet; serene; undisturbed. \"Calm was the day.\" Spenser. Now all is calm, and fresh, and still. Bryant. 2. Undisturbed by passion or emotion; not agitated or excited; tranquil; quiet in act or speech. \"Calm and sinless peace.\" Milton. \"With calm attention.\" Pope. Such calm old age as conscience pure And self-commanding hearts ensure. Keble. Syn. -- Still; quiet; undisturbed; tranquil; peaceful; serene; composed; unruffled; sedate; collected; placid."
+    },
+    {
+      "word": "solar",
+      "frequency": 3.39e-05,
+      "definition": "A loft or upper chamber; a garret room. [Obs.] [Written also soler, solere, sollar.] Oxf. Gloss.\n\n1. Of or pertaining to the sun; proceeding from the sun; as, the solar system; solar light; solar rays; solar influence. See Solar system, below. 2. (Astrol.)  Born under the predominant influence of the sun. [Obs.] And proud beside, as solar people are. Dryden. 3. Measured by the progress or revolution of the sun in the ecliptic; as, the solar year. 4. Produced by the action of the sun, or peculiarly affected by its influence. They denominate some herbs solar, and some lunar. Bacon. Solar cycle. See under Cycle. -- Solar day. See Day, 2. -- Solar engine, an engine in which the energy of solar heat is used to produce motion, as in evaporating water for a steam engine, or expanding air for an air engine. -- Solar flowers (Bot.), flowers which open and shut daily at certain hours. -- Solar lamp, an argand lamp. -- Solar microscope, a microscope consisting essentially, first, of a mirror for reflecting a beam of sunlight through the tube, which sometimes is fixed in a window shutter; secondly, of a condenser, or large lens, for converging the beam upon the object; and, thirdly, of a small lens, or magnifier, for throwing an enlarged image of the object at its focus upon a screen in a dark room or in a darkened box. -- Solar month. See under Month. -- Solar oil, a paraffin oil used an illuminant and lubricant. -- Solar phosphori (Physics), certain substances, as the diamond, siulphide of barium (Bolognese or Bologna phosphorus), calcium sulphide, etc., which become phosphorescent, and shine in the dark, after exposure to sunlight or other intense light. -- Solar plexus (Anat.), a nervous plexus situated in the dorsal and anterior part of the abdomen, consisting of several sympathetic ganglia with connecting and radiating nerve fibers; -- so called in allusion to the radiating nerve fibers. -- Solar spots. See Sun spots, under Sun. -- Solar system (Astron.), the sun, with the group of celestial bodies which, held by its attraction, revolve round it. The system comprises the major planets, with their satellites; the minor planets, or asteroids, and the comets; also, the meteorids, the matter that furnishes the zodiacal light, and the rings of Saturn. The satellites that revolve about the major planets are twenty-two in number, of which the Earth has one (see Moon.), Mars two, Jupiter five, Saturn nine, Uranus four, and Neptune one. The asteroids, between Mars and Jupiter, thus far discovered (1900), number about five hundred, the first four of which were found near the beginning of the century, and are called Ceres, Pallas, Juno, and Vesta. Note: The principal elements of the major planets, and of the comets seen at more than one perihelion passage, are exhibited in the following tables: -- I. -- Major Planets. Symbol.Name.Mean distance -- that of the Earth being unity.Period in days.Eccentricity.Inclination of orbit.Diameter in miles II. -- Periodic Comets. Name.Greatest distance from sun.Least distance from sun.Inclination of orbit.Perihelion passage. º min 54 Encke's3.314.100.34212 541885.2 -- Solar telegraph, telegraph for signaling by flashes of reflected sunlight. -- Solar time. See Apparent time, under Time."
+    },
+    {
+      "word": "coal",
+      "frequency": 3.09e-05,
+      "definition": "1. A thoroughly charred, and extinguished or still ignited, fragment from wood or other combustible substance; charcoal. 2. (Min.)  A black, or brownish black, solid, combustible substance, dug from beds or veins in the earth to be used for fuel, and consisting, like charcoal, mainly of carbon, but more compact, and often affording, when heated, a large amount of volatile matter. Note: This word is often used adjectively, or as the first part of self-explaining compounds; as, coal-black; coal formation; coal scuttle; coal ship. etc. Note: In England the plural coals is used, for the broken mineral coal burned in grates, etc.; as, to put coals on the fire. In the United States the singular in a collective sense is the customary usage; as, a hod of coal. Age of coal plants. See Age of Acrogens, under Acrogen. -- Anthracite or Glance coal. See Anthracite. -- Bituminous coal. See under Bituminous. -- Blind coal. See under Blind. -- Brown coal, or Lignite. See Lignite. -- Caking coal, a bituminous coal, which softens and becomes pasty or semi-viscid when heated. On increasing the heat, the volatile products are driven off, and a coherent, grayish black, cellular mass of coke is left. -- Cannel coal, a very compact bituminous coal, of fine texture and dull luster. See Cannel coal. -- Coal bed (Geol.), a layer or stratum of mineral coal. -- Coal breaker, a structure including machines and machinery adapted for crushing, cleansing, and assorting coal. -- Coal field (Geol.), a region in which deposits of coal occur. Such regions have often a basinlike structure, and are hence called coal basins. See Basin. -- Coal gas, a variety of carbureted hydrogen, procured from bituminous coal, used in lighting streets, houses, etc., and for cooking and heating. -- Coal heaver, a man employed in carrying coal, and esp. in putting it in, and discharging it from, ships. -- Coal measures. (Geol.) (a) Strata of coal with the attendant rocks. (b) A subdivision of the carboniferous formation, between the millstone grit below and the Permian formation above, and including nearly all the workable coal beds of the world. -- Coal oil, a general name for mineral oils; petroleum. -- Coal plant (Geol.), one of the remains or impressions of plants found in the strata of the coal formation. -- Coal tar. See in the Vocabulary. -- To haul over the coals, to call to account; to scold or censure. [Colloq.] -- Wood coal. See Lignite.\n\n1. To burn to charcoal; to char. [R.] Charcoal of roots, coaled into great pieces. Bacon. 2. To mark or delineate with charcoal. Camden. 3. To supply with coal; as, to coal a steamer.\n\nTo take in coal; as, the steaer coaled at Southampton."
+    },
+    {
+      "word": "moral",
+      "frequency": 2.88e-05,
+      "definition": "1. Relating to duty or obligation; pertaining to those intentions and actions of which right and wrong, virtue and vice, are predicated, or to the rules by which such intentions and actions ought to be directed; relating to the practice, manners, or conduct of men as social beings in relation to each other, as respects right and wrong, so far as they are properly subject to rules. Keep at the least within the compass of moral actions, which have in them vice or virtue. Hooker. Mankind is broken loose from moral bands. Dryden. She had wandered without rule or guidance in a moral wilderness. Hawthorne. 2. Conformed to accepted rules of right; acting in conformity with such rules; virtuous; just; as, a moral man. Used sometimes in distinction from religious; as, a moral rather than a religious life. The wiser and more moral part of mankind. Sir M. Hale. 3. Capable of right and wrong action or of being governed by a sense of right; subject to the law of duty. A moral agent is a being capable of those actions that have a moral quality, and which can properly be denominated good or evil in a moral sense. J. Edwards. 4. Acting upon or through one's moral nature or sense of right, or suited to act in such a manner; as, a moral arguments; moral considerations. Sometimes opposed to material and physical; as, moral pressure or support. 5. Supported by reason or probability; practically sufficient; -- opposed to legal or demonstrable; as, a moral evidence; a moral certainty. 6. Serving to teach or convey a moral; as, a moral lesson; moral tales. Moral agent, a being who is capable of acting with reference to right and wrong. -- Moral certainty, a very high degree or probability, although not demonstrable as a certainty; a probability of so high a degree that it can be confidently acted upon in the affairs of life; as, there is a moral certainty of his guilt. -- Moral insanity, insanity, so called, of the moral system; badness alleged to be irresponsible. -- Moral philosophy, the science of duty; the science which treats of the nature and condition of man as a moral being, of the duties which result from his moral relations, and the reasons on which they are founded. -- Moral play, an allegorical play; a morality. [Obs.] -- Moral sense, the power of moral judgment and feeling; the capacity to perceive what is right or wrong in moral conduct, and to approve or disapprove, independently of education or the knowledge of any positive rule or law. -- Moral theology, theology applied to morals; practical theology; casuistry.\n\n1. The doctrine or practice of the duties of life; manner of living as regards right and wrong; conduct; behavior; -- usually in the plural. Corrupt in their morals as vice could make them. South. 2. The inner meaning or significance of a fable, a narrative, an occurrence, an experience, etc.; the practical lesson which anything is designed or fitted to teach; the doctrine meant to be inculcated by a fiction; a maxim. Thus may we gather honey from the weed, And make a moral of the devil himself. Shak. To point a moral, or adorn a tale. Johnson. We protest against the principle that the world of pure comedy is one into which no moral enters. Macaulay. 3. A morality play. See Morality, 5.\n\nTo moralize. [Obs.] Shak."
+    },
+    {
+      "word": "mall",
+      "frequency": 1.95e-05,
+      "definition": "1. A large heavy wooden beetle; a mallet for driving anything with force; a maul. Addison. 2. A heavy blow. [Obs.] Spenser. 3. An old game played with malls or mallets and balls. See Pall-mall. Cotton. 4. A place where the game of mall was played. Hence: A public walk; a level shaded walk. Part of the area was laid out in gravel walks, and planted with elms; and these convenient and frequented walks obtained the name of the City Mall. Southey.\n\nTo beat with a mall; to beat with something heavy; to bruise; to maul.\n\nFormerly, among Teutonic nations, a meeting of the notables of a state for the transaction of public business, such meeting being a modification of the ancient popular assembly. Hence: (a) A court of justice. (b) A place where justice is administered. (c) A place where public meetings are held. Councils, which had been as frequent as diets or malls, ceased. Milman."
+    },
+    {
+      "word": "alarm",
+      "frequency": 1.91e-05,
+      "definition": "1. A summons to arms, as on the approach of an enemy. Arming to answer in a night alarm. Shak. 2. Any sound or information intended to give notice of approaching danger; a warming sound to arouse attention; a warning of danger. Sound an alarm in my holy mountain. Joel ii. 1. 3. A sudden attack; disturbance; broil. [R.] \"These home alarms.\" Shak. Thy palace fill with insults and alarms. Pope. 4. Sudden surprise with fear or terror excited by apprehension of danger; in the military use, commonly, sudden apprehension of being attacked by surprise. Alarm and resentment spread throughout the camp. Macaulay. 5. A mechanical contrivance for awaking persons from sleep, or rousing their attention; an alarum. Alarm bell, a bell that gives notice on danger. -- Alarm clock or watch, a clock or watch which can be so set as to ring or strike loudly at a prearranged hour, to wake from sleep, or excite attention. -- Alarm gauge, a contrivance attached to a steam boiler for showing when the pressure of steam is too high, or the water in the boiler too low. -- Alarm post, a place to which troops are to repair in case of an alarm. Syn. -- Fright; affright; terror; trepidation; apprehension; consternation; dismay; agitation; disquiet; disquietude. -- Alarm, Fright, Terror, Consternation. These words express different degrees of fear at the approach of danger. Fright is fear suddenly excited, producing confusion of the senses, and hence it is unreflecting. Alarm is the hurried agitation of feeling which springs from a sense of immediate and extreme exposure. Terror is agitating and excessive fear, which usually benumbs the faculties. Consternation is overwhelming fear, and carries a notion of powerlessness and amazement. Alarm agitates the feelings; terror disorders the understanding and affects the will; fright seizes on and confuses the sense; consternation takes possession of the soul, and subdues its faculties. See Apprehension.\n\n1. To call to arms for defense; to give notice to (any one) of approaching danger; to rouse to vigilance and action; to put on the alert. 2. To keep in excitement; to disturb. 3. To surprise with apprehension of danger; to fill with anxiety in regard to threatening evil; to excite with sudden fear. Alarmed by rumors of military preparation. Macaulay."
+    },
+    {
+      "word": "mars",
+      "frequency": 1.86e-05,
+      "definition": "1. (Rom. Myth.)  The god of war and husbandry. 2. (Astron.)  One of the planets of the solar system, the fourth in order from the sun, or the next beyond the earth, having a diameter of about 4,200 miles, a period of 687 days, and a mean distance of 141,000,000 miles. It is conspicuous for the redness of its light. 3. (Alchemy)  The metallic element iron, the symbol of which was the same as that of the planet Mars. [Archaic] Chaucer. Mars brown, a bright, somewhat yellowish, brown."
+    },
+    {
+      "word": "oral",
+      "frequency": 1.82e-05,
+      "definition": "1. Uttered by the mouth, or in words; spoken, not written; verbal; as, oral traditions; oral testimony; oral law. 2. Of or pertaining to the mouth; surrounding or lining the mouth; as, oral cilia or cirri."
+    },
+    {
+      "word": "carl",
+      "frequency": 1.74e-05,
+      "definition": "1. A rude, rustic man; a churl. The miller was a stout carl. Chaucer. 2. Large stalks of hemp which bear the seed; -- called also carl hemp. 3. pl.  A kind of food. See citation, below. Caring or carl are gray steeped in water and fried the next day in butter or fat. They are eaten on the second Sunday before Easter, formerly called Carl Sunday. Robinson's Whitby Glossary (1875)."
+    },
+    {
+      "word": "mama",
+      "frequency": 1.74e-05,
+      "definition": "See Mamma."
+    },
+    {
+      "word": "collar",
+      "frequency": 1.1e-05,
+      "definition": "1. Something worn round the neck, whether for use, ornament, restraint, or identification; as, the collar of a coat; a lady's collar; the collar of a dog. 2. (Arch.) (a) A ring or cinture. (b) A collar beam. 3. (Bot.)  The neck or line of junction between the root of a plant and its stem. Gray. 4. An ornament worn round the neck by knights, having on it devises to designate their rank or order. 5. (Zoöl.) (a) A ringlike part of a mollusk in connection with esophagus. (b) A colored ring round the neck of a bird or mammal. 6. (Mech.)  A ring or round flange upon, surrounding, or against an object, and used for rastraining motion within given limits, or for holding something to its place, or for hibing an opening around an object; as, a collar on a shaft, used to prevent endwise motion of the shaft; a collar surrounding a stovepipe at the place where it enters a wall. The flanges of a piston and the gland of a stuffing box are sometimes called collars. 7. (Naut.)  An eye formed in the bight or bend of a shroud or stay to go over the masthead; also, a rope to which certain parts of rigging, as dead-eyes, are secured. 8. (Mining)  A curb, or a horizontal timbering, around the mouth of a shaft. Raymond. Collar beam (Arch.), a horizontal piece of timber connecting and tying together two opposite rafters; -- also, called simply collar. -- Collar of brawn, the quantity of brawn bound up in one parcel. [Eng.] Johnson. -- Collar day, a day of great ceremony at the English court, when persons, who are dignitaries of honorary orders, wear the collars of those orders. -- To slip the collar, to get free; to disentangle one's self from difficulty, labor, or engagement. Spenser.\n\n1. To seize by the collar. 2. To put a collar on. To collar beef (or other meat), to roll it up, and bind it close with a string preparatory to cooking it."
+    },
+    {
+      "word": "marc",
+      "frequency": 1.07e-05,
+      "definition": "The refuse matter which remains after the pressure of fruit, particularly of grapes.\n\n1. A weight of various commodities, esp. of gold and silver, used in different European countries. In France and Holland it was equal to eight ounces. 2. A coin formerly current in England and Scotland, equal to thirteen shillings and four pence. 3. A German coin and money of account. See Mark."
+    },
+    {
+      "word": "carol",
+      "frequency": 1.05e-05,
+      "definition": "1. A round dance. [Obs.] Chaucer. 2. A song of joy, exultation, or mirth; a lay. The costly feast, the carol, and the dance. Dryden It was the carol of a bird. Byron. 3. A song of praise of devotion; as, a Christmas or Easter carol. Heard a carol, mournful, holy. Tennyson. In the darkness sing your carol of high praise. Keble. 4. Joyful music, as of a song. I heard the bells on Christmans Day Their old, familiar carol play. Longfellow.\n\n1. To praise or celebrate in song. The Shepherds at their festivals Carol her goodness. Milton. 2. To sing, especially with joyful notes. Hovering awans . . . carol sounds harmonious. Prior.\n\nTo sing; esp. to sing joyfully; to warble. And carol of love's high praise. Spenser. The gray linnets carol from the hill. Beattie.\n\nA small closet or inclosure built against a window on the inner side, to sit in for study. The word was used as late as the 16th century. A bay window may thus be called a carol. Parker."
+    },
+    {
+      "word": "slam",
+      "frequency": 1.05e-05,
+      "definition": "1. To shut with force and a loud noise; to bang; as, he slammed the door. 2. To put in or on some place with force and loud noise; -- usually with down; as, to slam a trunk down on the pavement. 3. To strike with some implement with force; hence, to beat or cuff. [Prov. Eng.] 4. To strike down; to slaughter. [Prov. Eng.] 5. To defeat (opponents at cards) by winning all the tricks of a deal or a hand. Hoyle. To slam to, to shut or close with a slam. \"He slammed to the door.\" W. D. Howells.\n\nTo come or swing against something, or to shut, with sudden force so as to produce a shock and noise; as, a door or shutter slams.\n\n1. The act of one who, or that which, slams. 2. The shock and noise produced in slamming. The slam and the scowl were lost upon Sam. Dickens. 3. (Card Playing)  Winning all the tricks of a deal. 4. The refuse of alum works. [Prov. Eng.]"
+    },
+    {
+      "word": "armor",
+      "frequency": 9.33e-06,
+      "definition": "1. Defensive arms for the body; any clothing or covering worn to protect one's person in battle. Note: In English statues, armor is used for the whole apparatus of war, including offensive as well as defensive arms. The statues of armor directed what arms every man should provide. 2. Steel or iron covering, whether of ships or forts, protecting them from the fire of artillery. Coat armor, the escutcheon of a person or family, with its several charges and other furniture, as mantling, crest, supporters, motto, etc. -- Submarine, a water-tight dress or covering for a diver. See under Submarine."
+    },
+    {
+      "word": "coral",
+      "frequency": 7.24e-06,
+      "definition": "1. (Zoöl.)  The hard parts or skeleton of various Anthozoa, and of a few Hydrozoa. Similar structures are also formed by some Bryozoa. Note: The large stony corals forming coral reefs belong to various genera of Madreporaria, and to the hydroid genus, Millepora. The red coral, used in jewelry, is the stony axis of the stem of a gorgonian (Corallium rubrum) found chiefly in the Mediterranean. The fan corals, plume corals, and sea feathers are species of Gorgoniacea, in which the axis is horny. Organ-pipe coral is formed by the genus Tubipora, an Alcyonarian, and black coral is in part the axis of species of the genus Antipathes. See Anthozoa, Madrepora. 2. The ovaries of a cooked lobster; -- so called from their color. 3. A piece of coral, usually fitted with small bells and other appurtenances, used by children as a plaything. Brain coral, or Brain stone coral. See under Brain. -- Chain coral. See under Chain. -- Coral animal (Zoöl.), one of the polyps by which corals are formed. They are often very erroneously called coral insects. -- Coral fish. See in the Vocabulary. -- Coral reefs (Phys. Geog.), reefs, often of great extent, made up chiefly of fragments of corals, coral sands, and the solid limestone resulting from their consolidation. They are classed as fringing reefs, when they border the land; barrier reefs, when separated from the shore by a broad belt of water; atolls, when they constitute separate islands, usually inclosing a lagoon. See Atoll. -- Coral root (Bot.), a genus (Corallorhiza) of orchideous plants, of a yellowish or brownish red color, parasitic on roots of other plants, and having curious jointed or knotted roots not unlike some kinds of coral. See Illust. under Coralloid. -- Coral snake. (Zo) (a) A small, venomous, Brazilian snake (Elaps corallinus), coral-red, with black bands. (b) A small, harmless, South American snake (Tortrix scytale). -- Coral tree (Bot.), a tropical, leguminous plant, of several species, with showy, scarlet blossoms and coral-red seeds. The best known is Erythrina Corallodendron. -- Coral wood, a hard, red cabinet wood. McElrath."
+    },
+    {
+      "word": "scar",
+      "frequency": 5.89e-06,
+      "definition": "1. A mark in the skin or flesh of an animal, made by a wound or ulcer, and remaining after the wound or ulcer is healed; a cicatrix; a mark left by a previous injury; a blemish; a disfigurement. This earth had the beauty of youth, . . . and not a wrinkle, scar, or fracture on all its body. T. Burnet. 2. (Bot.)  A mark left upon a stem or branch by the fall of a leaf, leaflet, or frond, or upon a seed by the separation of its support. See Illust. under Axillary.\n\nTo mark with a scar or scars. Yet I'll not shed her blood; Nor scar that whiter skin of hers than snow. Shak. His cheeks were deeply scarred. Macaulay.\n\nTo form a scar.\n\nAn isolated or protruding rock; a steep, rocky eminence; a bare place on the side of a mountain or steep bank of earth. [Written also scaur.] O sweet and far, from cliff and scar, The horns of Elfland faintly blowing. Tennyson.\n\nA marine food fish, the scarus, or parrot fish."
+    },
+    {
+      "word": "cola",
+      "frequency": 5.5e-06,
+      "definition": "(a) A genus of sterculiaceous trees, natives of tropical Africa, esp. Guinea, but now naturalized in tropical America, esp. in the West Indies and Brazil. (b) Same as Cola nut, below.\n\nL. pl. of Colon."
+    },
+    {
+      "word": "coma",
+      "frequency": 5.5e-06,
+      "definition": "A state of profound insensibility from which it is difficult or impossible to rouse a person. See Carus.\n\n1. (Astron.)  The envelope of a comet; a nebulous covering, which surrounds the nucleus or body of a comet. 2. (Bot.)  A tuft or bunch, -- as the assemblage of branches forming the head of a tree; or a cluster of brachts when empty and terminating the inflorescence of a plant; or a tuft of long hairs on certain seeds. Coma Berenices ( Etym: [L.] (Astron.), a small constellation north of Virgo; -- called also Berenice's Hair."
+    },
+    {
+      "word": "roar",
+      "frequency": 5.01e-06,
+      "definition": "1. To cry with a full, loud, continued sound. Specifically: (a) To bellow, or utter a deep, loud cry, as a lion or other beast. Roaring bulls he would him make to tame. Spenser. (b) To cry loudly, as in pain, distress, or anger. Sole on the barren sands, the suffering chief Roared out for anguish, and indulged his grief. Dryden. He scorned to roar under the impressions of a finite anger. South. 2. To make a loud, confused sound, as winds, waves, passing vehicles, a crowd of persons when shouting together, or the like. The brazen throat of war had ceased to roar. Milton. How oft I crossed where carts and coaches roar. Gay. 3. To be boisterous; to be disorderly. It was a mad, roaring time, full of extravagance. Bp. Burnet. 4. To laugh out loudly and continuously; as, the hearers roared at his jokes. 5. To make a loud noise in breathing, as horses having a certain disease. See Roaring, 2. Roaring boy, a roaring, noisy fellow; -- name given, at the latter end Queen Elizabeth's reign, to the riotous fellows who raised disturbances in the street. \"Two roaring boys of Rome, that made all split.\" Beau & Fl. -- Roaring forties (Naut.), a sailor's name for the stormy tract of ocean between 40º and 50º north latitude.\n\nTo cry aloud; to proclaim loudly. This last action will roar thy infamy. Ford.\n\nThe sound of roaring. Specifically: (a) The deep, loud cry of a wild beast; as, the roar of a lion. (b) The cry of one in pain, distress, anger, or the like. (c) A loud, continuous, and confused sound; as, the roar of a cannon, of the wind, or the waves; the roar of ocean. Arm! arm! it is, it is the cannon's opening roar! Byron. (d) A boisterous outcry or shouting, as in mirth. Pit, boxes, and galleries were in a constant roar of laughter. Macaulay."
+    },
+    {
+      "word": "alas",
+      "frequency": 4.68e-06,
+      "definition": "An exclamation expressive of sorrow, pity, or apprehension of evil; -- in old writers, sometimes followed by day or white; alas the day, like alack a day, or alas the white."
+    },
+    {
+      "word": "coca",
+      "frequency": 4.37e-06,
+      "definition": "The dried leaf of a South American shrub (Erythroxylon Coca). In med., called Erythroxylon. Note: Coca leaves resemble tea leaves in size, shape, and odor, and are chewed (with an alkali) by natives of Peru and Bolivia to impart vigor in prolonged exertion, or to sustain strength in absence of food. Mexican coca, an American herb (Richardsonia scabra), yielding a nutritious fodder. Its roots are used as a substitute for ipecacuanha."
+    },
+    {
+      "word": "cocoa",
+      "frequency": 4.37e-06,
+      "definition": "A palm tree producing the cocoanut (Cocos nucifera). It grows in nearly all tropical countries, attaining a height of sixty or eighty feet. The trunk is without branches, and has a tuft of leaves at the top, each being fifteen or twenty feet in length, and at the base of these the nuts hang in clusters; the cocoanut tree.\n\nA preparation made from the seeds of the chocolate tree, and used in making, a beverage; also the beverage made from cocoa or cocoa shells. Cocoa shells, the husks which separate from the cacao seeds in preparing them for use."
+    },
+    {
+      "word": "sarcasm",
+      "frequency": 4.17e-06,
+      "definition": "A keen, reproachful expression; a satirical remark uttered with some degree of scorn or contempt; a taunt; a gibe; a cutting jest. The sarcasms of those critics who imagine our art to be a matter of inspiration. Sir J. Reynolds. Syn. -- Satire; irony; ridicule; taunt; gibe."
+    },
+    {
+      "word": "alma",
+      "frequency": 3.72e-06,
+      "definition": "Same as Alme."
+    },
+    {
+      "word": "casa",
+      "frequency": 3.47e-06,
+      "definition": "A house or mansion. [Sp. Amer. & Phil. Islands] I saw that Enriquez had made no attempt to modernize the old casa, and that even the garden was left in its lawless native luxuriance. Bret Harte."
+    },
+    {
+      "word": "cass",
+      "frequency": 3.24e-06,
+      "definition": "To render useless or void; to annul; to reject; to send away. [Obs.] Sir W. Raleing."
+    },
+    {
+      "word": "lama",
+      "frequency": 3.02e-06,
+      "definition": "See Llama.\n\nIn Thibet, Mongolia, etc., a priest or monk of the belief called Lamaism. The Grand Lama, or Dalai Lama Etym: [lit., Ocean Lama], the supreme pontiff in the lamaistic hierarchy. See Lamaism."
+    },
+    {
+      "word": "roam",
+      "frequency": 2.88e-06,
+      "definition": "To go from place to place without any certain purpose or direction; to rove; to wander. He roameth to the carpenter's house. Chaucer. Daphne roaming through a thorny wood. Shak. Syn. -- To wander; rove; range; stroll; ramble.\n\nTo range or wander over. And now wild beasts came forth the woods to roam. Milton.\n\nThe act of roaming; a wandering; a ramble; as, he began his roam o'er hill amd dale. Milton."
+    },
+    {
+      "word": "mara",
+      "frequency": 2.82e-06,
+      "definition": "The principal or ruling evil spirit. E. Arnold.\n\nA female demon who torments people in sleep by crouching on their chests or stomachs, or by causing terrifying visions.\n\nThe Patagonian cavy (Dolichotis Patagonicus.)"
+    },
+    {
+      "word": "soar",
+      "frequency": 2.45e-06,
+      "definition": "1. To fly aloft, as a bird; to mount upward on wings, or as on wings. Chaucer. When soars Gaul's vulture with his wings unfurled. Byron. 2. Fig.: To rise in thought, spirits, or imagination; to be exalted in mood. Where the deep transported mind may soar. Milton. Valor soars above What the world calls misfortune. Addison.\n\nThe act of soaring; upward flight. This apparent soar of the hooded falcon. Coleridge.\n\nSee 3d Sore. [Obs.]\n\nSee Sore, reddish brown. Soar falcon. (Zoöl.) See Sore falcon, under Sore."
+    },
+    {
+      "word": "colossal",
+      "frequency": 2.34e-06,
+      "definition": "1. Of enormous size; gigantic; huge; as, a colossal statue. \"A colossal stride.\" Motley. 2. (Sculpture & Painting)  Of a size larger than heroic. See Heroic."
+    },
+    {
+      "word": "mamma",
+      "frequency": 2.09e-06,
+      "definition": "Mother; -- word of tenderness and familiarity. [Written also mama.] Tell tales papa and mamma. Swift.\n\nA glandular organ for secreting milk, characteristic of all mammals, but usually rudimentary in the male; a mammary gland; a breast; under; bag."
+    },
+    {
+      "word": "mammal",
+      "frequency": 2.04e-06,
+      "definition": "One of the Mammalia. Age of mammals. See under Age, n., 8."
+    },
+    {
+      "word": "comma",
+      "frequency": 1.86e-06,
+      "definition": "1. A character or point [,] marking the smallest divisions of a sentence, written or printed. 2. (Mus.)  A small interval (the difference beyween a major and minor half step), seldom used except by tuners. Comma bacillus (Physiol.), a variety of bacillus shaped like a comma, found in the intestines of patients suffering from cholera. It is considered by some as having a special relation to the disease; -- called also cholera bacillus. -- Comma butterfly (Zoöl.), an American butterfly (Grapta comma), having a white comma-shaped marking on the under side of the wings."
+    },
+    {
+      "word": "cora",
+      "frequency": 1.86e-06,
+      "definition": "The Arabian gazelle (Gazella Arabica), found from persia to North Africa."
+    },
+    {
+      "word": "aroma",
+      "frequency": 1.7e-06,
+      "definition": "1. The quality or principle of plants or other substances which constitutes their fragrance; agreeable odor; as, the aroma of coffee. 2. Fig.: The fine diffusive quality of intellectual power; flavor; as, the subtile aroma of genius."
+    },
+    {
+      "word": "clam",
+      "frequency": 1.66e-06,
+      "definition": "1. (Zoöl.)  A bivalve mollusk of many kinds, especially those that are edible; as, the long clam (Mya arenaria), the quahog or round clam (Venus mercenaria), the sea clam or hen clam (Spisula solidissima), and other species of the United States. The name is said to have been given originally to the Tridacna gigas, a huge East Indian bivalve. You shall scarce find any bay or shallow shore, or cove of sand, where you may not take many clampes, or lobsters, or both, at your pleasure. Capt. John Smith (1616). Clams, or clamps, is a shellfish not much unlike a coclke; it lieth under the sand. Wood (1634). 2. (Ship Carp.)  Strong pinchers or forceps. 3. pl. (Mech.)  A kind of vise, usually of wood. Blood clam. See under Blood.\n\nTo clog, as with glutinous or viscous matter. A swarm of wasps got into a honey pot, and there they cloyed and clammed Themselves till there was no getting out again. L'Estrange.\n\nTo be moist or glutinous; to stick; to adhere. [R.] Dryden\n\nClaminess; moisture. [R.] \"The clam of death.\" Carlyle.\n\nA crash or clangor made by ringing all the bells of a chime at once. Nares.\n\nTo produce, in bell ringing, a clam or clangor; to cause to clang. Nares."
+    },
+    {
+      "word": "carcass",
+      "frequency": 1.62e-06,
+      "definition": "1. A dead body, whether of man or beast; a corpse; now commonly the dead body of a beast. He turned to see the carcass of the lion. Judges xiv. 8. This kept thousands in the town whose carcasses went into the great pits by cartloads. De Foe. 2. The living body; -- now commonly used in contempt or ridicule. \"To pamper his own carcass.\" South. Lovely her face; was ne'er so fair a creature. For earthly carcass had a heavenly feature. Oldham. 3. The abandoned and decaying remains of some bulky and once comely thing, as a ship; the skeleton, or the uncovered or unfinished frame, of a thing. A rotten carcass of a boat. Shak. 4. (Mil.)  A hollow case or shell, filled with combustibles, to be thrown from a mortar or howitzer, to set fire to buldings, ships, etc. A discharge of carcasses and bombshells. W. Iving."
+    },
+    {
+      "word": "soma",
+      "frequency": 1.62e-06,
+      "definition": "The whole axial portion of an animal, including the head, neck, trunk, and tail. B. G. Wilder."
+    },
+    {
+      "word": "corolla",
+      "frequency": 1.41e-06,
+      "definition": "The inner envelope of a flower; the part which surrounds the organs of fructification, consisting of one or more leaves, called petals. It is usually distinguished from the calyx by the fineness of its texture and the gayness of its colors. See the Note under Blossom."
+    },
+    {
+      "word": "cram",
+      "frequency": 1.38e-06,
+      "definition": "1. To press, force, or drive, particularly in filling, or in thrustung one thing into another; to stuff; to crowd; to fill to superfluity; as, to cram anything into a basket; to cram a room with people. Their storehouses crammed with grain. Shak. He will cram his brass down our throats. Swift. 2. To fill with food to satiety; to stuff. Children would be freer from disease if they were not crammed so much as they are by fond mothers. Locke. Cram us with praise, and make us As fat as tame things. Shak. 3. To put hastily through an extensive course of memorizing or study, as in preparation for an examination; as, a pupil is crammed by his tutor.\n\n1. To eat greedly, and to satiety; to stuff. Gluttony . . . . Cr, and blasphemes his feeder. Milton. 2. To make crude preparation for a special occasion, as an examination, by a hasty and extensive course of memorizing or study. [Colloq.]\n\n1. The act of cramming. 2. Innformation hastily memorized; as. a cram from an examination. [Colloq.] 3. (Weaving)  A warp having more than two threads passing through each dent or split of the reed."
+    },
+    {
+      "word": "mora",
+      "frequency": 1.29e-06,
+      "definition": "A game of guessing the number of fingers extended in a quick movement of the hand, -- much played by Italians of the lower classes.\n\nA leguminous tree of Guiana and Trinidad (Dimorphandra excelsa); also, its timber, used in shipbuilding and making furniture.\n\nDelay; esp., culpable delay; postponement."
+    },
+    {
+      "word": "salaam",
+      "frequency": 1.29e-06,
+      "definition": "Same as Salam. Finally, Josiah might have made his salaam to the exciseman just as he was folding up that letter. Prof. Wilson.\n\nTo make or perform a salam. I have salaamed and kowtowed to him. H. James."
+    },
+    {
+      "word": "lass",
+      "frequency": 1.2e-06,
+      "definition": "A youth woman; a girl; a sweetheart."
+    },
+    {
+      "word": "rascal",
+      "frequency": 1.17e-06,
+      "definition": "1. One of the rabble; a low, common sort of person or creature; collectively, the rabble; the common herd; also, a lean, ill- conditioned beast, esp. a deer. [Obs.] He smote of the people seventy men, and fifty thousand of the rascal. Wyclif (1 Kings [1 Samuel] vi. 19). Poor men alone No, no; the noblest deer hath them [horns] as huge as the rascal. Shak. 2. A mean, trickish fellow; a base, dishonest person; a rogue; a scoundrel; a trickster. For I have sense to serve my turn in store, And he's a rascal who pretends to more. Dryden.\n\nOf or pertaining to the common herd or common people; low; mean; base. \"The rascal many.\" Spencer. \"The rascal people.\" Shak. While she called me rascal fiddler. Shak."
+    },
+    {
+      "word": "corral",
+      "frequency": 1.15e-06,
+      "definition": "A pen for animals; esp., an inclosure made with wagons, by emigrants in the vicinity of hostile Indians, as a place of security for horses, cattle, etc.\n\nTo surround and inclose; to coop up; to put into an inclosed space; -- primarily used with reference to securing horses and cattle in an inclosure of wagons while traversing the plains, but in the Southwestern United States now colloquially applied to the capturing, securing, or penning of anything. Bartlett."
+    },
+    {
+      "word": "salam",
+      "frequency": 1.02e-06,
+      "definition": "A salutation or compliment of ceremony in the east by word or act; an obeisance, performed by bowing very low and placing the right palm on the forehead. [Written also salaam.]"
+    },
+    {
+      "word": "scala",
+      "frequency": 1.02e-06,
+      "definition": "1. (Surg.)  A machine formerly employed for reducing dislocations of the humerus. 2. (Anat.)  A term applied to any one of the three canals of the cochlea."
+    },
+    {
+      "word": "molar",
+      "frequency": 9.77e-07,
+      "definition": "Of or pertaining to a mass of matter; -- said of the properties or motions of masses, as distinguished from those of molecules or atoms. Carpenter.\n\nHaving power to grind; grinding; as, the molar teeth; also, of or pertaining to the molar teeth. Bacon.\n\nAny one of the teeth back of the incisors and canines. The molar which replace the deciduous or milk teeth are designated as premolars, and those which are not preceded by deciduous teeth are sometimes called true molars. See Tooth."
+    },
+    {
+      "word": "sora",
+      "frequency": 9.77e-07,
+      "definition": "A North American rail (Porzana Carolina) common in the Eastern United States. Its back is golden brown, varied with black and white, the front of the head and throat black, the breast and sides of the head and neck slate-colored. Called also American rail, Carolina rail, Carolina crake, common rail, sora rail, soree, meadow chicken, and orto. King sora, the Florida gallinule."
+    },
+    {
+      "word": "crass",
+      "frequency": 9.12e-07,
+      "definition": "Cross; thick; dense; coarse; not elaborated or refined. \"Crass and fumid exhalations.\" Sir. T. Browne. \"Crass ignorance\" Cudworth."
+    },
+    {
+      "word": "llama",
+      "frequency": 8.91e-07,
+      "definition": "A South American ruminant (Auchenia llama), allied to the camels, but much smaller and without a hump. It is supposed to be a domesticated variety of the guanaco. It was formerly much used as a beast of burden in the Andes."
+    },
+    {
+      "word": "scalar",
+      "frequency": 8.51e-07,
+      "definition": "In the quaternion analysis, a quantity that has magnitude, but not direction; -- distinguished from a vector, which has both magnitude and direction."
+    },
+    {
+      "word": "alms",
+      "frequency": 7.76e-07,
+      "definition": "Anything given gratuitously to relieve the poor, as money, food, or clothing; a gift of charity. A devout man . . . which gave much alms to the people. Acts x. 2. Alms are but the vehicles of prayer. Dryden. Tenure by free alms. See Frankalmoign. Blackstone. Note: This word alms is singular in its form (almesse), and is sometimes so used; as, \"asked an alms.\" Acts iii. 3.\"Received an alms.\" Shak. It is now, however, commonly a collective or plural noun. It is much used in composition, as almsgiver, almsgiving, alms bag, alms chest, etc."
+    },
+    {
+      "word": "smalls",
+      "frequency": 7.76e-07,
+      "definition": "See Small, n., 2, 3."
+    },
+    {
+      "word": "mala",
+      "frequency": 7.41e-07,
+      "definition": "Evils; wrongs; offenses against right and law. Mala in se Etym: [L.] (Law), offenses which are such from their own nature, at common law, irrespective of statute. -- Mala prohibita Etym: [L.] (Law), offenses prohibited by statute, as distinguished from mala in se, which are offenses at common law."
+    },
+    {
+      "word": "cacao",
+      "frequency": 7.24e-07,
+      "definition": "A small evergreen tree (Theobroma Cacao) of South America and the West Indies. Its fruit contains an edible pulp, inclosing seeds about the size of an almond, from which cocoa, chocolate, and broma are prepared."
+    },
+    {
+      "word": "loma",
+      "frequency": 7.24e-07,
+      "definition": "A lobe; a membranous fringe or flap."
+    },
+    {
+      "word": "malacca",
+      "frequency": 6.92e-07,
+      "definition": "A town and district upon the seacoast of the Malay Peninsula. Malacca cane (Bot.), a cane obtained from a species of palm of the genus Calamus (C. Scipionum), and of a brown color, often mottled. The plant is a native of Cochin China, Sumatra, and Malays."
+    },
+    {
+      "word": "macao",
+      "frequency": 6.31e-07,
+      "definition": "A macaw."
+    },
+    {
+      "word": "amma",
+      "frequency": 6.17e-07,
+      "definition": "An abbes or spiritual mother."
+    },
+    {
+      "word": "amass",
+      "frequency": 5.89e-07,
+      "definition": "To collect into a mass or heap; to gather a great quantity of; to accumulate; as, to amass a treasure or a fortune; to amass words or phrases. The life Homer has been written by amassing all the traditions and hints the writers could meet with. Pope. Syn. -- To accumulate; heap up; pile.\n\nA mass; a heap. [Obs.] Sir H. Wotton."
+    },
+    {
+      "word": "lasso",
+      "frequency": 5.5e-07,
+      "definition": "A rope or long thong of leather with, a running noose, used for catching horses, cattle, etc. Lasso cell (Zoöl.), one of a peculiar kind of defensive and offensive stinging cells, found in great numbers in all coelenterates, and in a few animals of other groups. They are most highly developed in the tentacles of jellyfishes, hydroids, and Actiniæ. Each of these cells is filled with, fluid, and contains a long, slender, often barbed, hollow thread coiled up within it. When the cell contracts the thread is quickly ejected, being at the same time turned inside out. The thread is able to penetrate the flesh of various small, soft-bodied animals, and carries a subtle poison by which they are speedily paralyzed and killed. The threads, at the same time, hold the prey in position, attached to the tentacles. Some of the jellyfishes, as the Portuguese man-of-war, and Cyanea, are able to penetrate the human skin, and inflict painful stings in the same way. Called also nettling cell, cnida, cnidocell.\n\nTo catch with a lasso."
+    },
+    {
+      "word": "sacs",
+      "frequency": 5.5e-07,
+      "definition": "A tribe of Indians, which, together with the Foxes, formerly occupied the region about Green Bay, Wisconsin. [Written also Sauks.]"
+    },
+    {
+      "word": "sarcoma",
+      "frequency": 5.25e-07,
+      "definition": "A tumor of fleshy consistence; -- formerly applied to many varieties of tumor, now restricted to a variety of malignant growth made up of cells resembling those of fetal development without any proper intercellular substance."
+    },
+    {
+      "word": "sola",
+      "frequency": 5.01e-07,
+      "definition": "See Solus.\n\nA leguminous plant (Æschynomene aspera) growing in moist places in Southern India and the East Indies. Its pithlike stem is used for making hats, swimming-jackets, etc. [Written also solah, shola.]\n\nAlone; -- chiefly used in stage directions, and the like."
+    },
+    {
+      "word": "samara",
+      "frequency": 4.47e-07,
+      "definition": "A dry, indehiscent, usually one-seeded, winged fruit, as that of the ash, maple, and elm; a key or key fruit."
+    },
+    {
+      "word": "clamor",
+      "frequency": 4.17e-07,
+      "definition": "1. A great outcry or vociferation; loud and continued shouting or exclamation. Shak. 2. Any loud and continued noise. Addison. 3. A continued expression of dissatisfaction or discontent; a popular outcry. Macaulay. Syn. -- Outcry; exclamation; noise; uproar.\n\n1. To salute loudly. [R.] The people with a shout Rifted the air, clamoring their god with praise. Milton . 2. To stun with noise. [R.] Bacon. 3. To utter loudly or repeatedly; to shout. Clamored their piteous prayer incessantly. Longfellow. To clamor bells, to repeat the strokes quickly so as to produce a loud clang. Bp. Warbur\n\nTo utter loud sounds or outcries; to vociferate; to complain; to make importunate demands. The obscure bird Clamored the livelong night. Shak."
+    },
+    {
+      "word": "loam",
+      "frequency": 4.17e-07,
+      "definition": "1. A kind of soil; an earthy mixture of clay and sand, with organic matter to which its fertility is chiefly due. We wash a wall of loam; we labor in vain. Hooker. 2. (Founding)  A mixture of sand, clay, and other materials, used in making molds for large castings, often without a pattern. Loam mold (Founding), a mold made with loam. See Loam, n., 2. -- Loam molding, the process or business of making loam molds. Loam plate, an iron plate upon which a section of a loam mold rests, or from which it is suspended. -- Loam work, loam molding or loam molds.\n\nTo cover, smear, or fill with loam."
+    },
+    {
+      "word": "marl",
+      "frequency": 3.63e-07,
+      "definition": "To cover, as part of a rope, with marline, marking a pecular hitch at each turn to prevent unwinding. Marling spike. (Naut.) See under Marline.\n\nA mixed earthy substance, consisting of carbonate of lime, clay, and sand, in very varivble proportions, and accordingly designated as calcareous, clayey, or sandy. See Greensand.\n\nTo overspread or manure with marl; as, to marl a field."
+    },
+    {
+      "word": "arras",
+      "frequency": 3.55e-07,
+      "definition": "Tapestry; a rich figured fabric; especially, a screen or hangings of heavy cloth with interwoven figures. Stateliest couches, with rich arras spread. Cowper. Behind the arras I'll convey myself. Shak.\n\nTo furnish with an arras. Chapman."
+    },
+    {
+      "word": "sacral",
+      "frequency": 3.31e-07,
+      "definition": "Of or pertaining to the sacrum; in the region of the sacrum."
+    },
+    {
+      "word": "camara",
+      "frequency": 2.75e-07,
+      "definition": "Chamber; house; -- used in Ca\"ma*ra dos Pa\"res, and Ca\"ma*ra dos De`pu*ta\"dos. See Legislature."
+    },
+    {
+      "word": "lalo",
+      "frequency": 2.57e-07,
+      "definition": "The powdered leaves of the baobab tree, used by the Africans to mix in their soup, as the southern negroes use powdered sassafras. Cf. Couscous."
+    },
+    {
+      "word": "mola",
+      "frequency": 2.51e-07,
+      "definition": "See Sunfish, 1."
+    },
+    {
+      "word": "calla",
+      "frequency": 2.29e-07,
+      "definition": "A genus of plants, of the order Araceæ. Note: The common Calla of cultivation is Richardia Africana, belonging to another genus of the same order. Its large spathe is pure white, surrounding a fleshy spike, which is covered with minute apetalous flowers."
+    },
+    {
+      "word": "morass",
+      "frequency": 2.29e-07,
+      "definition": "A tract of soft, wet ground; a marsh; a fen. Morass ore. (Min.) See Bog ore, under Bog."
+    },
+    {
+      "word": "marsala",
+      "frequency": 2.19e-07,
+      "definition": "A kind of wine exported from Marsala in Sicily."
+    },
+    {
+      "word": "samarra",
+      "frequency": 2.04e-07,
+      "definition": "See Simar."
+    },
+    {
+      "word": "solas",
+      "frequency": 2e-07,
+      "definition": "Solace. [Obs.] Chaucer."
+    },
+    {
+      "word": "camorra",
+      "frequency": 1.82e-07,
+      "definition": "A secret organization formed at Naples, Italy, early in the 19th century, and used partly for political ends and partly for practicing extortion, violence, etc. -- Ca*mor\"rist (#), n."
+    },
+    {
+      "word": "carrol",
+      "frequency": 1.82e-07,
+      "definition": "A small closet or inclosure built against a window on the inner side, to sit in for study. The word was used as late as the 16th century. A bay window may thus be called a carol. Parker.\n\nSee 4th Carol."
+    },
+    {
+      "word": "lamm",
+      "frequency": 1.74e-07,
+      "definition": "See Lam."
+    },
+    {
+      "word": "alco",
+      "frequency": 1.48e-07,
+      "definition": "A small South American dog, domesticated by the aborigines."
+    },
+    {
+      "word": "cloaca",
+      "frequency": 1.45e-07,
+      "definition": "1. A sewer; as, the Cloaca Maxima of Rome. 2. A privy. 3. (Anat.)  The common chamber into which the intestinal, urinary, and generative canals discharge in birds, reptiles, amphibians, and many fishes."
+    },
+    {
+      "word": "malm",
+      "frequency": 1.2e-07,
+      "definition": "A kind of brick of a light brown or yellowish color, made of sand, clay, and chalk."
+    },
+    {
+      "word": "malar",
+      "frequency": 1.17e-07,
+      "definition": "Of or pertaining to the region of the cheek bone, or to the malar bone; jugal.\n\nThe cheek bone, which forms a part of the lower edge of the orbit."
+    },
+    {
+      "word": "olla",
+      "frequency": 1.1e-07,
+      "definition": "1. A pot or jar having a wide mouth; a cinerary urn, especially one of baked clay. 2. A dish of stewed meat; an olio; an olla-podrida."
+    },
+    {
+      "word": "caracal",
+      "frequency": 9.77e-08,
+      "definition": "A lynx (Felis, or Lynx, caracal.) It is a native of Africa and Asia. Its ears are black externally, and tipped with long black hairs."
+    },
+    {
+      "word": "carom",
+      "frequency": 9.33e-08,
+      "definition": "A shot in which the ball struck with the cue comes in contact with two or more balls on the table; a hitting of two or more balls with the player's ball. In England it is called cannon.\n\nTo make a carom."
+    },
+    {
+      "word": "loral",
+      "frequency": 9.12e-08,
+      "definition": "Of or pertaining to the lores.\n\nOf or pertaining to the lore; -- said of certain feathers of birds, scales of reptiles, etc."
+    },
+    {
+      "word": "alar",
+      "frequency": 8.91e-08,
+      "definition": "1. Pertaining to, or having, wings. 2. (Bot.)  Axillary; in the fork or axil. Gray."
+    },
+    {
+      "word": "casal",
+      "frequency": 8.51e-08,
+      "definition": "Of or pertaining to case; as, a casal ending."
+    },
+    {
+      "word": "salm",
+      "frequency": 8.13e-08,
+      "definition": "Psalm. [Obs.] Piers plowman."
+    },
+    {
+      "word": "macrocosm",
+      "frequency": 7.94e-08,
+      "definition": "The great world; that part of the universe which is exterior to man; -- contrasted with microcosm, or man. See Microcosm."
+    },
+    {
+      "word": "amoroso",
+      "frequency": 7.59e-08,
+      "definition": "A lover; a man enamored.\n\nIn a soft, tender, amatory style."
+    },
+    {
+      "word": "saros",
+      "frequency": 6.46e-08,
+      "definition": "A Chaldean astronomical period or cycle, the length of which has been variously estimated from 3,600 years to 3,600 days, or a little short of 10 years. Brande & C."
+    },
+    {
+      "word": "lammas",
+      "frequency": 6.03e-08,
+      "definition": "The first day of August; -- called also Lammas day, and Lammastide."
+    },
+    {
+      "word": "caracara",
+      "frequency": 5.01e-08,
+      "definition": "A south American bird of several species and genera, resembling both the eagles and the vultures. The caracaras act as scavengers, and are also called carrion buzzards. Note: The black caracara is Ibycter ater; the chimango is Milvago chimango; the Brazilian is Polyborus Braziliensis."
+    },
+    {
+      "word": "lascar",
+      "frequency": 4.68e-08,
+      "definition": "A native sailor, employed in European vessels; also, a menial employed about arsenals, camps, camps, etc.; a camp follower. [East Indies]"
+    },
+    {
+      "word": "ramal",
+      "frequency": 4.57e-08,
+      "definition": "Of or pertaining to a ramus, or branch; rameal."
+    },
+    {
+      "word": "caas",
+      "frequency": 4.47e-08,
+      "definition": "Case. [Obs.] Chaucer."
+    },
+    {
+      "word": "carrom",
+      "frequency": 4.17e-08,
+      "definition": "See Carom."
+    },
+    {
+      "word": "cloacal",
+      "frequency": 4.07e-08,
+      "definition": "Of or pertaining to a cloaca."
+    },
+    {
+      "word": "laas",
+      "frequency": 3.39e-08,
+      "definition": "A lace. See Lace. [Obs.] Chaucer."
+    },
+    {
+      "word": "sarco",
+      "frequency": 3.31e-08,
+      "definition": "A combining form from Gr. flesh; as, sarcophagous, flesh- eating; sarcology."
+    },
+    {
+      "word": "soal",
+      "frequency": 2.69e-08,
+      "definition": "1. The sole of a shoe. [Obs. or R.] 2. (Zoöl.)  See Sole, the fish. [Obs.]\n\nA dirty pond. [Prov. Eng.] Halliwell."
+    },
+    {
+      "word": "raca",
+      "frequency": 2.45e-08,
+      "definition": "A term of reproach used by the Jews of our Savior's time, meaning \"worthless.\" Whosoever shall say to his brother, Raca, shall be in danger of the council. Matt. v. 22."
+    },
+    {
+      "word": "calcar",
+      "frequency": 2.19e-08,
+      "definition": "A kind of oven, or reverberatory furnace, used for the calcination of sand and potash, and converting them into frit. Ure.\n\n1. (Bot.)  A hollow tube or spur at the base of a petal or corolla. 2. (Zoöl.)  A slender bony process from the ankle joint of bats, which helps to support the posterior part of the web, in flight. 3. (Anat.) (a) A spur, or spurlike prominence. (b) A curved ridge in the floor of the leteral ventricle of the brain; the calcar avis, hippocampus minor, or ergot."
+    },
+    {
+      "word": "calamar",
+      "frequency": 2.14e-08,
+      "definition": "A cephalopod, belonging to the genus Loligo and related genera. There are many species. They have a sack of inklike fluid which they discharge from the siphon tube, when pursued or alarmed, in order to confuse their enemies. Their shell is a thin horny plate, within the flesh of back, shaped very much like a quill pen. In America they are called squids. See Squid."
+    },
+    {
+      "word": "marram",
+      "frequency": 2.14e-08,
+      "definition": "A coarse grass found on sandy beaches (Ammophila arundinacea). See Beach grass, under Beach."
+    },
+    {
+      "word": "amorosa",
+      "frequency": 2.09e-08,
+      "definition": "A wanton woman; a courtesan. Sir T. Herbert."
+    },
+    {
+      "word": "croma",
+      "frequency": 2e-08,
+      "definition": "A quaver. [Obs.]"
+    },
+    {
+      "word": "salsola",
+      "frequency": 1.91e-08,
+      "definition": "A genus of plants including the glasswort. See Glasswort."
+    },
+    {
+      "word": "somal",
+      "frequency": 1.66e-08,
+      "definition": "A Hamitic people of East Central Africa."
+    },
+    {
+      "word": "soorma",
+      "frequency": 1.55e-08,
+      "definition": "A preparation of antimony with which Mohammedan men anoint their eyelids."
+    },
+    {
+      "word": "arara",
+      "frequency": 1.38e-08,
+      "definition": "The palm (or great black) cockatoo, of Australia (Microglossus aterrimus)."
+    },
+    {
+      "word": "macaco",
+      "frequency": 1.38e-08,
+      "definition": "Any one of several species of lemurs, as the ruffed lemur (Lemur macaco), and the ring-tailed lemur (L. catta)."
+    },
+    {
+      "word": "ocra",
+      "frequency": 1.38e-08,
+      "definition": "See Okra."
+    },
+    {
+      "word": "sororal",
+      "frequency": 1.26e-08,
+      "definition": "Relating to a sister; sisterly. [R.]"
+    },
+    {
+      "word": "sacar",
+      "frequency": 1.17e-08,
+      "definition": "See Saker."
+    },
+    {
+      "word": "cammas",
+      "frequency": 1.07e-08,
+      "definition": "See Camass."
+    },
+    {
+      "word": "macco",
+      "frequency": 1.02e-08,
+      "definition": "A gambling game in vogue in the eighteenth century. Thackeray."
+    },
+    {
+      "word": "alloo",
+      "frequency": 0.0,
+      "definition": "To incite dogs by a call; to halloo. [Obs.]"
+    },
+    {
+      "word": "arolla",
+      "frequency": 0.0,
+      "definition": "The stone pine (Pinus Cembra)."
+    },
+    {
+      "word": "assamar",
+      "frequency": 0.0,
+      "definition": "The peculiar bitter substance, soft or liquid, and of a yellow color, produced when meat, bread, gum, sugar, starch, and the like, are roasted till they turn brown."
+    },
+    {
+      "word": "camass",
+      "frequency": 0.0,
+      "definition": "A blue-flowered liliaceous plant (Camassia esculenta) of northwestern America, the bulbs of which are collected for food by the Indians. [Written also camas, cammas, and quamash.] Note: The Eastern cammass is Camassia Fraseri."
+    },
+    {
+      "word": "carac",
+      "frequency": 0.0,
+      "definition": "See Carack."
+    },
+    {
+      "word": "caracora",
+      "frequency": 0.0,
+      "definition": "A light vessel or proa used by the people of Borneo, etc., and by the Dutch in the East Indies."
+    },
+    {
+      "word": "corsac",
+      "frequency": 0.0,
+      "definition": "The corsak."
+    },
+    {
+      "word": "cosmorama",
+      "frequency": 0.0,
+      "definition": "An exhibition in which a series of views in various parts of the world is seen reflected by mirrors through a series of lenses, with such illumination, etc., as will make the views most closely represent reality."
+    },
+    {
+      "word": "cossas",
+      "frequency": 0.0,
+      "definition": "Plain India muslin, of various qualities and widths."
+    },
+    {
+      "word": "malma",
+      "frequency": 0.0,
+      "definition": "A spotted trout (Salvelinus malma), inhabiting Northern America, west of the Rocky Mountains; -- called also Dolly Varden trout, bull trout, red-spotted trout, and golet."
+    },
+    {
+      "word": "marcor",
+      "frequency": 0.0,
+      "definition": "A wasting away of flesh; decay. [Obs.] Sir T. Browne."
+    },
+    {
+      "word": "masora",
+      "frequency": 0.0,
+      "definition": "A Jewish critical work on the text of the Hebrew Scriptures, composed by several learned rabbis of the school of Tiberias, in the eighth and ninth centuries. [Written also Masorah, Massora, and Massorah.]"
+    },
+    {
+      "word": "massora",
+      "frequency": 0.0,
+      "definition": "Same as Masora."
+    },
+    {
+      "word": "mormal",
+      "frequency": 0.0,
+      "definition": "A bad sore; a gangrene; a cancer. [Obs.] [Written also morrimal and mortmal.] Chaucer."
+    },
+    {
+      "word": "osar",
+      "frequency": 0.0,
+      "definition": "See 3d Os."
+    },
+    {
+      "word": "rocoa",
+      "frequency": 0.0,
+      "definition": "The orange-colored pulp covering the seeds of the tropical plant Bixa Orellana, from which annotto is prepared. See Annoto."
+    },
+    {
+      "word": "roral",
+      "frequency": 0.0,
+      "definition": "Of or pertaining to dew; consisting of dew; dewy. [R.] M. Green."
+    },
+    {
+      "word": "salol",
+      "frequency": 0.0,
+      "definition": "A white crystalline substance consisting of phenol salicylate."
+    },
+    {
+      "word": "sarcocol",
+      "frequency": 0.0,
+      "definition": "A gum resin obtained from certain shrubs of Africa (Penæa), -- formerly thought to cause healing of wounds and ulcers."
+    },
+    {
+      "word": "sarcocolla",
+      "frequency": 0.0,
+      "definition": "A gum resin obtained from certain shrubs of Africa (Penæa), -- formerly thought to cause healing of wounds and ulcers."
+    },
+    {
+      "word": "sarlac",
+      "frequency": 0.0,
+      "definition": "The yak."
+    },
+    {
+      "word": "sarsa",
+      "frequency": 0.0,
+      "definition": "Sarsaparilla. [Written also sarza.]"
+    },
+    {
+      "word": "sassarara",
+      "frequency": 0.0,
+      "definition": "A word used to emphasize a statement. [Obs.] Out she shall pack, with a sassarara. Goldsmith."
+    },
+    {
+      "word": "sassorol",
+      "frequency": 0.0,
+      "definition": "The rock pigeon. See under Pigeon."
+    },
+    {
+      "word": "sassorolla",
+      "frequency": 0.0,
+      "definition": "The rock pigeon. See under Pigeon."
+    },
+    {
+      "word": "scall",
+      "frequency": 0.0,
+      "definition": "A scurf or scabby disease, especially of the scalp. It is a dry scall, even a leprosy upon the head. Lev. xiii. 30.\n\nScabby; scurfy. [Obs.] Shak."
+    },
+    {
+      "word": "sloam",
+      "frequency": 0.0,
+      "definition": "A layer of earth between coal seams."
+    },
+    {
+      "word": "soam",
+      "frequency": 0.0,
+      "definition": "A chain by which a leading horse draws a plow. Knight."
+    },
+    {
+      "word": "sollar",
+      "frequency": 0.0,
+      "definition": "1. See Solar, n. [Obs.] 2. (Mining)  A platform in a shaft, especially one of those between the series of ladders in a shaft.\n\nTo cover, or provide with, a sollar."
+    }
+  ]
+}

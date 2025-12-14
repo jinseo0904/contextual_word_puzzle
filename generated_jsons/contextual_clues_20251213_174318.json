@@ -1,0 +1,296 @@
+[
+  {
+    "word": "LIFE",
+    "clue": "Your day was filled with constant movement, a whirlwind of _______ spent walking between buildings.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "LEFT",
+    "clue": "You _______ Grove Hall at 8:27 AM to head to Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "LITTLE",
+    "clue": "Despite a busy day, you found _______ moments of quiet while sitting in Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "FEEL",
+    "clue": "Going to the bathroom at Amazon Boston made you _______ older somehow.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TELL",
+    "clue": "The diary entries _______ the story of a very active day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LATE",
+    "clue": "You were rushing around, clearly trying not to be _______ for class.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "FELT",
+    "clue": "Going to the bathroom at Amazon Boston _______ 'older' somehow.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FACE",
+    "clue": "You were 'opening the door _______' at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "FEET",
+    "clue": "You spent the day on your _______, walking between buildings and rushing to class.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "FILE",
+    "clue": "You were likely taking notes and creating a _______ in class at Ryder Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "CELL",
+    "clue": "You were distracted by your _______ as you walked from Snell Library to Northeastern University.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FLEET",
+    "clue": "You moved with a _______-footed pace, rushing between Snell Library and Northeastern University.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TALE",
+    "clue": "This diary entry tells the _______ of a busy day of walking and studying.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "LEAF",
+    "clue": "As seasons change, a _______ might fall as you walk the campus, much like your constant movement.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "CAFE",
+    "clue": "You passed multiple _______, including Dunkin\u2019 and Starbucks, throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ELECT",
+    "clue": "You spent time at Northeastern _______-ive to Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "AFFILIATE",
+    "clue": "Amazon Boston is an _______ of the Seaport area, where you went at 11:09 AM.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "CAFE",
+    "clue": "You walked past Au Bon Pain, a popular _______, while heading to Seaport.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "CAFE",
+    "clue": "You passed Dunkin' multiple times, making it a frequent stop for a quick _______ break.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TILE",
+    "clue": "The floor of Snell Library might be made of _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FLEE",
+    "clue": "You seemed to _______ from Snell Library to Amazon Boston and back again.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FEAT",
+    "clue": "Traveling between Grove Hall, Snell Library, and Seaport in one day is quite the _______ of endurance!",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LACE",
+    "clue": "You walked back and forth, seemingly to _______ up loose ends at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FACILITATE",
+    "clue": "The library is meant to _______ learning and studying, which you did for most of the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "ECLECTIC",
+    "clue": "The sheer number of restaurants you passed \u2013 from Tu Taco to Kura Sushi \u2013 makes your day seem quite _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FLEECE",
+    "clue": "With all the walking and rushing, you might want to grab a warm _______ to stay comfortable.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CITE",
+    "clue": "As a student, you\u2019ll need to _______ your sources when working on assignments at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FLEA",
+    "clue": "You spent a lot of time walking around today, you might have gotten a _______ bite or two.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FETAL",
+    "clue": "You mention the bathroom making you feel older, almost like a _______ stage of life.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "TACTILE",
+    "clue": "The library environment, with its constant movement and people, offered a _______ experience as you walked in.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when you took the subway to Seaport at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "LATTICE",
+    "clue": "The ISEC Pedestrian Bridge you passed at 9:21 PM features a _______ design.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ELICIT",
+    "clue": "Walking to the bathroom at Amazon Boston seemed to _______ a feeling of being older.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FACILE",
+    "clue": "Despite a loud environment at Northeastern, you were trying to repeat course material with _______ ease.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ today when taking the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TITTLE",
+    "clue": "You were taking notes in class, meticulously adding every _______ to your assignments.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FETE",
+    "clue": "After walking to your friend's office, you were waiting for the _______ to begin.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FILLET",
+    "clue": "You passed many restaurants today, maybe even one serving _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "CLEAT",
+    "clue": "You were constantly on the _______ of running and rushing throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CLEF",
+    "clue": "The rhythm of your day was a constant change, like a musical _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TATTLE",
+    "clue": "You passed so many restaurants today, it's as if they were _______-ing on your hunger.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TEAT",
+    "clue": "You passed Au Bon Pain and Starbucks multiple times, perhaps seeking a warm _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ICICLE",
+    "clue": "The constant rushing and returning could leave you feeling as cold as an _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "FETTLE",
+    "clue": "After a long day of rushing around, you were trying to get your thoughts in _______ at Northeastern University.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ECLAT",
+    "clue": "The bustling scene at Snell Library and the crowds you observed had a certain _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  }
+]

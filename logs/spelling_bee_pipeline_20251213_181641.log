@@ -1,0 +1,958 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-16
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-16.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- thunder (freq: 0.000014)
+- charlie (freq: 0.000027)
+- controller (freq: 0.000013)
+- bleeding (freq: 0.000012)
+- translate (freq: 0.000009)
+- century (freq: 0.000105)
+- anxious (freq: 0.000012)
+- removal (freq: 0.000022)
+- ceremony (freq: 0.000026)
+- quickly (freq: 0.000100)
+
+Randomly selected candidate: bleeding
+Selected seed word: bleeding
+
+[2/4] Generating spelling bee puzzle for seed word 'bleeding'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'bleeding'
+✓ Found 137 words for candidate 'bleeding' with center letter 'l'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'belle' (freq: 6.17e-06) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'linen' (freq: 4.07e-06) because it contains 'line' (freq: 3.09e-04) [frequency]
+  - Dropped 'belled' (freq: 1.95e-08) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'billed' (freq: 3.89e-06) because it contains 'bill' (freq: 1.41e-04) [frequency]
+  - Dropped 'blende' (freq: 2.45e-08) because it contains 'lend' (freq: 8.32e-06) [frequency]
+  - Dropped 'blinde' (freq: 2.29e-08) because it contains 'blind' (freq: 3.31e-05) [frequency]
+  - Dropped 'deline' (freq: 2.63e-08) because it contains 'line' (freq: 3.09e-04) [frequency]
+  - Dropped 'lilied' (freq: 0.00e+00) because it contains 'lied' (freq: 1.62e-05) [frequency]
+  - Dropped 'bellied' (freq: 5.13e-07) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'belling' (freq: 1.05e-07) because it contains 'bell' (freq: 3.89e-05) [affix]
+  - Dropped 'billing' (freq: 3.89e-06) because it contains 'bill' (freq: 1.41e-04) [affix]
+  - Dropped 'lending' (freq: 7.41e-06) because it contains 'lend' (freq: 8.32e-06) [affix]
+  - Dropped 'blending' (freq: 2.75e-06) because it contains 'lend' (freq: 8.32e-06) [frequency]
+  - Dropped 'blinding' (freq: 1.58e-06) because it contains 'blind' (freq: 3.31e-05) [affix]
+  - Dropped 'libellee' (freq: 0.00e+00) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'ineligible' (freq: 1.95e-06) because it contains 'eligible' (freq: 1.95e-05) [frequency]
+
+✓ Generated puzzle with 121 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: BLEEDING
+Clue: 
+Distinct letters: b, d, e, g, i, l, n
+Center letter: l (required in all words)
+Total valid words: 121
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. line                 (freq: 3.09e-04)
+   2. bill                 (freq: 1.41e-04)
+   3. bell                 (freq: 3.89e-05)
+   4. bible                (freq: 3.47e-05)
+   5. blind                (freq: 3.31e-05)
+   6. legend               (freq: 2.75e-05)
+   7. eligible             (freq: 1.95e-05)
+   8. lied                 (freq: 1.62e-05)
+   9. bleeding             (freq: 1.20e-05)
+  10. needle               (freq: 9.55e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+✓ Loaded 121 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 29 words with frequency 0.0
+  Examples: bebleed, begild, beild, belee, belibel, bielid, blenniid, debel, debile, deleble...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 16 words always included (frequency > threshold)
+✓ 76 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 76 words in batches of 5...
+
+  Processing batch 1/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 3/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['boil']
+    Result: 5 kept, 0 removed
+  Processing batch 4/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 5/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 7/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 8/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 9/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 10/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 11/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 12/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 13/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 14/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 15/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 16/16 (1 words)...
+    Sending 1 words with definitions to LLM
+    Result: 0 kept, 1 removed
+
+✓ Processed 16 batch(es)
+  Kept: 31 words
+  Removed: 45 words
+
+  ✓ All 31 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 45
+
+Word: bedel
+Reason: Obsolete synonym of Beadle; not commonly known by typical adults.
+
+Word: bedell
+Reason: An archaic variant of ‘beadle’, not commonly known by typical adults (Criterion 1: obsolete word).
+
+Word: beeld
+Reason: Obsolete or non‑standard variant of 'beild'; lacks common recognition.
+
+Word: bield
+Reason: Scots-specific term meaning shelter; not widely known (category 3).
+
+Word: bilge
+Reason: Specialized nautical term referring to a ship's bottom; unlikely to be known by typical adults (criterion 8).
+
+Word: bilin
+Reason: Biochemical substance derived from bile; specialized scientific vocabulary.
+
+Word: bleb
+Reason: Medical term describing a fluid-filled sac; not commonly known by typical adults.
+
+Word: blee
+Reason: Archaic term for complexion or color; not familiar to general adults (Criterion 1).
+
+Word: blin
+Reason: Obsolete verb meaning 'to stop or cease'; rare and not widely recognized (criterion 1).
+
+Word: deil
+Reason: Scots spelling of ‘devil’, uncommon in general English (category 3).
+
+Word: dele
+Reason: Archaic verb form with no modern usage; not recognizable to typical adults (Criterion 1).
+
+Word: dell
+Reason: The word is an obsolete or rarely used term for a small valley; not a common everyday word for typical adults (criterion 1).
+
+Word: dibble
+Reason: Specialized tool name used mainly in gardening; not widely known outside that niche (criterion 4).
+
+Word: dilling
+Reason: Archaic term meaning darling/favorite; unlikely to be guessed.
+
+Word: dingle
+Reason: An obscure, low‑frequency term for a small valley; unlikely to be known or guessed by typical adults (criterion 1).
+
+Word: elding
+Reason: Obsolete and very low frequency; an archaic Provincial English term for fuel, unlikely to be known by typical adults.
+
+Word: engle
+Reason: Obsolete and obscure; very low frequency and not commonly known (Criterion 1).
+
+Word: geld
+Reason: Archaic noun and verb meaning money, tribute, or to castrate; not commonly used in modern English. (Criterion 1)
+
+Word: gilden
+Reason: Old form of gilded; archaic and not used in modern language.
+
+Word: gile
+Reason: Obsolete form of 'guile'; archaic and unlikely to be known by the general audience (criterion 1).
+
+Word: gillie
+Reason: Specific occupation noun referring to a Scottish Highland servant; too niche for general audiences. (Criterion 2)
+
+Word: glebe
+Reason: A niche land‑related term tied to ecclesiastical property; too specialized for general audience (criterion 1).
+
+Word: gleed
+Reason: Obsolete term for a glowing coal (category 1).
+
+Word: gleen
+Reason: Obsolete variant of ‘gleam’/‘glisten’ (category 1).
+
+Word: glidden
+Reason: Obsolete past participle of 'glide'; extremely rare and unlikely to be known by typical adults. (Criterion 1)
+
+Word: ible
+Reason: Suffix rather than a stand-alone word; not part of everyday vocabulary.
+
+Word: ingle
+Reason: Obsolete and rarely used term for flame/fire; not commonly known by typical adults (criterion 1).
+
+Word: leed
+Reason: Old, obscure term for a copper kettle; rarely used in modern English (criterion 1).
+
+Word: lege
+Reason: Obsolete verb meaning to allege or assert; too rare for general use. (Criterion 1)
+
+Word: legge
+Reason: Archaic word meaning 'to lay'; very low frequency and not recognizable in everyday language (criterion 1).
+
+Word: lene
+Reason: Obsolete verb meaning to lend or permit, plus ancient grammatical term; not recognized by most adults. (Criterion 1)
+
+Word: lidge
+Reason: Obsolete spelling of ledge; not a familiar word today.
+
+Word: liege
+Reason: This word is an archaic feudal term referring to a sovereign or vassal; it is not commonly known by typical adults and falls under criterion 1 (obsolete/rare) and 5 (niche historical usage).
+
+Word: lige
+Reason: Obsolete form of 'lie', rarely known today (Criterion 1).
+
+Word: lignin
+Reason: Specialized chemical term used only in science; unsuitable for general puzzle (Criterion 7).
+
+Word: lill
+Reason: An archaic spelling of ‘loll’, not in common use today (Criterion 1: obsolete word).
+
+Word: lind
+Reason: Obsolete/archaic word for linden tree; very low frequency and not widely known (criterion 1).
+
+Word: ling
+Reason: Refers to a specific fish species, making it a narrow taxonomic term unlikely to be known by most people (criterion 3).
+
+Word: lingle
+Reason: Obscure or archaic word, not common in everyday use (Criterion 1).
+
+Word: linne
+Reason: Obsolete spelling related to linen; not used in contemporary English (Criterion 1).
+
+Word: neeld
+Reason: Old spelling of needle; not used in contemporary English.
+
+Word: neele
+Reason: Archaic term for a needle; obsolete and unlikely to be guessed by modern players.
+
+Word: niggle
+Reason: Obsolete verb meaning 'to trifle with or deceive'; not commonly known by typical adults (criterion 1).
+
+Word: niggling
+Reason: The definition refers to a very obscure fine‑arts technical term, far beyond everyday usage (Criterion 1: extremely rare word).
+
+Word: nill
+Reason: Archaic verb meaning 'to refuse or reject'; very low frequency and unlikely to be guessed (criterion 1).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-16.json
+✓ Saved 47 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 121
+  - Removed (frequency = 0.0): 29
+  - Always included (frequency > 5e-06): 16
+  - Processed by LLM: 76
+    * Kept: 31
+    * Removed: 45
+Final words: 47
+Total removed: 74 (61.2%)
+  - Zero frequency: 29
+  - Removed by LLM: 45
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-16.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-16.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-16.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, DISTRACTED, HIGH_EXERTION, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>LOUD_ENVIRONMENT, SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, FOCUSED_OBSERVATION, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, FOCUSED_OBSERVATION, HIGH_EXERTION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, DISTRACTED, AUDIBLE_MOVEMENT, HEAVY_PHONE_USE, LOUD_ENVIRONMENT, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, LOUD_ENVIRONMENT, SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, DISTRACTED, AUDIBLE_MOVEMENT, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, FOCUSED_OBSERVATION, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, LOUD_ENVIRONMENT, SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM - 8:27 AM. Woke up in Grove Hall (Roxbury). It was a quiet morning, a peaceful start to the day. Just a still, social atmosphere.
+
+8:27 AM. Rushed out of Grove Hall (Roxbury) and headed towards Snell Library (Fenway), cycling quickly. I passed Dunkin' and the Subway along the way. It was a bit of a power-walk to get there, sitting briefly before continuing on.
+
+8:54 AM. Got into Snell Library (Fenway) – it was hectic, a real rush. I was already walking to class as I left. 
+
+9:05 AM. Still rushing, leaving Snell Library (Fenway) and heading toward Northeastern University (Fenway). I was glued to my screen, distracted as I walked, passing Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, another Dunkin', and Burger 373.
+
+9:07 AM - 10:17 AM. Settled down at Northeastern University (Fenway). It was a loud environment, a mix of social and quiet corners as I sat repeating course material. 
+
+10:17 AM. Rushed back from Northeastern University (Fenway) to Snell Library (Fenway), noticing Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill’s, Kigo Kitchen, Popeyes and Chaat House along the way.
+
+10:20 AM - 11:09 AM. Back at Snell Library (Fenway), just sitting and focusing. A peaceful, quiet spot amidst the audible movement around me.
+
+11:09 AM. A quick rush from Snell Library (Fenway) towards Amazon Boston (Seaport). I was running to the train station, then writing on the Subway, heading to Seaport. I passed Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, another Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, the Boston Wharf Co. Sign, Back Bay, Row 34, and Caffé Strega.
+
+11:42 PM - 1:51 PM. Arrived at Amazon Boston (Seaport), walking to my friend’s office and then sitting in the lobby waiting. It was a social but also quiet atmosphere. I even walked to the bathroom, thinking how my mind felt older.
+
+1:51 PM. Started walking back to school from Amazon Boston (Seaport). I was sitting on the train when I realized I was headed back. We passed Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, and Lolita.
+
+2:18 PM - 2:48 PM. Back at Snell Library (Fenway), just sitting again, surrounded by noise.
+
+2:48 PM. A quick rush from Snell Library (Fenway) to Ryder Hall (Fenway), passing the Subway and another Dunkin’.
+
+2:50 PM - 4:45 PM. At Ryder Hall (Fenway), walking into class, then sitting down and taking notes. 
+
+4:45 PM. Rushed back from Ryder Hall (Fenway) to Snell Library (Fenway), passing the Subway again.
+
+4:49 PM - 9:21 PM. Settled back into Snell Library (Fenway), craving the quiet space. I sat taking classes, walking to the bathroom, and working on assignments. I was just sitting, and then sitting again. 
+
+9:21 PM. Left Snell Library (Fenway) and headed back to Grove Hall (Roxbury), passing ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, and finally, Uphams Corner.
+
+9:45 PM - 11:59 PM. Back in Grove Hall (Roxbury), just standing around for a bit.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "LINE",
+    "clue": "You waited in a _______ for the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "BELL",
+    "clue": "A _______ might signal the end of a class at Ryder Hall at 4:45 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "BILL",
+    "clue": "After stopping for coffee, you probably had to pay a _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "BLIND",
+    "clue": "You were sometimes distracted while walking, almost like you were _______ to your surroundings.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "BIBLE",
+    "clue": "You spent a lot of time studying, almost as if it were your _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "NEEDLE",
+    "clue": "Despite all the rushing, you felt as if your mind was becoming _______-sharp, thinking about course material.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "BLEEDING",
+    "clue": "After a long day of rushing, you mentioned your mind felt older, almost _______-dry of energy.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "LEGEND",
+    "clue": "You passed so many restaurants and stores, the list reads like a local _______ of eateries and shops.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ELIGIBLE",
+    "clue": "You moved between different buildings, presumably _______ to attend classes or work on assignments.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "LIED",
+    "clue": "Throughout the day, you constantly moved between locations; you didn't stay in one place for long, as if you _______-in-wait.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 1
+  },
+  {
+    "word": "BLEND",
+    "clue": "The constant movement between locations created a _______ of activity in your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "BLEND",
+    "clue": "The sounds of the library and the city seemed to _______ together as you studied.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LEND",
+    "clue": "Hopefully, the library will _______ you the resources you need to succeed in your courses.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LINING",
+    "clue": "You were constantly walking and _______ up to take the train.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "BLEED",
+    "clue": "With all of the rushing from place to place, your time seemed to _______ away.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "IDLE",
+    "clue": "After a hectic morning, you often found moments to be _______, especially back at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "EDIBLE",
+    "clue": "You passed numerous _______ establishments today, including Dunkin', Subway, and Sweet Tomatoes Pizza.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "LEGGED",
+    "clue": "You spent a significant portion of your day _______, rushing between buildings and locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "LEDGE",
+    "clue": "Perhaps you felt as though you were on the _______ of exhaustion, constantly rushing between locations.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "NEGLIGIBLE",
+    "clue": "The amount of time you spent actually *standing* around was _______, as you were constantly on the move.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GLIDE",
+    "clue": "You seemed to _______ between Snell Library and Ryder Hall all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "BILE",
+    "clue": "After a long day of rushing around, you noted your mind felt older, as if filled with _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LINDEN",
+    "clue": "You passed by many establishments, but none were named _______.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "LEGIBLE",
+    "clue": "You were taking notes in class, hoping your handwriting was _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "INDELIBLE",
+    "clue": "The many locations you visited\u2014Snell Library, Amazon, Grove Hall\u2014left an _______ impression on your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "BELIE",
+    "clue": "You may have had a hard time making your notes _______-vable after a long day of rushing.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GLIB",
+    "clue": "Perhaps you gave a _______ explanation for your constant rushing between locations.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "INEDIBLE",
+    "clue": "Despite passing many restaurants, you didn't mention eating anything _______ today.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "GILDING",
+    "clue": "You were at Snell Library and Ryder Hall, both places with a certain _______ to their architecture.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "ILLEGIBLE",
+    "clue": "After a long day of rushing and writing on the subway, your notes might be _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LEGGING",
+    "clue": "You were constantly _______ between buildings and locations throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "DIDDLE",
+    "clue": "You seemed to _______ away the hours, repeatedly sitting and working at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "GILD",
+    "clue": "You may have wished to _______ your time at Snell Library, craving the quiet space.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ELIDE",
+    "clue": "You frequently skipped over details or _______-d parts of your journey, quickly moving from location to location.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "GELID",
+    "clue": "Despite the bustling activity around you, Snell Library often felt _______ and calm, providing a welcome respite.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "FARE",
+    "clue": "A _______ was needed to ride the subway from Amazon Boston back toward school.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  }
+]
+[
+  {
+    "word": "LINE",
+    "clue": "Queue, perhaps"
+  },
+  {
+    "word": "BILL",
+    "clue": "Restaurant request"
+  },
+  {
+    "word": "BELL",
+    "clue": "Sound a chime"
+  },
+  {
+    "word": "BIBLE",
+    "clue": "Holy scripture"
+  },
+  {
+    "word": "BLIND",
+    "clue": "Without sight"
+  },
+  {
+    "word": "LEGEND",
+    "clue": "Mythical tale"
+  },
+  {
+    "word": "ELIGIBLE",
+    "clue": "Qualified to participate"
+  },
+  {
+    "word": "LIED",
+    "clue": "Wasn't truthful"
+  },
+  {
+    "word": "BLEEDING",
+    "clue": "Losing vital fluid"
+  },
+  {
+    "word": "NEEDLE",
+    "clue": "Sewing tool"
+  },
+  {
+    "word": "BLEND",
+    "clue": "Combine ingredients, as for a smoothie"
+  },
+  {
+    "word": "LEND",
+    "clue": "Offer for temporary use"
+  },
+  {
+    "word": "LINING",
+    "clue": "Interior covering of a coat, perhaps"
+  },
+  {
+    "word": "GLEN",
+    "clue": "Narrow valley in the Scottish Highlands"
+  },
+  {
+    "word": "BLEED",
+    "clue": "Lose blood, as from a cut"
+  },
+  {
+    "word": "IDLE",
+    "clue": "Not working; loafing around"
+  },
+  {
+    "word": "NILE",
+    "clue": "River flowing through Egypt"
+  },
+  {
+    "word": "EDIBLE",
+    "clue": "Safe to consume"
+  },
+  {
+    "word": "GILL",
+    "clue": "Fish breathing apparatus"
+  },
+  {
+    "word": "LEGGED",
+    "clue": "Having supports for walking"
+  },
+  {
+    "word": "GLEE",
+    "clue": "Joyful, exuberant delight"
+  },
+  {
+    "word": "LEDGE",
+    "clue": "Protrusion from a cliff, perhaps"
+  },
+  {
+    "word": "NEGLIGIBLE",
+    "clue": "So small it doesn't matter much"
+  },
+  {
+    "word": "GIGGLE",
+    "clue": "Light, silly laugh"
+  },
+  {
+    "word": "LIBEL",
+    "clue": "A written defamation"
+  },
+  {
+    "word": "GLIDE",
+    "clue": "Move smoothly and effortlessly"
+  },
+  {
+    "word": "BILE",
+    "clue": "Yellowish digestive fluid"
+  },
+  {
+    "word": "BLED",
+    "clue": "Lost blood, as a wound might"
+  },
+  {
+    "word": "LIEN",
+    "clue": "Legal claim against property"
+  },
+  {
+    "word": "LINDEN",
+    "clue": "Tree known for its heart-shaped leaves"
+  },
+  {
+    "word": "DILL",
+    "clue": "Herb often paired with pickles"
+  },
+  {
+    "word": "NIBBLE",
+    "clue": "Eat delicately, like a mouse"
+  },
+  {
+    "word": "INDELIBLE",
+    "clue": "Permanent, as a strong impression"
+  },
+  {
+    "word": "LEGIBLE",
+    "clue": "Easy to read, not scribbled"
+  },
+  {
+    "word": "GELDING",
+    "clue": "Castrated male horse"
+  },
+  {
+    "word": "GLIB",
+    "clue": "Smooth-talking and superficial"
+  },
+  {
+    "word": "INEDIBLE",
+    "clue": "Not fit to eat"
+  },
+  {
+    "word": "GILDING",
+    "clue": "Applying thin gold leaf"
+  },
+  {
+    "word": "ILLEGIBLE",
+    "clue": "Unreadable handwriting, perhaps"
+  },
+  {
+    "word": "BELIE",
+    "clue": "To disbelieve"
+  },
+  {
+    "word": "GILD",
+    "clue": "Cover with a thin layer of gold"
+  },
+  {
+    "word": "DIDDLE",
+    "clue": "Waste time with trivial matters"
+  },
+  {
+    "word": "LEGGING",
+    "clue": "Slim-fitting stretch pants"
+  },
+  {
+    "word": "LIDDED",
+    "clue": "Having a covering or cap"
+  },
+  {
+    "word": "NEGLIGEE",
+    "clue": "Light, flowing dressing gown"
+  },
+  {
+    "word": "ELIDE",
+    "clue": "Omit, as a syllable"
+  },
+  {
+    "word": "GELID",
+    "clue": "Like a glacier"
+  }
+]
+Finalized clues saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/finalized_words_and_clue_lists/finalized_spelling_bee_words_and_clues_20251213_181641.json

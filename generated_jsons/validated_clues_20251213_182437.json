@@ -1,0 +1,212 @@
+[
+  {
+    "word": "GOING",
+    "clue": "The diary details a day of _______ back and forth between Snell Library and other locations.",
+    "score": 5,
+    "reason": "The diary clearly describes constant movement between locations, fitting 'going' perfectly."
+  },
+  {
+    "word": "STOP",
+    "clue": "You made multiple _______ at Dunkin' and Subway throughout the day.",
+    "score": 5,
+    "reason": "The diary repeatedly mentions passing or being at Dunkin' and Subway, implying stops at these locations."
+  },
+  {
+    "word": "INTO",
+    "clue": "You walked _______ Snell Library several times throughout the day.",
+    "score": 5,
+    "reason": "The diary explicitly mentions walking into Snell Library on multiple occasions."
+  },
+  {
+    "word": "POSITION",
+    "clue": "You spent a lot of time in a seated _______, especially at Snell Library.",
+    "score": 5,
+    "reason": "The diary frequently describes the author 'sitting' and 'taking course' in Snell Library, indicating a prolonged seated position."
+  },
+  {
+    "word": "SPOT",
+    "clue": "Snell Library was your go-to _______ for studying today.",
+    "score": 5,
+    "reason": "The diary consistently shows the author returning to Snell Library for studying, establishing it as a preferred 'spot'."
+  },
+  {
+    "word": "SPOT",
+    "clue": "You frequently returned to Snell Library, making it your preferred _______ to study.",
+    "score": 5,
+    "reason": "The diary repeatedly shows the author going back to Snell Library for studying, reinforcing it as a 'spot'."
+  },
+  {
+    "word": "ONGOING",
+    "clue": "Your day felt like an _______ series of movements between libraries and buildings.",
+    "score": 5,
+    "reason": "The diary details constant movement between locations (libraries, buildings), making 'ongoing' an accurate descriptor."
+  },
+  {
+    "word": "OPTION",
+    "clue": "Sweet Tomatoes Pizza was one _______ among many eateries you passed today.",
+    "score": 5,
+    "reason": "The diary repeatedly lists restaurants passed, establishing Sweet Tomatoes Pizza as one 'option' amongst others. Strong contextual validity."
+  },
+  {
+    "word": "TOSS",
+    "clue": "You were constantly on the move, _______-ing between Snell Library, Northeastern, and Amazon Boston.",
+    "score": 5,
+    "reason": "The diary details constant movement between these locations, accurately reflected by 'tossing' or going back and forth."
+  },
+  {
+    "word": "NOON",
+    "clue": "You spent a significant amount of time at Snell Library well past _______, studying and taking class.",
+    "score": 5,
+    "reason": "The diary entries span well past noon, with extended periods spent at Snell Library, making this a valid observation."
+  },
+  {
+    "word": "POPPING",
+    "clue": "You were _______ back and forth between Snell Library, Northeastern, and Amazon all day.",
+    "score": 5,
+    "reason": "The diary explicitly demonstrates frequent movement between Snell Library, Northeastern, and Amazon Boston, making 'popping' a fitting description."
+  },
+  {
+    "word": "FARE",
+    "clue": "You passed several train stations like South Station, suggesting you paid a _______ to travel.",
+    "score": 5,
+    "reason": "Logical association. Train stations strongly suggest payment for travel via fare."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the train to Amazon Boston at 11:09 AM.",
+    "score": 5,
+    "reason": "Strong logical association. The diary explicitly mentions taking the train, therefore a fare is a logical deduction."
+  },
+  {
+    "word": "SOPPING",
+    "clue": "If you were caught in the snowfall at 9:21 PM, you could've ended up _______ wet on your way back to Grove Hall.",
+    "score": 5,
+    "reason": "Excellent contextual validity. The diary states the protagonist left Snell Library at 9:21 PM and was heading back to Grove Hall, directly coinciding with the mention of snowfall, making the possibility of getting soaking wet highly probable."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the train to Amazon Boston at 11:09 AM.",
+    "score": 5,
+    "reason": "Highly valid. The diary explicitly mentions taking the train, and train travel necessitates paying a fare."
+  },
+  {
+    "word": "POSITION",
+    "clue": "After waiting in the lobby, you finally took a _______ at your friend's office.",
+    "score": 4,
+    "reason": "While not explicitly stated, waiting in a lobby implies taking a 'position' or space at a friend's office."
+  },
+  {
+    "word": "ONTO",
+    "clue": "You moved _______ the next location in a hectic race against the clock.",
+    "score": 4,
+    "reason": "The diary consistently describes moving from one location to another, fitting the 'onto' phrasing. Contextually valid though not a direct mention."
+  },
+  {
+    "word": "NOTION",
+    "clue": "The quiet hum of the library gave you the _______ of peaceful solitude.",
+    "score": 4,
+    "reason": "The diary explicitly states feelings of peacefulness and a 'quiet hum' in the library. The clue aligns with the described atmosphere, suggesting a 'notion' of solitude."
+  },
+  {
+    "word": "ONION",
+    "clue": "You passed many layers of restaurants, like peeling an _______, traveling between locations.",
+    "score": 4,
+    "reason": "The diary lists a large number of restaurants passed throughout the day, creating a sense of 'layers' as the person travels. The analogy to peeling an onion is appropriate."
+  },
+  {
+    "word": "TOPPING",
+    "clue": "You passed several restaurants, including Sweet Tomatoes Pizza, making it easy to add a _______ to your meal.",
+    "score": 4,
+    "reason": "Sweet Tomatoes Pizza is a pizza restaurant, and toppings are a natural component of pizza. This is a logical, albeit basic, connection."
+  },
+  {
+    "word": "TOOT",
+    "clue": "You passed Dunkin\u2019 multiple times, perhaps hoping for a sweet _______ to keep you energized.",
+    "score": 4,
+    "reason": "Logically valid. Frequent passing of Dunkin' suggests a desire for a treat, and 'toot' (as in a sweet) fits."
+  },
+  {
+    "word": "POTION",
+    "clue": "You stopped at Argo Tea and Starbucks, perhaps searching for a calming _______ to help you focus.",
+    "score": 4,
+    "reason": "Valid logical association. Argo Tea and Starbucks serve beverages that could be considered calming and focus-enhancing 'potions'."
+  },
+  {
+    "word": "POSIT",
+    "clue": "You seemed to _______ yourself in Snell Library, spending hours there throughout the day.",
+    "score": 4,
+    "reason": "A good action paraphrasing. 'Posit' (to place or settle) captures the repeated act of the diarist spending long hours in Snell Library."
+  },
+  {
+    "word": "SOPPING",
+    "clue": "The snow started to fall, potentially _______ the streets as you studied late at Snell Library.",
+    "score": 4,
+    "reason": "Strong contextual validity. The diary explicitly mentions snow falling and the protagonist being at Snell Library, making it highly plausible that the streets could be sopping wet."
+  },
+  {
+    "word": "SOPPING",
+    "clue": "After a long day of walking around, your socks might have been _______ after the snow started falling.",
+    "score": 4,
+    "reason": "Strong contextual validity. The diary details extensive walking throughout the day and mentions snowfall, making the possibility of sopping socks highly likely."
+  },
+  {
+    "word": "SOPPING",
+    "clue": "After a long day of walking around, your socks might have been _______ wet after the snow started falling at Snell Library.",
+    "score": 4,
+    "reason": "Logically valid. The diary mentions snow falling while the author was at Snell Library, and walking in snow could lead to wet socks."
+  },
+  {
+    "word": "POST",
+    "clue": "You were scribbling notes on your phone, perhaps for a social media _______.",
+    "score": 3,
+    "reason": "The diary states the author was 'scribbling on my phone', which could be for a post, but it's not explicitly stated, making it a plausible assumption but not a strong connection."
+  },
+  {
+    "word": "SONG",
+    "clue": "The quiet hum of the library could almost be described as a peaceful _______.",
+    "score": 3,
+    "reason": "The diary mentions a 'peaceful hum' which is a metaphorical association with a 'song', but it's not a direct statement."
+  },
+  {
+    "word": "OPPOSITION",
+    "clue": "The loud but strangely quiet atmosphere at Northeastern created a sense of _______.",
+    "score": 3,
+    "reason": "The diary directly states a 'loud but strangely quiet atmosphere' at Northeastern. While 'opposition' isn't a perfect fit, the contrasting descriptors create a sense of internal conflict or duality which the clue hints at."
+  },
+  {
+    "word": "GOSSIP",
+    "clue": "You passed by several restaurants\u2014Subway, Dunkin\u2019, Applebee\u2019s\u2014places where people might share _______ over a meal.",
+    "score": 3,
+    "reason": "While restaurants *can* be places for gossip, it's a loose association. The diary only states the author *passed* these places, not that they engaged in conversation."
+  },
+  {
+    "word": "PISTON",
+    "clue": "Like a _______ in an engine, you were constantly moving between Snell Library and other locations today.",
+    "score": 3,
+    "reason": "Moderate association. The diary highlights constant movement, similar to a piston. However, the connection is metaphorical and relies on interpreting the diary's content rather than a direct fact."
+  },
+  {
+    "word": "SOOT",
+    "clue": "As the snow began to fall at 4:49 PM, a thin layer of _______ might have settled on the library windows.",
+    "score": 3,
+    "reason": "Contextually plausible, though slightly less direct. Snowfall could logically lead to soot-like deposits, especially on windows. The connection isn\u2019t *strong*, but isn\u2019t a hallucination."
+  },
+  {
+    "word": "TONGS",
+    "clue": "If you stopped at Pink Taco, you might need _______ to enjoy your meal.",
+    "score": 3,
+    "reason": "Logically possible, but assumes a specific way of eating at Pink Taco. Not a guaranteed connection, but plausible."
+  },
+  {
+    "word": "TIPTOP",
+    "clue": "Despite the busy day, you described your time at Grove Hall as strangely calming, a _______ end to a long day.",
+    "score": 3,
+    "reason": "Moderately valid. 'Tiptop' conveys a positive feeling, aligning with the diary's description of Grove Hall being calming, but it's not a strong, direct link."
+  },
+  {
+    "word": "TIPTOP",
+    "clue": "You spent much of the day rushing between locations, aiming for a _______ level of productivity.",
+    "score": 3,
+    "reason": "Moderately valid. The diary describes a lot of rushing and movement between locations, which could indicate an attempt to be productive. However, 'tiptop' feels a bit strong of a descriptor."
+  }
+]

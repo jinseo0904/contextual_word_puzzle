@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "word": "SEAPORT",
+      "distinct_letters": [
+        "S",
+        "E",
+        "A",
+        "P",
+        "O",
+        "R",
+        "T"
+      ],
+      "clue": "You were focused on ______ during that time. This was a big part of your day."
+    },
+    {
+      "word": "BATHROOM",
+      "distinct_letters": [
+        "B",
+        "A",
+        "T",
+        "H",
+        "R",
+        "O",
+        "M"
+      ],
+      "clue": "You were focused on ______ during that time. It really defined that moment for you."
+    },
+    {
+      "word": "CLASSROOM",
+      "distinct_letters": [
+        "C",
+        "L",
+        "A",
+        "S",
+        "R",
+        "O",
+        "M"
+      ],
+      "clue": "You were focused on ______ during that time. This captures what that part of the day was about."
+    }
+  ]
+}

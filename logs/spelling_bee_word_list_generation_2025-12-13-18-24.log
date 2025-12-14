@@ -1,0 +1,307 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-24
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-24.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- funeral (freq: 0.000023)
+- offering (freq: 0.000040)
+- mounted (freq: 0.000018)
+- structural (freq: 0.000015)
+- resigned (freq: 0.000011)
+- exposure (freq: 0.000028)
+- holiday (freq: 0.000046)
+- appealing (freq: 0.000009)
+- stopping (freq: 0.000019)
+- participate (freq: 0.000026)
+
+Randomly selected candidate: stopping
+Selected seed word: stopping
+
+[2/4] Generating spelling bee puzzle for seed word 'stopping'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'stopping'
+✓ Found 127 words for candidate 'stopping' with center letter 'o'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'pinto' (freq: 1.32e-06) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'sinto' (freq: 1.45e-08) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'tinto' (freq: 4.27e-07) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'instop' (freq: 0.00e+00) because it contains 'stop' (freq: 3.31e-04) [frequency]
+  - Dropped 'pintos' (freq: 5.75e-08) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'ponton' (freq: 1.23e-07) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'gossoon' (freq: 0.00e+00) because it contains 'soon' (freq: 2.09e-04) [frequency]
+  - Dropped 'nooning' (freq: 0.00e+00) because it contains 'noon' (freq: 1.29e-05) [affix]
+  - Dropped 'pontoon' (freq: 5.25e-07) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'posting' (freq: 2.45e-05) because it contains 'post' (freq: 2.69e-04) [affix]
+  - Dropped 'stoping' (freq: 1.58e-07) because it contains 'stop' (freq: 3.31e-04) [affix]
+  - Dropped 'tossing' (freq: 2.45e-06) because it contains 'toss' (freq: 8.13e-06) [affix]
+  - Dropped 'tosspot' (freq: 2.24e-08) because it contains 'spot' (freq: 7.76e-05) [frequency]
+  - Dropped 'pointing' (freq: 1.58e-05) because it contains 'point' (freq: 3.47e-04) [affix]
+  - Dropped 'signpost' (freq: 2.88e-07) because it contains 'post' (freq: 2.69e-04) [frequency]
+  - Dropped 'singsong' (freq: 9.55e-08) because it contains 'song' (freq: 1.82e-04) [frequency]
+  - Dropped 'sintoist' (freq: 0.00e+00) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'spontoon' (freq: 0.00e+00) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'stopping' (freq: 1.95e-05) because it contains 'stop' (freq: 3.31e-04) [affix]
+  - Dropped 'notionist' (freq: 0.00e+00) because it contains 'notion' (freq: 1.48e-05) [frequency]
+  - Dropped 'postposit' (freq: 0.00e+00) because it contains 'post' (freq: 2.69e-04) [frequency]
+  - Dropped 'opinionist' (freq: 0.00e+00) because it contains 'opinion' (freq: 8.71e-05) [frequency]
+  - Dropped 'pontooning' (freq: 0.00e+00) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'postposition' (freq: 2.34e-08) because it contains 'post' (freq: 2.69e-04) [frequency]
+  - Dropped 'oppositionist' (freq: 2.69e-08) because it contains 'position' (freq: 1.62e-04) [frequency]
+
+✓ Generated puzzle with 102 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: STOPPING
+Clue: 
+Distinct letters: g, i, n, o, p, s, t
+Center letter: o (required in all words)
+Total valid words: 102
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. into                 (freq: 1.29e-03)
+   2. going                (freq: 8.71e-04)
+   3. point                (freq: 3.47e-04)
+   4. stop                 (freq: 3.31e-04)
+   5. post                 (freq: 2.69e-04)
+   6. soon                 (freq: 2.09e-04)
+   7. song                 (freq: 1.82e-04)
+   8. position             (freq: 1.62e-04)
+   9. opinion              (freq: 8.71e-05)
+  10. spot                 (freq: 7.76e-05)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+✓ Loaded 102 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 21 words with frequency 0.0
+  Examples: giggot, goost, inition, insition, niopo, nogging, noint, notist, ostitis, ostosis...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 22 words always included (frequency > threshold)
+✓ 59 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 59 words in batches of 5...
+
+  Processing batch 1/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 2/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 3/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['sweet']
+    Result: 2 kept, 3 removed
+  Processing batch 4/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 5/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 7/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 8/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 9/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 10/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 11/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/12 (4 words)...
+    Sending 4 words with definitions to LLM
+    Result: 0 kept, 4 removed
+
+✓ Processed 12 batch(es)
+  Kept: 21 words
+  Removed: 38 words
+
+  ✓ All 21 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 38
+
+Word: gigot
+Reason: Old culinary term for leg of mutton; uncommon in everyday language (criterion 1).
+
+Word: gnosis
+Reason: Esoteric religious concept unlikely to be known by general audience (criterion 5).
+
+Word: goot
+Reason: Obsolete term for goat; not used in modern everyday language.
+
+Word: goss
+Reason: Obsolete term for gorse; archaic, not part of everyday vocabulary.
+
+Word: ingot
+Reason: Technical metallurgy term; not an everyday word for most adults (criterion 1).
+
+Word: inion
+Reason: Specialized anatomical term; falls under criterion 7.
+
+Word: noot
+Reason: Archaic variant of "not"; not expected to be known by typical adults. (Criterion 1)
+
+Word: nosing
+Reason: Specific architectural term; too niche for general word puzzle (criterion 3).
+
+Word: nost
+Reason: Obsolete, archaic form (criterion 1); not familiar to general audience.
+
+Word: nott
+Reason: Archaic word meaning "shorn"; unlikely to be recognized or guessed by most adults. (Criterion 1)
+
+Word: oint
+Reason: Obsolete archaic verb; falls under criterion 1.
+
+Word: opining
+Reason: Obsolete word meaning "opinion"; not expected to be known by typical adults. (Criterion 1)
+
+Word: otis
+Reason: Specific animal genus (category 3).
+
+Word: otitis
+Reason: Medical terminology for ear inflammation; specialized jargon (criterion 7).
+
+Word: otto
+Reason: The word refers to a proper name and is not a common everyday noun; it falls under the category of specialized or obscure terms not recognizable by typical adults.
+
+Word: pinion
+Reason: The word is a specialized term referring to a moth species, a specific bird wing joint, a mechanical cogwheel, or to binding wings. These meanings are niche and not widely known by typical adults, fitting the criteria for removal (specialized scientific/technical terminology).
+
+Word: pion
+Reason: Specialized botanical term referring to pine seeds; not common everyday vocabulary. (Criterion 4)
+
+Word: piot
+Reason: Dialectal, archaic term for magpie (criterion 1); uncommon and niche.
+
+Word: pongo
+Reason: Very rare, obscure word for a large ape; not commonly known by typical adults (criterion 1).
+
+Word: pons
+Reason: Specialized anatomical term referring to a part of the brain; not widely known to typical adults. (Criterion 7)
+
+Word: poon
+Reason: Obscure botanical term for a specific type of wood used in masts; not a common everyday word. (Criterion 4)
+
+Word: pooping
+Reason: Nautical jargon for a ship’s bow striking a wave; specialized maritime vocabulary.
+
+Word: poss
+Reason: Obsolete verb; not commonly used by typical adults (criterion 1).
+
+Word: potoo
+Reason: Specific animal species; falls under criterion 3.
+
+Word: pott
+Reason: Niche paper size term used only in specific contexts; unsuitable for general audience (criterion 4).
+
+Word: potto
+Reason: Obsolete and highly obscure animal term; rare medical terms make it unsuitable for general audience (criterion 1).
+
+Word: ptosis
+Reason: Specialized medical jargon (criterion 7); not commonly known by typical adults.
+
+Word: soss
+Reason: Archaic verb and noun; not recognizable to most adults (criterion 1).
+
+Word: spong
+Reason: Archaic, provincial term for a part of a field; not commonly recognized.
+
+Word: sponging
+Reason: Legal/archaic term referring to a sponging house; obscure and unlikely to be guessed (criterion 1).
+
+Word: sponson
+Reason: Technical naval architecture term; highly specialized (criterion 8).
+
+Word: stingo
+Reason: Old slang for strong liquor; rarely known to general adults (criterion 1).
+
+Word: tong
+Reason: Archaic form of ‘tongue’, not commonly known to adults (category 1).
+
+Word: tongo
+Reason: Specific regional name for mangrove; unlikely to be known by typical adults.
+
+Word: toon
+Reason: Specific tree species (Cedrela Toona) – niche botanical term, not widely known.
+
+Word: topi
+Reason: Specific animal species (an antelope); falls under specific species category. (Criterion 3)
+
+Word: tost
+Reason: Extremely rare, archaic word (criterion 1); unlikely to be guessed from simple clues.
+
+Word: tosto
+Reason: Obscure, non‑common word; falls under criterion 1.
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-24.json
+✓ Saved 43 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 102
+  - Removed (frequency = 0.0): 21
+  - Always included (frequency > 5e-06): 22
+  - Processed by LLM: 59
+    * Kept: 21
+    * Removed: 38
+Final words: 43
+Total removed: 59 (57.8%)
+  - Zero frequency: 21
+  - Removed by LLM: 38
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-24.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-24.log
+======================================================================

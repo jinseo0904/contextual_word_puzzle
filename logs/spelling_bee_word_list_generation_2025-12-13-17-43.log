@@ -1,0 +1,372 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-17-43
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-43.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- indication (freq: 0.000012)
+- blessing (freq: 0.000012)
+- rainbow (freq: 0.000012)
+- factory (freq: 0.000036)
+- facilitate (freq: 0.000010)
+- external (freq: 0.000033)
+- another (freq: 0.000550)
+- mineral (freq: 0.000011)
+- phoenix (freq: 0.000016)
+- elevator (freq: 0.000009)
+
+Randomly selected candidate: facilitate
+Selected seed word: facilitate
+
+[2/4] Generating spelling bee puzzle for seed word 'facilitate'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'facilitate'
+✓ Found 158 words for candidate 'facilitate' with center letter 'e'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'alate' (freq: 1.55e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'alife' (freq: 3.89e-08) because it contains 'life' (freq: 7.76e-04) [frequency]
+  - Dropped 'cella' (freq: 1.26e-07) because it contains 'cell' (freq: 7.41e-05) [frequency]
+  - Dropped 'cleft' (freq: 8.71e-07) because it contains 'left' (freq: 4.17e-04) [frequency]
+  - Dropped 'elate' (freq: 2.14e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'facet' (freq: 1.51e-06) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'affile' (freq: 0.00e+00) because it contains 'file' (freq: 5.62e-05) [frequency]
+  - Dropped 'efface' (freq: 3.55e-08) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'facete' (freq: 0.00e+00) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'leafet' (freq: 0.00e+00) because it contains 'leaf' (freq: 1.66e-05) [frequency]
+  - Dropped 'efflate' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'electic' (freq: 1.66e-08) because it contains 'elect' (freq: 1.07e-05) [frequency]
+  - Dropped 'facette' (freq: 0.00e+00) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'leaflet' (freq: 1.32e-06) because it contains 'leaf' (freq: 1.66e-05) [frequency]
+  - Dropped 'califate' (freq: 0.00e+00) because it contains 'fate' (freq: 2.29e-05) [frequency]
+  - Dropped 'facetiae' (freq: 0.00e+00) because it contains 'face' (freq: 2.82e-04) [frequency]
+  - Dropped 'telltale' (freq: 7.94e-07) because it contains 'tale' (freq: 1.95e-05) [frequency]
+  - Dropped 'titillate' (freq: 7.94e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'catalectic' (freq: 0.00e+00) because it contains 'tale' (freq: 1.95e-05) [frequency]
+  - Dropped 'acatalectic' (freq: 0.00e+00) because it contains 'tale' (freq: 1.95e-05) [frequency]
+
+✓ Generated puzzle with 138 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: FACILITATE
+Clue: 
+Distinct letters: a, c, e, f, i, l, t
+Center letter: e (required in all words)
+Total valid words: 138
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. life                 (freq: 7.76e-04)
+   2. little               (freq: 5.62e-04)
+   3. feel                 (freq: 4.68e-04)
+   4. left                 (freq: 4.17e-04)
+   5. tell                 (freq: 3.39e-04)
+   6. face                 (freq: 2.82e-04)
+   7. late                 (freq: 2.19e-04)
+   8. felt                 (freq: 1.35e-04)
+   9. title                (freq: 1.26e-04)
+  10. effect               (freq: 1.05e-04)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_facilitate_2025-12-13-17-43.json
+✓ Loaded 138 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 29 words with frequency 0.0
+  Examples: accite, ailette, alfet, allect, allice, attle, calaite, calicle, cete, cetic...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 30 words always included (frequency > threshold)
+✓ 79 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 79 words in batches of 5...
+
+  Processing batch 1/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 3/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 4/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['feet']
+    Result: 3 kept, 2 removed
+  Processing batch 5/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 7/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 8/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['court-leet', 'pollock']
+    Result: 1 kept, 5 removed
+  Processing batch 9/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 10/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['strife']
+    Result: 0 kept, 5 removed
+  Processing batch 11/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 13/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 14/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 15/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 16/16 (4 words)...
+    Sending 4 words with definitions to LLM
+    Result: 0 kept, 4 removed
+
+✓ Processed 16 batch(es)
+  Kept: 24 words
+  Removed: 56 words
+
+  ✓ All 24 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 56
+
+Word: acetal
+Reason: Very rare chemical term with extremely low frequency (criterion 1).
+
+Word: acetate
+Reason: Chemical term for a salt of acetic acid; very low everyday usage, fits criterion 1.
+
+Word: acetic
+Reason: Low everyday usage; primarily a chemical term for vinegar acid (criterion 7)
+
+Word: aiel
+Reason: Obsolete term; extremely rare usage. (Criterion 1)
+
+Word: alee
+Reason: Nautical/meteorological term not widely known to typical adults (criterion 1).
+
+Word: atte
+Reason: Archaic prepositional phrase meaning 'at the'; not in common usage (Category 1).
+
+Word: caeca
+Reason: Anatomical term (plural of cecum); too specialized for a general word puzzle.
+
+Word: caecal
+Reason: Medical/biochemical term referring to the cecum; specialized jargon not suitable for general audiences (Criterion 7).
+
+Word: caffeic
+Reason: Specialized biochemical term referring to a compound derived from coffee; not commonly known to general adults.
+
+Word: calcite
+Reason: Mineral-specific; not common knowledge for general audience (criterion 1)
+
+Word: calice
+Reason: Archaic variant of chalice; very low frequency and unlikely to be known by typical adults. (Criterion 1)
+
+Word: calle
+Reason: An archaic term for a head covering; not recognized by typical adults and unlikely to be guessed from simple clues. (Criterion 1: obsolete/rare word)
+
+Word: callet
+Reason: Archaic term for prostitute; extremely rare and not expected in a general‑audience puzzle (Criterion 1).
+
+Word: cate
+Reason: Obsolete noun meaning 'food'; uncommon in modern language, meets criterion 1.
+
+Word: catel
+Reason: Obsolete noun; archaic usage. (Criterion 1)
+
+Word: ceil
+Reason: Archaic verb meaning to roof a room; uncommon in modern usage (Category 1).
+
+Word: cetacea
+Reason: Technical biological term for the order of marine mammals, not commonly known by typical adults (criterion 1).
+
+Word: ciliate
+Reason: Scientific biological term describing cells or organs surrounded by cilia; not commonly known by typical adults.
+
+Word: clee
+Reason: Dutch term meaning 'claw'; obscure and not widely recognized.
+
+Word: court-leet
+Reason: Specific legal term referring to a local court; a niche concept unlikely known to general adults (Category 8: specialized legal jargon).
+
+Word: effet
+Reason: Specific name for the common newt, a niche biological term; too specialized for a general puzzle.
+
+Word: effete
+Reason: Very uncommon and archaic usage; typical adults would likely not know this word (criteria 1).
+
+Word: eleatic
+Reason: Specialized philosophical term; obscure. (Criterion 1)
+
+Word: faecal
+Reason: Medical/scientific term referring to feces; specialized jargon not expected to be known by most adults. (Criterion 7)
+
+Word: faille
+Reason: Obscure textile term for a type of silk, outside everyday vocabulary (criterion 4).
+
+Word: falcate
+Reason: Describes a hooked shape, used mainly in botany and astronomy, not widely recognized (criterion 1).
+
+Word: feal
+Reason: Obsolete word meaning faithful; very low frequency (criterion 1).
+
+Word: fecal
+Reason: An anatomical/medical adjective referring to feces; specialized jargon, meets criterion 7.
+
+Word: fele
+Reason: Obsolete archaic term meaning 'many'; not recognizable by general audience.
+
+Word: felicitate
+Reason: Archaic verb meaning 'to congratulate' or 'to make happy'; unlikely to be guessed (criterion 1).
+
+Word: fette
+Reason: Obsolete archaic verb meaning 'to fetch'; unlikely to be guessed by typical adults.
+
+Word: fice
+Reason: Obsolete word for a small dog; very low frequency (Category 1).
+
+Word: fief
+Reason: Archaic medieval term for an estate; not commonly known by typical adults (Category 1).
+
+Word: fife
+Reason: Specialized musical instrument used mainly in military contexts; not a common everyday word.
+
+Word: flet
+Reason: Obsolete word meaning 'skimmed'; very low frequency and obscure (Criterion 1).
+
+Word: flete
+Reason: Obsolete verb; archaic usage. (Criterion 1)
+
+Word: flite
+Reason: Obsolete term meaning to scold; not recognized by general audience (Category 1).
+
+Word: icefall
+Reason: Specialized geological term, not common everyday vocabulary (Category 7).
+
+Word: lactate
+Reason: A biochemical term referring to the salt of lactic acid; specialized scientific vocabulary not common to general audiences. (Criterion 7: specialized biochemical term)
+
+Word: leal
+Reason: Obsolete archaic word meaning 'loyal'; very low frequency and unlikely to be known by typical adults. (Criterion 1)
+
+Word: leat
+Reason: Specialized term for an artificial water trench; not common everyday vocabulary (criteria 1).
+
+Word: leef
+Reason: Obsolete archaic word; not in common usage.
+
+Word: leet
+Reason: Extremely rare archaic verb meaning 'to allow' (Category 1: very low frequency, obscure).
+
+Word: lete
+Reason: Very old form of 'let'; not used by typical adults (Category 1).
+
+Word: lette
+Reason: Ancient form of "let"; extremely rare and not known by most adults (criteria 1).
+
+Word: lief
+Reason: Archaic adjective meaning 'dear' or 'willing'; almost unknown to modern readers (Category 1).
+
+Word: lite
+Reason: Archaic definition meaning 'little'; not commonly used in modern everyday language, making it unlikely to be guessed.
+
+Word: tace
+Reason: Proper noun for a specific church cross, obscure geographical reference (criterion 8).
+
+Word: tacet
+Reason: Obsolete musical direction; not widely recognized by general adults (Criterion 1).
+
+Word: tael
+Reason: Foreign currency unit from China; not a common everyday English word.
+
+Word: taille
+Reason: Obsolete or historically specific term for a tax or a tally, and a French word for tenor voice; low frequency and unfamiliar to most people.
+
+Word: teel
+Reason: Obsolete spelling for sesame; not widely recognized (criteria 1).
+
+Word: teil
+Reason: Obscure botanical term for the lime/linden tree; a niche plant term (Category 4).
+
+Word: telic
+Reason: Philosophical adjective meaning 'final end or purpose', too specialized for general use (criterion 1).
+
+Word: tete
+Reason: Obscure hair style; rare in everyday language (criterion 4)
+
+Word: tice
+Reason: Archaic verb meaning 'to entice'; not commonly used or known by general audience. (Criterion 1)
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-43.json
+✓ Saved 54 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 138
+  - Removed (frequency = 0.0): 29
+  - Always included (frequency > 5e-06): 30
+  - Processed by LLM: 79
+    * Kept: 24
+    * Removed: 56
+Final words: 54
+Total removed: 84 (60.9%)
+  - Zero frequency: 29
+  - Removed by LLM: 56
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-43.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-43.log
+======================================================================

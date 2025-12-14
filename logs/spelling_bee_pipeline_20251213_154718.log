@@ -1,0 +1,561 @@
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, DISTRACTED, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, FOCUSED_OBSERVATION, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, FOCUSED_OBSERVATION, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, HIGH_EXERTION, AUDIBLE_MOVEMENT, LOUD_ENVIRONMENT, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, AUDIBLE_MOVEMENT, HIGH_EXERTION, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, DISTRACTED, SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, FOCUSED_OBSERVATION, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM - 8:27 AM – Woke up in Grove Hall, Roxbury. It was a quiet morning, a gentle social atmosphere already brewing even this early. Just easing into the day.
+
+8:27 AM – A bit of a rush to get going! I cycled from Grove Hall towards Snell Library in Fenway, passing a Dunkin' and glancing at the Subway along the way. I sat for a moment to gather myself before heading inside.
+
+8:54 AM – It was already bustling inside Snell Library, a bit of a scramble to find a spot. I rushed in, walking quickly to class. 
+
+9:05 AM – Still rushing, I walked from Snell Library toward Northeastern University, also in Fenway. I was glued to my screen, distracted, passing Argo Tea, Tu Taco, The Boston Globe Library, another Dunkin', and even Burger 373.
+
+9:07 AM – I finally arrived at Northeastern University and sat down to repeat some course material. It was a strangely loud, yet social atmosphere, a quiet bustle.
+
+10:17 AM – Back on the move! I rushed from Northeastern University back to Snell Library, walking quickly past Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill’s, Kigo Kitchen, Popeyes, and Chaat House. 
+
+10:20 AM – Settled back into Snell Library for a bit, trying to focus amidst the quiet but audible movement around me. Just sitting and working.
+
+11:09 AM – Another push! I hurried from Snell Library toward Amazon Boston in Seaport, running to catch the train. I was writing notes on my phone as I went, passing Boston South Station, Boston Back Bay, and Ruggles. So many options for a quick bite - Au Bon Pain, South Station, McDonald’s, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne’s, the Boston Wharf Co. Sign, and Back Bay. 
+
+11:42 PM – I walked to my friend’s office in the Seaport, and then sat in the lobby waiting. It felt good to just sit for a while. I even walked to the bathroom, but it changed me, like an older version of myself.
+
+1:51 PM – Time to head back. I walked back towards school from Seaport, sitting on the train, then passing Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald’s, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne’s, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, and Lolita.
+
+2:18 PM – Back at Snell Library, I sat and tried to regain some focus, despite the noise and activity. 
+
+2:48 PM – A quick dash to Ryder Hall, passing the Subway and another Dunkin’.
+
+2:50 PM – Settled into class at Ryder Hall. I was walking around a little and sitting too.
+
+4:45 PM – Back to the library I went, rushing from Ryder Hall, glancing at the Subway.
+
+4:49 PM – Back at Snell Library, I sat down again, craving the quiet, taking course. I walked to the bathroom and sat down, taking a class, sitting in the snow. I was sitting down patient in the snow, sitting down taking classes now. I was opening the door, standing. I sat down doing homework, beginning assignments. I was walking in the library.
+
+9:21 PM – Finally headed back to Grove Hall, Roxbury. I passed ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee’s, and finally Uphams Corner.
+
+9:45 PM – Back in Grove Hall, I was standing. 
+
+11:59 PM – And now, back in Grove Hall, Roxbury. Just quiet, observing, and a bit social. It's been a long day.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "NEAR",
+    "clue": "You spent a lot of time _______ Snell Library and Northeastern University today.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "AFTER",
+    "clue": "You rushed to Ryder Hall _______ class, glancing at the Subway.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "AREA",
+    "clue": "You traveled to the Seaport _______ to get to your friend's office.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "FREE",
+    "clue": "You were looking for a moment of _______ in the lobby while waiting for your friend.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "RATE",
+    "clue": "The speed at which you moved throughout the day could be described as a fast _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "EFFORT",
+    "clue": "It took a lot of _______ to rush between Snell Library, Northeastern, and Seaport all in one day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "RATE",
+    "clue": "You seemed to _______ your progress by constantly moving from place to place.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "AFTERNOON",
+    "clue": "You spent a good chunk of the _______ studying at Snell Library, starting around 2 PM.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "RENT",
+    "clue": "Considering all the locations you visited, you're probably familiar with the cost of living and _______ in Boston.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ENTER",
+    "clue": "You frequently _______ and re-entered Snell Library throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "REFER",
+    "clue": "You had to _______ to notes on your phone while rushing to Amazon Boston at 11:09 AM.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "EARN",
+    "clue": "All this walking and studying is likely to help you _______ a good grade.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FORT",
+    "clue": "Snell Library could be considered a _______ress for knowledge.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ERROR",
+    "clue": "If you didn't write down your assignments, you might make an _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ARENA",
+    "clue": "Snell Library felt like a bustling _______ with all the students and activity.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "REAR",
+    "clue": "You walked to the _______ of Ryder Hall after a quick dash from Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "TEAR",
+    "clue": "After visiting the bathroom, it felt like an older version of yourself, as if time started to _______ you apart.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "RETREAT",
+    "clue": "After a long day of walking, Grove Hall felt like a peaceful _______.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when you rode the train to Amazon Boston in Seaport.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "REFEREE",
+    "clue": "Throughout the day, you were a _______ of your own schedule, rushing from place to place.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "REEF",
+    "clue": "You seemed to get stuck in a _______ of constantly returning to Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ROAR",
+    "clue": "The constant movement and activity throughout the day could be described as a continuous _______ of people and sounds.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "ROAR",
+    "clue": "The hustle of passing trains and crowds may have sounded like a distant _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "RANT",
+    "clue": "After a long day of constant movement, you might be inclined to go on a _______ about all the places you went!",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TORE",
+    "clue": "You _______ between Snell Library, Northeastern, and Seaport all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "ROTATE",
+    "clue": "You seemed to _______ between Snell Library, Ryder Hall, and Northeastern University all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TERRA",
+    "clue": "You spent the day traveling across the Boston _______, from Roxbury to Seaport and back.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TORRENT",
+    "clue": "The day was a _______ of movement, rushing from location to location.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "EATER",
+    "clue": "You passed Sweet Tomatoes Pizza, a likely stop for a hungry _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TENOR",
+    "clue": "The quiet bustle and social atmosphere could be described as having a soft _______.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "OTTER",
+    "clue": "You were constantly on the move, almost like a busy _______.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "NERO",
+    "clue": "You passed Caff\u00e8 _______ in the evening on your way back to Grove Hall.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "FRET",
+    "clue": "Despite seeking quiet spaces, you seemed to _______ over losing focus throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FORTE",
+    "clue": "Rushing between locations seems to be a _______ of your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TROT",
+    "clue": "You were constantly on the _______, rushing between Snell Library, Northeastern, and Ryder Hall.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ to travel on the train to Amazon Boston in Seaport.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ERRANT",
+    "clue": "Your path was quite _______ today, constantly moving between Snell Library, Northeastern, and Seaport.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "AORTA",
+    "clue": "Consider all the walking you did today - your legs must be feeling the strain, like a vital _______ pumping blood throughout your body.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TARTAN",
+    "clue": "Perhaps someone in the snow was wearing a _______ pattern while you were taking classes.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 1
+  },
+  {
+    "word": "NARRATE",
+    "clue": "This diary is a personal _______ of your day's events, detailing every location and time.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "RETORT",
+    "clue": "After visiting the bathroom, you felt changed, as if facing a quick _______ of yourself.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ORATOR",
+    "clue": "You spent the day moving between locations, almost like an _______ giving a speech at multiple venues.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "RENTER",
+    "clue": "As a student, you might be considered a _______ of housing in Boston.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ROTATOR",
+    "clue": "You were a constant _______, moving between Grove Hall, Snell Library, Northeastern, and Seaport all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the train at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ENTREE",
+    "clue": "You passed many restaurants \u2013 Dunkin\u2019, Tu Taco, and Lolita \u2013 each offering a potential _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "REENTER",
+    "clue": "You went to Snell Library in the morning, and then you _______-ed it after class at 10:20 AM.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when traveling to Amazon Boston and passing multiple train stations at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TEETER",
+    "clue": "After visiting the bathroom, you felt changed, like an older version of yourself, almost _______-ing on the edge of a new perspective.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TARE",
+    "clue": "After a long day of rushing around, you might _______ down and relax back in Grove Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ENTREAT",
+    "clue": "You walked to your friend\u2019s office and sat in the lobby, perhaps _______-ing a moment of peace before heading back to school.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ROOFER",
+    "clue": "After sitting in the snow at Snell Library, maybe you felt like a _______ surveying your domain.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "TOTTER",
+    "clue": "After a long day of walking and rushing, you may have begun to _______ towards the end.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "AERATE",
+    "clue": "The quiet bustle within Snell Library helped _______ the energy in the room.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FETTER",
+    "clue": "Being glued to your screen while walking may have _______-ed your awareness of the surroundings.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "RANTER",
+    "clue": "Despite the noise and bustle, you didn't seem to be a _______, but instead kept working.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ANNOTATOR",
+    "clue": "You were taking notes on your phone while hurrying to Amazon Boston, making you an active _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FORENOON",
+    "clue": "You began your day in the _______, starting at Grove Hall and heading to Snell Library.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "OFFERER",
+    "clue": "The many restaurants you passed could be considered _______, vying for your business.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TERREEN",
+    "clue": "You passed many places where food might be served on a _______, like at Row 34.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOOTER",
+    "clue": "Someone might be a _______ on the train as you traveled from Seaport at 1:51 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  }
+]

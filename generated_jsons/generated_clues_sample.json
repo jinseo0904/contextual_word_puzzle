@@ -1,613 +1,104 @@
 [
     {
       "word": "AFTER",
-      "clue": "At 10:20\u202fAM, you left Snell Library and then started your next class.",
-      "bridge_strategy": "Temporal Sequence",
-      "contextuality_score": 5,
-      "reasoning": "The clue describes the sequence of events that occurs after you finish your time in the library, directly pointing to the concept of \u2018after\u2019 without using the word itself."
-    },
-    {
-      "word": "FREE",
-      "clue": "At 02:18\u202fPM, you had a pause in the library before your next class.",
-      "bridge_strategy": "State",
-      "contextuality_score": 5,
-      "reasoning": "The description of a pause or break implies free time, making \u2018free\u2019 the appropriate word to fill the blank while staying firmly anchored to the diary\u2019s timing."
+      "clue": "You headed to the Seaport ___ after you finished at Snell Library.",
+      "strategy": "Time/Space Labeling",
+      "relevance_score": 5
     },
     {
       "word": "AREA",
-      "clue": "At 08:54\u202fAM, you were searching for a study zone in the library.",
-      "bridge_strategy": "Location Search",
-      "contextuality_score": 5,
-      "reasoning": "Searching for a zone indicates looking for an area to work, hinting at the word \u2018area\u2019 while the clue remains tied to the diary\u2019s time and location."
+      "clue": "You spent some time in the ___ area of the Seaport.",
+      "strategy": "Time/Space Labeling",
+      "relevance_score": 5
     },
     {
       "word": "NEAR",
-      "clue": "At 10:17\u202fAM, you were close to the library when you spotted a Dunkin\u2019.",
-      "bridge_strategy": "Location",
-      "contextuality_score": 5,
-      "reasoning": "Being close to the library is a clear reference to proximity, directly suggesting the word \u2018near\u2019 without using it in the clue."
-    },
-    {
-      "word": "FRONT",
-      "clue": "At 12:00\u202fAM, you stood at the main doorway of Grove Hall.",
-      "bridge_strategy": "Location",
-      "contextuality_score": 5,
-      "reasoning": "The main doorway corresponds to the front entrance, so the user is led to infer \u2018front\u2019 as the fitting word for the blank, all while anchored to the diary\u2019s details."
+      "clue": "You passed ___ the Dunkin' caf\u00e9 on your way.",
+      "strategy": "Time/Space Labeling",
+      "relevance_score": 5
     },
     {
       "word": "EFFORT",
-      "clue": "At 08:54\u202fAM, you were in a high\u2011exertion stretch heading to Snell Library.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 5,
-      "reasoning": "The diary explicitly describes a high\u2011exertion stretch at this time."
-    },
-    {
-      "word": "RATE",
-      "clue": "At 09:07\u202fAM, you passed Sweet Tomatoes Pizza, Tu Taco, Argo Tea, The Boston Globe Library, Dunkin\u2019, and Burger 373 \u2013 spots you might have rated before.",
-      "bridge_strategy": "Implied Rating",
-      "contextuality_score": 3,
-      "reasoning": "The user was at these spots; rating is a plausible action that could have occurred."
-    },
-    {
-      "word": "OFFER",
-      "clue": "At 11:42\u202fAM, you were at Amazon\u202fBoston \u2013 a location where you might have seen an offer on the lobby screen.",
-      "bridge_strategy": "Implied Offer",
-      "contextuality_score": 2,
-      "reasoning": "Amazon Boston\u2019s lobby is a place where promotional offers can appear."
-    },
-    {
-      "word": "FEAR",
-      "clue": "At 11:09\u202fAM, you ran to Amazon\u202fBoston \u2013 you might have felt a fear of missing the train.",
-      "bridge_strategy": "Implied Fear",
-      "contextuality_score": 2,
-      "reasoning": "Rushing to a train station can evoke a fear of missing the transport."
-    },
-    {
-      "word": "TREE",
-      "clue": "At 09:45\u202fPM, you walked back to Grove\u202fHall \u2013 the ISEC Pedestrian Bridge is nearby, a spot that often features a prominent tree.",
-      "bridge_strategy": "Implied Tree",
-      "contextuality_score": 2,
-      "reasoning": "The ISEC Pedestrian Bridge is a landmark that could be associated with a nearby tree."
+      "clue": "You had to apply _______ when rushing to Snell Library.",
+      "strategy": "Logical Association",
+      "relevance_score": 5
     },
     {
       "word": "ENTER",
-      "clue": "At 8:27\u202fAM, you entered the Snell Library as you biked from Grove Hall.",
-      "bridge_strategy": "Action \u2013 entering a location",
-      "contextuality_score": 4,
-      "reasoning": "The diary describes moving from Grove Hall to Snell Library, implying you entered the library at that time."
-    },
-    {
-      "word": "TREAT",
-      "clue": "At 9:07\u202fAM, you passed Sweet Tomatoes Pizza, a treat you couldn't skip on your way to Northeastern.",
-      "bridge_strategy": "Direct POI Name \u2013 Sweet Tomatoes Pizza",
-      "contextuality_score": 5,
-      "reasoning": "Sweet Tomatoes Pizza is a specific place mentioned in the diary, and calling it a treat gives a clear, memorable reference."
+      "clue": "You ______ed Snell Library after class.",
+      "strategy": "Action Paraphrasing",
+      "relevance_score": 5
     },
     {
       "word": "AFTERNOON",
-      "clue": "At 4:49\u202fPM, you were still in the library after the afternoon rush, soaking in the quiet.",
-      "bridge_strategy": "Time Anchor \u2013 afternoon",
-      "contextuality_score": 5,
-      "reasoning": "The time stamp directly places the user in the afternoon period, making the word highly solvable."
-    },
-    {
-      "word": "RARE",
-      "clue": "At 2:18\u202fPM, you discovered a rare quiet moment in the library after a hectic day.",
-      "bridge_strategy": "Descriptive \u2013 rare quiet",
-      "contextuality_score": 3,
-      "reasoning": "The diary notes a quiet period in the library, allowing the word 'rare' to describe that specific experience."
-    },
-    {
-      "word": "RENT",
-      "clue": "At 12:00\u202fAM, you stayed at Grove Hall and wondered about renting a bike for the next trip.",
-      "bridge_strategy": "Unclear \u2013 speculative context",
-      "contextuality_score": 2,
-      "reasoning": "The diary does not mention renting, so this clue relies on a plausible but weak association."
-    },
-    {
-      "word": "EARN",
-      "clue": "At 09:05 AM, while staying at Northeastern University, you noticed the letters EARN hidden in the building\u2019s name.",
-      "bridge_strategy": "Direct POI Name",
-      "contextuality_score": 5,
-      "reasoning": "The diary explicitly mentions the user being at Northeastern University at 09:05\u202fAM, and the name of the building contains the contiguous letters EARN."
-    },
-    {
-      "word": "REFER",
-      "clue": "At 09:05 AM, while studying at Northeastern University, you referred to your lecture notes.",
-      "bridge_strategy": "Action (Referring)",
-      "contextuality_score": 4,
-      "reasoning": "The diary records the user staying at Northeastern University at 09:05\u202fAM and engaging in study activities, making it natural to infer that they referred to notes."
-    },
-    {
-      "word": "ROOF",
-      "clue": "At 12:00 AM, while staying at Grove Hall, you looked up at the roof and saw the word ROOF.",
-      "bridge_strategy": "Action (Observing roof)",
-      "contextuality_score": 3,
-      "reasoning": "The diary indicates the user was at Grove Hall at midnight; a typical observation of the building\u2019s roof provides a concrete anchor for the word ROOF."
-    },
-    {
-      "word": "FORT",
-      "clue": "At 04:45 PM, as you moved from Ryder Hall to Snell Library, you passed a sign that said \u2018FORT\u2019.",
-      "bridge_strategy": "Action (passing sign)",
-      "contextuality_score": 2,
-      "reasoning": "The diary mentions a movement from Ryder Hall to Snell Library at 04:45\u202fPM, so a sign encountered during that trip is a plausible, albeit less direct, source for the word FORT."
-    },
-    {
-      "word": "ERROR",
-      "clue": "At 09:07 AM, while moving from Snell Library to Northeastern University, you realized you had made an error in your schedule.",
-      "bridge_strategy": "Action (Realizing error)",
-      "contextuality_score": 2,
-      "reasoning": "The diary records a movement at 09:07\u202fAM; it is reasonable that the user might notice an error in their schedule during that commute, providing a time\u2011anchored context for ERROR."
-    },
-    {
-      "word": "REAR",
-      "clue": "At 02:50\u202fPM, while moving from Snell Library to Ryder Hall, you glanced at the rear side of the building.",
-      "bridge_strategy": "Direct POI Description",
-      "contextuality_score": 4,
-      "reasoning": "The diary records a movement at that time and place, making the word \u2018rear\u2019 a clear, time\u2011anchored descriptor."
-    },
-    {
-      "word": "ROOT",
-      "clue": "At 10:17\u202fAM, after returning to Snell Library, you felt the root of your fatigue tugging you toward the quiet study corner.",
-      "bridge_strategy": "Metaphorical Context",
-      "contextuality_score": 3,
-      "reasoning": "The diary mentions a pause at the library, allowing the word \u2018root\u2019 to metaphorically describe a deepening feeling."
-    },
-    {
-      "word": "TEAR",
-      "clue": "At 11:42\u202fAM, you were at Amazon Boston and noticed a small tear in the lobby window.",
-      "bridge_strategy": "Direct POI Observation",
-      "contextuality_score": 3,
-      "reasoning": "The diary specifies a location and time, providing a concrete visual cue for the word \u2018tear\u2019."
-    },
-    {
-      "word": "ARENA",
-      "clue": "At 02:18\u202fPM, on your way back to Snell Library, you passed the sports arena of Northeastern University.",
-      "bridge_strategy": "Direct POI Name",
-      "contextuality_score": 4,
-      "reasoning": "The diary mentions a known campus landmark that contains the exact word \u2018arena\u2019 in its name."
-    },
-    {
-      "word": "TERROR",
-      "clue": "At 01:51\u202fPM, while waiting at Amazon Boston, the loud chatter of the lobby gave you a brief moment of terror.",
-      "bridge_strategy": "Metaphorical Context",
-      "contextuality_score": 3,
-      "reasoning": "The diary records a bustling environment at that time, allowing \u2018terror\u2019 to serve as an emotional descriptor."
-    },
-    {
-      "word": "RETREAT",
-      "clue": "At 02:48 PM, you found a quiet retreat in the Snell Library.",
-      "bridge_strategy": "Direct POI Context",
-      "contextuality_score": 5,
-      "reasoning": "The diary records a calm period at Snell Library, which is clearly a retreat from the day\u2019s busyness."
+      "clue": "You spent a good chunk of this ______ studying at Snell Library.",
+      "strategy": "Time/Space Labeling",
+      "relevance_score": 5
     },
     {
       "word": "FARE",
-      "clue": "At 11:09 AM, you paid the subway fare to travel to Amazon Boston in Seaport.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 5,
-      "reasoning": "The diary mentions writing a subway ticket and heading to Seaport, implying the payment of a fare."
+      "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+      "strategy": "Logical Association",
+      "relevance_score": 5
     },
     {
-      "word": "TORN",
-      "clue": "At 09:05 AM, you felt torn between staying in the library and heading to the lecture at Northeastern.",
-      "bridge_strategy": "Metaphorical Emotion",
-      "contextuality_score": 4,
-      "reasoning": "The diary describes a hurried move from library to class, suggesting inner conflict or being torn."
-    },
-    {
-      "word": "REFEREE",
-      "clue": "At 09:07 AM, you watched the crowd like a referee as you passed the entrance to Northeastern.",
-      "bridge_strategy": "Metaphorical Observation",
-      "contextuality_score": 3,
-      "reasoning": "The diary notes a busy corridor and the narrator watching people pass, evoking a referee\u2019s perspective."
-    },
-    {
-      "word": "REEF",
-      "clue": "At 10:20 AM, the shelves in Snell Library looked like a reef of knowledge.",
-      "bridge_strategy": "Metaphorical Description",
-      "contextuality_score": 3,
-      "reasoning": "The diary speaks of a quiet environment with books; comparing the stack to a reef provides a contextual link."
+      "word": "RETREAT",
+      "clue": "You found a moment of _______ at the quiet lobby of Amazon Boston (Seaport).",
+      "strategy": "Time/Space Labeling",
+      "relevance_score": 4
     },
     {
       "word": "NARRATOR",
-      "clue": "At 12:00\u202fAM, you began the day by writing: \"I just woke up, feeling the calm hush of campus.\" This is the voice of the NARRATOR of your diary.",
-      "bridge_strategy": "Direct Narrative Anchor",
-      "contextuality_score": 5,
-      "reasoning": "The diary itself is written in first\u2011person; the opening line is the narrator\u2019s voice, making the word directly tied to the diary\u2019s content."
-    },
-    {
-      "word": "ROAR",
-      "clue": "At 09:07\u202fAM, as you rushed into Northeastern, the campus buzzed with a loud, noisy environment that sounded like a ROAR.",
-      "bridge_strategy": "Sound Description Anchor",
-      "contextuality_score": 4,
-      "reasoning": "The diary explicitly mentions a loud, noisy campus, which directly evokes the word ROAR."
-    },
-    {
-      "word": "RANT",
-      "clue": "At 02:50\u202fPM, you were sitting in Ryder Hall, distracted but focused, perhaps RANTing to your phone about the lecture.",
-      "bridge_strategy": "Action/Emotion Anchor",
-      "contextuality_score": 3,
-      "reasoning": "The diary describes a stressful, distracted moment that could naturally lead to ranting, giving a plausible, time\u2011anchored link."
-    },
-    {
-      "word": "TORE",
-      "clue": "At 08:27\u202fAM, as you hopped on your bike, the day seemed to TORE into a hurried movement toward Snell Library.",
-      "bridge_strategy": "Metaphorical Action Anchor",
-      "contextuality_score": 2,
-      "reasoning": "The diary notes a sudden rush; interpreting that as the day 'tore' into action provides a tenuous but time\u2011anchored link."
-    },
-    {
-      "word": "ROTTEN",
-      "clue": "At 09:05\u202fAM, the library\u2019s quiet was ROTTEN by the noise of a passing crowd.",
-      "bridge_strategy": "Descriptive Contrast Anchor",
-      "contextuality_score": 2,
-      "reasoning": "The diary contrasts quiet with noise, allowing the word ROTTEN to represent the spoiled quietness, albeit with a weaker direct link."
+      "clue": "You are the ____ of this diary.",
+      "strategy": "Logical Association",
+      "relevance_score": 5
     },
     {
       "word": "ROTATE",
-      "clue": "At 08:27 AM, as you hopped on your bike to head to Snell Library, you felt the wheels rotate with each pedal.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 4,
-      "reasoning": "The diary explicitly mentions biking; the action of wheels rotating is a clear, memorable detail for the user."
-    },
-    {
-      "word": "FOREFRONT",
-      "clue": "At 09:07 AM, you stepped onto the forefront of Northeastern University, passing Argo Tea on your way to class.",
-      "bridge_strategy": "POI Context",
-      "contextuality_score": 5,
-      "reasoning": "The user is literally entering the front part of the campus; the word matches the spatial context given in the diary."
-    },
-    {
-      "word": "RAFT",
-      "clue": "At 08:54 AM, you found yourself in a raft of fellow students rushing toward class, each of you moving in a steady flow.",
-      "bridge_strategy": "Metaphorical Crowd",
-      "contextuality_score": 3,
-      "reasoning": "The diary describes a rush of people; the word 'raft' metaphorically captures the crowd\u2019s movement."
-    },
-    {
-      "word": "TORRENT",
-      "clue": "At 11:09 AM, you sprinted through the train station, feeling the torrent of commuters rushing past you as you hurried to Amazon Boston.",
-      "bridge_strategy": "Metaphorical Motion",
-      "contextuality_score": 4,
-      "reasoning": "The diary notes a frantic sprint through a crowded station, matching the sense of a 'torrent' of people."
-    },
-    {
-      "word": "TERRA",
-      "clue": "At 02:18 PM, you walked from Amazon Boston back to Snell Library, feeling the terra of the city beneath your feet as you passed Boston South Station.",
-      "bridge_strategy": "Metaphorical Ground",
-      "contextuality_score": 3,
-      "reasoning": "The diary mentions walking across city streets; 'terra' poetically reflects the feeling of walking on earth."
-    },
-    {
-      "word": "ROTOR",
-      "clue": "Around 8:27\u202fAM, you hopped on your bike to Snell Library, the wheels spinning like a rotor.",
-      "bridge_strategy": "Direct Action (Bike wheel)",
-      "contextuality_score": 5,
-      "reasoning": "The diary explicitly describes biking, and a bike wheel functions as a rotor, making this link very direct."
+      "clue": "Your bike's wheels had to ___ROTATE___ to get you moving toward Snell Library.",
+      "strategy": "Logical Association",
+      "relevance_score": 5
     },
     {
       "word": "EATER",
-      "clue": "At 11:42\u202fAM, you walked through Amazon Boston's lobby, surrounded by food spots like Dunkin', Burger\u202f373, and Sweet Tomatoes Pizza\u2014think of a place for an EATER.",
-      "bridge_strategy": "Food Stops",
-      "contextuality_score": 4,
-      "reasoning": "The diary lists numerous eateries, directly pointing to the concept of an eater."
-    },
-    {
-      "word": "TENOR",
-      "clue": "Around 9:07\u202fAM, you entered Northeastern University, hearing a chorus of voices\u2014a subtle TENOR tone in the air.",
-      "bridge_strategy": "Vibe/Voice",
-      "contextuality_score": 3,
-      "reasoning": "The lecture environment could evoke a tenor voice, tying the word to a specific moment."
-    },
-    {
-      "word": "OTTER",
-      "clue": "At 9:45\u202fPM, you passed the ISEC Pedestrian Bridge, watching the water ripple like an OTTER.",
-      "bridge_strategy": "Metaphorical Visual",
-      "contextuality_score": 2,
-      "reasoning": "The water near the bridge can remind one of an otter\u2019s movement, providing a less direct but anchored hint."
-    },
-    {
-      "word": "TART",
-      "clue": "At 1:51\u202fPM, you were in Amazon Boston's lobby, thinking about grabbing a sweet bite\u2014maybe a TART.",
-      "bridge_strategy": "Dessert Hint",
-      "contextuality_score": 1,
-      "reasoning": "The diary does not mention a tart; this is the weakest anchor but still time\u2011stamped."
-    },
-    {
-      "word": "NERO",
-      "clue": "At 1:51\u202fPM, you passed the coffee spot named Caff\u00e8 Nero on your way to the library.",
-      "bridge_strategy": "Direct POI Name",
-      "contextuality_score": 5,
-      "reasoning": "The diary explicitly mentions Caff\u00e8 Nero at that time. The user will recall this exact location, making the guess straightforward."
-    },
-    {
-      "word": "AFAR",
-      "clue": "At 11:09\u202fAM, while rushing toward Amazon Boston, you felt AFAR from campus.",
-      "bridge_strategy": "Indirect Emotional Anchor",
-      "contextuality_score": 3,
-      "reasoning": "The diary notes the long walk from Snell Library to Amazon Boston. The word \u2018AFAR\u2019 captures the sense of distance felt during that movement."
-    },
-    {
-      "word": "FRET",
-      "clue": "At 10:17\u202fAM, you hurried back to Snell Library, fretting about an upcoming exam.",
-      "bridge_strategy": "Indirect Action Anchor",
-      "contextuality_score": 3,
-      "reasoning": "The diary records a hurried return to the library at that time. Using the verb \u2018fret\u2019 links the emotional state likely present during this commute."
+      "clue": "You passed Sweet Tomatoes, a likely stop for a hungry ___.",
+      "strategy": "Logical Association",
+      "relevance_score": 5
     },
     {
       "word": "FORTE",
-      "clue": "At 2:18\u202fPM, while heading back to Snell Library, you heard the forte of the library\u2019s lively chatter.",
-      "bridge_strategy": "Metaphorical Reference",
-      "contextuality_score": 2,
-      "reasoning": "\u2018Forte\u2019 is used metaphorically to describe the strong, bustling noise of the library at that time. It is a plausible but less direct clue."
-    },
-    {
-      "word": "FERN",
-      "clue": "At 8:27\u202fAM, you rode past a fern display near the subway entrance on your way to Snell Library.",
-      "bridge_strategy": "Assumed POI",
-      "contextuality_score": 1,
-      "reasoning": "The diary does not mention a fern, so this clue relies on an inferred location. It is the weakest connection among the chosen words."
+      "clue": "You moved with FORTE vigor while power\u2011walking between Snell Library and Northeastern University.",
+      "strategy": "Action Paraphrasing",
+      "relevance_score": 5
     },
     {
       "word": "TROT",
-      "clue": "At 08:27\u202fAM, you rode your bike from Grove Hall to Snell Library, moving at a gentle trot.",
-      "bridge_strategy": "Direct action description",
-      "contextuality_score": 4,
-      "reasoning": "The diary records a bike ride and power\u2011walk; describing the pace as a trot ties the word to a concrete activity at a specific time."
-    },
-    {
-      "word": "FANFARE",
-      "clue": "During your stay at Northeastern University from 09:07\u202fAM to 10:17\u202fAM, you felt the campus fanfare of bustling students.",
-      "bridge_strategy": "Vibe description",
-      "contextuality_score": 4,
-      "reasoning": "The diary describes a loud, noisy environment at Northeastern; \u2018fanfare\u2019 captures that ambience and is anchored to a precise time slot."
-    },
-    {
-      "word": "ORNATE",
-      "clue": "At 02:18\u202fPM, as you returned to Snell Library, you noticed the ornate details of the building\u2019s interior.",
-      "bridge_strategy": "Vivid description",
-      "contextuality_score": 3,
-      "reasoning": "The word \u2018ornate\u2019 isn\u2019t a POI name but can be tied to the library\u2019s architecture as described in the diary, giving a specific but slightly generic cue."
-    },
-    {
-      "word": "FERRET",
-      "clue": "When you hurried from Amazon Boston back to Snell Library at 02:18\u202fPM, you moved like a ferret searching for the quickest shortcut.",
-      "bridge_strategy": "Metaphorical action",
-      "contextuality_score": 3,
-      "reasoning": "The diary notes a hurried sprint; comparing that to a ferret\u2019s quick search provides an action-based clue anchored in time."
-    },
-    {
-      "word": "ENTRANT",
-      "clue": "At 11:09\u202fAM, as you moved from Snell Library to Amazon Boston, you were the new entrant to the bustling Seaport area.",
-      "bridge_strategy": "Role-based description",
-      "contextuality_score": 3,
-      "reasoning": "The word \u2018entrant\u2019 fits the diary\u2019s mention of entering a new location (Seaport), giving a contextual clue tied to a specific time."
-    },
-    {
-      "word": "ERRANT",
-      "clue": "At 10:20\u202fAM, you hurried back to Snell Library, feeling errant as you zig\u2011zagged through the crowded hallways.",
-      "bridge_strategy": "Descriptive of Activity",
-      "contextuality_score": 4,
-      "reasoning": "The diary describes a hectic, winding return to the library, matching the sense of errantry."
+      "clue": "You took a quick _________ from Snell Library to the Seaport at 11:09\u202fAM.",
+      "strategy": "Action Paraphrasing",
+      "relevance_score": 5
     },
     {
       "word": "ROTE",
-      "clue": "At 02:18\u202fPM, you followed your usual rote route from Amazon Boston back to Snell Library.",
-      "bridge_strategy": "Descriptive of Routine",
-      "contextuality_score": 4,
-      "reasoning": "The user routinely retraced the same path; the word \u2018rote\u2019 directly captures that pattern."
-    },
-    {
-      "word": "TARO",
-      "clue": "At 08:27\u202fAM, as you left Grove Hall you passed \u2018Argo Tea\u2019, whose name contains the letters T\u202fA\u202fR\u202fO.",
-      "bridge_strategy": "Letter Inclusion in POI Name",
-      "contextuality_score": 3,
-      "reasoning": "The letters TARO are all present within the POI name \u201cArgo Tea\u201d (though not contiguous)."
-    },
-    {
-      "word": "AORTA",
-      "clue": "At 09:07\u202fAM, near Argo Tea you could see that the letters A\u202fO\u202fR\u202fT\u202fA are all present within the shop\u2019s name.",
-      "bridge_strategy": "Letter Inclusion in POI Name",
-      "contextuality_score": 3,
-      "reasoning": "All five letters of AORTA appear in the name \u201cArgo Tea\u201d when the letters are rearranged."
-    },
-    {
-      "word": "TARTAN",
-      "clue": "At 09:45\u202fPM, walking back to Grove Hall you passed a patch of street signage that looked like a tartan pattern.",
-      "bridge_strategy": "Descriptive of Visual Observation",
-      "contextuality_score": 3,
-      "reasoning": "The user may recall the pattern of colorful signage, a visual cue that evokes a tartan design."
-    },
-    {
-      "word": "ORATOR",
-      "clue": "At 9:07 AM, you entered the lecture hall at Northeastern University and listened to the ORATOR giving the class\u2019s talk.",
-      "bridge_strategy": "Direct Activity",
-      "contextuality_score": 4,
-      "reasoning": "The diary records that you were at Northeastern University during a lecture, so the professor is an ORATOR."
+      "clue": "You practiced ROTE while studying at Snell Library during the quiet periods.",
+      "strategy": "Logical Association",
+      "relevance_score": 5
     },
     {
       "word": "NARRATE",
-      "clue": "At 9:49 PM, while studying at Snell Library, you were busy NARRATING the events of the day in your mind.",
-      "bridge_strategy": "Action Description",
-      "contextuality_score": 4,
-      "reasoning": "The diary itself is a narrative of your day; recalling that you were narrating helps solve the word."
-    },
-    {
-      "word": "RETORT",
-      "clue": "At 1:51 PM, while waiting in the Amazon Boston lobby, you made a quick RETORT to a friend about the lunch options.",
-      "bridge_strategy": "Descriptive Action",
-      "contextuality_score": 3,
-      "reasoning": "The diary mentions a pause at Amazon Boston, a plausible moment for a quick remark or RETORT."
-    },
-    {
-      "word": "AFFRONT",
-      "clue": "At 11:09 AM, as you hurried back to Snell Library, you faced an AFFRONT of overcrowded corridors and rushing crowds.",
-      "bridge_strategy": "Emotional State",
-      "contextuality_score": 3,
-      "reasoning": "The diary details a rushed return with many people, creating an AFFRONT feeling."
-    },
-    {
-      "word": "TARTAR",
-      "clue": "At 9:07 AM, during a quick stop at Sweet Tomatoes Pizza, you saw TARTAR sauce listed on the menu board.",
-      "bridge_strategy": "Food Reference",
-      "contextuality_score": 3,
-      "reasoning": "The diary lists Sweet Tomatoes Pizza among your stops, making it a realistic spot where TARTAR sauce could appear."
-    },
-    {
-      "word": "ROTATOR",
-      "clue": "At 08:27 AM, you hopped onto a bike whose wheels kept rotating as you rode from Grove Hall to Snell Library.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 4,
-      "reasoning": "The user experienced the rotation of a bike wheel while traveling at that time, providing a clear, memorable anchor."
-    },
-    {
-      "word": "ENTREE",
-      "clue": "At 09:05 AM, you stepped into a new entr\u00e9e by leaving Snell Library for Northeastern University.",
-      "bridge_strategy": "Action Synonym",
-      "contextuality_score": 3,
-      "reasoning": "Entering the campus is a specific action that mirrors the meaning of \u2018entr\u00e9e,\u2019 linking the word to a concrete moment."
-    },
-    {
-      "word": "RENTER",
-      "clue": "At 08:27 AM, you rented a bike from the campus bike\u2011share to travel from Grove Hall to Snell Library.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 2,
-      "reasoning": "Renting a bike is an explicit action that can be remembered, though the diary doesn\u2019t explicitly mention it, so the anchor is less certain."
-    },
-    {
-      "word": "RAFTER",
-      "clue": "At 02:18 PM, you were seated in Snell Library, where you could see the rafters holding up the building\u2019s roof.",
-      "bridge_strategy": "Physical Feature",
-      "contextuality_score": 2,
-      "reasoning": "The word matches a structural element visible during the library visit, giving a tangible reference."
-    },
-    {
-      "word": "ERRATA",
-      "clue": "At 04:49 PM, you returned to Snell Library, where you found the ERRATA page of your textbook on the desk.",
-      "bridge_strategy": "Random",
-      "contextuality_score": 1,
-      "reasoning": "The word is only loosely connected to a generic activity (finding a page), making it the weakest anchor."
+      "clue": "You ____ your day while walking from Grove Hall to Snell Library.",
+      "strategy": "Action Paraphrasing",
+      "relevance_score": 5
     },
     {
       "word": "REENTER",
-      "clue": "At 10:17\u202fAM, you re\u2011entered Snell Library after rushing from Northeastern University.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 5,
-      "reasoning": "The diary explicitly records a return to Snell Library at this time, matching the verb \u2018re\u2011enter\u2019."
-    },
-    {
-      "word": "TEETER",
-      "clue": "At 08:54\u202fAM, you teetered on the bike as you pedaled from Grove Hall to Snell Library.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 2,
-      "reasoning": "While the diary mentions biking, it does not explicitly state \u2018teetered\u2019; however the motion of a bike ride can be described as teetering."
-    },
-    {
-      "word": "TARE",
-      "clue": "At 12:00\u202fAM, before staying at Grove Hall, you considered the tare weight of your backpack.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 1,
-      "reasoning": "The diary does not mention weighing or tare, so this is the weakest contextual link."
-    },
-    {
-      "word": "ENTREAT",
-      "clue": "At 01:51\u202fPM, you entreat the Amazon Boston lobby to wait for your friend.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 1,
-      "reasoning": "The diary does not describe begging or entreating, making this clue the least directly tied to the day."
-    },
-    {
-      "word": "ROOFER",
-      "clue": "At 09:45\u202fPM, you passed a roofer\u2019s shop named \u2018Roofer\u2019 on your way back to Grove Hall.",
-      "bridge_strategy": "POI Name",
-      "contextuality_score": 1,
-      "reasoning": "No shop named Roofer is mentioned in the diary; thus this connection is the weakest."
-    },
-    {
-      "word": "RENNET",
-      "clue": "At 09:05\u202fAM, you were in a RENNET rush as you hurried from Snell Library to Northeastern University.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 4,
-      "reasoning": "The diary shows a sudden, hurried movement at this time; the word RENNET captures that sense of urgency."
-    },
-    {
-      "word": "TOTTER",
-      "clue": "At 08:27\u202fAM, you were TOTTERING along the bike path from Grove Hall to Snell Library.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 5,
-      "reasoning": "The diary describes a power\u2011walk; TOTTERING directly reflects the quick, unsteady steps you took."
-    },
-    {
-      "word": "NATTER",
-      "clue": "At 02:18\u202fPM, you were NATTERING with a friend in Snell Library while studying.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 4,
-      "reasoning": "The diary mentions conversation in the library; NATTERING is a verb that precisely describes informal chatting."
-    },
-    {
-      "word": "FETTER",
-      "clue": "At 10:20\u202fAM, you felt FETTERED by the crowds as you rushed back to Snell Library.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 4,
-      "reasoning": "The diary notes the crowds and hurried movement; FETTERED captures the sense of being restrained or constrained by them."
-    },
-    {
-      "word": "AERATE",
-      "clue": "At 09:07\u202fAM, the library air felt AERATED as you settled into your seat.",
-      "bridge_strategy": "Direct Action",
-      "contextuality_score": 4,
-      "reasoning": "The diary describes the quiet library environment; AERATED conveys the fresh, breathable air you experienced."
+      "clue": "You went to Snell in the morning, and then you _______-ed it after class.",
+      "strategy": "Action Paraphrasing",
+      "relevance_score": 5
     },
     {
       "word": "FORENOON",
-      "clue": "At 10:17\u202fAM you were at Northeastern University; this part of the day is still in the forenoon.",
-      "score": 5,
-      "explanation": "Specific location (Northeastern University) and time before noon"
-    },
-    {
-      "word": "TREATER",
-      "clue": "At 09:07\u202fAM you passed Sweet Tomatoes Pizza on your way to Northeastern University, a place where you could be the treater for a quick bite.",
-      "score": 5,
-      "explanation": "POI name Sweet Tomatoes Pizza indicates a treat"
-    },
-    {
-      "word": "RANTER",
-      "clue": "Around 11:09\u202fAM you hurried to Amazon Boston; the rush left you ranting about the time.",
-      "score": 4,
-      "explanation": "Specific feeling (ranting) during a particular transit time"
-    },
-    {
-      "word": "ANNOTATOR",
-      "clue": "At 09:05\u202fAM you were at Snell Library, annotating your lecture notes before heading to Northeastern.",
-      "score": 5,
-      "explanation": "Exact activity (annotating) at a POI (Snell Library)"
-    },
-    {
-      "word": "AERATOR",
-      "clue": "At 04:45\u202fPM you were at a Subway, feeling the breeze from its ventilation fan \u2013 an aERATOR in action.",
-      "score": 5,
-      "explanation": "POI name Subway and an aerator (fan) present in that location"
-    },
-    {
-      "word": "OFFERER",
-      "clue": "At 10:20 AM, while rushing back to Snell Library, you noticed someone at the bookstore offering a special deal on textbooks.",
-      "bridge_strategy": "Direct Action Description",
-      "contextuality_score": 3,
-      "reasoning": "The diary mentions a quick movement and passing a bookstore, suggesting a person who might be offering something, fitting the word 'OFFERER' as an action descriptor."
-    },
-    {
-      "word": "TOOTER",
-      "clue": "Around 11:09 AM, as you hurried to Amazon Boston, the train at the station let out a loud toot before you boarded.",
-      "bridge_strategy": "Direct Sound Description",
-      "contextuality_score": 4,
-      "reasoning": "The diary records a train ride to the Boston Seaport station, where a train\u2019s audible toot is a concrete, memorable event tied to that time."
-    },
-    {
-      "word": "TERREEN",
-      "clue": "At 02:18 PM, while heading back to Snell Library, you passed a shop named 'Terrene' that sells eco-friendly accessories.",
-      "bridge_strategy": "Direct POI Name",
-      "contextuality_score": 5,
-      "reasoning": "The diary lists a stop at a shop named 'Terrene', which is a direct match to the word 'TERREEN', making the clue highly solvable."
+      "clue": "You spent a good chunk of this FORENOON studying at Snell Library.",
+      "strategy": "Time/Space Labeling",
+      "relevance_score": 5
     }
   ]

@@ -1,0 +1,332 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-52
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-52.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- subsequent (freq: 0.000024)
+- shortly (freq: 0.000029)
+- philosophy (freq: 0.000031)
+- stranger (freq: 0.000019)
+- financially (freq: 0.000010)
+- wasting (freq: 0.000013)
+- dynamic (freq: 0.000020)
+- european (freq: 0.000120)
+- advantage (freq: 0.000060)
+- marking (freq: 0.000009)
+
+Randomly selected candidate: wasting
+Selected seed word: wasting
+
+[2/4] Generating spelling bee puzzle for seed word 'wasting'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'wasting'
+✓ Found 130 words for candidate 'wasting' with center letter 'a'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'annat' (freq: 0.00e+00) because it contains 'anna' (freq: 2.34e-05) [frequency]
+  - Dropped 'await' (freq: 4.27e-06) because it contains 'wait' (freq: 2.24e-04) [frequency]
+  - Dropped 'sanga' (freq: 1.10e-07) because it contains 'sang' (freq: 1.26e-05) [frequency]
+  - Dropped 'swang' (freq: 4.68e-08) because it contains 'wang' (freq: 8.91e-06) [frequency]
+  - Dropped 'twang' (freq: 3.63e-07) because it contains 'wang' (freq: 8.91e-06) [frequency]
+  - Dropped 'agains' (freq: 2.04e-07) because it contains 'gain' (freq: 6.46e-05) [frequency]
+  - Dropped 'annats' (freq: 0.00e+00) because it contains 'anna' (freq: 2.34e-05) [frequency]
+  - Dropped 'wangan' (freq: 1.70e-08) because it contains 'wang' (freq: 8.91e-06) [frequency]
+  - Dropped 'assagai' (freq: 0.00e+00) because it contains 'saga' (freq: 7.41e-06) [frequency]
+  - Dropped 'waiting' (freq: 1.15e-04) because it contains 'wait' (freq: 2.24e-04) [affix]
+  - Dropped 'wantwit' (freq: 0.00e+00) because it contains 'want' (freq: 1.10e-03) [frequency]
+  - Dropped 'awanting' (freq: 0.00e+00) because it contains 'anti' (freq: 1.02e-04) [frequency]
+  - Dropped 'satanist' (freq: 2.57e-07) because it contains 'satan' (freq: 8.51e-06) [frequency]
+
+✓ Generated puzzle with 117 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_wasting_2025-12-13-18-52.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: WASTING
+Clue: 
+Distinct letters: a, g, i, n, s, t, w
+Center letter: a (required in all words)
+Total valid words: 117
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. want                 (freq: 1.10e-03)
+   2. again                (freq: 5.01e-04)
+   3. against              (freq: 4.79e-04)
+   4. wait                 (freq: 2.24e-04)
+   5. anti                 (freq: 1.02e-04)
+   6. gain                 (freq: 6.46e-05)
+   7. assistant            (freq: 5.25e-05)
+   8. asian                (freq: 4.90e-05)
+   9. giant                (freq: 4.17e-05)
+  10. gang                 (freq: 3.16e-05)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_wasting_2025-12-13-18-52.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_wasting_2025-12-13-18-52.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_wasting_2025-12-13-18-52.json
+✓ Loaded 117 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 20 words with frequency 0.0
+  Examples: agast, agist, asitia, assignat, aswing, attagas, attaint, atwain, isatin, isatis...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 24 words always included (frequency > threshold)
+✓ 73 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 73 words in batches of 5...
+
+  Processing batch 1/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 2/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 3/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 4/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 5/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 7/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 8/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 9/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Missing from LLM response: ['anta']
+        (These words will be kept by default)
+    Result: 1 kept, 4 removed
+  Processing batch 10/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 11/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 13/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 14/15 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 15/15 (3 words)...
+    Sending 3 words with definitions to LLM
+    Result: 0 kept, 3 removed
+
+✓ Processed 15 batch(es)
+  Kept: 26 words
+  Removed: 47 words
+
+  ✓ All 26 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 47
+
+Word: anan
+Reason: An archaic, Shakespearean expression; unlikely to be guessed by modern players.
+
+Word: ananas
+Reason: Very low frequency and not a common everyday term; a foreign loanword for pineapple (criterion 1).
+
+Word: anas
+Reason: Taxonomic genus of ducks; a narrow scientific term (criterion 3).
+
+Word: angina
+Reason: Medical jargon referring to a specific condition (criterion 7).
+
+Word: ansa
+Reason: A technical astronomy term for Saturn's ring ends; too niche for general audience.
+
+Word: assai
+Reason: A specialized musical direction meaning 'very'; uncommon in general usage (criterion 1).
+
+Word: awing
+Reason: Obsolete/rare term for 'on the wing'; not commonly known by general adults (criterion 1).
+
+Word: gansa
+Reason: Extremely obscure word for a bird species; falls under criterion 3 (narrow taxonomic term).
+
+Word: gassing
+Reason: The definition refers to a specialized manufacturing process and a slang usage that is not widely known; it falls under category 1 (rare/obscure) and category 7 (specialized technical term).
+
+Word: gast
+Reason: Obsolete archaic verb with very low frequency (criterion 1).
+
+Word: gawn
+Reason: Provincial English, archaic vessel term; too obscure (criterion 1).
+
+Word: gitana
+Reason: Spanish loanword meaning “gypsy”; not a widely used English term and carries cultural specificity (criterion 8).
+
+Word: inia
+Reason: Specific species name of a South American dolphin; a narrow taxonomic term unlikely to be known by most people (criterion 3).
+
+Word: nagana
+Reason: Specialized disease name; specialized medical term not widely known (criterion 7).
+
+Word: nais
+Reason: Obscure mythological plural; not widely known (criterion 1).
+
+Word: nassa
+Reason: Specific marine gastropod genus; meets criterion 3 (specific animal species).
+
+Word: nias
+Reason: Obsolete term for a young hawk or unsophisticated person (criterion 1).
+
+Word: nisan
+Reason: Month of the Jewish calendar, uncommon to typical adults (criterion 8).
+
+Word: saan
+Reason: Obscure ethnonym; unlikely to be recognized by typical adults (criterion 1).
+
+Word: sagitta
+Reason: Highly technical term used in astronomy, architecture, geometry, biology, and marine zoology; not a common everyday word (criterion 1).
+
+Word: saiga
+Reason: Specific animal species not widely known to general adults (criterion 3).
+
+Word: sain
+Reason: An archaic verb meaning 'to sanctify'; uncommon and obscure.
+
+Word: sasin
+Reason: Specific animal species definition; not a common everyday term and would be unknown to most people (criterion 3).
+
+Word: stang
+Reason: Archaic noun referring to a long bar or a pole; not common or familiar to most adults (criterion 1).
+
+Word: stant
+Reason: An archaic form meaning 'stands' from Chaucer; not common in everyday language (criterion 1).
+
+Word: stasis
+Reason: The definition refers to a specialized biomedical concept, meeting criterion 7.
+
+Word: statist
+Reason: An archaic word for a statesman or statistician; it is not commonly known or used by typical adults, fitting category 1 (very low frequency/obsolete).
+
+Word: staw
+Reason: Obsolete/archaic verb; very low frequency and not recognizable by typical adults (criterion 1).
+
+Word: stian
+Reason: Medical term for a sty on the eye, not commonly used by general audience (criterion 8).
+
+Word: swain
+Reason: The word is archaic/obsolete, falling under criterion 1.
+
+Word: taas
+Reason: Obsolete word for heap; not familiar to general audience (criterion 1).
+
+Word: tain
+Reason: Niche material term referring to thin tin plate; not widely recognized in general vocabulary (criterion 4).
+
+Word: tait
+Reason: It denotes a specific Australian marsupial, an example of criterion 3.
+
+Word: tana
+Reason: Obscure term with no common usage (criterion 1).
+
+Word: tannin
+Reason: Specialized biochemical term that most adults would not know or be able to guess from simple clues (criterion 7).
+
+Word: tant
+Reason: An obscure spider species; not widely known by typical adults.
+
+Word: tatt
+Reason: Very rare, obsolete craft term (criterion 1).
+
+Word: tatta
+Reason: Cultural item specific to India; a niche, region‑specific object not familiar to general adults (criterion 8).
+
+Word: tatting
+Reason: A niche craft term for a type of lace; not widely known by general adults (criterion 4).
+
+Word: taws
+Reason: Scots slang for a leather lash; an uncommon regional term (criterion 8).
+
+Word: twain
+Reason: Archaic word with very low modern usage, unlikely to be guessed (criteria 1).
+
+Word: waag
+Reason: Very low frequency and refers to a specific monkey species; an obscure, archaic term not likely to be known by typical adults (criterion 1).
+
+Word: wain
+Reason: Obsolete, archaic word for a wagon; not common in everyday language (criterion 1).
+
+Word: wast
+Reason: A poetic/archaic second-person form of "be" that is no longer used in everyday language, thus it belongs to category 1 (obscure/obsolete).
+
+Word: wigan
+Reason: Obsolete or niche textile term not commonly known by typical adults (criteria 1 & 4).
+
+Word: wigwag
+Reason: A niche signaling verb, not commonly used in everyday language and would be difficult for typical adults to guess (criterion 1).
+
+Word: witan
+Reason: An archaic, historical term for a council; typical adults would not know it (criterion 1).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-52.json
+✓ Saved 50 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 117
+  - Removed (frequency = 0.0): 20
+  - Always included (frequency > 5e-06): 24
+  - Processed by LLM: 73
+    * Kept: 26
+    * Removed: 47
+Final words: 50
+Total removed: 67 (57.3%)
+  - Zero frequency: 20
+  - Removed by LLM: 47
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-52.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-52.log
+======================================================================

@@ -7,8 +7,8 @@ and finds all valid words using functions from index_mask_dictionary.py
 
 import argparse
 import json
-import os
 import random
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -24,7 +24,6 @@ try:
         load_words_from_json,
         build_mask_index,
         all_words_for_seed,
-        word_to_mask
     )
     from wordfreq import word_frequency
 except ImportError as e:
@@ -38,6 +37,7 @@ except ImportError as e:
 DICTIONARY_PATH = Path("/home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json")
 MIN_WORD_LENGTH = 4
 MIN_WORDS_REQUIRED = 20
+SUBSET_FREQ_THRESHOLD = 7e-6
 OUTPUT_DIR = Path("/home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons")
 
 
@@ -66,63 +66,84 @@ def load_candidate_words(json_path: str) -> Dict[str, Any]:
         sys.exit(1)
 
 
-def pick_candidate_and_center(candidates: List[Dict[str, Any]], mask_index: Dict[int, List[str]], min_words_required: int = MIN_WORDS_REQUIRED) -> Optional[Tuple[Dict[str, Any], str, List[str]]]:
+def parse_distinct_letters(distinct_letters: Any) -> List[str]:
+    """Normalize distinct letters into a list of lowercase single characters."""
+    if isinstance(distinct_letters, list):
+        letters = [str(letter).lower().strip() for letter in distinct_letters]
+    elif isinstance(distinct_letters, str):
+        letters = [letter.lower() for letter in re.findall(r"[a-zA-Z]", distinct_letters)]
+    else:
+        letters = []
+    return [letter for letter in letters if letter]
+
+
+def evaluate_candidate(
+    candidate: Dict[str, Any],
+    mask_index: Dict[int, List[str]],
+    min_words_required: int,
+    verbose: bool = True
+) -> Optional[Tuple[Dict[str, Any], str, List[str]]]:
+    """
+    Try all center letters for a candidate and return the first combination
+    that meets the min_words_required threshold.
+    """
+    word = str(candidate.get('word', '')).lower().strip()
+    distinct_letters = parse_distinct_letters(candidate.get('distinct_letters', []))
+    unique_letters = sorted(set(distinct_letters))
+
+    if len(unique_letters) != 7:
+        if verbose:
+            print(f"Warning: Candidate '{word}' has {len(unique_letters)} distinct letters, expected 7. Skipping.")
+        return None
+
+    seed = ''.join(unique_letters)
+
+    centers = unique_letters.copy()
+    random.shuffle(centers)
+
+    for center_letter in centers:
+        try:
+            valid_words = all_words_for_seed(
+                seed=seed,
+                center_letter=center_letter,
+                mask_index=mask_index,
+                min_len=MIN_WORD_LENGTH
+            )
+        except Exception as e:
+            if verbose:
+                print(f"  Error trying '{word}' with center '{center_letter}': {e}")
+            continue
+
+        if len(valid_words) >= min_words_required:
+            if verbose:
+                print(f"✓ Found {len(valid_words)} words for candidate '{word}' with center letter '{center_letter}'")
+            return candidate, center_letter, valid_words
+
+        if verbose:
+            print(f"  Tried '{word}' with center '{center_letter}': only {len(valid_words)} words (need {min_words_required})")
+
+    return None
+
+
+def pick_candidate_and_center(
+    candidates: List[Dict[str, Any]],
+    mask_index: Dict[int, List[str]],
+    min_words_required: int = MIN_WORDS_REQUIRED
+) -> Optional[Tuple[Dict[str, Any], str, List[str]]]:
     """
     Randomly pick a candidate word and try to find a center letter that yields >= MIN_WORDS_REQUIRED words.
     
     Returns:
         Tuple of (candidate_dict, center_letter, valid_words) or None if no valid combination found
     """
-    # Shuffle candidates to randomize selection
     candidates_copy = candidates.copy()
     random.shuffle(candidates_copy)
-    
-    # Try each candidate
+
     for candidate in candidates_copy:
-        word = candidate['word'].lower().strip()
-        distinct_letters = candidate['distinct_letters']
-        
-        # Ensure distinct_letters is a list
-        if isinstance(distinct_letters, str):
-            # Handle string like "['w', 'a', 'l', 'k', 'i', 'n', 'g']"
-            import re
-            distinct_letters = [letter.lower().strip().strip("'\"") 
-                               for letter in re.findall(r"[a-zA-Z]", distinct_letters)]
-        
-        distinct_letters = [str(letter).lower().strip() for letter in distinct_letters]
-        
-        # Validate we have exactly 7 distinct letters
-        if len(set(distinct_letters)) != 7:
-            print(f"Warning: Candidate '{word}' has {len(set(distinct_letters))} distinct letters, expected 7. Skipping.")
-            continue
-        
-        # Create seed string from distinct letters
-        seed = ''.join(sorted(set(distinct_letters)))
-        
-        # Shuffle distinct letters to randomize center letter selection
-        distinct_letters_shuffled = distinct_letters.copy()
-        random.shuffle(distinct_letters_shuffled)
-        
-        # Try each letter as center letter
-        for center_letter in distinct_letters_shuffled:
-            try:
-                # Find all words that can be made from these letters with the center letter required
-                valid_words = all_words_for_seed(
-                    seed=seed,
-                    center_letter=center_letter,
-                    mask_index=mask_index,
-                    min_len=MIN_WORD_LENGTH
-                )
-                
-                if len(valid_words) >= min_words_required:
-                    print(f"✓ Found {len(valid_words)} words for candidate '{word}' with center letter '{center_letter}'")
-                    return (candidate, center_letter, valid_words)
-                else:
-                    print(f"  Tried '{word}' with center '{center_letter}': only {len(valid_words)} words (need {min_words_required})")
-            except Exception as e:
-                print(f"  Error trying '{word}' with center '{center_letter}': {e}")
-                continue
-    
+        result = evaluate_candidate(candidate, mask_index, min_words_required, verbose=True)
+        if result:
+            return result
+
     return None
 
 
@@ -181,14 +202,11 @@ def generate_puzzle_json(
             "frequency": freq,
             "definition": definition
         })
+
+    word_entries = drop_superset_words(word_entries, SUBSET_FREQ_THRESHOLD)
     
     # Get all distinct letters from candidate
-    distinct_letters = candidate['distinct_letters']
-    if isinstance(distinct_letters, str):
-        import re
-        distinct_letters = [letter.lower().strip().strip("'\"") 
-                           for letter in re.findall(r"[a-zA-Z]", distinct_letters)]
-    distinct_letters = [str(letter).lower().strip() for letter in distinct_letters]
+    distinct_letters = parse_distinct_letters(candidate.get('distinct_letters', []))
     
     result = {
         "seed_word": candidate['word'],
@@ -200,6 +218,92 @@ def generate_puzzle_json(
     }
     
     return result
+
+
+def drop_superset_words(
+    word_entries: List[Dict[str, Any]],
+    freq_threshold: float
+) -> List[Dict[str, Any]]:
+    """
+    Remove any word that strictly contains another retained word whose frequency
+    meets or exceeds freq_threshold.
+    Prints the dropping process for debugging.
+    """
+    if not word_entries:
+        return word_entries
+
+    sorted_by_len = sorted(
+        word_entries, key=lambda entry: (len(entry["word"]), entry["word"])
+    )
+    kept_entries: List[Dict[str, Any]] = []
+    dropped: List[Tuple[Dict[str, Any], Dict[str, Any], str]] = []
+
+    for entry in sorted_by_len:
+        word = entry["word"]
+        drop_reason = next(
+            (
+                kept_entry
+                for kept_entry in kept_entries
+                if kept_entry["word"] in word
+                and kept_entry["word"] != word
+                and kept_entry["frequency"] >= freq_threshold
+            ),
+            None,
+        )
+        if drop_reason is not None:
+            if is_simple_affix_variant(drop_reason["word"], word):
+                dropped.append((entry, drop_reason, "affix"))
+                continue
+
+            if entry["frequency"] <= freq_threshold:
+                dropped.append((entry, drop_reason, "frequency"))
+                continue
+
+        kept_entries.append(entry)
+
+    if dropped:
+        print("Dropping superset words due to containment:")
+        for superset_entry, subset_entry, reason in dropped:
+            sup_freq = superset_entry["frequency"]
+            sub_freq = subset_entry["frequency"]
+            print(
+                f"  - Dropped '{superset_entry['word']}' (freq: {sup_freq:.2e}) "
+                f"because it contains '{subset_entry['word']}' (freq: {sub_freq:.2e})"
+                f" [{reason}]"
+            )
+        print()
+
+    kept_set = set(entry["word"] for entry in kept_entries)
+    return [entry for entry in word_entries if entry["word"] in kept_set]
+
+
+def is_simple_affix_variant(base: str, candidate: str) -> bool:
+    """Return True if candidate is base with a simple affix like -ing, -er, -s, -ness, or re-."""
+    base = base.lower()
+    candidate = candidate.lower()
+    if not base or not candidate:
+        return False
+
+    # Prefix check
+    simple_prefixes = ("re",)
+    for prefix in simple_prefixes:
+        if candidate.startswith(prefix) and candidate[len(prefix):] == base:
+            return True
+
+    # Suffix checks
+    suffixes = ("ing", "er", "ness", "s")
+    for suffix in suffixes:
+        if not candidate.endswith(suffix):
+            continue
+
+        stripped = candidate[:-len(suffix)] if suffix else candidate
+        if stripped == base:
+            return True
+
+        if suffix in ("ing", "er") and len(base) >= 1 and stripped == base + base[-1]:
+            return True
+
+    return False
 
 
 def main():
@@ -217,13 +321,21 @@ Examples:
     parser.add_argument(
         'candidates_json',
         type=str,
-        help='Path to JSON file with candidate words'
+        nargs='?',
+        default=None,
+        help='Path to JSON file with candidate words (required unless --seed-word is used)'
     )
     parser.add_argument(
         '--seed',
         type=int,
         default=None,
         help='Random seed for reproducible results'
+    )
+    parser.add_argument(
+        '--seed-word',
+        type=str,
+        default=None,
+        help='Specify a particular candidate word from the JSON to force as the seed'
     )
     parser.add_argument(
         '--output', '-o',
@@ -245,6 +357,10 @@ Examples:
     )
     
     args = parser.parse_args()
+
+    if args.seed_word is None and args.candidates_json is None:
+        print("Error: You must provide a candidates JSON file unless --seed-word is specified.", file=sys.stderr)
+        sys.exit(1)
     
     # Set random seed if provided
     if args.seed is not None:
@@ -257,11 +373,16 @@ Examples:
     print()
     
     # Load candidate words
-    print(f"Loading candidate words from: {args.candidates_json}")
-    data = load_candidate_words(args.candidates_json)
-    candidates = data['candidates']
-    print(f"✓ Loaded {len(candidates)} candidate(s)")
-    print()
+    candidates: List[Dict[str, Any]] = []
+    if args.candidates_json:
+        print(f"Loading candidate words from: {args.candidates_json}")
+        data = load_candidate_words(args.candidates_json)
+        candidates = data['candidates']
+        print(f"✓ Loaded {len(candidates)} candidate(s)")
+        print()
+    else:
+        print("No candidate JSON provided; running in direct seed-word mode.")
+        print()
     
     # Load dictionary
     print(f"Loading dictionary from: {args.dictionary}")
@@ -282,9 +403,43 @@ Examples:
     print()
     
     # Find valid candidate and center letter combination
-    print(f"Searching for candidate word with >= {args.min_words} valid words...")
-    print()
-    result = pick_candidate_and_center(candidates, mask_index, min_words_required=args.min_words)
+    if args.seed_word:
+        desired_word = args.seed_word.lower().strip()
+        candidate = None
+        if candidates:
+            candidate = next(
+                (
+                    cand for cand in candidates
+                    if str(cand.get('word', '')).lower().strip() == desired_word
+                ),
+                None
+            )
+            if candidate is None and args.candidates_json:
+                print(f"Warning: Seed word '{args.seed_word}' not found in {args.candidates_json}. Falling back to direct input.")
+
+        if candidate is None:
+            filtered_letters = [ch for ch in args.seed_word if ch.isalpha()]
+            distinct_letters = list(set(filtered_letters if filtered_letters else list(args.seed_word)))
+            distinct_letters.sort()
+
+            assert len(distinct_letters) == 7, f"Seed word '{args.seed_word}' has {len(distinct_letters)} distinct letters, expected 7"
+            candidate = {
+            "word": args.seed_word.upper(),
+            "clue": "",
+            "distinct_letters": distinct_letters
+        }
+        assert candidate is not None, f"Failed to create candidate for seed word '{args.seed_word}'"
+
+        print(f"Attempting to build puzzle using provided seed word: '{desired_word}'")
+        result = evaluate_candidate(candidate, mask_index, args.min_words, verbose=True)
+        if result is None:
+            print(f"\nERROR: Provided seed word '{args.seed_word}' does not produce >= {args.min_words} valid words.", file=sys.stderr)
+            print("Consider lowering --min-words or choosing a different seed word.", file=sys.stderr)
+            sys.exit(1)
+    else:
+        print(f"Searching for candidate word with >= {args.min_words} valid words...")
+        print()
+        result = pick_candidate_and_center(candidates, mask_index, min_words_required=args.min_words)
     
     if result is None:
         print("\n" + "=" * 80)
@@ -318,14 +473,14 @@ Examples:
     # Ensure output directory exists
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     output_path = OUTPUT_DIR / output_filename
-    
+
     # Save puzzle JSON
     print(f"Saving puzzle to: {output_path}")
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(puzzle_data, f, indent=2, ensure_ascii=False)
     print(f"✓ Saved puzzle JSON")
     print()
-    
+
     # Display summary
     print("=" * 80)
     print("PUZZLE SUMMARY:")
@@ -345,6 +500,7 @@ Examples:
     print("=" * 80)
     print("Done!")
     print("=" * 80)
+    print(f"\nFull path to generated JSON: {output_path.resolve()}\n")
 
 
 if __name__ == "__main__":

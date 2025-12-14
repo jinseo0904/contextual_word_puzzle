@@ -1,0 +1,461 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-17-27
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-27.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- impressive (freq: 0.000029)
+- detection (freq: 0.000012)
+- sucking (freq: 0.000008)
+- version (freq: 0.000117)
+- praying (freq: 0.000010)
+- instead (freq: 0.000174)
+- newspaper (freq: 0.000040)
+- instantly (freq: 0.000017)
+- resolved (freq: 0.000013)
+- cleaning (freq: 0.000024)
+
+Randomly selected candidate: sucking
+Selected seed word: sucking
+
+[2/4] Generating spelling bee puzzle for seed word 'sucking'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'sucking'
+✓ Found 47 words for candidate 'sucking' with center letter 's'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'skink' (freq: 1.38e-07) because it contains 'skin' (freq: 8.13e-05) [frequency]
+  - Dropped 'cuskin' (freq: 0.00e+00) because it contains 'skin' (freq: 8.13e-05) [frequency]
+  - Dropped 'siskin' (freq: 4.57e-08) because it contains 'skin' (freq: 8.13e-05) [frequency]
+  - Dropped 'unkiss' (freq: 0.00e+00) because it contains 'kiss' (freq: 3.80e-05) [frequency]
+  - Dropped 'singing' (freq: 3.89e-05) because it contains 'sing' (freq: 3.47e-05) [affix]
+  - Dropped 'sinking' (freq: 6.76e-06) because it contains 'sink' (freq: 1.62e-05) [affix]
+  - Dropped 'sucking' (freq: 7.59e-06) because it contains 'suck' (freq: 2.63e-05) [affix]
+
+✓ Generated puzzle with 40 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: SUCKING
+Clue: 
+Distinct letters: c, g, i, k, n, s, u
+Center letter: s (required in all words)
+Total valid words: 40
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. sign                 (freq: 1.20e-04)
+   2. skin                 (freq: 8.13e-05)
+   3. sick                 (freq: 7.59e-05)
+   4. kiss                 (freq: 3.80e-05)
+   5. sing                 (freq: 3.47e-05)
+   6. suck                 (freq: 2.63e-05)
+   7. isis                 (freq: 1.86e-05)
+   8. sink                 (freq: 1.62e-05)
+   9. sung                 (freq: 8.13e-06)
+  10. sunk                 (freq: 5.50e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+✓ Loaded 40 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 12 words with frequency 0.0
+  Examples: cincinnus, incuss, kuskus, scink, scug, sinic, skun, snig, snigg, succus...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 10 words always included (frequency > threshold)
+✓ 18 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 18 words in batches of 5...
+
+  Processing batch 1/4 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 2/4 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 3/4 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['knight']
+    Result: 0 kept, 5 removed
+  Processing batch 4/4 (3 words)...
+    Sending 3 words with definitions to LLM
+    Result: 0 kept, 3 removed
+
+✓ Processed 4 batch(es)
+  Kept: 4 words
+  Removed: 14 words
+
+  ✓ All 4 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 14
+
+Word: cuscus
+Reason: Obscure botanical term; not a common everyday word (criterion 4).
+
+Word: cusk
+Reason: Specific fish species; not a common everyday word (criterion 3).
+
+Word: incus
+Reason: Specialized anatomical term for a small ear bone; not widely known (criterion 7).
+
+Word: nisi
+Reason: An obscure legal term meaning 'unless', unlikely to be known or guessed by typical adults (criterion 1 – rare/obscure word).
+
+Word: nisus
+Reason: Archaic philosophical term; not common everyday use (criterion 1).
+
+Word: nuncius
+Reason: A Latin word meaning messenger, not part of everyday vocabulary and too obscure for a general audience (criterion 1).
+
+Word: siss
+Reason: Obscure verb meaning 'to hiss'; unlikely to be guessed by general audience (criterion 1).
+
+Word: snick
+Reason: An obscure term for a small cut or a slight hit; typical adults are unlikely to know it (criterion 1).
+
+Word: succinic
+Reason: Chemical/biochemical term; specialized vocabulary (criterion 7).
+
+Word: sunn
+Reason: Specific plant species; not widely known (criterion 3).
+
+Word: susu
+Reason: Obsolete or niche term; cross-reference to an obscure word (criterion 1).
+
+Word: uncus
+Reason: An anatomical hook or claw; highly specialized and unlikely to be known (criterion 7).
+
+Word: unguis
+Reason: The term is a Latin-derived anatomical word that is obscure and unlikely to be known by typical adults (criterion 1).
+
+Word: usnic
+Reason: This is a specialized chemical term related to lichens, falling under specialized biochemical terminology (criterion 7).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-27.json
+✓ Saved 14 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 40
+  - Removed (frequency = 0.0): 12
+  - Always included (frequency > 5e-06): 10
+  - Processed by LLM: 18
+    * Kept: 4
+    * Removed: 14
+Final words: 14
+Total removed: 26 (65.0%)
+  - Zero frequency: 12
+  - Removed by LLM: 14
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-27.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-27.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-27.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, DISTRACTED, RUSHED, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, LOUD_ENVIRONMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, FOCUSED_OBSERVATION, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, RUSHED, LOUD_ENVIRONMENT, HIGH_EXERTION, AUDIBLE_MOVEMENT, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, LOUD_ENVIRONMENT, AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, RUSHED, HIGH_EXERTION, AUDIBLE_MOVEMENT, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, DISTRACTED, HEAVY_PHONE_USE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED, FOCUSED_OBSERVATION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, LOUD_ENVIRONMENT, FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM - 8:27 AM. Woke up this morning in Grove Hall, Roxbury. It was quiet, a peaceful start to the day, though a little bit of a social buzz was already starting. Just easing into things.
+
+8:27 AM. I hurried out of Grove Hall, making my way towards Snell Library in Fenway. Passed a string of spots – a Dunkin’ and Subway were right there. I was cycling and then sitting for a moment to collect myself. 
+
+8:54 AM. Arrived at Snell Library, and it was immediately a rush! Getting inside was hectic. I was walking to class, leaving Snell Library.
+
+9:05 AM. Still rushing, I power-walked from Snell Library to Northeastern University, also in Fenway. So many places to see – Argo Tea, Sweet Tomatoes Pizza, Tu Taco, even the Boston Globe Library, alongside the usual Dunkin’ and Burger 373. I was glued to my screen, completely distracted.
+
+9:07 AM - 10:17 AM. Settled down at Northeastern University, repeating course material. It was a loud environment, strangely, but there was still a social energy. I sat for a long time, just…sitting.
+
+10:17 AM. Needed to get back, so I hurried from Northeastern University back to Snell Library, passing Sweet Tomatoes Pizza, Tu Taco, Argo Tea, and Burger 373 again. I was really focused on getting back, watching the crowds carefully.
+
+10:20 AM - 11:09 AM. Back at Snell Library, I sat down, trying to focus. It was a quiet atmosphere, though there was some movement around me. Just…sitting.
+
+11:09 AM. Then it was a mad dash again! Rushing from Snell Library to Amazon Boston in Seaport. I was running to the train station and writing a subway to go to Seaport. I walked to my friend's office, passing Boston South Station, Boston Back Bay, and Ruggles. I saw Au Bon Pain, South Station, McDonald's, Melting Sun, Dunkin', Master Wok, and Ruggles. There was even a glimpse of the Boston Wharf Co. Sign. I was so distracted, scrolling on my phone the whole time.
+
+11:42 PM - 1:51 PM. Arrived at Amazon Boston, walking to my friend's office in Seaport. I waited in the lobby, then sat for a long time. It was surprisingly quiet, but still a social atmosphere. I walked to the bathroom, but something felt off… my mind felt older. 
+
+1:51 PM. Time to head back to Snell Library from Amazon Boston. I was sitting on the train, but still rushing. I passed Dunkin’ and Au Bon Pain again, Boston South Station, Master Wok, and Ruggles. Saw Pink Taco, Massachusetts Avenue, McDonald's, and Melting Sun. There was Row 34, and Boston Back Bay. And Auntie Anne’s, Back Bay, Boston South Station, Caffè Nero, and Sportello. Another glimpse of Ruggles and Boston Wharf Co. Sign, then Lolita and La Colombe Coffee Roasters.
+
+2:18 PM - 2:48 PM. Back at Snell Library, and I settled back into a seat. There was a lot of movement and noise, but I tried to ignore it. Just…sitting.
+
+2:48 PM. I hurried from Snell Library to Ryder Hall. Passed Subway and Dunkin' again.
+
+2:50 PM - 4:45 PM. Finally settled into class at Ryder Hall. Walked in, sat down, and tried to focus. Just walking, then sitting. 
+
+4:45 PM. I hurried back to Snell Library from Ryder Hall. Passed Subway again.
+
+4:49 PM - 9:21 PM. Back at Snell Library, craving to be back. Just sat down, taking course. I walked to the bathroom, then sat down again. Taking class, then sitting down in Snell Library. I was sitting down patiently, looking at the snow falling. Taking classes, just sitting down. I opened the door, standing, then sat down again. I was sitting down doing homework. I was sitting down to begin an assignment. I walked around in the library.
+
+9:21 PM. I left Snell Library and hurried back to Grove Hall. Passed ilona, Kura Sushi, and ISEC Pedestrian Bridge, then Starbucks and Farmer Horse Coffee, then Ruggles and Caffé Bene. I even saw MIDA, Applebee’s, and Uphams Corner.
+
+9:45 PM - 11:59 PM. Back in Grove Hall. It was quiet, but there was still a loud undercurrent. I was standing, then sitting.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "SIGN",
+    "clue": "You passed the Boston Wharf Co. _______ multiple times while traveling to and from Seaport.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "SKIN",
+    "clue": "The user mentions feeling like their mind felt 'older,' suggesting a change in their mental _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SING",
+    "clue": "The constant movement between locations could be described as a constant _______-song of travel.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "SUNK",
+    "clue": "After a long day, you felt like your energy levels _______ as you returned to Grove Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SUNK",
+    "clue": "Your mind felt _______, like it was getting older, after walking around Amazon Boston.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SUNK",
+    "clue": "After spending the day rushing around, you felt _______ and relieved to be back at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SUNG",
+    "clue": "The snow was falling as you _______ peacefully at Snell Library, while taking course.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "SUNK",
+    "clue": "Throughout the day, it felt as if your time was _______ into endless travel between buildings.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SNUG",
+    "clue": "You described Grove Hall as a _______ and peaceful place to wake up at 12:00 AM.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "SINUS",
+    "clue": "The diary mentions feeling 'off' and 'older,' perhaps suggesting a _______ issue at 1:51 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SNUG",
+    "clue": "You described Snell Library as a quiet _______ place to study at 10:20 AM.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "SNUG",
+    "clue": "You described Snell Library as a _______ and quiet place to study at 2:18 PM.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  }
+]

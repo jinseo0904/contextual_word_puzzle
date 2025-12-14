@@ -279,7 +279,7 @@ Examples:
         '--output', '-o',
         type=str,
         default=None,
-        help='Output file to save the response (default: print to stdout)'
+        help='Output directory path to save the generated clues JSON (default: print to stdout). File will be saved as generated_contextual_clues_YYYY-MM-DD-HH-MM.json'
     )
     parser.add_argument(
         '--save-prompt',
@@ -398,32 +398,56 @@ Examples:
         print("=" * 80)
         print("(Use without --skip-validation to enable validation)")
         print()
+        
+        # Still try to extract and parse JSON even when validation is skipped
+        json_str = extract_json_from_response(response)
+        if json_str:
+            try:
+                parsed_json = json.loads(json_str)
+                print("JSON extracted from response (validation skipped)")
+                print(json.dumps(parsed_json, indent=2))
+                print()
+            except json.JSONDecodeError:
+                print("Warning: Could not parse JSON from response", file=sys.stderr)
+                print()
     
     # Save response if requested
     import datetime
     import os
 
-    # Define the output directory for JSONs
-    output_dir = "/home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons"
-    os.makedirs(output_dir, exist_ok=True)
-
     # Get current timestamp in YYYY-MM-DD-HH-MM format
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 
     if args.output:
-        # Compose filenames with timestamp
-        raw_output_filename = os.path.splitext(os.path.basename(args.output))[0]
-        raw_json_path = os.path.join(output_dir, f"{raw_output_filename}_raw_{timestamp}.json")
-        # with open(raw_json_path, 'w', encoding='utf-8') as f:
-        #     f.write(response)
-        # print(f"✓ Saved raw response to: {raw_json_path}")
+        # Create output directory if it doesn't exist
+        os.makedirs(args.output, exist_ok=True)
         
-        # Also save validated JSON if valid
-        if is_valid and parsed_json:
-            validated_json_path = os.path.join(output_dir, f"{raw_output_filename}_validated_{timestamp}.json")
-            with open(validated_json_path, 'w', encoding='utf-8') as f:
+        # Save generated clues JSON
+        output_filename = f"generated_contextual_clues_{timestamp}.json"
+        output_path = os.path.join(args.output, output_filename)
+        
+        # Try to save parsed JSON if available (even if validation failed)
+        if parsed_json is not None:
+            with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(parsed_json, f, indent=2)
-            print(f"✓ Saved validated JSON to: {validated_json_path}")
+            print(f"✓ Saved generated clues JSON to: {output_path}")
+        else:
+            # If no parsed JSON, try to extract JSON from response
+            json_str = extract_json_from_response(response)
+            if json_str:
+                try:
+                    extracted_json = json.loads(json_str)
+                    with open(output_path, 'w', encoding='utf-8') as f:
+                        json.dump(extracted_json, f, indent=2)
+                    print(f"✓ Saved generated clues JSON to: {output_path}")
+                except json.JSONDecodeError:
+                    print(f"Warning: Could not parse JSON from response, saving raw response to: {output_path}", file=sys.stderr)
+                    with open(output_path, 'w', encoding='utf-8') as f:
+                        f.write(response)
+            else:
+                print(f"Warning: Could not extract JSON from response, saving raw response to: {output_path}", file=sys.stderr)
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    f.write(response)
         print()
     
     print("=" * 80)

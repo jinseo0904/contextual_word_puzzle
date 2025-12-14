@@ -1,0 +1,242 @@
+[
+  {
+    "word": "AGAIN",
+    "clue": "You visited Snell Library multiple times _______ throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "WAIT",
+    "clue": "You spent a lot of time simply _______, whether on the train or in the library.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "AGAIN",
+    "clue": "You passed Dunkin' and Subway _______ and again during your commutes.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "AGAIN",
+    "clue": "You returned to Snell Library _______ and again throughout the day to study.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "WANT",
+    "clue": "You seemed to _______ to be back at Snell Library, returning multiple times.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GAIN",
+    "clue": "After a long day, the author notes their mind felt older, suggesting a _______ of experience.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "GAIN",
+    "clue": "The author spent the day rushing around, seemingly trying to _______ ground on their studies.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "ASSISTANT",
+    "clue": "The author was attending classes at Northeastern University and other locations, almost like a student _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "GIANT",
+    "clue": "The author\u2019s day felt _______ with constant movement between locations like Snell Library, Seaport, and back.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "GANG",
+    "clue": "The author passed many restaurants and cafes, almost like a _______ of eateries along their route.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "WANTING",
+    "clue": "You spent the day _______ to find a quiet place to study.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "ASSIST",
+    "clue": "A friendly face could _______ you navigate the many routes you took today.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "INSTANT",
+    "clue": "You were often rushing, seeking _______ gratification from getting to your next location.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "WASTING",
+    "clue": "You spent the day _______ time traveling between buildings and studying.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "WAIST",
+    "clue": "You spent a lot of time walking, likely adding steps to your _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "STATING",
+    "clue": "You were _______ your location frequently, moving between Snell Library, Northeastern, and Seaport.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "TITAN",
+    "clue": "You seemed to endlessly traverse between Snell Library and various halls, a true _______ of academic endurance.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "STAIN",
+    "clue": "The constant rush between locations might leave a _______ on your memory.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SAGA",
+    "clue": "Your day unfolded as a long and winding _______, filled with travels and study.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SATAN",
+    "clue": "The number of Dunkin's you passed today would make a coffee addict feel like a visit from _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "SWAN",
+    "clue": "You moved fluidly between locations like a _______, always finding your way back to Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "ASSIGN",
+    "clue": "You spent the day working on a course _______ at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "STAGING",
+    "clue": "You spent a lot of time _______ yourself at Snell Library - walking, sitting, and moving around.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when taking the train to Seaport.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "WATT",
+    "clue": "You moved with a lot of energy, like a high _______, rushing between classes and locations.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SATIN",
+    "clue": "The diary entries describe a smooth, almost repetitive routine, like the sheen of _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ATTAIN",
+    "clue": "You seemed to be trying to _______ knowledge throughout the day, spending hours in the library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "SANS",
+    "clue": "The user describes long periods of sitting and working, often _______ distractions, or so it seems.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "STAGNANT",
+    "clue": "Despite all your travel, there were periods where you felt _______, just sitting and waiting.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SNAG",
+    "clue": "Your day was full of rushing around, but hopefully, you didn\u2019t hit any major _______ along the way.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "STAG",
+    "clue": "You spent a significant portion of your day alone, like a lone _______, wandering between buildings and classes.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "GAIT",
+    "clue": "Your frequent trips between buildings suggest a hurried _______.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "WANING",
+    "clue": "As the day went on, your energy seemed _______, leading to more time spent sitting.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TAINT",
+    "clue": "Something at Seaport 'changed' you, leaving a subtle _______ on your mind.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SAGging",
+    "clue": "After a long day, you might have been feeling _______, especially after all that walking and rushing.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GNAT",
+    "clue": "All the outdoor walking, especially near the food stalls, could attract a pesky _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ANTA",
+    "clue": "You passed Auntie Anne's, a well-known _______ chain, while heading to the train station.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SAGging",
+    "clue": "After a long day of rushing between buildings, your energy levels may have been _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ANTA",
+    "clue": "You passed Auntie Anne's, a popular _______ brand, when walking back from Seaport.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  }
+]

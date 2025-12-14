@@ -1,0 +1,87 @@
+{
+  "seed_word": "MIDNIGHT",
+  "seed_word_clue": "",
+  "distinct_letters": [
+    "d",
+    "g",
+    "h",
+    "i",
+    "m",
+    "n",
+    "t"
+  ],
+  "center_letter": "d",
+  "total_words": 10,
+  "words": [
+    {
+      "word": "mind",
+      "contextual_clue": "The user felt like their _______ had aged while waiting at their friend’s office in Amazon Boston.",
+      "generic_clue": "Intellect or thought process",
+      "frequency": 0.000257,
+      "score": 5.0
+    },
+    {
+      "word": "hiding",
+      "contextual_clue": "N/A",
+      "generic_clue": "Keeping out of sight",
+      "frequency": 2.09e-05,
+      "score": 0
+    },
+    {
+      "word": "midnight",
+      "contextual_clue": "The diary entries started around _______, marking the beginning of a very long day.",
+      "generic_clue": "Twelve o'clock at night",
+      "frequency": 2.04e-05,
+      "score": 5.0
+    },
+    {
+      "word": "dining",
+      "contextual_clue": "N/A",
+      "generic_clue": "Taking a meal",
+      "frequency": 1.38e-05,
+      "score": 0
+    },
+    {
+      "word": "digging",
+      "contextual_clue": "You spent the day _______ into course material, even while surrounded by noise at Northeastern University.",
+      "generic_clue": "Excavating with a shovel",
+      "frequency": 9.77e-06,
+      "score": 4.0
+    },
+    {
+      "word": "hindi",
+      "contextual_clue": "N/A",
+      "generic_clue": "Language of Bollywood",
+      "frequency": 6.61e-06,
+      "score": 0
+    },
+    {
+      "word": "digit",
+      "contextual_clue": "You saw countless addresses and times – a sea of _______ in the city.",
+      "generic_clue": "Number from zero to nine",
+      "frequency": 5.89e-06,
+      "score": 4.0
+    },
+    {
+      "word": "ding",
+      "contextual_clue": "You may have heard a _______ as the subway doors opened at South Station.",
+      "generic_clue": "Sound a bell might make",
+      "frequency": 4.27e-06,
+      "score": 4.0
+    },
+    {
+      "word": "hind",
+      "contextual_clue": "N/A",
+      "generic_clue": "Part of the rear of an animal",
+      "frequency": 3.16e-06,
+      "score": 0
+    },
+    {
+      "word": "timid",
+      "contextual_clue": "N/A",
+      "generic_clue": "Shy and lacking confidence",
+      "frequency": 1.78e-06,
+      "score": 0
+    }
+  ]
+}

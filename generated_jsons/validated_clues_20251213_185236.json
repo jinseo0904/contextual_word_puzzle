@@ -1,0 +1,200 @@
+[
+  {
+    "word": "AGAIN",
+    "clue": "You visited Snell Library multiple times _______ throughout the day.",
+    "score": 5,
+    "reason": "The diary explicitly states multiple visits to Snell Library, making the clue highly valid."
+  },
+  {
+    "word": "AGAIN",
+    "clue": "You passed Dunkin' and Subway _______ and again during your commutes.",
+    "score": 5,
+    "reason": "The diary details multiple instances of passing Dunkin' and Subway, particularly during commutes between locations."
+  },
+  {
+    "word": "AGAIN",
+    "clue": "You returned to Snell Library _______ and again throughout the day to study.",
+    "score": 5,
+    "reason": "The diary clearly shows multiple returns to Snell Library, specifically for study or work, making this clue highly valid."
+  },
+  {
+    "word": "STATING",
+    "clue": "You were _______ your location frequently, moving between Snell Library, Northeastern, and Seaport.",
+    "score": 5,
+    "reason": "The diary entries consistently detail the author's movements between locations, making 'stating' a valid description of their activity."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ when taking the train to Seaport.",
+    "score": 5,
+    "reason": "The diary explicitly mentions taking the train to Seaport. It's highly probable a fare was paid. A strong logical association."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "score": 5,
+    "reason": "Taking the subway logically implies paying a fare.  Directly supported by the diary content."
+  },
+  {
+    "word": "ANTA",
+    "clue": "You passed Auntie Anne's, a well-known _______ chain, while heading to the train station.",
+    "score": 5,
+    "reason": "The diary explicitly states passing Auntie Anne's while heading to the train station, confirming it is a chain."
+  },
+  {
+    "word": "ANTA",
+    "clue": "You passed Auntie Anne's, a popular _______ brand, when walking back from Seaport.",
+    "score": 5,
+    "reason": "The diary explicitly mentions passing Auntie Anne's while returning from Seaport, confirming it is a brand."
+  },
+  {
+    "word": "WAIT",
+    "clue": "You spent a lot of time simply _______, whether on the train or in the library.",
+    "score": 4,
+    "reason": "The diary repeatedly mentions 'sitting' and 'just sitting,' implying periods of waiting or inactivity."
+  },
+  {
+    "word": "WANT",
+    "clue": "You seemed to _______ to be back at Snell Library, returning multiple times.",
+    "score": 4,
+    "reason": "The frequent returns to Snell Library, coupled with descriptions of 'craving' to be there, suggest a desire or inclination to return."
+  },
+  {
+    "word": "GAIN",
+    "clue": "After a long day, the author notes their mind felt older, suggesting a _______ of experience.",
+    "score": 4,
+    "reason": "The author explicitly states their mind feels 'older', implying a gain in experience over the day. Strong logical association."
+  },
+  {
+    "word": "WANTING",
+    "clue": "You spent the day _______ to find a quiet place to study.",
+    "score": 4,
+    "reason": "The diary consistently shows the author searching for a quiet place to study, frequently moving locations. 'Wanting' accurately reflects this desire."
+  },
+  {
+    "word": "TITAN",
+    "clue": "You seemed to endlessly traverse between Snell Library and various halls, a true _______ of academic endurance.",
+    "score": 4,
+    "reason": "The diary entries demonstrate frequent travel between locations, especially Snell Library and other campus buildings. 'Titan' is a somewhat hyperbolic, but fitting, descriptor of the author's endurance."
+  },
+  {
+    "word": "SAGA",
+    "clue": "Your day unfolded as a long and winding _______, filled with travels and study.",
+    "score": 4,
+    "reason": "The diary entries depict a day full of movement and activity. 'Saga' accurately describes the extended and eventful nature of the day."
+  },
+  {
+    "word": "ASSIGN",
+    "clue": "You spent the day working on a course _______ at Snell Library.",
+    "score": 4,
+    "reason": "The diary mentions 'course' and 'taking classes' multiple times, especially at Snell Library. A reasonable and likely association."
+  },
+  {
+    "word": "ATTAIN",
+    "clue": "You seemed to be trying to _______ knowledge throughout the day, spending hours in the library.",
+    "score": 4,
+    "reason": "Spending hours in the library strongly suggests an attempt to gain knowledge, aligning with 'attain'. A good link, but not explicitly stated."
+  },
+  {
+    "word": "STAGNANT",
+    "clue": "Despite all your travel, there were periods where you felt _______, just sitting and waiting.",
+    "score": 4,
+    "reason": "The diary *does* describe many periods of just sitting and waiting, which can be interpreted as feeling stagnant.  A reasonable interpretation."
+  },
+  {
+    "word": "GAIT",
+    "clue": "Your frequent trips between buildings suggest a hurried _______.",
+    "score": 4,
+    "reason": "The diary repeatedly emphasizes rushing and moving between locations, strongly implying a particular manner of walking or 'gait'. The connection is logical and well-supported."
+  },
+  {
+    "word": "TAINT",
+    "clue": "Something at Seaport 'changed' you, leaving a subtle _______ on your mind.",
+    "score": 4,
+    "reason": "The diary explicitly states that something at Seaport 'changed' the author, making 'taint' a very relevant and logical association. The phrase 'leaving a subtle...' directly connects to the clue."
+  },
+  {
+    "word": "SAGging",
+    "clue": "After a long day, you might have been feeling _______, especially after all that walking and rushing.",
+    "score": 4,
+    "reason": "The diary details extensive walking and rushing, making 'sagging' (energy levels) a plausible feeling.  Not a direct fact, but a logical connection."
+  },
+  {
+    "word": "SAGging",
+    "clue": "After a long day of rushing between buildings, your energy levels may have been _______.",
+    "score": 4,
+    "reason": "Similar to the first 'SAGging' clue, the diary's emphasis on constant movement logically connects to feeling drained or 'sagging' in energy."
+  },
+  {
+    "word": "GAIN",
+    "clue": "The author spent the day rushing around, seemingly trying to _______ ground on their studies.",
+    "score": 3,
+    "reason": "The diary entries consistently describe rushing between locations for class. 'Gaining ground' fits the context of trying to keep up with studies, although it's not explicitly stated."
+  },
+  {
+    "word": "ASSIST",
+    "clue": "A friendly face could _______ you navigate the many routes you took today.",
+    "score": 3,
+    "reason": "The author travelled to many different locations and could have used assistance, so this is a logical, though not strongly emphasized, link."
+  },
+  {
+    "word": "WASTING",
+    "clue": "You spent the day _______ time traveling between buildings and studying.",
+    "score": 3,
+    "reason": "The author spent a lot of time traveling between locations, which could be interpreted as 'wasting' time, although this is a slightly negative framing. The actions described don\u2019t indicate they felt it was wasted time."
+  },
+  {
+    "word": "WAIST",
+    "clue": "You spent a lot of time walking, likely adding steps to your _______.",
+    "score": 3,
+    "reason": "The diary shows a lot of walking, making this a logical association. However, it is somewhat tangential to the main focus of the diary."
+  },
+  {
+    "word": "STAIN",
+    "clue": "The constant rush between locations might leave a _______ on your memory.",
+    "score": 3,
+    "reason": "While not directly stated, the frantic pace and numerous locations could plausibly affect memory. It's a logical association, but not a definitive fact."
+  },
+  {
+    "word": "SWAN",
+    "clue": "You moved fluidly between locations like a _______, always finding your way back to Snell Library.",
+    "score": 3,
+    "reason": "The diary does show frequent movement between locations, and a return to Snell Library, but 'fluidly' is an interpretation. Not a strong factual connection."
+  },
+  {
+    "word": "STAGING",
+    "clue": "You spent a lot of time _______ yourself at Snell Library - walking, sitting, and moving around.",
+    "score": 3,
+    "reason": "The diary details a lot of movement (walking, sitting, bathroom trips) *within* Snell Library, but 'staging' feels like a metaphorical stretch, not a direct observation."
+  },
+  {
+    "word": "WATT",
+    "clue": "You moved with a lot of energy, like a high _______, rushing between classes and locations.",
+    "score": 3,
+    "reason": "The diary describes a lot of 'rushing' and quick movements. However, equating this to 'watts' feels metaphorical and relies on interpretation, not direct observation."
+  },
+  {
+    "word": "SATIN",
+    "clue": "The diary entries describe a smooth, almost repetitive routine, like the sheen of _______.",
+    "score": 3,
+    "reason": "The routine *is* somewhat repetitive, but 'smooth' is a stretch. The connection isn't strong enough for a 5."
+  },
+  {
+    "word": "SNAG",
+    "clue": "Your day was full of rushing around, but hopefully, you didn\u2019t hit any major _______ along the way.",
+    "score": 3,
+    "reason": "The diary details a lot of rushing and movement, suggesting potential obstacles or delays, making 'snag' somewhat relevant, though not strongly implied."
+  },
+  {
+    "word": "WANING",
+    "clue": "As the day went on, your energy seemed _______, leading to more time spent sitting.",
+    "score": 3,
+    "reason": "The diary describes increasing amounts of time spent sitting as the day progresses, and implies fatigue ('My mind is older'), which supports the idea of waning energy. However, it's not a *strong* implication."
+  },
+  {
+    "word": "GNAT",
+    "clue": "All the outdoor walking, especially near the food stalls, could attract a pesky _______.",
+    "score": 3,
+    "reason": "The diary mentions walking and passing many food locations. It's reasonable to assume insects like gnats might be present, but it's not explicitly stated."
+  }
+]

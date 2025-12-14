@@ -1,0 +1,50 @@
+[
+  {
+    "word": "MIND",
+    "clue": "The user felt like their _______ had aged while waiting at their friend\u2019s office in Amazon Boston.",
+    "score": 5,
+    "reason": "Directly stated in the diary: \"I had a strange feeling, like my mind had aged.\""
+  },
+  {
+    "word": "MIDNIGHT",
+    "clue": "The diary entries started around _______, marking the beginning of a very long day.",
+    "score": 5,
+    "reason": "The first entry is timestamped \"12:00 AM\" which is midnight."
+  },
+  {
+    "word": "DIGGING",
+    "clue": "You spent the day _______ into course material, even while surrounded by noise at Northeastern University.",
+    "score": 4,
+    "reason": "The diary states the user was 'trying to repeat course material' which implies digging into it."
+  },
+  {
+    "word": "DIGIT",
+    "clue": "You saw countless addresses and times \u2013 a sea of _______ in the city.",
+    "score": 4,
+    "reason": "The diary contains many references to specific locations and times. While 'digit' is an indirect connection, it\u2019s reasonably valid considering the prevalence of numbers in the entries."
+  },
+  {
+    "word": "DING",
+    "clue": "You may have heard a _______ as the subway doors opened at South Station.",
+    "score": 4,
+    "reason": "The diary mentions passing South Station and taking the subway, so hearing a ding from subway doors is a highly probable and logical assumption."
+  },
+  {
+    "word": "HIDING",
+    "clue": "You were subtly _______ from the chaos, trying to focus while passing by busy restaurants.",
+    "score": 3,
+    "reason": "While not explicitly stated, the user repeatedly 'barely registered' places and tried to focus despite noise, suggesting a form of avoidance/hiding."
+  },
+  {
+    "word": "HIND",
+    "clue": "You traveled *behind* many people on the subway and around Boston - walking in their _______.",
+    "score": 3,
+    "reason": "The diary describes passing many places and people, implying travel amongst others. 'Hind' as in 'behind' is a reasonable association, though not explicitly stated."
+  },
+  {
+    "word": "TIMID",
+    "clue": "You mentioned feeling a strange feeling, like your mind had aged, suggesting you were somewhat _______.",
+    "score": 3,
+    "reason": "The diary mentions a feeling of the mind aging which could be linked to feeling timid or apprehensive, but it's an interpretation, not a direct statement."
+  }
+]

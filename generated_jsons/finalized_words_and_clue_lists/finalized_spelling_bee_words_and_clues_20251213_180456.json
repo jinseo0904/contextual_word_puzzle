@@ -1,0 +1,233 @@
+[
+  {
+    "word": "that",
+    "contextual_clue": "You spent a good portion of the day at Snell Library, _______ is clear from your diary.",
+    "generic_clue": "One",
+    "frequency": 0.0102,
+    "score": 5.0
+  },
+  {
+    "word": "thought",
+    "contextual_clue": "After arriving at Amazon Boston, you had a _______ that your mind felt older.",
+    "generic_clue": "Idea that pops into your head",
+    "frequency": 0.000389,
+    "score": 5.0
+  },
+  {
+    "word": "though",
+    "contextual_clue": "The library was bustling with noise, _______ you found moments of quiet to focus.",
+    "generic_clue": "Despite this",
+    "frequency": 0.000316,
+    "score": 4.0
+  },
+  {
+    "word": "although",
+    "contextual_clue": "The environment was often loud, _______ you were still able to study.",
+    "generic_clue": "___ it's raining, we'll still have a picnic",
+    "frequency": 0.0002,
+    "score": 4.0
+  },
+  {
+    "word": "total",
+    "contextual_clue": "Counting all the times you sat down, the _______ is surprisingly high.",
+    "generic_clue": "Complete sum",
+    "frequency": 0.000162,
+    "score": 5.0
+  },
+  {
+    "word": "tough",
+    "contextual_clue": "The day felt _______, with constant rushing between buildings and classes.",
+    "generic_clue": "Resilient, like old leather",
+    "frequency": 5.89e-05,
+    "score": 4.0
+  },
+  {
+    "word": "taught",
+    "contextual_clue": "N/A",
+    "generic_clue": "Imparted knowledge, past tense",
+    "frequency": 4.79e-05,
+    "score": 0
+  },
+  {
+    "word": "tool",
+    "contextual_clue": "Your laptop was an essential _______ for taking courses at Snell Library and Northeastern.",
+    "generic_clue": "Hammer or screwdriver, for example",
+    "frequency": 3.63e-05,
+    "score": 4.0
+  },
+  {
+    "word": "tall",
+    "contextual_clue": "N/A",
+    "generic_clue": "High in stature",
+    "frequency": 3.31e-05,
+    "score": 0
+  },
+  {
+    "word": "ought",
+    "contextual_clue": "N/A",
+    "generic_clue": "Should, in a moral sense",
+    "frequency": 2.24e-05,
+    "score": 0
+  },
+  {
+    "word": "thou",
+    "contextual_clue": "N/A",
+    "generic_clue": "Archaic second-person pronoun",
+    "frequency": 1.45e-05,
+    "score": 0
+  },
+  {
+    "word": "tattoo",
+    "contextual_clue": "N/A",
+    "generic_clue": "Permanent skin art",
+    "frequency": 1.38e-05,
+    "score": 0
+  },
+  {
+    "word": "toll",
+    "contextual_clue": "The constant back and forth between Snell Library and other locations felt like a _______ on your day.",
+    "generic_clue": "Price paid for road use, perhaps",
+    "frequency": 1.2e-05,
+    "score": 4.0
+  },
+  {
+    "word": "tooth",
+    "contextual_clue": "N/A",
+    "generic_clue": "Part of a smile",
+    "frequency": 1.2e-05,
+    "score": 0
+  },
+  {
+    "word": "goat",
+    "contextual_clue": "N/A",
+    "generic_clue": "Animal known for eating anything",
+    "frequency": 1.05e-05,
+    "score": 0
+  },
+  {
+    "word": "oath",
+    "contextual_clue": "N/A",
+    "generic_clue": "Solemn promise",
+    "frequency": 9.12e-06,
+    "score": 0
+  },
+  {
+    "word": "halt",
+    "contextual_clue": "Several times throughout the day, you came to a _______ at Snell Library, just sitting and trying to focus.",
+    "generic_clue": "Come to a stop",
+    "frequency": 8.51e-06,
+    "score": 5.0
+  },
+  {
+    "word": "loot",
+    "contextual_clue": "N/A",
+    "generic_clue": "Pirate's treasure",
+    "frequency": 3.09e-06,
+    "score": 0
+  },
+  {
+    "word": "thug",
+    "contextual_clue": "N/A",
+    "generic_clue": "A tough, lawless person",
+    "frequency": 3.02e-06,
+    "score": 0
+  },
+  {
+    "word": "alto",
+    "contextual_clue": "N/A",
+    "generic_clue": "Voice range lower than soprano",
+    "frequency": 2.95e-06,
+    "score": 0
+  },
+  {
+    "word": "goth",
+    "contextual_clue": "N/A",
+    "generic_clue": "Darkly romantic style",
+    "frequency": 1.7e-06,
+    "score": 0
+  },
+  {
+    "word": "lotto",
+    "contextual_clue": "N/A",
+    "generic_clue": "Numbers game with a jackpot",
+    "frequency": 1.7e-06,
+    "score": 0
+  },
+  {
+    "word": "tout",
+    "contextual_clue": "N/A",
+    "generic_clue": "Promote enthusiastically",
+    "frequency": 1.51e-06,
+    "score": 0
+  },
+  {
+    "word": "gout",
+    "contextual_clue": "N/A",
+    "generic_clue": "Painful joint inflammation",
+    "frequency": 1.15e-06,
+    "score": 0
+  },
+  {
+    "word": "toot",
+    "contextual_clue": "N/A",
+    "generic_clue": "Brief horn sound",
+    "frequency": 1.07e-06,
+    "score": 0
+  },
+  {
+    "word": "hoot",
+    "contextual_clue": "N/A",
+    "generic_clue": "Owl's sound",
+    "frequency": 9.77e-07,
+    "score": 0
+  },
+  {
+    "word": "taut",
+    "contextual_clue": "Your schedule seemed particularly _______, rushing between Snell, Northeastern, and Amazon Boston.",
+    "generic_clue": "Like a stretched rubber band",
+    "frequency": 8.13e-07,
+    "score": 5.0
+  },
+  {
+    "word": "glut",
+    "contextual_clue": "You passed an overwhelming _______ of Dunkin' and Subway locations today.",
+    "generic_clue": "Excessive amount",
+    "frequency": 6.46e-07,
+    "score": 4.0
+  },
+  {
+    "word": "allot",
+    "contextual_clue": "You _______-ed a significant portion of your day to studying at Snell Library.",
+    "generic_clue": "Assign or distribute",
+    "frequency": 6.17e-07,
+    "score": 5.0
+  },
+  {
+    "word": "toga",
+    "contextual_clue": "N/A",
+    "generic_clue": "Ancient Roman garment",
+    "frequency": 5.37e-07,
+    "score": 0
+  },
+  {
+    "word": "gloat",
+    "contextual_clue": "N/A",
+    "generic_clue": "Behave in a smugly self-satisfied way",
+    "frequency": 4.17e-07,
+    "score": 0
+  },
+  {
+    "word": "lout",
+    "contextual_clue": "N/A",
+    "generic_clue": "Rambler or wanderer, perhaps",
+    "frequency": 1.35e-07,
+    "score": 0
+  },
+  {
+    "word": "outgo",
+    "contextual_clue": "The diary details numerous instances of your _______, travelling between Grove Hall, Snell Library, Northeastern, and Seaport.",
+    "generic_clue": "Expenses, as opposed to income",
+    "frequency": 2.19e-08,
+    "score": 5.0
+  }
+]

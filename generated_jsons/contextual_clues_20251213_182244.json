@@ -1,0 +1,50 @@
+[
+  {
+    "word": "MIND",
+    "clue": "The user felt like their _______ had aged while waiting at their friend\u2019s office in Amazon Boston.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "DIGGING",
+    "clue": "You spent the day _______ into course material, even while surrounded by noise at Northeastern University.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "MIDNIGHT",
+    "clue": "The diary entries started around _______, marking the beginning of a very long day.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "HIDING",
+    "clue": "You were subtly _______ from the chaos, trying to focus while passing by busy restaurants.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "DIGIT",
+    "clue": "You saw countless addresses and times \u2013 a sea of _______ in the city.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "HIND",
+    "clue": "You traveled *behind* many people on the subway and around Boston - walking in their _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TIMID",
+    "clue": "You mentioned feeling a strange feeling, like your mind had aged, suggesting you were somewhat _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "DING",
+    "clue": "You may have heard a _______ as the subway doors opened at South Station.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  }
+]

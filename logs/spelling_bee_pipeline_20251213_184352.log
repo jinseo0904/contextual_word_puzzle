@@ -1,0 +1,603 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-43
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-43.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- implement (freq: 0.000016)
+- careful (freq: 0.000039)
+- dimension (freq: 0.000010)
+- military (freq: 0.000158)
+- february (freq: 0.000107)
+- heating (freq: 0.000015)
+- publicly (freq: 0.000019)
+- predict (freq: 0.000012)
+- internal (freq: 0.000046)
+- existence (freq: 0.000036)
+
+Randomly selected candidate: february
+Selected seed word: february
+
+[2/4] Generating spelling bee puzzle for seed word 'february'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'february'
+✓ Found 67 words for candidate 'february' with center letter 'y'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'yeara' (freq: 1.82e-08) because it contains 'year' (freq: 9.12e-04) [frequency]
+  - Dropped 'rebury' (freq: 3.31e-08) because it contains 'bury' (freq: 7.76e-06) [affix]
+  - Dropped 'arrayer' (freq: 0.00e+00) because it contains 'array' (freq: 1.26e-05) [affix]
+  - Dropped 'barberry' (freq: 7.08e-08) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'bayberry' (freq: 5.13e-08) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'berberry' (freq: 0.00e+00) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'feaberry' (freq: 0.00e+00) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'bearberry' (freq: 2.04e-08) because it contains 'berry' (freq: 9.33e-06) [frequency]
+
+✓ Generated puzzle with 59 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: FEBRUARY
+Clue: 
+Distinct letters: a, b, e, f, r, u, y
+Center letter: y (required in all words)
+Total valid words: 59
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. year                 (freq: 9.12e-04)
+   2. baby                 (freq: 1.82e-04)
+   3. february             (freq: 1.07e-04)
+   4. barry                (freq: 1.82e-05)
+   5. array                (freq: 1.26e-05)
+   6. buyer                (freq: 1.07e-05)
+   7. ferry                (freq: 1.05e-05)
+   8. ruby                 (freq: 9.55e-06)
+   9. berry                (freq: 9.33e-06)
+  10. fury                 (freq: 8.13e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+✓ Loaded 59 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 20 words with frequency 0.0
+  Examples: abray, abye, affrayer, affy, arefy, ayry, babery, baffy, beray, effray...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 12 words always included (frequency > threshold)
+✓ 27 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 27 words in batches of 5...
+
+  Processing batch 1/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 3/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['bub']
+    Result: 1 kept, 4 removed
+  Processing batch 4/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 5/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['aërial']
+    Result: 0 kept, 6 removed
+  Processing batch 6/6 (2 words)...
+    Sending 2 words with definitions to LLM
+    Result: 0 kept, 2 removed
+
+✓ Processed 6 batch(es)
+  Kept: 5 words
+  Removed: 23 words
+
+  ✓ All 5 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 23
+
+Word: abay
+Reason: Obsolete usage; unlikely to be recognized by a general audience.
+
+Word: aery
+Reason: An archaic spelling of aerie; uncommon in modern usage and unlikely to be guessed.
+
+Word: araby
+Reason: Archaic and poetic form of 'Arabia'; not widely known (criterion 1).
+
+Word: aërial
+Reason: No explanation provided
+
+Word: barbary
+Reason: Archaic, obscure geographical/animal term (criterion 1).
+
+Word: baya
+Reason: Specific bird species; niche zoological term not widely known (Criterion 3).
+
+Word: beery
+Reason: Obscure word not commonly known by typical adults; falls under criterion 8 (uncommon words).
+
+Word: brayer
+Reason: A specialized printing term (implement for spreading ink); niche and unlikely to be known by most people.
+
+Word: bubby
+Reason: Low-frequency slang; unlikely to be guessed by a general audience (criterion 8).
+
+Word: buffy
+Reason: Specialized biological term referring to the buffy coat of blood; not commonly known outside scientific contexts (criterion 7).
+
+Word: burry
+Reason: Specialized botanical description, not commonly known (criterion 8).
+
+Word: byre
+Reason: Farmhouse for cows; relatively uncommon everyday word (Criterion 8).
+
+Word: eery
+Reason: Old variant of 'eerie'; not commonly used in modern English (Criterion 1).
+
+Word: eyer
+Reason: An archaic, obscure term unlikely to be known by typical adults (criterion 1).
+
+Word: eyre
+Reason: Archaic legal term for a judicial circuit; unlikely to be recognized by typical adults (criterion 1).
+
+Word: faery
+Reason: Archaic spelling of 'fairy'; unlikely to be recognized by typical adults (Criterion 1).
+
+Word: farry
+Reason: Obsolete term with very low frequency; typical adults would not know it.
+
+Word: feyre
+Reason: A Chaucerian, obsolete word for a fair or market, not recognizable to a general audience (criterion 1).
+
+Word: freya
+Reason: Mythological goddess; not a common everyday word (criterion 8).
+
+Word: urry
+Reason: Obscure geological term for a type of clay; specialized vocabulary (Criterion 7).
+
+Word: yare
+Reason: Archaic word; rarely used in modern language (criterion 1).
+
+Word: yarr
+Reason: Obsolete and very rare; typical adults would not know this word.
+
+Word: yerba
+Reason: Foreign loanword with limited use in English (criterion 8).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-43.json
+✓ Saved 17 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 59
+  - Removed (frequency = 0.0): 20
+  - Always included (frequency > 5e-06): 12
+  - Processed by LLM: 27
+    * Kept: 5
+    * Removed: 23
+Final words: 17
+Total removed: 42 (71.2%)
+  - Zero frequency: 20
+  - Removed by LLM: 23
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-43.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-43.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-43.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, DISTRACTED, HEAVY_PHONE_USE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HEAVY_PHONE_USE, HIGH_EXERTION, DISTRACTED, LOUD_ENVIRONMENT, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE, LOUD_ENVIRONMENT, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HEAVY_PHONE_USE, HIGH_EXERTION, DISTRACTED, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE, DISTRACTED, HEAVY_PHONE_USE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM - 08:27 AM – Woke up this morning in Grove Hall, Roxbury. It was a quiet start to the day, a peaceful atmosphere while I gathered myself. 
+
+08:27 AM – Left Grove Hall and hurried towards Snell Library in Fenway. I cycled, then sat for a moment catching my breath. Passed a string of spots like Dunkin' and even spotted the Subway along the way.
+
+08:54 AM – Made it to Snell Library, immediately feeling the pressure – it was a rush just getting inside! I was walking to class, leaving Snell, already feeling the day pick up pace.
+
+09:05 AM – Still rushing, I walked from Snell Library to Northeastern University in Fenway, glued to my screen as I navigated. So many places along the way: Argo Tea, Tu Taco, The Boston Globe Library, another Dunkin', Burger 373… it was a blur. 
+
+09:07 AM – Arrived at Northeastern, sat down to repeat some course material, trying to stay focused even with the loud environment. It was a bit of a social atmosphere, actually.
+
+10:17 AM – Suddenly, I was on the move again, power-walking back to Snell Library. I passed Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, and Churchill's along the way.
+
+10:20 AM – Back at Snell Library, I sat down and finally focused, trying to block out the audible movement around me.
+
+11:09 AM – Another rush! This time I was running to the train station, heading towards Amazon Boston in Seaport. I was writing Subway to go to Seaport. The route was packed with places: Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Melting Sun, another Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, and Caffé Strega.
+
+11:42 PM – Finally arrived at Amazon Boston in Seaport. I walked to my friend’s office then sat in the lobby waiting. It was a quiet atmosphere, yet I felt like my mind was changing, getting older.
+
+01:51 PM – Time to head back to school. I walked back to school from Seaport, and sat here on the train. I passed Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita.
+
+02:18 PM – Back at Snell Library, I settled down and sat for a while.
+
+02:48 PM – A quick move to Ryder Hall in Fenway. I passed a Subway and another Dunkin' on the way.
+
+02:50 PM – Arrived at Ryder Hall and walked into class.
+
+04:45 PM – Class finished, I hurried back to Snell Library. Passed the Subway once more.
+
+04:49 PM – Back at Snell Library, I sat down, craving being back in the library. I sat taking course, walking to the bathroom. I was taking class in the library, sitting down patient in the snow. Now, I'm sitting down doing homework, taking assignments. I’m walking in the library.
+
+09:21 PM – Leaving Snell Library, I headed back to Grove Hall. I passed ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, and finally arrived at Uphams Corner. 
+
+09:45 PM – Back in Grove Hall, the atmosphere was a mix of social energy and quiet observation. I just stood, taking it all in.
+
+11:59 PM – And now, finally, it’s time for bed. 
+
+
+
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "YEAR",
+    "clue": "This diary documents a single _______ of travel and study.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "ARRAY",
+    "clue": "The diary details an _______ of restaurants and shops passed during your travels.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FEBRUARY",
+    "clue": "Though the diary doesn't mention the date, the snowy atmosphere suggests this _______ could be the month.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "BUYER",
+    "clue": "You passed numerous restaurants and cafes \u2013 a potential stop for a hungry _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "RUBY",
+    "clue": "You traveled to Ryder Hall, a building with a _______-colored name.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "BERRY",
+    "clue": "You passed Dunkin' countless times, likely craving a _______-flavored refreshment.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FURY",
+    "clue": "You rushed between locations with noticeable _______, from Snell to Northeastern.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "BURY",
+    "clue": "You seemed to _______ yourself in work at Snell Library, trying to block out distractions.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FRAY",
+    "clue": "The constant movement between buildings and locations created a bit of a _______ to your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ABBEY",
+    "clue": "Snell Library felt like an _______, a quiet and studious space where you spent much of your day.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "FURRY",
+    "clue": "Perhaps a _______ friend accompanied you on your travels around Boston, though it is not mentioned.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "BRAY",
+    "clue": "The social atmosphere in Northeastern University created a bit of a _______-like noise level.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "BEEFY",
+    "clue": "You passed Burger 373, a restaurant known for its _______ offerings.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "AFFRAY",
+    "clue": "The 'rush' described several times felt like a small _______, navigating crowded spaces.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "When traveling to Amazon Boston in Seaport, you needed to purchase a _______ to ride the train.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "BEEFY",
+    "clue": "You walked by Burger 373, potentially craving something _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  }
+]
+[
+  {
+    "word": "YEAR",
+    "clue": "Twelve months' time"
+  },
+  {
+    "word": "BABY",
+    "clue": "Infant, in common parlance"
+  },
+  {
+    "word": "FEBRUARY",
+    "clue": "Month of Valentine's Day"
+  },
+  {
+    "word": "BARRY",
+    "clue": "Newman of 'Seinfeld'"
+  },
+  {
+    "word": "ARRAY",
+    "clue": "An impressive display"
+  },
+  {
+    "word": "BUYER",
+    "clue": "Shopper, at the store"
+  },
+  {
+    "word": "FERRY",
+    "clue": "Boat that crosses a harbor"
+  },
+  {
+    "word": "RUBY",
+    "clue": "A precious red gemstone"
+  },
+  {
+    "word": "BERRY",
+    "clue": "Strawberry or blueberry, for example"
+  },
+  {
+    "word": "FURY",
+    "clue": "Intense anger"
+  },
+  {
+    "word": "BURY",
+    "clue": "Inter with the dead"
+  },
+  {
+    "word": "ABBEY",
+    "clue": "Monastery or convent"
+  },
+  {
+    "word": "FURRY",
+    "clue": "Like a kitten's coat"
+  },
+  {
+    "word": "BRAY",
+    "clue": "Donkey's loud call"
+  },
+  {
+    "word": "FRAY",
+    "clue": "Unravel or wear thin"
+  },
+  {
+    "word": "BEEFY",
+    "clue": "Like a well-built athlete"
+  },
+  {
+    "word": "AFFRAY",
+    "clue": "Brief, chaotic scuffle"
+  }
+]
+Finalized clues saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/finalized_words_and_clue_lists/finalized_spelling_bee_words_and_clues_20251213_184352.json

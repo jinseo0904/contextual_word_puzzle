@@ -1,0 +1,86 @@
+[
+  {
+    "word": "ARRAY",
+    "clue": "The diary details an _______ of restaurants and shops passed during your travels.",
+    "score": 5,
+    "reason": "The diary explicitly lists numerous restaurants and shops, making 'array' a highly valid descriptor."
+  },
+  {
+    "word": "BURY",
+    "clue": "You seemed to _______ yourself in work at Snell Library, trying to block out distractions.",
+    "score": 5,
+    "reason": "The diary states the person was 'trying to block out distractions' and 'focus', which strongly suggests immersion and 'burying' oneself in work."
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "score": 5,
+    "reason": "Taking the subway inherently involves paying a fare. A direct and logical connection to the diary text."
+  },
+  {
+    "word": "FARE",
+    "clue": "When traveling to Amazon Boston in Seaport, you needed to purchase a _______ to ride the train.",
+    "score": 5,
+    "reason": "The diary explicitly states travel to Amazon Boston involves taking the train. Train travel generally requires a fare."
+  },
+  {
+    "word": "YEAR",
+    "clue": "This diary documents a single _______ of travel and study.",
+    "score": 4,
+    "reason": "The diary details a day's worth of activities, implying a year of study or travel is the broader context."
+  },
+  {
+    "word": "BUYER",
+    "clue": "You passed numerous restaurants and cafes \u2013 a potential stop for a hungry _______.",
+    "score": 4,
+    "reason": "Passing many restaurants logically implies potential customers, making 'buyer' a valid association."
+  },
+  {
+    "word": "BERRY",
+    "clue": "You passed Dunkin' countless times, likely craving a _______-flavored refreshment.",
+    "score": 4,
+    "reason": "The diary repeatedly mentions passing Dunkin', making a craving for a berry-flavored refreshment a reasonable inference."
+  },
+  {
+    "word": "FURY",
+    "clue": "You rushed between locations with noticeable _______, from Snell to Northeastern.",
+    "score": 4,
+    "reason": "The diary explicitly mentions 'rushing' and 'hurrying', aligning with the concept of fury or intense energy during movement."
+  },
+  {
+    "word": "FRAY",
+    "clue": "The constant movement between buildings and locations created a bit of a _______ to your day.",
+    "score": 4,
+    "reason": "The diary documents numerous trips between locations and a feeling of being rushed, indicating a chaotic or 'frayed' day."
+  },
+  {
+    "word": "BEEFY",
+    "clue": "You passed Burger 373, a restaurant known for its _______ offerings.",
+    "score": 4,
+    "reason": "Burger restaurants are generally known for serving beef. A reasonable assumption based on the diary's mention of the restaurant."
+  },
+  {
+    "word": "BEEFY",
+    "clue": "You walked by Burger 373, potentially craving something _______.",
+    "score": 4,
+    "reason": "Burger 373 suggests burgers, which are typically 'beefy' and craving something is a reasonable assumption."
+  },
+  {
+    "word": "FEBRUARY",
+    "clue": "Though the diary doesn't mention the date, the snowy atmosphere suggests this _______ could be the month.",
+    "score": 3,
+    "reason": "The diary mentions snow ('sitting down patient in the snow'), making February a plausible, though not definitively stated, month. It's a reasonable inference."
+  },
+  {
+    "word": "ABBEY",
+    "clue": "Snell Library felt like an _______, a quiet and studious space where you spent much of your day.",
+    "score": 3,
+    "reason": "Snell Library is described as a place of focus and study, but 'abbey' is a bit of a stretch. It's a plausible metaphor, but not a strong connection."
+  },
+  {
+    "word": "AFFRAY",
+    "clue": "The 'rush' described several times felt like a small _______, navigating crowded spaces.",
+    "score": 3,
+    "reason": "The diary uses the word 'rush' to describe feeling hurried and navigating crowded spaces. 'Affray' suggests a disturbance or commotion; while there's a slight thematic link (busy, hurried), it's a somewhat dramatic interpretation."
+  }
+]

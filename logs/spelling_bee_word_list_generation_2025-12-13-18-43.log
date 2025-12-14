@@ -1,0 +1,229 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-43
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-43.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- implement (freq: 0.000016)
+- careful (freq: 0.000039)
+- dimension (freq: 0.000010)
+- military (freq: 0.000158)
+- february (freq: 0.000107)
+- heating (freq: 0.000015)
+- publicly (freq: 0.000019)
+- predict (freq: 0.000012)
+- internal (freq: 0.000046)
+- existence (freq: 0.000036)
+
+Randomly selected candidate: february
+Selected seed word: february
+
+[2/4] Generating spelling bee puzzle for seed word 'february'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'february'
+✓ Found 67 words for candidate 'february' with center letter 'y'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'yeara' (freq: 1.82e-08) because it contains 'year' (freq: 9.12e-04) [frequency]
+  - Dropped 'rebury' (freq: 3.31e-08) because it contains 'bury' (freq: 7.76e-06) [affix]
+  - Dropped 'arrayer' (freq: 0.00e+00) because it contains 'array' (freq: 1.26e-05) [affix]
+  - Dropped 'barberry' (freq: 7.08e-08) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'bayberry' (freq: 5.13e-08) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'berberry' (freq: 0.00e+00) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'feaberry' (freq: 0.00e+00) because it contains 'berry' (freq: 9.33e-06) [frequency]
+  - Dropped 'bearberry' (freq: 2.04e-08) because it contains 'berry' (freq: 9.33e-06) [frequency]
+
+✓ Generated puzzle with 59 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: FEBRUARY
+Clue: 
+Distinct letters: a, b, e, f, r, u, y
+Center letter: y (required in all words)
+Total valid words: 59
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. year                 (freq: 9.12e-04)
+   2. baby                 (freq: 1.82e-04)
+   3. february             (freq: 1.07e-04)
+   4. barry                (freq: 1.82e-05)
+   5. array                (freq: 1.26e-05)
+   6. buyer                (freq: 1.07e-05)
+   7. ferry                (freq: 1.05e-05)
+   8. ruby                 (freq: 9.55e-06)
+   9. berry                (freq: 9.33e-06)
+  10. fury                 (freq: 8.13e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_february_2025-12-13-18-43.json
+✓ Loaded 59 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 20 words with frequency 0.0
+  Examples: abray, abye, affrayer, affy, arefy, ayry, babery, baffy, beray, effray...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 12 words always included (frequency > threshold)
+✓ 27 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 27 words in batches of 5...
+
+  Processing batch 1/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 3/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['bub']
+    Result: 1 kept, 4 removed
+  Processing batch 4/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 5/6 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['aërial']
+    Result: 0 kept, 6 removed
+  Processing batch 6/6 (2 words)...
+    Sending 2 words with definitions to LLM
+    Result: 0 kept, 2 removed
+
+✓ Processed 6 batch(es)
+  Kept: 5 words
+  Removed: 23 words
+
+  ✓ All 5 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 23
+
+Word: abay
+Reason: Obsolete usage; unlikely to be recognized by a general audience.
+
+Word: aery
+Reason: An archaic spelling of aerie; uncommon in modern usage and unlikely to be guessed.
+
+Word: araby
+Reason: Archaic and poetic form of 'Arabia'; not widely known (criterion 1).
+
+Word: aërial
+Reason: No explanation provided
+
+Word: barbary
+Reason: Archaic, obscure geographical/animal term (criterion 1).
+
+Word: baya
+Reason: Specific bird species; niche zoological term not widely known (Criterion 3).
+
+Word: beery
+Reason: Obscure word not commonly known by typical adults; falls under criterion 8 (uncommon words).
+
+Word: brayer
+Reason: A specialized printing term (implement for spreading ink); niche and unlikely to be known by most people.
+
+Word: bubby
+Reason: Low-frequency slang; unlikely to be guessed by a general audience (criterion 8).
+
+Word: buffy
+Reason: Specialized biological term referring to the buffy coat of blood; not commonly known outside scientific contexts (criterion 7).
+
+Word: burry
+Reason: Specialized botanical description, not commonly known (criterion 8).
+
+Word: byre
+Reason: Farmhouse for cows; relatively uncommon everyday word (Criterion 8).
+
+Word: eery
+Reason: Old variant of 'eerie'; not commonly used in modern English (Criterion 1).
+
+Word: eyer
+Reason: An archaic, obscure term unlikely to be known by typical adults (criterion 1).
+
+Word: eyre
+Reason: Archaic legal term for a judicial circuit; unlikely to be recognized by typical adults (criterion 1).
+
+Word: faery
+Reason: Archaic spelling of 'fairy'; unlikely to be recognized by typical adults (Criterion 1).
+
+Word: farry
+Reason: Obsolete term with very low frequency; typical adults would not know it.
+
+Word: feyre
+Reason: A Chaucerian, obsolete word for a fair or market, not recognizable to a general audience (criterion 1).
+
+Word: freya
+Reason: Mythological goddess; not a common everyday word (criterion 8).
+
+Word: urry
+Reason: Obscure geological term for a type of clay; specialized vocabulary (Criterion 7).
+
+Word: yare
+Reason: Archaic word; rarely used in modern language (criterion 1).
+
+Word: yarr
+Reason: Obsolete and very rare; typical adults would not know this word.
+
+Word: yerba
+Reason: Foreign loanword with limited use in English (criterion 8).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-43.json
+✓ Saved 17 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 59
+  - Removed (frequency = 0.0): 20
+  - Always included (frequency > 5e-06): 12
+  - Processed by LLM: 27
+    * Kept: 5
+    * Removed: 23
+Final words: 17
+Total removed: 42 (71.2%)
+  - Zero frequency: 20
+  - Removed by LLM: 23
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-43.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-43.log
+======================================================================

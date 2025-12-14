@@ -1,0 +1,242 @@
+[
+  {
+    "word": "LINE",
+    "clue": "You waited in a _______ for the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "BELL",
+    "clue": "A _______ might signal the end of a class at Ryder Hall at 4:45 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "BILL",
+    "clue": "After stopping for coffee, you probably had to pay a _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "BLIND",
+    "clue": "You were sometimes distracted while walking, almost like you were _______ to your surroundings.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "BIBLE",
+    "clue": "You spent a lot of time studying, almost as if it were your _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "NEEDLE",
+    "clue": "Despite all the rushing, you felt as if your mind was becoming _______-sharp, thinking about course material.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "BLEEDING",
+    "clue": "After a long day of rushing, you mentioned your mind felt older, almost _______-dry of energy.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "LEGEND",
+    "clue": "You passed so many restaurants and stores, the list reads like a local _______ of eateries and shops.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ELIGIBLE",
+    "clue": "You moved between different buildings, presumably _______ to attend classes or work on assignments.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "LIED",
+    "clue": "Throughout the day, you constantly moved between locations; you didn't stay in one place for long, as if you _______-in-wait.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 1
+  },
+  {
+    "word": "BLEND",
+    "clue": "The constant movement between locations created a _______ of activity in your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "BLEND",
+    "clue": "The sounds of the library and the city seemed to _______ together as you studied.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LEND",
+    "clue": "Hopefully, the library will _______ you the resources you need to succeed in your courses.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LINING",
+    "clue": "You were constantly walking and _______ up to take the train.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "BLEED",
+    "clue": "With all of the rushing from place to place, your time seemed to _______ away.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "IDLE",
+    "clue": "After a hectic morning, you often found moments to be _______, especially back at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "EDIBLE",
+    "clue": "You passed numerous _______ establishments today, including Dunkin', Subway, and Sweet Tomatoes Pizza.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "LEGGED",
+    "clue": "You spent a significant portion of your day _______, rushing between buildings and locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "LEDGE",
+    "clue": "Perhaps you felt as though you were on the _______ of exhaustion, constantly rushing between locations.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "NEGLIGIBLE",
+    "clue": "The amount of time you spent actually *standing* around was _______, as you were constantly on the move.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GLIDE",
+    "clue": "You seemed to _______ between Snell Library and Ryder Hall all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "BILE",
+    "clue": "After a long day of rushing around, you noted your mind felt older, as if filled with _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LINDEN",
+    "clue": "You passed by many establishments, but none were named _______.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "LEGIBLE",
+    "clue": "You were taking notes in class, hoping your handwriting was _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "INDELIBLE",
+    "clue": "The many locations you visited\u2014Snell Library, Amazon, Grove Hall\u2014left an _______ impression on your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "BELIE",
+    "clue": "You may have had a hard time making your notes _______-vable after a long day of rushing.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "GLIB",
+    "clue": "Perhaps you gave a _______ explanation for your constant rushing between locations.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "INEDIBLE",
+    "clue": "Despite passing many restaurants, you didn't mention eating anything _______ today.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "GILDING",
+    "clue": "You were at Snell Library and Ryder Hall, both places with a certain _______ to their architecture.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "ILLEGIBLE",
+    "clue": "After a long day of rushing and writing on the subway, your notes might be _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "LEGGING",
+    "clue": "You were constantly _______ between buildings and locations throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "DIDDLE",
+    "clue": "You seemed to _______ away the hours, repeatedly sitting and working at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "GILD",
+    "clue": "You may have wished to _______ your time at Snell Library, craving the quiet space.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ELIDE",
+    "clue": "You frequently skipped over details or _______-d parts of your journey, quickly moving from location to location.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "GELID",
+    "clue": "Despite the bustling activity around you, Snell Library often felt _______ and calm, providing a welcome respite.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "FARE",
+    "clue": "A _______ was needed to ride the subway from Amazon Boston back toward school.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  }
+]

@@ -1,0 +1,193 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-17-27
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-27.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- impressive (freq: 0.000029)
+- detection (freq: 0.000012)
+- sucking (freq: 0.000008)
+- version (freq: 0.000117)
+- praying (freq: 0.000010)
+- instead (freq: 0.000174)
+- newspaper (freq: 0.000040)
+- instantly (freq: 0.000017)
+- resolved (freq: 0.000013)
+- cleaning (freq: 0.000024)
+
+Randomly selected candidate: sucking
+Selected seed word: sucking
+
+[2/4] Generating spelling bee puzzle for seed word 'sucking'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'sucking'
+✓ Found 47 words for candidate 'sucking' with center letter 's'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'skink' (freq: 1.38e-07) because it contains 'skin' (freq: 8.13e-05) [frequency]
+  - Dropped 'cuskin' (freq: 0.00e+00) because it contains 'skin' (freq: 8.13e-05) [frequency]
+  - Dropped 'siskin' (freq: 4.57e-08) because it contains 'skin' (freq: 8.13e-05) [frequency]
+  - Dropped 'unkiss' (freq: 0.00e+00) because it contains 'kiss' (freq: 3.80e-05) [frequency]
+  - Dropped 'singing' (freq: 3.89e-05) because it contains 'sing' (freq: 3.47e-05) [affix]
+  - Dropped 'sinking' (freq: 6.76e-06) because it contains 'sink' (freq: 1.62e-05) [affix]
+  - Dropped 'sucking' (freq: 7.59e-06) because it contains 'suck' (freq: 2.63e-05) [affix]
+
+✓ Generated puzzle with 40 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: SUCKING
+Clue: 
+Distinct letters: c, g, i, k, n, s, u
+Center letter: s (required in all words)
+Total valid words: 40
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. sign                 (freq: 1.20e-04)
+   2. skin                 (freq: 8.13e-05)
+   3. sick                 (freq: 7.59e-05)
+   4. kiss                 (freq: 3.80e-05)
+   5. sing                 (freq: 3.47e-05)
+   6. suck                 (freq: 2.63e-05)
+   7. isis                 (freq: 1.86e-05)
+   8. sink                 (freq: 1.62e-05)
+   9. sung                 (freq: 8.13e-06)
+  10. sunk                 (freq: 5.50e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_sucking_2025-12-13-17-27.json
+✓ Loaded 40 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 12 words with frequency 0.0
+  Examples: cincinnus, incuss, kuskus, scink, scug, sinic, skun, snig, snigg, succus...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 10 words always included (frequency > threshold)
+✓ 18 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 18 words in batches of 5...
+
+  Processing batch 1/4 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 2/4 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 3/4 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['knight']
+    Result: 0 kept, 5 removed
+  Processing batch 4/4 (3 words)...
+    Sending 3 words with definitions to LLM
+    Result: 0 kept, 3 removed
+
+✓ Processed 4 batch(es)
+  Kept: 4 words
+  Removed: 14 words
+
+  ✓ All 4 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 14
+
+Word: cuscus
+Reason: Obscure botanical term; not a common everyday word (criterion 4).
+
+Word: cusk
+Reason: Specific fish species; not a common everyday word (criterion 3).
+
+Word: incus
+Reason: Specialized anatomical term for a small ear bone; not widely known (criterion 7).
+
+Word: nisi
+Reason: An obscure legal term meaning 'unless', unlikely to be known or guessed by typical adults (criterion 1 – rare/obscure word).
+
+Word: nisus
+Reason: Archaic philosophical term; not common everyday use (criterion 1).
+
+Word: nuncius
+Reason: A Latin word meaning messenger, not part of everyday vocabulary and too obscure for a general audience (criterion 1).
+
+Word: siss
+Reason: Obscure verb meaning 'to hiss'; unlikely to be guessed by general audience (criterion 1).
+
+Word: snick
+Reason: An obscure term for a small cut or a slight hit; typical adults are unlikely to know it (criterion 1).
+
+Word: succinic
+Reason: Chemical/biochemical term; specialized vocabulary (criterion 7).
+
+Word: sunn
+Reason: Specific plant species; not widely known (criterion 3).
+
+Word: susu
+Reason: Obsolete or niche term; cross-reference to an obscure word (criterion 1).
+
+Word: uncus
+Reason: An anatomical hook or claw; highly specialized and unlikely to be known (criterion 7).
+
+Word: unguis
+Reason: The term is a Latin-derived anatomical word that is obscure and unlikely to be known by typical adults (criterion 1).
+
+Word: usnic
+Reason: This is a specialized chemical term related to lichens, falling under specialized biochemical terminology (criterion 7).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-27.json
+✓ Saved 14 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 40
+  - Removed (frequency = 0.0): 12
+  - Always included (frequency > 5e-06): 10
+  - Processed by LLM: 18
+    * Kept: 4
+    * Removed: 14
+Final words: 14
+Total removed: 26 (65.0%)
+  - Zero frequency: 12
+  - Removed by LLM: 14
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-27.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-27.log
+======================================================================

@@ -1,0 +1,331 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-16
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-16.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- thunder (freq: 0.000014)
+- charlie (freq: 0.000027)
+- controller (freq: 0.000013)
+- bleeding (freq: 0.000012)
+- translate (freq: 0.000009)
+- century (freq: 0.000105)
+- anxious (freq: 0.000012)
+- removal (freq: 0.000022)
+- ceremony (freq: 0.000026)
+- quickly (freq: 0.000100)
+
+Randomly selected candidate: bleeding
+Selected seed word: bleeding
+
+[2/4] Generating spelling bee puzzle for seed word 'bleeding'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'bleeding'
+✓ Found 137 words for candidate 'bleeding' with center letter 'l'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'belle' (freq: 6.17e-06) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'linen' (freq: 4.07e-06) because it contains 'line' (freq: 3.09e-04) [frequency]
+  - Dropped 'belled' (freq: 1.95e-08) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'billed' (freq: 3.89e-06) because it contains 'bill' (freq: 1.41e-04) [frequency]
+  - Dropped 'blende' (freq: 2.45e-08) because it contains 'lend' (freq: 8.32e-06) [frequency]
+  - Dropped 'blinde' (freq: 2.29e-08) because it contains 'blind' (freq: 3.31e-05) [frequency]
+  - Dropped 'deline' (freq: 2.63e-08) because it contains 'line' (freq: 3.09e-04) [frequency]
+  - Dropped 'lilied' (freq: 0.00e+00) because it contains 'lied' (freq: 1.62e-05) [frequency]
+  - Dropped 'bellied' (freq: 5.13e-07) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'belling' (freq: 1.05e-07) because it contains 'bell' (freq: 3.89e-05) [affix]
+  - Dropped 'billing' (freq: 3.89e-06) because it contains 'bill' (freq: 1.41e-04) [affix]
+  - Dropped 'lending' (freq: 7.41e-06) because it contains 'lend' (freq: 8.32e-06) [affix]
+  - Dropped 'blending' (freq: 2.75e-06) because it contains 'lend' (freq: 8.32e-06) [frequency]
+  - Dropped 'blinding' (freq: 1.58e-06) because it contains 'blind' (freq: 3.31e-05) [affix]
+  - Dropped 'libellee' (freq: 0.00e+00) because it contains 'bell' (freq: 3.89e-05) [frequency]
+  - Dropped 'ineligible' (freq: 1.95e-06) because it contains 'eligible' (freq: 1.95e-05) [frequency]
+
+✓ Generated puzzle with 121 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: BLEEDING
+Clue: 
+Distinct letters: b, d, e, g, i, l, n
+Center letter: l (required in all words)
+Total valid words: 121
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. line                 (freq: 3.09e-04)
+   2. bill                 (freq: 1.41e-04)
+   3. bell                 (freq: 3.89e-05)
+   4. bible                (freq: 3.47e-05)
+   5. blind                (freq: 3.31e-05)
+   6. legend               (freq: 2.75e-05)
+   7. eligible             (freq: 1.95e-05)
+   8. lied                 (freq: 1.62e-05)
+   9. bleeding             (freq: 1.20e-05)
+  10. needle               (freq: 9.55e-06)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_bleeding_2025-12-13-18-16.json
+✓ Loaded 121 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 29 words with frequency 0.0
+  Examples: bebleed, begild, beild, belee, belibel, bielid, blenniid, debel, debile, deleble...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 16 words always included (frequency > threshold)
+✓ 76 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 76 words in batches of 5...
+
+  Processing batch 1/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 2/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 3/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['boil']
+    Result: 5 kept, 0 removed
+  Processing batch 4/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 5/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 7/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 8/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 9/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 10/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 11/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 12/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 13/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 14/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 15/16 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 16/16 (1 words)...
+    Sending 1 words with definitions to LLM
+    Result: 0 kept, 1 removed
+
+✓ Processed 16 batch(es)
+  Kept: 31 words
+  Removed: 45 words
+
+  ✓ All 31 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 45
+
+Word: bedel
+Reason: Obsolete synonym of Beadle; not commonly known by typical adults.
+
+Word: bedell
+Reason: An archaic variant of ‘beadle’, not commonly known by typical adults (Criterion 1: obsolete word).
+
+Word: beeld
+Reason: Obsolete or non‑standard variant of 'beild'; lacks common recognition.
+
+Word: bield
+Reason: Scots-specific term meaning shelter; not widely known (category 3).
+
+Word: bilge
+Reason: Specialized nautical term referring to a ship's bottom; unlikely to be known by typical adults (criterion 8).
+
+Word: bilin
+Reason: Biochemical substance derived from bile; specialized scientific vocabulary.
+
+Word: bleb
+Reason: Medical term describing a fluid-filled sac; not commonly known by typical adults.
+
+Word: blee
+Reason: Archaic term for complexion or color; not familiar to general adults (Criterion 1).
+
+Word: blin
+Reason: Obsolete verb meaning 'to stop or cease'; rare and not widely recognized (criterion 1).
+
+Word: deil
+Reason: Scots spelling of ‘devil’, uncommon in general English (category 3).
+
+Word: dele
+Reason: Archaic verb form with no modern usage; not recognizable to typical adults (Criterion 1).
+
+Word: dell
+Reason: The word is an obsolete or rarely used term for a small valley; not a common everyday word for typical adults (criterion 1).
+
+Word: dibble
+Reason: Specialized tool name used mainly in gardening; not widely known outside that niche (criterion 4).
+
+Word: dilling
+Reason: Archaic term meaning darling/favorite; unlikely to be guessed.
+
+Word: dingle
+Reason: An obscure, low‑frequency term for a small valley; unlikely to be known or guessed by typical adults (criterion 1).
+
+Word: elding
+Reason: Obsolete and very low frequency; an archaic Provincial English term for fuel, unlikely to be known by typical adults.
+
+Word: engle
+Reason: Obsolete and obscure; very low frequency and not commonly known (Criterion 1).
+
+Word: geld
+Reason: Archaic noun and verb meaning money, tribute, or to castrate; not commonly used in modern English. (Criterion 1)
+
+Word: gilden
+Reason: Old form of gilded; archaic and not used in modern language.
+
+Word: gile
+Reason: Obsolete form of 'guile'; archaic and unlikely to be known by the general audience (criterion 1).
+
+Word: gillie
+Reason: Specific occupation noun referring to a Scottish Highland servant; too niche for general audiences. (Criterion 2)
+
+Word: glebe
+Reason: A niche land‑related term tied to ecclesiastical property; too specialized for general audience (criterion 1).
+
+Word: gleed
+Reason: Obsolete term for a glowing coal (category 1).
+
+Word: gleen
+Reason: Obsolete variant of ‘gleam’/‘glisten’ (category 1).
+
+Word: glidden
+Reason: Obsolete past participle of 'glide'; extremely rare and unlikely to be known by typical adults. (Criterion 1)
+
+Word: ible
+Reason: Suffix rather than a stand-alone word; not part of everyday vocabulary.
+
+Word: ingle
+Reason: Obsolete and rarely used term for flame/fire; not commonly known by typical adults (criterion 1).
+
+Word: leed
+Reason: Old, obscure term for a copper kettle; rarely used in modern English (criterion 1).
+
+Word: lege
+Reason: Obsolete verb meaning to allege or assert; too rare for general use. (Criterion 1)
+
+Word: legge
+Reason: Archaic word meaning 'to lay'; very low frequency and not recognizable in everyday language (criterion 1).
+
+Word: lene
+Reason: Obsolete verb meaning to lend or permit, plus ancient grammatical term; not recognized by most adults. (Criterion 1)
+
+Word: lidge
+Reason: Obsolete spelling of ledge; not a familiar word today.
+
+Word: liege
+Reason: This word is an archaic feudal term referring to a sovereign or vassal; it is not commonly known by typical adults and falls under criterion 1 (obsolete/rare) and 5 (niche historical usage).
+
+Word: lige
+Reason: Obsolete form of 'lie', rarely known today (Criterion 1).
+
+Word: lignin
+Reason: Specialized chemical term used only in science; unsuitable for general puzzle (Criterion 7).
+
+Word: lill
+Reason: An archaic spelling of ‘loll’, not in common use today (Criterion 1: obsolete word).
+
+Word: lind
+Reason: Obsolete/archaic word for linden tree; very low frequency and not widely known (criterion 1).
+
+Word: ling
+Reason: Refers to a specific fish species, making it a narrow taxonomic term unlikely to be known by most people (criterion 3).
+
+Word: lingle
+Reason: Obscure or archaic word, not common in everyday use (Criterion 1).
+
+Word: linne
+Reason: Obsolete spelling related to linen; not used in contemporary English (Criterion 1).
+
+Word: neeld
+Reason: Old spelling of needle; not used in contemporary English.
+
+Word: neele
+Reason: Archaic term for a needle; obsolete and unlikely to be guessed by modern players.
+
+Word: niggle
+Reason: Obsolete verb meaning 'to trifle with or deceive'; not commonly known by typical adults (criterion 1).
+
+Word: niggling
+Reason: The definition refers to a very obscure fine‑arts technical term, far beyond everyday usage (Criterion 1: extremely rare word).
+
+Word: nill
+Reason: Archaic verb meaning 'to refuse or reject'; very low frequency and unlikely to be guessed (criterion 1).
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-16.json
+✓ Saved 47 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 121
+  - Removed (frequency = 0.0): 29
+  - Always included (frequency > 5e-06): 16
+  - Processed by LLM: 76
+    * Kept: 31
+    * Removed: 45
+Final words: 47
+Total removed: 74 (61.2%)
+  - Zero frequency: 29
+  - Removed by LLM: 45
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-16.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-16.log
+======================================================================

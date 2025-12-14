@@ -1,0 +1,396 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-16-36
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-16-36.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- verdict (freq: 0.000011)
+- laughing (freq: 0.000041)
+- sexually (freq: 0.000013)
+- scientific (freq: 0.000047)
+- complex (freq: 0.000072)
+- graduated (freq: 0.000014)
+- personnel (freq: 0.000036)
+- literature (freq: 0.000042)
+- interstate (freq: 0.000010)
+- recipient (freq: 0.000009)
+
+Randomly selected candidate: literature
+Selected seed word: literature
+
+[2/4] Generating spelling bee puzzle for seed word 'literature'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'literature'
+✓ Found 222 words for candidate 'literature' with center letter 'a'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'alate' (freq: 1.55e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'areal' (freq: 2.45e-07) because it contains 'area' (freq: 2.88e-04) [frequency]
+  - Dropped 'arear' (freq: 0.00e+00) because it contains 'area' (freq: 2.88e-04) [frequency]
+  - Dropped 'elate' (freq: 2.14e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'irate' (freq: 6.03e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'ratel' (freq: 1.78e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'rater' (freq: 2.00e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'urare' (freq: 0.00e+00) because it contains 'rare' (freq: 5.89e-05) [frequency]
+  - Dropped 'urate' (freq: 6.31e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'ureal' (freq: 0.00e+00) because it contains 'real' (freq: 3.98e-04) [frequency]
+  - Dropped 'aerate' (freq: 7.94e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'arrear' (freq: 3.39e-08) because it contains 'rear' (freq: 2.69e-05) [frequency]
+  - Dropped 'atrial' (freq: 9.12e-07) because it contains 'trial' (freq: 7.41e-05) [frequency]
+  - Dropped 'aurate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'earlet' (freq: 0.00e+00) because it contains 'earl' (freq: 1.51e-05) [frequency]
+  - Dropped 'elater' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'railer' (freq: 1.35e-08) because it contains 'rail' (freq: 2.57e-05) [affix]
+  - Dropped 'rearer' (freq: 0.00e+00) because it contains 'rear' (freq: 2.69e-05) [affix]
+  - Dropped 'relate' (freq: 1.74e-05) because it contains 'late' (freq: 2.19e-04) [affix]
+  - Dropped 'retail' (freq: 3.55e-05) because it contains 'tail' (freq: 2.19e-05) [affix]
+  - Dropped 'taille' (freq: 6.17e-08) because it contains 'tail' (freq: 2.19e-05) [frequency]
+  - Dropped 'tearer' (freq: 0.00e+00) because it contains 'tear' (freq: 2.24e-05) [affix]
+  - Dropped 'iterate' (freq: 3.24e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'lateral' (freq: 5.62e-06) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'latrate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'laurate' (freq: 1.17e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'relater' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'retreat' (freq: 1.35e-05) because it contains 'treat' (freq: 5.62e-05) [affix]
+  - Dropped 'retrial' (freq: 5.01e-07) because it contains 'trial' (freq: 7.41e-05) [affix]
+  - Dropped 'taillie' (freq: 0.00e+00) because it contains 'tail' (freq: 2.19e-05) [frequency]
+  - Dropped 'tallier' (freq: 0.00e+00) because it contains 'tall' (freq: 3.31e-05) [frequency]
+  - Dropped 'titrate' (freq: 6.92e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'treater' (freq: 4.79e-08) because it contains 'treat' (freq: 5.62e-05) [affix]
+  - Dropped 'ululate' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'arillate' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'illtreat' (freq: 0.00e+00) because it contains 'treat' (freq: 5.62e-05) [frequency]
+  - Dropped 'irrelate' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'laterite' (freq: 1.35e-07) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'literate' (freq: 1.86e-06) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'liturate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'railleur' (freq: 0.00e+00) because it contains 'rail' (freq: 2.57e-05) [frequency]
+  - Dropped 'retailer' (freq: 5.62e-06) because it contains 'tail' (freq: 2.19e-05) [frequency]
+  - Dropped 'rutilate' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'tartrate' (freq: 1.20e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'telltale' (freq: 7.94e-07) because it contains 'tale' (freq: 1.95e-05) [frequency]
+  - Dropped 'treature' (freq: 0.00e+00) because it contains 'treat' (freq: 5.62e-05) [frequency]
+  - Dropped 'allatrate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'atterrate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'elaterite' (freq: 0.00e+00) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'reiterate' (freq: 1.35e-06) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'tellurate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'titillate' (freq: 7.94e-08) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'triturate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'alliterate' (freq: 1.17e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'illiterate' (freq: 2.34e-06) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'taleteller' (freq: 0.00e+00) because it contains 'tale' (freq: 1.95e-05) [frequency]
+  - Dropped 'tirailleur' (freq: 0.00e+00) because it contains 'rail' (freq: 2.57e-05) [frequency]
+  - Dropped 'trilateral' (freq: 2.69e-07) because it contains 'late' (freq: 2.19e-04) [frequency]
+  - Dropped 'litterateur' (freq: 2.82e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'illiterature' (freq: 0.00e+00) because it contains 'literature' (freq: 4.17e-05) [frequency]
+
+✓ Generated puzzle with 162 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_literature_2025-12-13-16-36.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: LITERATURE
+Clue: 
+Distinct letters: a, e, i, l, r, t, u
+Center letter: a (required in all words)
+Total valid words: 162
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. real                 (freq: 3.98e-04)
+   2. later                (freq: 3.09e-04)
+   3. area                 (freq: 2.88e-04)
+   4. late                 (freq: 2.19e-04)
+   5. rate                 (freq: 1.38e-04)
+   6. trial                (freq: 7.41e-05)
+   7. rare                 (freq: 5.89e-05)
+   8. treat                (freq: 5.62e-05)
+   9. literature           (freq: 4.17e-05)
+  10. rural                (freq: 3.89e-05)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_literature_2025-12-13-16-36.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_literature_2025-12-13-16-36.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_literature_2025-12-13-16-36.json
+✓ Loaded 162 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 51 words with frequency 0.0
+  Examples: ailette, alalia, alliteral, allurer, alular, alure, arere, arietate, ariette, arriere...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 29 words always included (frequency > threshold)
+✓ 82 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 82 words in batches of 5...
+
+  Processing batch 1/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 2/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 3/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 4/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['allurement', 'gait']
+    Result: 3 kept, 3 removed
+  Processing batch 5/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 6/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 7/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 8/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 9/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 10/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 11/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 13/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 14/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 15/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 16/17 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 17/17 (2 words)...
+    Sending 2 words with definitions to LLM
+    Result: 1 kept, 1 removed
+
+✓ Processed 17 batch(es)
+  Kept: 32 words
+  Removed: 51 words
+
+  ✓ All 32 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 51
+
+Word: aiel
+Reason: Obsolete archaic term (criterion 1) unlikely to be guessed easily.
+
+Word: alar
+Reason: Category 1: specialized biological adjective; not common everyday usage.
+
+Word: alee
+Reason: Rule 8 – obscure nautical terminology not familiar to the general public.
+
+Word: aller
+Reason: Obsolete word meaning "of all"; not known to typical adults. (Category 1)
+
+Word: allurement
+Reason: Criterion 2: derived '-er' or related nouns that are not common everyday terms; 'allurement' is a less frequently used noun and may not be easily guessed.
+
+Word: alula
+Reason: Specialized entomological term referring to a false or bastard wing; not widely known to general adults (criterion 8).
+
+Word: arara
+Reason: Specific animal species (criterion 3).
+
+Word: aret
+Reason: Archaic verb; not common everyday vocabulary (criterion 1).
+
+Word: arete
+Reason: Category 1: rare geographical term for a mountain ridge.
+
+Word: ariel
+Reason: Specific animal species (gazelle, marsupial, toucan) – falls under criterion 3: narrow taxonomic terms that typical adults would not know or guess.
+
+Word: arietta
+Reason: Niche musical term not widely known (criterion 5).
+
+Word: aril
+Reason: Rule 4 – specialized botanical term used mainly in scientific contexts.
+
+Word: arret
+Reason: Archaic legal term not commonly known (criterion 1).
+
+Word: attal
+Reason: Very rare, likely obsolete term (criterion 1).
+
+Word: attar
+Reason: Specialized fragrance term (essential oil) not commonly known. (Category 7)
+
+Word: atte
+Reason: Archaic preposition "at the"; very low frequency and unlikely to be guessed. (Category 1)
+
+Word: atter
+Reason: Obsolete/archaic term for poison (category 1); unlikely to be known or guessed.
+
+Word: aureate
+Reason: Literary/obscure adjective; typical adults likely unfamiliar (criterion 1).
+
+Word: aurelia
+Reason: Scientific genus name for jellyfish and a specialized term for a chrysalis, not commonly known (Criterion 7).
+
+Word: itala
+Reason: Specialized historical religious text term (criterion 7) obscure to general audience.
+
+Word: lare
+Reason: Archaic/obsolete word with very low frequency (criterion 1).
+
+Word: lata
+Reason: Very obscure medical/psychiatric term with extremely low frequency and highly specialized definition, falling under criterion 1 (obsolete/rare) and 7 (specialized medical jargon).
+
+Word: latria
+Reason: Esoteric religious term (criterion 5) unlikely to be known by most people.
+
+Word: laurer
+Reason: Obsolete archaic spelling of ‘laurel’; very low frequency and unlikely to be recognized by general audiences (criterion 1).
+
+Word: leal
+Reason: Archaic variant of 'loyal' that is rarely used in contemporary language; qualifies for removal under criterion 1 (obsolete, rarely known).
+
+Word: lear
+Reason: The word is an archaic verb meaning 'to learn,' with very low usage in modern English (criterion 1).
+
+Word: leat
+Reason: Category 1: archaic or obscure term for an artificial water trench.
+
+Word: lira
+Reason: Criterion 8: specialized or historical currency term not widely known by typical adults in everyday usage.
+
+Word: raia
+Reason: Specific animal genus for rays (category 3); not widely recognizable.
+
+Word: rale
+Reason: Medical jargon describing lung sounds (category 7); too specialized for a general audience.
+
+Word: rata
+Reason: Specific New Zealand tree species and its wood, an obscure botanical term outside everyday use (Criterion 3).
+
+Word: ratite
+Reason: Specific animal taxonomic group (criterion 3).
+
+Word: ratter
+Reason: Uncommon occupation/agent noun; not a familiar everyday role (criterion 2).
+
+Word: reata
+Reason: Obscure term for a lariat, not commonly used (criterion 1).
+
+Word: rial
+Reason: An obsolete Spanish coin; very low frequency and specialized historical usage (criterion 1).
+
+Word: tael
+Reason: Rule 1 – very low-frequency, specialized monetary unit not commonly known by adults.
+
+Word: taira
+Reason: Rule 3 – specific animal species that are not widely known.
+
+Word: tait
+Reason: Criterion 3: specific animal species; 'tait' is a rare Australian marsupial and is unlikely to be recognized by most people.
+
+Word: tartar
+Reason: This word refers to specialized chemical or dental terms (e.g., cream of tartar, dental tartar) that are not commonly known by typical adults and are too technical for a general-audience puzzle.
+
+Word: tatt
+Reason: Category 1: obscure craft verb; not widely recognized.
+
+Word: tatta
+Reason: A culturally specific bamboo frame used in India; not a common everyday concept for typical adults (criterion 1/3).
+
+Word: tattler
+Reason: Rule 2 – derived '-er' occupation/agent noun that is not a common everyday role.
+
+Word: tatu
+Reason: Category 3: specific animal species (armadillo) not commonly known by general adults.
+
+Word: taur
+Reason: Archaic spelling of the constellation Taurus (category 1); not commonly used today.
+
+Word: teal
+Reason: The definition describes a specific species of duck, which falls under the category of niche animal species (criterion 3) and is unlikely to be known by typical adults.
+
+Word: terra
+Reason: Terra is a Latin-derived term for earth; it is not commonly used in everyday English and would be unfamiliar to most adults, falling under criterion 1 for removal.
+
+Word: tilia
+Reason: Niche botanical term (category 4); not a common everyday word.
+
+Word: triliteral
+Reason: Linguistic jargon (criterion 8) not common everyday vocabulary.
+
+Word: tuatara
+Reason: Specific animal species (criterion 3).
+
+Word: turritella
+Reason: A specific marine gastropod genus; a narrow taxonomic term that would be unknown to most people (criterion 3).
+
+Word: urea
+Reason: Urea is a biochemical compound and chemical term that is not part of everyday vocabulary, making it unsuitable for a general puzzle.
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-16-36.json
+✓ Saved 61 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 162
+  - Removed (frequency = 0.0): 51
+  - Always included (frequency > 5e-06): 29
+  - Processed by LLM: 82
+    * Kept: 32
+    * Removed: 51
+Final words: 61
+Total removed: 101 (62.3%)
+  - Zero frequency: 51
+  - Removed by LLM: 51
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-16-36.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-16-36.log
+======================================================================

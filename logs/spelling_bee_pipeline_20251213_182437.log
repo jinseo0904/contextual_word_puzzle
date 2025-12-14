@@ -1,0 +1,918 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-24
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-24.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- funeral (freq: 0.000023)
+- offering (freq: 0.000040)
+- mounted (freq: 0.000018)
+- structural (freq: 0.000015)
+- resigned (freq: 0.000011)
+- exposure (freq: 0.000028)
+- holiday (freq: 0.000046)
+- appealing (freq: 0.000009)
+- stopping (freq: 0.000019)
+- participate (freq: 0.000026)
+
+Randomly selected candidate: stopping
+Selected seed word: stopping
+
+[2/4] Generating spelling bee puzzle for seed word 'stopping'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'stopping'
+✓ Found 127 words for candidate 'stopping' with center letter 'o'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'pinto' (freq: 1.32e-06) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'sinto' (freq: 1.45e-08) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'tinto' (freq: 4.27e-07) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'instop' (freq: 0.00e+00) because it contains 'stop' (freq: 3.31e-04) [frequency]
+  - Dropped 'pintos' (freq: 5.75e-08) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'ponton' (freq: 1.23e-07) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'gossoon' (freq: 0.00e+00) because it contains 'soon' (freq: 2.09e-04) [frequency]
+  - Dropped 'nooning' (freq: 0.00e+00) because it contains 'noon' (freq: 1.29e-05) [affix]
+  - Dropped 'pontoon' (freq: 5.25e-07) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'posting' (freq: 2.45e-05) because it contains 'post' (freq: 2.69e-04) [affix]
+  - Dropped 'stoping' (freq: 1.58e-07) because it contains 'stop' (freq: 3.31e-04) [affix]
+  - Dropped 'tossing' (freq: 2.45e-06) because it contains 'toss' (freq: 8.13e-06) [affix]
+  - Dropped 'tosspot' (freq: 2.24e-08) because it contains 'spot' (freq: 7.76e-05) [frequency]
+  - Dropped 'pointing' (freq: 1.58e-05) because it contains 'point' (freq: 3.47e-04) [affix]
+  - Dropped 'signpost' (freq: 2.88e-07) because it contains 'post' (freq: 2.69e-04) [frequency]
+  - Dropped 'singsong' (freq: 9.55e-08) because it contains 'song' (freq: 1.82e-04) [frequency]
+  - Dropped 'sintoist' (freq: 0.00e+00) because it contains 'into' (freq: 1.29e-03) [frequency]
+  - Dropped 'spontoon' (freq: 0.00e+00) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'stopping' (freq: 1.95e-05) because it contains 'stop' (freq: 3.31e-04) [affix]
+  - Dropped 'notionist' (freq: 0.00e+00) because it contains 'notion' (freq: 1.48e-05) [frequency]
+  - Dropped 'postposit' (freq: 0.00e+00) because it contains 'post' (freq: 2.69e-04) [frequency]
+  - Dropped 'opinionist' (freq: 0.00e+00) because it contains 'opinion' (freq: 8.71e-05) [frequency]
+  - Dropped 'pontooning' (freq: 0.00e+00) because it contains 'onto' (freq: 5.89e-05) [frequency]
+  - Dropped 'postposition' (freq: 2.34e-08) because it contains 'post' (freq: 2.69e-04) [frequency]
+  - Dropped 'oppositionist' (freq: 2.69e-08) because it contains 'position' (freq: 1.62e-04) [frequency]
+
+✓ Generated puzzle with 102 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: STOPPING
+Clue: 
+Distinct letters: g, i, n, o, p, s, t
+Center letter: o (required in all words)
+Total valid words: 102
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. into                 (freq: 1.29e-03)
+   2. going                (freq: 8.71e-04)
+   3. point                (freq: 3.47e-04)
+   4. stop                 (freq: 3.31e-04)
+   5. post                 (freq: 2.69e-04)
+   6. soon                 (freq: 2.09e-04)
+   7. song                 (freq: 1.82e-04)
+   8. position             (freq: 1.62e-04)
+   9. opinion              (freq: 8.71e-05)
+  10. spot                 (freq: 7.76e-05)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_stopping_2025-12-13-18-24.json
+✓ Loaded 102 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 21 words with frequency 0.0
+  Examples: giggot, goost, inition, insition, niopo, nogging, noint, notist, ostitis, ostosis...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 22 words always included (frequency > threshold)
+✓ 59 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 59 words in batches of 5...
+
+  Processing batch 1/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 2/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 3/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['sweet']
+    Result: 2 kept, 3 removed
+  Processing batch 4/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 5/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 7/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 8/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 9/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 10/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 11/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/12 (4 words)...
+    Sending 4 words with definitions to LLM
+    Result: 0 kept, 4 removed
+
+✓ Processed 12 batch(es)
+  Kept: 21 words
+  Removed: 38 words
+
+  ✓ All 21 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 38
+
+Word: gigot
+Reason: Old culinary term for leg of mutton; uncommon in everyday language (criterion 1).
+
+Word: gnosis
+Reason: Esoteric religious concept unlikely to be known by general audience (criterion 5).
+
+Word: goot
+Reason: Obsolete term for goat; not used in modern everyday language.
+
+Word: goss
+Reason: Obsolete term for gorse; archaic, not part of everyday vocabulary.
+
+Word: ingot
+Reason: Technical metallurgy term; not an everyday word for most adults (criterion 1).
+
+Word: inion
+Reason: Specialized anatomical term; falls under criterion 7.
+
+Word: noot
+Reason: Archaic variant of "not"; not expected to be known by typical adults. (Criterion 1)
+
+Word: nosing
+Reason: Specific architectural term; too niche for general word puzzle (criterion 3).
+
+Word: nost
+Reason: Obsolete, archaic form (criterion 1); not familiar to general audience.
+
+Word: nott
+Reason: Archaic word meaning "shorn"; unlikely to be recognized or guessed by most adults. (Criterion 1)
+
+Word: oint
+Reason: Obsolete archaic verb; falls under criterion 1.
+
+Word: opining
+Reason: Obsolete word meaning "opinion"; not expected to be known by typical adults. (Criterion 1)
+
+Word: otis
+Reason: Specific animal genus (category 3).
+
+Word: otitis
+Reason: Medical terminology for ear inflammation; specialized jargon (criterion 7).
+
+Word: otto
+Reason: The word refers to a proper name and is not a common everyday noun; it falls under the category of specialized or obscure terms not recognizable by typical adults.
+
+Word: pinion
+Reason: The word is a specialized term referring to a moth species, a specific bird wing joint, a mechanical cogwheel, or to binding wings. These meanings are niche and not widely known by typical adults, fitting the criteria for removal (specialized scientific/technical terminology).
+
+Word: pion
+Reason: Specialized botanical term referring to pine seeds; not common everyday vocabulary. (Criterion 4)
+
+Word: piot
+Reason: Dialectal, archaic term for magpie (criterion 1); uncommon and niche.
+
+Word: pongo
+Reason: Very rare, obscure word for a large ape; not commonly known by typical adults (criterion 1).
+
+Word: pons
+Reason: Specialized anatomical term referring to a part of the brain; not widely known to typical adults. (Criterion 7)
+
+Word: poon
+Reason: Obscure botanical term for a specific type of wood used in masts; not a common everyday word. (Criterion 4)
+
+Word: pooping
+Reason: Nautical jargon for a ship’s bow striking a wave; specialized maritime vocabulary.
+
+Word: poss
+Reason: Obsolete verb; not commonly used by typical adults (criterion 1).
+
+Word: potoo
+Reason: Specific animal species; falls under criterion 3.
+
+Word: pott
+Reason: Niche paper size term used only in specific contexts; unsuitable for general audience (criterion 4).
+
+Word: potto
+Reason: Obsolete and highly obscure animal term; rare medical terms make it unsuitable for general audience (criterion 1).
+
+Word: ptosis
+Reason: Specialized medical jargon (criterion 7); not commonly known by typical adults.
+
+Word: soss
+Reason: Archaic verb and noun; not recognizable to most adults (criterion 1).
+
+Word: spong
+Reason: Archaic, provincial term for a part of a field; not commonly recognized.
+
+Word: sponging
+Reason: Legal/archaic term referring to a sponging house; obscure and unlikely to be guessed (criterion 1).
+
+Word: sponson
+Reason: Technical naval architecture term; highly specialized (criterion 8).
+
+Word: stingo
+Reason: Old slang for strong liquor; rarely known to general adults (criterion 1).
+
+Word: tong
+Reason: Archaic form of ‘tongue’, not commonly known to adults (category 1).
+
+Word: tongo
+Reason: Specific regional name for mangrove; unlikely to be known by typical adults.
+
+Word: toon
+Reason: Specific tree species (Cedrela Toona) – niche botanical term, not widely known.
+
+Word: topi
+Reason: Specific animal species (an antelope); falls under specific species category. (Criterion 3)
+
+Word: tost
+Reason: Extremely rare, archaic word (criterion 1); unlikely to be guessed from simple clues.
+
+Word: tosto
+Reason: Obscure, non‑common word; falls under criterion 1.
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-24.json
+✓ Saved 43 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 102
+  - Removed (frequency = 0.0): 21
+  - Always included (frequency > 5e-06): 22
+  - Processed by LLM: 59
+    * Kept: 21
+    * Removed: 38
+Final words: 43
+Total removed: 59 (57.8%)
+  - Zero frequency: 21
+  - Removed by LLM: 38
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-24.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-24.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-24.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, HIGH_EXERTION, DISTRACTED, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, FOCUSED_OBSERVATION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, FOCUSED_OBSERVATION, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, AUDIBLE_MOVEMENT, HEAVY_PHONE_USE, RUSHED, LOUD_ENVIRONMENT, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>DISTRACTED, AUDIBLE_MOVEMENT, HEAVY_PHONE_USE, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, DISTRACTED, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HIGH_EXERTION, FOCUSED_OBSERVATION, RUSHED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM – 8:27 AM found me waking up in Grove Hall (Roxbury). It was quiet, a peaceful start to the day, though there was a definite social buzz in the air. I just felt…still waking up.
+
+At 8:27 AM, I rushed out of Grove Hall (Roxbury) and headed towards Snell Library (Fenway). I was cycling, sitting on the bike, and passed a string of places – Subway and Dunkin’ were early morning staples. 
+
+By 8:54 AM, I was inside Snell Library (Fenway), immediately getting to work. It was a high-exertion scramble, trying to get settled before class. I was walking, leaving Snell Library, and then I was back to the books.
+
+At 9:05 AM, I continued my walk from Snell Library (Fenway) to Northeastern University (Fenway). I passed Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', and Burger 373 along the way. I was distracted by my phone, rushing to get there on time, my eyes glued to the screen.
+
+9:07 AM – 10:17 AM was spent at Northeastern University (Fenway). It was a loud but strangely quiet atmosphere, social but also requiring focus. I sat down, repeating course material, trying to get it to stick. Just…sitting.
+
+At 10:17 AM, I hurried back from Northeastern University (Fenway) to Snell Library (Fenway). I passed Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, and Chaat House. 
+
+10:20 AM – 11:09 AM found me sitting in Snell Library (Fenway), quietly studying.
+
+Then, at 11:09 AM, I was rushing again, from Snell Library (Fenway) all the way to Amazon Boston (Seaport)! I ran to the train station, scribbling on my phone, writing notes about the Subway as I went. The city whizzed by—Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega. 
+
+I spent the time from 11:42 AM – 1:51 PM walking to my friend's office in Amazon Boston (Seaport), and then waiting in the lobby. I was just sitting there, and then walking to the bathroom… It’s weird, I felt older, like something had shifted. 
+
+By 1:51 PM, I was headed back to Snell Library (Fenway) from Amazon Boston (Seaport). The train was packed, and I was glued to my phone, trying to distract myself. I passed Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita.
+
+2:18 PM – 2:48 PM was a quiet spell back in Snell Library (Fenway), just sitting.
+
+At 2:48 PM, I hurried from Snell Library (Fenway) to Ryder Hall (Fenway), passing Subway and Dunkin' once more.
+
+From 2:50 PM – 4:45 PM, I was in Ryder Hall (Fenway) – walking in, then sitting down for class. 
+
+4:45 PM saw me rushing back to Snell Library (Fenway), just passing the Subway.
+
+I stayed at Snell Library (Fenway) from 4:49 PM – 9:21 PM. I craved being back in the library, just sat there and took course, walked to the bathroom, and sat down again. I was taking class, then sitting down. I sat, taking class in the library, even as the snow started to fall. It was a peaceful hum.
+
+At 9:21 PM, I left Snell Library (Fenway) and headed back to Grove Hall (Roxbury). I passed ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, and finally, Uphams Corner. 
+
+I spent the last hours of the day, from 9:45 PM – 11:59 PM, in Grove Hall (Roxbury), standing and sitting. The night was loud, busy, but strangely calming.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "GOING",
+    "clue": "The diary details a day of _______ back and forth between Snell Library and other locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "STOP",
+    "clue": "You made multiple _______ at Dunkin' and Subway throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "POST",
+    "clue": "You were scribbling notes on your phone, perhaps for a social media _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "INTO",
+    "clue": "You walked _______ Snell Library several times throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "POSITION",
+    "clue": "You spent a lot of time in a seated _______, especially at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "SPOT",
+    "clue": "Snell Library was your go-to _______ for studying today.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "POSITION",
+    "clue": "After waiting in the lobby, you finally took a _______ at your friend's office.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SONG",
+    "clue": "The quiet hum of the library could almost be described as a peaceful _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SPOT",
+    "clue": "You frequently returned to Snell Library, making it your preferred _______ to study.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 4
+  },
+  {
+    "word": "ONGOING",
+    "clue": "Your day felt like an _______ series of movements between libraries and buildings.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "ONTO",
+    "clue": "You moved _______ the next location in a hectic race against the clock.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "OPTION",
+    "clue": "Sweet Tomatoes Pizza was one _______ among many eateries you passed today.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "NOTION",
+    "clue": "The quiet hum of the library gave you the _______ of peaceful solitude.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "OPPOSITION",
+    "clue": "The loud but strangely quiet atmosphere at Northeastern created a sense of _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "ONION",
+    "clue": "You passed many layers of restaurants, like peeling an _______, traveling between locations.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOSS",
+    "clue": "You were constantly on the move, _______-ing between Snell Library, Northeastern, and Amazon Boston.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "NOON",
+    "clue": "You spent a significant amount of time at Snell Library well past _______, studying and taking class.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "GOSSIP",
+    "clue": "You passed by several restaurants\u2014Subway, Dunkin\u2019, Applebee's\u2014places where people might share _______ over a meal.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TOPPING",
+    "clue": "You passed several restaurants, including Sweet Tomatoes Pizza, making it easy to add a _______ to your meal.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "POPPING",
+    "clue": "You were _______ back and forth between Snell Library, Northeastern, and Amazon all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You passed several train stations like South Station, suggesting you paid a _______ to travel.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "IGNITION",
+    "clue": "Before your day started, you needed the _______ to get your energy up.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "POOP",
+    "clue": "You spent a lot of time just sitting, and sometimes needing to make a quick trip to the bathroom - even when you just needed to _______!",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "PISTON",
+    "clue": "Like a _______ in an engine, you were constantly moving between Snell Library and other locations today.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TOOT",
+    "clue": "You passed Dunkin\u2019 multiple times, perhaps hoping for a sweet _______ to keep you energized.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "POTION",
+    "clue": "You stopped at Argo Tea and Starbucks, perhaps searching for a calming _______ to help you focus.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SOOT",
+    "clue": "As the snow began to fall at 4:49 PM, a thin layer of _______ might have settled on the library windows.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "TONGS",
+    "clue": "If you stopped at Pink Taco, you might need _______ to enjoy your meal.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "POSIT",
+    "clue": "You seemed to _______ yourself in Snell Library, spending hours there throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "POTTING",
+    "clue": "If you wanted a break from studying, you might enjoy the peaceful activity of _______ plants.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "SOPPING",
+    "clue": "The snow started to fall, potentially _______ the streets as you studied late at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "SOPPING",
+    "clue": "After a long day of walking around, your socks might have been _______ after the snow started falling.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TOGS",
+    "clue": "Considering you were rushing all day, you likely put on some comfortable _______ before heading out.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "SOPPING",
+    "clue": "If you were caught in the snowfall at 9:21 PM, you could've ended up _______ wet on your way back to Grove Hall.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "SOPPING",
+    "clue": "After a long day of walking around, your socks might have been _______ wet after the snow started falling at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the train to Amazon Boston at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "SPITTOON",
+    "clue": "You passed numerous restaurants - Dunkin', Subway, and more - which might have had a _______ nearby if it was an old-fashioned establishment.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TIPTOP",
+    "clue": "Despite the busy day, you described your time at Grove Hall as strangely calming, a _______ end to a long day.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TIPTOP",
+    "clue": "You spent much of the day rushing between locations, aiming for a _______ level of productivity.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  }
+]
+[
+  {
+    "word": "INTO",
+    "clue": "Immerse oneself, perhaps"
+  },
+  {
+    "word": "GOING",
+    "clue": "Currently in progress"
+  },
+  {
+    "word": "POINT",
+    "clue": "Sharp end or a reason"
+  },
+  {
+    "word": "STOP",
+    "clue": "Halt!"
+  },
+  {
+    "word": "POST",
+    "clue": "Mail delivery item"
+  },
+  {
+    "word": "SOON",
+    "clue": "In a little while"
+  },
+  {
+    "word": "SONG",
+    "clue": "Musical composition"
+  },
+  {
+    "word": "POSITION",
+    "clue": "Place or rank"
+  },
+  {
+    "word": "OPINION",
+    "clue": "What one thinks"
+  },
+  {
+    "word": "SPOT",
+    "clue": "A small mark"
+  },
+  {
+    "word": "OPTION",
+    "clue": "Choice or alternative"
+  },
+  {
+    "word": "ONTO",
+    "clue": "Following closely behind"
+  },
+  {
+    "word": "OPPOSITION",
+    "clue": "Resistance or disagreement"
+  },
+  {
+    "word": "ONGOING",
+    "clue": "Currently happening"
+  },
+  {
+    "word": "NOTION",
+    "clue": "A thought or idea"
+  },
+  {
+    "word": "NOON",
+    "clue": "Midday, for many a lunch break"
+  },
+  {
+    "word": "POISON",
+    "clue": "Something that can be deadly"
+  },
+  {
+    "word": "TOSS",
+    "clue": "Lightly throw"
+  },
+  {
+    "word": "ONION",
+    "clue": "It might make you cry while chopping"
+  },
+  {
+    "word": "GOSSIP",
+    "clue": "Sharing rumors, often unkindly"
+  },
+  {
+    "word": "SPOON",
+    "clue": "Utensil for soup"
+  },
+  {
+    "word": "POPPING",
+    "clue": "What corn does in a hot machine"
+  },
+  {
+    "word": "IGNITION",
+    "clue": "Starting a car, for example"
+  },
+  {
+    "word": "POOP",
+    "clue": "What a baby does in a diaper"
+  },
+  {
+    "word": "TOPPING",
+    "clue": "Sprinkles on ice cream, for instance"
+  },
+  {
+    "word": "PISTON",
+    "clue": "Engine component that moves up and down"
+  },
+  {
+    "word": "GONG",
+    "clue": "Large metal disc struck to make a resonant sound"
+  },
+  {
+    "word": "POTION",
+    "clue": "Magical brew, perhaps"
+  },
+  {
+    "word": "STOOP",
+    "clue": "Bend one's shoulders forward"
+  },
+  {
+    "word": "TOOT",
+    "clue": "Short, sharp sound from a horn"
+  },
+  {
+    "word": "SOOT",
+    "clue": "Black residue from a fire"
+  },
+  {
+    "word": "SNOT",
+    "clue": "What drips when you have a cold"
+  },
+  {
+    "word": "TONGS",
+    "clue": "Kitchen tools for grabbing"
+  },
+  {
+    "word": "POSIT",
+    "clue": "Assert strongly"
+  },
+  {
+    "word": "POTTING",
+    "clue": "Related to planting in containers"
+  },
+  {
+    "word": "NOGGIN",
+    "clue": "Head, informally"
+  },
+  {
+    "word": "SPIGOT",
+    "clue": "Faucet, often for outdoor use"
+  },
+  {
+    "word": "STOOPING",
+    "clue": "Bending low, perhaps to pick something up"
+  },
+  {
+    "word": "SOPPING",
+    "clue": "Very wet, like a sponge"
+  },
+  {
+    "word": "TOGS",
+    "clue": "Clothes, particularly for swimming"
+  },
+  {
+    "word": "TIPTOP",
+    "clue": "First-rate, excellent"
+  },
+  {
+    "word": "PINON",
+    "clue": "Nut often used in Southwestern cuisine"
+  },
+  {
+    "word": "SPITTOON",
+    "clue": "Cowboy's receptacle"
+  }
+]
+Finalized clues saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/finalized_words_and_clue_lists/finalized_spelling_bee_words_and_clues_20251213_182437.json

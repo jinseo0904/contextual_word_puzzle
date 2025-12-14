@@ -1,0 +1,104 @@
+[
+  {
+    "word": "YEAR",
+    "clue": "This diary documents a single _______ of travel and study.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "ARRAY",
+    "clue": "The diary details an _______ of restaurants and shops passed during your travels.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FEBRUARY",
+    "clue": "Though the diary doesn't mention the date, the snowy atmosphere suggests this _______ could be the month.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "BUYER",
+    "clue": "You passed numerous restaurants and cafes \u2013 a potential stop for a hungry _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "RUBY",
+    "clue": "You traveled to Ryder Hall, a building with a _______-colored name.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "BERRY",
+    "clue": "You passed Dunkin' countless times, likely craving a _______-flavored refreshment.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FURY",
+    "clue": "You rushed between locations with noticeable _______, from Snell to Northeastern.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "BURY",
+    "clue": "You seemed to _______ yourself in work at Snell Library, trying to block out distractions.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FRAY",
+    "clue": "The constant movement between buildings and locations created a bit of a _______ to your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "ABBEY",
+    "clue": "Snell Library felt like an _______, a quiet and studious space where you spent much of your day.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 2
+  },
+  {
+    "word": "FURRY",
+    "clue": "Perhaps a _______ friend accompanied you on your travels around Boston, though it is not mentioned.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "BRAY",
+    "clue": "The social atmosphere in Northeastern University created a bit of a _______-like noise level.",
+    "strategy": "Logical Association",
+    "relevance_score": 1
+  },
+  {
+    "word": "BEEFY",
+    "clue": "You passed Burger 373, a restaurant known for its _______ offerings.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "AFFRAY",
+    "clue": "The 'rush' described several times felt like a small _______, navigating crowded spaces.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "When traveling to Amazon Boston in Seaport, you needed to purchase a _______ to ride the train.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "BEEFY",
+    "clue": "You walked by Burger 373, potentially craving something _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  }
+]

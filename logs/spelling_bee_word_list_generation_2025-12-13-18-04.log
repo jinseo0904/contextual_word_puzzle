@@ -1,0 +1,291 @@
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-18-04
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-04.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- gradually (freq: 0.000016)
+- brigade (freq: 0.000008)
+- yesterday (freq: 0.000081)
+- anxiety (freq: 0.000028)
+- emphasis (freq: 0.000016)
+- although (freq: 0.000200)
+- aggressive (freq: 0.000021)
+- routine (freq: 0.000023)
+- diabetes (freq: 0.000015)
+- numbers (freq: 0.000096)
+
+Randomly selected candidate: although
+Selected seed word: although
+
+[2/4] Generating spelling bee puzzle for seed word 'although'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'although'
+✓ Found 91 words for candidate 'although' with center letter 't'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'atoll' (freq: 7.08e-07) because it contains 'toll' (freq: 1.20e-05) [frequency]
+  - Dropped 'loath' (freq: 4.68e-07) because it contains 'oath' (freq: 9.12e-06) [frequency]
+  - Dropped 'gagtooth' (freq: 0.00e+00) because it contains 'tooth' (freq: 1.20e-05) [frequency]
+
+✓ Generated puzzle with 88 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: ALTHOUGH
+Clue: 
+Distinct letters: a, g, h, l, o, t, u
+Center letter: t (required in all words)
+Total valid words: 88
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. that                 (freq: 1.02e-02)
+   2. thought              (freq: 3.89e-04)
+   3. though               (freq: 3.16e-04)
+   4. although             (freq: 2.00e-04)
+   5. total                (freq: 1.62e-04)
+   6. tough                (freq: 5.89e-05)
+   7. taught               (freq: 4.79e-05)
+   8. tool                 (freq: 3.63e-05)
+   9. tall                 (freq: 3.31e-05)
+  10. ought                (freq: 2.24e-05)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_although_2025-12-13-18-04.json
+✓ Loaded 88 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 15 words with frequency 0.0
+  Examples: agouta, glout, gult, hautgout, houtou, loggat, loutou, outhaul, outlaugh, tath...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 17 words always included (frequency > threshold)
+✓ 56 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 56 words in batches of 5...
+
+  Processing batch 1/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 2/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 3/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 4/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 5/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 6/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['anything']
+    Result: 0 kept, 5 removed
+  Processing batch 7/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 8/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 9/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 10/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 11/12 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 12/12 (1 words)...
+    Sending 1 words with definitions to LLM
+    Result: 0 kept, 1 removed
+
+✓ Processed 12 batch(es)
+  Kept: 16 words
+  Removed: 40 words
+
+  ✓ All 16 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 40
+
+Word: altho
+Reason: An archaic or reformed spelling of "although"; not commonly known by typical adults.
+
+Word: attal
+Reason: Obsolete and extremely rare word; typical adults would not know it.
+
+Word: aught
+Reason: Obsolete/archaic word with very low frequency; typical adults would not know it.
+
+Word: galoot
+Reason: Slang noun for a worthless or noisy fellow; not widely known or easily guessed (Category 8).
+
+Word: galt
+Reason: An obscure or undefined term with no widespread usage; not recognizable in everyday vocabulary.
+
+Word: gault
+Reason: Geological term for clay beds; specialized scientific vocabulary.
+
+Word: ghat
+Reason: Geographical term used mainly in Indian context; too niche for a general audience.
+
+Word: ghaut
+Reason: Indian term for a mountain pass or range; highly specialized and unlikely to be guessed.
+
+Word: glottal
+Reason: Specialized phonetic/linguistic term; not common in everyday language.
+
+Word: golgotha
+Reason: Esoteric religious term; unlikely to be known by most people.
+
+Word: goot
+Reason: Archaic word for goat; not used in modern English.
+
+Word: gutta
+Reason: Specialized architectural term; not part of everyday vocabulary.
+
+Word: hath
+Reason: Archaic form of 'has', rare and not expected to be known by general audiences. (Criterion 1)
+
+Word: haught
+Reason: Archaic adjective for 'haughty'; obsolete and not expected in general vocabulary (criterion 1).
+
+Word: hault
+Reason: Obsolete word meaning 'lofty; haughty'; too rare for general audiences (Category 1).
+
+Word: haut
+Reason: Obsolete adjective meaning haughty; unlikely to be guessed by a general audience.
+
+Word: holt
+Reason: Obsolete, archaic word meaning a piece of woodland; very low frequency and unlikely to be known by typical adults. (Criterion 1)
+
+Word: hoult
+Reason: Obsolete word meaning a small wood; not in common usage.
+
+Word: lata
+Reason: Niche medical/psychiatric term describing a specific neurosis; not common knowledge.
+
+Word: latah
+Reason: Specific neurological condition among Malays; specialized medical terminology (criterion 7).
+
+Word: lath
+Reason: Craft/industrial term used mainly in construction; not everyday vocabulary.
+
+Word: loth
+Reason: Obsolete variant of "loath"; not recognized by typical adults.
+
+Word: loto
+Reason: Redirect to a less common form of 'Lotto'; not a commonly recognized standalone word (criterion 1).
+
+Word: luth
+Reason: Specific animal species (leatherback turtle); falls under specialized animal terms (criterion 3).
+
+Word: otto
+Reason: A proper name with obscure reference; not a common everyday word. (Criterion 8)
+
+Word: tagal
+Reason: Regional name for a specific ethnic group; not widely recognized in general English.
+
+Word: tagalog
+Reason: The word refers to a specific language and ethnic group, which is too niche for general-audience puzzles. It falls under the guideline of removing specialized or uncommon terms that typical adults would not know or guess easily.
+
+Word: taha
+Reason: Specific species of African bird; falls under specific animal species that general adults would not know.
+
+Word: tatou
+Reason: Specific animal species (giant armadillo); too narrow for general recognition (Category 3).
+
+Word: tatt
+Reason: Obsolete, niche craft term; not widely known to typical adults (criterion 1).
+
+Word: tatta
+Reason: Very obscure, culturally specific term with very low frequency; typical adults would not know it.
+
+Word: tatu
+Reason: Obscure word for an armadillo; not widely known.
+
+Word: tautog
+Reason: Specific fish species; specialized terminology unsuitable for general puzzle (Category 3).
+
+Word: thaught
+Reason: Archaic synonym for "thwart"; uncommon in modern usage.
+
+Word: thoth
+Reason: Specific mythological deity; niche knowledge unlikely to be guessed by general adults.
+
+Word: tola
+Reason: Obsolete/archaic unit of weight from British India; extremely rare.
+
+Word: tolt
+Reason: Obscure legal writ; not a common everyday concept (Category 1).
+
+Word: tolu
+Reason: Specialized botanical term for a balsam tree; not a common everyday word.
+
+Word: tota
+Reason: Specific animal species (the grivet monkey); not widely known.
+
+Word: tull
+Reason: Obsolete verb with very low frequency; typical adults would not know it.
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-04.json
+✓ Saved 33 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 88
+  - Removed (frequency = 0.0): 15
+  - Always included (frequency > 5e-06): 17
+  - Processed by LLM: 56
+    * Kept: 16
+    * Removed: 40
+Final words: 33
+Total removed: 55 (62.5%)
+  - Zero frequency: 15
+  - Removed by LLM: 40
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-18-04.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-18-04.log
+======================================================================

@@ -1,0 +1,367 @@
+{
+  "seed_word": "WASTING",
+  "seed_word_clue": "",
+  "distinct_letters": [
+    "a",
+    "g",
+    "i",
+    "n",
+    "s",
+    "t",
+    "w"
+  ],
+  "center_letter": "a",
+  "total_words": 50,
+  "words": [
+    {
+      "word": "want",
+      "contextual_clue": "You seemed to _______ to be back at Snell Library, returning multiple times.",
+      "generic_clue": "Desire or wish for something",
+      "frequency": 0.0011,
+      "score": 4.0
+    },
+    {
+      "word": "again",
+      "contextual_clue": "You visited Snell Library multiple times _______ throughout the day.",
+      "generic_clue": "One more time",
+      "frequency": 0.000501,
+      "score": 5.0
+    },
+    {
+      "word": "against",
+      "contextual_clue": "N/A",
+      "generic_clue": "Opposing or in conflict with",
+      "frequency": 0.000479,
+      "score": 0
+    },
+    {
+      "word": "wait",
+      "contextual_clue": "You spent a lot of time simply _______, whether on the train or in the library.",
+      "generic_clue": "Hold on for a moment",
+      "frequency": 0.000224,
+      "score": 4.0
+    },
+    {
+      "word": "anti",
+      "contextual_clue": "N/A",
+      "generic_clue": "Opposed to; like a virus ___body response",
+      "frequency": 0.000102,
+      "score": 0
+    },
+    {
+      "word": "gain",
+      "contextual_clue": "After a long day, the author notes their mind felt older, suggesting a _______ of experience.",
+      "generic_clue": "Acquire or obtain",
+      "frequency": 6.46e-05,
+      "score": 4.0
+    },
+    {
+      "word": "assistant",
+      "contextual_clue": "N/A",
+      "generic_clue": "Helper, often in an office",
+      "frequency": 5.25e-05,
+      "score": 0
+    },
+    {
+      "word": "asian",
+      "contextual_clue": "N/A",
+      "generic_clue": "From the continent containing China",
+      "frequency": 4.9e-05,
+      "score": 0
+    },
+    {
+      "word": "giant",
+      "contextual_clue": "N/A",
+      "generic_clue": "Very large in size",
+      "frequency": 4.17e-05,
+      "score": 0
+    },
+    {
+      "word": "gang",
+      "contextual_clue": "N/A",
+      "generic_clue": "Group of friends",
+      "frequency": 3.16e-05,
+      "score": 0
+    },
+    {
+      "word": "wanting",
+      "contextual_clue": "You spent the day _______ to find a quiet place to study.",
+      "generic_clue": "Needing, perhaps",
+      "frequency": 3.09e-05,
+      "score": 4.0
+    },
+    {
+      "word": "assist",
+      "contextual_clue": "N/A",
+      "generic_clue": "Lend a helping hand",
+      "frequency": 2.63e-05,
+      "score": 0
+    },
+    {
+      "word": "saint",
+      "contextual_clue": "N/A",
+      "generic_clue": "Holy person",
+      "frequency": 2.57e-05,
+      "score": 0
+    },
+    {
+      "word": "anna",
+      "contextual_clue": "N/A",
+      "generic_clue": "Frozen lead singer",
+      "frequency": 2.34e-05,
+      "score": 0
+    },
+    {
+      "word": "instant",
+      "contextual_clue": "N/A",
+      "generic_clue": "Immediate, without delay",
+      "frequency": 2.19e-05,
+      "score": 0
+    },
+    {
+      "word": "stating",
+      "contextual_clue": "You were _______ your location frequently, moving between Snell Library, Northeastern, and Seaport.",
+      "generic_clue": "Declaring, as a fact",
+      "frequency": 1.41e-05,
+      "score": 5.0
+    },
+    {
+      "word": "wasting",
+      "contextual_clue": "N/A",
+      "generic_clue": "Squandering resources",
+      "frequency": 1.29e-05,
+      "score": 0
+    },
+    {
+      "word": "sang",
+      "contextual_clue": "N/A",
+      "generic_clue": "Voiced a melody",
+      "frequency": 1.26e-05,
+      "score": 0
+    },
+    {
+      "word": "waist",
+      "contextual_clue": "N/A",
+      "generic_clue": "Part of the body between ribs and hips",
+      "frequency": 9.12e-06,
+      "score": 0
+    },
+    {
+      "word": "wang",
+      "contextual_clue": "N/A",
+      "generic_clue": "Chinese dynasty that followed the Xia",
+      "frequency": 8.91e-06,
+      "score": 0
+    },
+    {
+      "word": "satan",
+      "contextual_clue": "N/A",
+      "generic_clue": "Prince of darkness",
+      "frequency": 8.51e-06,
+      "score": 0
+    },
+    {
+      "word": "saga",
+      "contextual_clue": "Your day unfolded as a long and winding _______, filled with travels and study.",
+      "generic_clue": "Long, involved story",
+      "frequency": 7.41e-06,
+      "score": 4.0
+    },
+    {
+      "word": "swan",
+      "contextual_clue": "N/A",
+      "generic_clue": "Graceful waterfowl",
+      "frequency": 6.92e-06,
+      "score": 0
+    },
+    {
+      "word": "stain",
+      "contextual_clue": "N/A",
+      "generic_clue": "Marks with discoloration",
+      "frequency": 5.01e-06,
+      "score": 0
+    },
+    {
+      "word": "titan",
+      "contextual_clue": "You seemed to endlessly traverse between Snell Library and various halls, a true _______ of academic endurance.",
+      "generic_clue": "Powerful giant in mythology",
+      "frequency": 4.9e-06,
+      "score": 4.0
+    },
+    {
+      "word": "watt",
+      "contextual_clue": "N/A",
+      "generic_clue": "Unit of power, often seen on a light bulb",
+      "frequency": 4.9e-06,
+      "score": 0
+    },
+    {
+      "word": "assassin",
+      "contextual_clue": "N/A",
+      "generic_clue": "Someone who commits a politically motivated murder",
+      "frequency": 4.57e-06,
+      "score": 0
+    },
+    {
+      "word": "assign",
+      "contextual_clue": "You spent the day working on a course _______ at Snell Library.",
+      "generic_clue": "Allocate a task or duty",
+      "frequency": 4.57e-06,
+      "score": 4.0
+    },
+    {
+      "word": "staging",
+      "contextual_clue": "N/A",
+      "generic_clue": "Preparing a home for sale, for example",
+      "frequency": 4.47e-06,
+      "score": 0
+    },
+    {
+      "word": "tasting",
+      "contextual_clue": "N/A",
+      "generic_clue": "Wine enthusiast's activity",
+      "frequency": 4.47e-06,
+      "score": 0
+    },
+    {
+      "word": "attain",
+      "contextual_clue": "You seemed to be trying to _______ knowledge throughout the day, spending hours in the library.",
+      "generic_clue": "Achieve, as a goal",
+      "frequency": 3.98e-06,
+      "score": 4.0
+    },
+    {
+      "word": "sans",
+      "contextual_clue": "N/A",
+      "generic_clue": "Without, in French",
+      "frequency": 3.8e-06,
+      "score": 0
+    },
+    {
+      "word": "tang",
+      "contextual_clue": "N/A",
+      "generic_clue": "A zesty flavor",
+      "frequency": 3.8e-06,
+      "score": 0
+    },
+    {
+      "word": "swat",
+      "contextual_clue": "N/A",
+      "generic_clue": "Hit with a fly swatter",
+      "frequency": 2.88e-06,
+      "score": 0
+    },
+    {
+      "word": "satin",
+      "contextual_clue": "N/A",
+      "generic_clue": "Smooth, lustrous fabric",
+      "frequency": 2.45e-06,
+      "score": 0
+    },
+    {
+      "word": "stagnant",
+      "contextual_clue": "Despite all your travel, there were periods where you felt _______, just sitting and waiting.",
+      "generic_clue": "Not flowing or moving forward",
+      "frequency": 2.04e-06,
+      "score": 4.0
+    },
+    {
+      "word": "tanning",
+      "contextual_clue": "N/A",
+      "generic_clue": "Getting color at the beach",
+      "frequency": 2.04e-06,
+      "score": 0
+    },
+    {
+      "word": "nagging",
+      "contextual_clue": "N/A",
+      "generic_clue": "Persistent annoyance",
+      "frequency": 1.86e-06,
+      "score": 0
+    },
+    {
+      "word": "snag",
+      "contextual_clue": "N/A",
+      "generic_clue": "A small obstacle or problem",
+      "frequency": 1.86e-06,
+      "score": 0
+    },
+    {
+      "word": "stag",
+      "contextual_clue": "N/A",
+      "generic_clue": "Male deer",
+      "frequency": 1.78e-06,
+      "score": 0
+    },
+    {
+      "word": "swag",
+      "contextual_clue": "N/A",
+      "generic_clue": "Cool style or loot, depending on context",
+      "frequency": 1.55e-06,
+      "score": 0
+    },
+    {
+      "word": "insignia",
+      "contextual_clue": "N/A",
+      "generic_clue": "Badge of office or honor",
+      "frequency": 1.41e-06,
+      "score": 0
+    },
+    {
+      "word": "gait",
+      "contextual_clue": "Your frequent trips between buildings suggest a hurried _______.",
+      "generic_clue": "A person's manner of walking",
+      "frequency": 1.23e-06,
+      "score": 4.0
+    },
+    {
+      "word": "waning",
+      "contextual_clue": "N/A",
+      "generic_clue": "Decreasing, like the moon before a new moon",
+      "frequency": 1.12e-06,
+      "score": 0
+    },
+    {
+      "word": "taint",
+      "contextual_clue": "Something at Seaport 'changed' you, leaving a subtle _______ on your mind.",
+      "generic_clue": "A trace of disgrace or corruption",
+      "frequency": 9.55e-07,
+      "score": 4.0
+    },
+    {
+      "word": "sagging",
+      "contextual_clue": "After a long day, you might have been feeling _______, especially after all that walking and rushing.",
+      "generic_clue": "Drooping, like an old mattress",
+      "frequency": 8.51e-07,
+      "score": 4.0
+    },
+    {
+      "word": "awning",
+      "contextual_clue": "N/A",
+      "generic_clue": "Shade provider over a patio",
+      "frequency": 5.01e-07,
+      "score": 0
+    },
+    {
+      "word": "gnaw",
+      "contextual_clue": "N/A",
+      "generic_clue": "Nibble persistently, like a rodent",
+      "frequency": 3.63e-07,
+      "score": 0
+    },
+    {
+      "word": "gnat",
+      "contextual_clue": "N/A",
+      "generic_clue": "Tiny, pesky flying insect",
+      "frequency": 2.88e-07,
+      "score": 0
+    },
+    {
+      "word": "anta",
+      "contextual_clue": "You passed Auntie Anne's, a well-known _______ chain, while heading to the train station.",
+      "generic_clue": "South American relative of the deer",
+      "frequency": 1.32e-07,
+      "score": 5.0
+    }
+  ]
+}

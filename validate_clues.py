@@ -5,37 +5,32 @@ import json
 import re
 
 # ==========================================
-# VALIDATOR PROMPT (v4)
+# CONTEXTUAL VALIDATOR PROMPT (v5)
 # ==========================================
 VALIDATION_PROMPT = """
 ### ROLE
-You are a Truth Auditor. Your job is to catch "Fake Details" in game clues.
+You are a Quality Control bot for a diary puzzle.
 
 ### INPUT DATA
-**Original Diary:**
+**Diary:**
 {DIARY_TEXT}
 
-**Proposed Clues:**
+**Clues:**
 {CLUES_JSON}
 
-### AUDIT RULES
-1. **The "Visual" Test:** - Does the clue say "You saw X" or "You noticed X"?
-   - If "X" is NOT in the diary -> **SCORE 1 (REJECT)**.
-   - *Example:* "You saw a tree." (Diary mentions no tree) -> REJECT.
+### TASK
+Rate each clue (1-5) based on **Contextual Validity**.
 
-2. **The "Action" Test:**
-   - Does the clue say "You ate/bought/used"?
-   - If the diary only says "passed" -> **SCORE 1 (REJECT)**.
+**SCORE 5 (VALID):**
+- **Fact:** "You passed Caffè Nero." (NERO) -> 5
+- **Definition:** "You went to Seaport, which is an AREA." -> 5 (True definition).
+- **Logical Link:** "You took the subway, so you paid FARE." -> 5 (Logical assumption).
+- **Time/Place:** "You were at the library in the AFTERNOON." -> 5 (True time).
 
-3. **The "Anchor" Test:**
-   - Does the clue mention a specific Time or Place?
-   - If yes -> **SCORE 5 (PASS)**.
-   - If no -> **SCORE 3 (WEAK)**.
-
-### SCORING
-- **5:** Accurate fact or safe abstract metaphor (e.g. "heart rate").
-- **3:** Vague but harmless.
-- **1:** Hallucinated object, action, or feeling.
+**SCORE 1 (INVALID/HALLUCINATION):**
+- **Creative Writing:** "You felt light as an OTTER." -> 1 (Hallucination).
+- **Fake Objects:** "You imagined an AERATOR." -> 1 (Not in diary).
+- **Fake Actions:** "You ate an ENTREE." -> 1 (Diary only says 'passed restaurant').
 
 ### OUTPUT FORMAT
 Output ONLY a valid JSON list.
@@ -44,7 +39,7 @@ Output ONLY a valid JSON list.
     "word": "TARGETWORD",
     "clue": "Original clue...",
     "score": 5,
-    "reason": "Safe metaphor. No fake objects invented."
+    "reason": "Valid logical link. Subway implies Fare."
   }
 ]
 """

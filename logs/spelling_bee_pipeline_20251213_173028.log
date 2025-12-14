@@ -1,0 +1,1220 @@
+Step A: Generating Spelling Bee Game JSON...
+Conda environment activated.
+======================================================================
+Spelling Bee Word List Generation Pipeline
+Timestamp: 2025-12-13-17-30
+Log file: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-30.log
+======================================================================
+
+[1/4] Generating seven-letter candidate words...
+Random 10 candidates (freq > 7e-06):
+- chocolate (freq: 0.000031)
+- hearing (freq: 0.000066)
+- additional (freq: 0.000096)
+- harmony (freq: 0.000013)
+- verdict (freq: 0.000011)
+- appreciate (freq: 0.000055)
+- adoption (freq: 0.000015)
+- resting (freq: 0.000008)
+- frankly (freq: 0.000011)
+- numerous (freq: 0.000045)
+
+Randomly selected candidate: appreciate
+Selected seed word: appreciate
+
+[2/4] Generating spelling bee puzzle for seed word 'appreciate'...
+================================================================================
+Spelling Bee Puzzle Generator
+================================================================================
+
+No candidate JSON provided; running in direct seed-word mode.
+
+Loading dictionary from: /home/mhealth-admin/jin/words_with_friends/words_database/dictionary_compact.json
+✓ Loaded 102217 words from dictionary
+
+Building mask index (this may take a moment)...
+✓ Indexed 94872 words (length >= 4)
+
+Attempting to build puzzle using provided seed word: 'appreciate'
+✓ Found 361 words for candidate 'appreciate' with center letter 'e'
+
+Generating puzzle JSON with word frequencies and definitions...
+Dropping superset words due to containment:
+  - Dropped 'arace' (freq: 0.00e+00) because it contains 'race' (freq: 1.20e-04) [frequency]
+  - Dropped 'arear' (freq: 0.00e+00) because it contains 'area' (freq: 2.88e-04) [frequency]
+  - Dropped 'caper' (freq: 7.24e-07) because it contains 'cape' (freq: 2.00e-05) [frequency]
+  - Dropped 'caret' (freq: 8.13e-08) because it contains 'care' (freq: 3.63e-04) [frequency]
+  - Dropped 'crape' (freq: 6.76e-08) because it contains 'rape' (freq: 3.02e-05) [frequency]
+  - Dropped 'crare' (freq: 0.00e+00) because it contains 'rare' (freq: 5.89e-05) [frequency]
+  - Dropped 'crate' (freq: 2.95e-06) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'erica' (freq: 3.63e-06) because it contains 'eric' (freq: 3.09e-05) [frequency]
+  - Dropped 'etape' (freq: 2.04e-08) because it contains 'tape' (freq: 2.75e-05) [frequency]
+  - Dropped 'irate' (freq: 6.03e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'peert' (freq: 0.00e+00) because it contains 'peer' (freq: 1.38e-05) [frequency]
+  - Dropped 'piper' (freq: 4.79e-06) because it contains 'pipe' (freq: 1.78e-05) [frequency]
+  - Dropped 'prate' (freq: 3.31e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'racer' (freq: 2.82e-06) because it contains 'race' (freq: 1.20e-04) [frequency]
+  - Dropped 'rater' (freq: 2.00e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'taper' (freq: 2.00e-06) because it contains 'tape' (freq: 2.75e-05) [frequency]
+  - Dropped 'tapet' (freq: 0.00e+00) because it contains 'tape' (freq: 2.75e-05) [frequency]
+  - Dropped 'trape' (freq: 0.00e+00) because it contains 'rape' (freq: 3.02e-05) [frequency]
+  - Dropped 'trice' (freq: 2.51e-07) because it contains 'rice' (freq: 3.55e-05) [frequency]
+  - Dropped 'aceric' (freq: 0.00e+00) because it contains 'eric' (freq: 3.09e-05) [frequency]
+  - Dropped 'aerate' (freq: 7.94e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'apiece' (freq: 1.74e-06) because it contains 'piece' (freq: 1.10e-04) [frequency]
+  - Dropped 'arrear' (freq: 3.39e-08) because it contains 'rear' (freq: 2.69e-05) [frequency]
+  - Dropped 'attire' (freq: 3.09e-06) because it contains 'tire' (freq: 1.05e-05) [frequency]
+  - Dropped 'career' (freq: 1.17e-04) because it contains 'care' (freq: 3.63e-04) [affix]
+  - Dropped 'cerate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'crater' (freq: 3.55e-06) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'peerie' (freq: 0.00e+00) because it contains 'peer' (freq: 1.38e-05) [frequency]
+  - Dropped 'piecer' (freq: 0.00e+00) because it contains 'piece' (freq: 1.10e-04) [frequency]
+  - Dropped 'pitier' (freq: 0.00e+00) because it contains 'tier' (freq: 1.45e-05) [frequency]
+  - Dropped 'prater' (freq: 2.82e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'preact' (freq: 0.00e+00) because it contains 'react' (freq: 1.45e-05) [frequency]
+  - Dropped 'rearer' (freq: 0.00e+00) because it contains 'rear' (freq: 2.69e-05) [affix]
+  - Dropped 'retire' (freq: 1.12e-05) because it contains 'tire' (freq: 1.05e-05) [affix]
+  - Dropped 'tapeti' (freq: 0.00e+00) because it contains 'tape' (freq: 2.75e-05) [frequency]
+  - Dropped 'tearer' (freq: 0.00e+00) because it contains 'tear' (freq: 2.24e-05) [affix]
+  - Dropped 'tierce' (freq: 3.31e-08) because it contains 'tier' (freq: 1.45e-05) [frequency]
+  - Dropped 'tracer' (freq: 1.55e-06) because it contains 'race' (freq: 1.20e-04) [frequency]
+  - Dropped 'acerate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'attirer' (freq: 0.00e+00) because it contains 'tire' (freq: 1.05e-05) [frequency]
+  - Dropped 'caperer' (freq: 0.00e+00) because it contains 'cape' (freq: 2.00e-05) [frequency]
+  - Dropped 'caprate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'caprice' (freq: 7.24e-07) because it contains 'rice' (freq: 3.55e-05) [frequency]
+  - Dropped 'catpipe' (freq: 0.00e+00) because it contains 'pipe' (freq: 1.78e-05) [frequency]
+  - Dropped 'cirrate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'citrate' (freq: 7.41e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'epicarp' (freq: 0.00e+00) because it contains 'epic' (freq: 2.24e-05) [frequency]
+  - Dropped 'icteric' (freq: 0.00e+00) because it contains 'eric' (freq: 3.09e-05) [frequency]
+  - Dropped 'iterate' (freq: 3.24e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'parapet' (freq: 5.50e-07) because it contains 'rape' (freq: 3.02e-05) [frequency]
+  - Dropped 'picrate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'piercer' (freq: 7.94e-08) because it contains 'pierce' (freq: 8.51e-06) [frequency]
+  - Dropped 'piperic' (freq: 0.00e+00) because it contains 'eric' (freq: 3.09e-05) [frequency]
+  - Dropped 'pipette' (freq: 1.91e-07) because it contains 'pipe' (freq: 1.78e-05) [frequency]
+  - Dropped 'precipe' (freq: 0.00e+00) because it contains 'recipe' (freq: 1.70e-05) [frequency]
+  - Dropped 'retirer' (freq: 0.00e+00) because it contains 'tire' (freq: 1.05e-05) [frequency]
+  - Dropped 'retrace' (freq: 4.90e-07) because it contains 'race' (freq: 1.20e-04) [frequency]
+  - Dropped 'retreat' (freq: 1.35e-05) because it contains 'treat' (freq: 5.62e-05) [affix]
+  - Dropped 'tarrace' (freq: 0.00e+00) because it contains 'race' (freq: 1.20e-04) [frequency]
+  - Dropped 'tearpit' (freq: 0.00e+00) because it contains 'tear' (freq: 2.24e-05) [frequency]
+  - Dropped 'tiercet' (freq: 0.00e+00) because it contains 'tier' (freq: 1.45e-05) [frequency]
+  - Dropped 'titrate' (freq: 6.92e-08) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'trapper' (freq: 8.91e-07) because it contains 'rapper' (freq: 9.12e-06) [frequency]
+  - Dropped 'treater' (freq: 4.79e-08) because it contains 'treat' (freq: 5.62e-05) [affix]
+  - Dropped 'accepter' (freq: 0.00e+00) because it contains 'accept' (freq: 7.08e-05) [affix]
+  - Dropped 'appearer' (freq: 0.00e+00) because it contains 'appear' (freq: 7.08e-05) [affix]
+  - Dropped 'cappaper' (freq: 0.00e+00) because it contains 'paper' (freq: 1.17e-04) [frequency]
+  - Dropped 'pepperer' (freq: 0.00e+00) because it contains 'pepper' (freq: 1.38e-05) [affix]
+  - Dropped 'pericarp' (freq: 4.47e-08) because it contains 'eric' (freq: 3.09e-05) [frequency]
+  - Dropped 'preparer' (freq: 1.91e-07) because it contains 'prepare' (freq: 3.55e-05) [frequency]
+  - Dropped 'priceite' (freq: 0.00e+00) because it contains 'rice' (freq: 3.55e-05) [frequency]
+  - Dropped 'rareripe' (freq: 0.00e+00) because it contains 'rare' (freq: 5.89e-05) [frequency]
+  - Dropped 'reappear' (freq: 1.02e-06) because it contains 'appear' (freq: 7.08e-05) [affix]
+  - Dropped 'recreate' (freq: 3.31e-06) because it contains 'create' (freq: 1.05e-04) [affix]
+  - Dropped 'repairer' (freq: 1.58e-07) because it contains 'repair' (freq: 2.57e-05) [affix]
+  - Dropped 'repeater' (freq: 7.76e-07) because it contains 'repeat' (freq: 3.09e-05) [affix]
+  - Dropped 'tartrate' (freq: 1.20e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'atterrate' (freq: 0.00e+00) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'cicatrice' (freq: 0.00e+00) because it contains 'rice' (freq: 3.55e-05) [frequency]
+  - Dropped 'epipteric' (freq: 0.00e+00) because it contains 'eric' (freq: 3.09e-05) [frequency]
+  - Dropped 'papeterie' (freq: 0.00e+00) because it contains 'peter' (freq: 7.59e-05) [frequency]
+  - Dropped 'practicer' (freq: 0.00e+00) because it contains 'practice' (freq: 1.15e-04) [frequency]
+  - Dropped 'reiterate' (freq: 1.35e-06) because it contains 'rate' (freq: 1.38e-04) [frequency]
+  - Dropped 'pericarpic' (freq: 0.00e+00) because it contains 'eric' (freq: 3.09e-05) [frequency]
+  - Dropped 'perpetrate' (freq: 3.02e-07) because it contains 'rate' (freq: 1.38e-04) [frequency]
+
+✓ Generated puzzle with 276 words
+
+Saving puzzle to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_appreciate_2025-12-13-17-30.json
+✓ Saved puzzle JSON
+
+================================================================================
+PUZZLE SUMMARY:
+================================================================================
+Seed word: APPRECIATE
+Clue: 
+Distinct letters: a, c, e, i, p, r, t
+Center letter: e (required in all words)
+Total valid words: 276
+Words sorted by frequency (high to low)
+
+Top 10 words by frequency:
+   1. care                 (freq: 3.63e-04)
+   2. area                 (freq: 2.88e-04)
+   3. price                (freq: 1.70e-04)
+   4. rate                 (freq: 1.38e-04)
+   5. race                 (freq: 1.20e-04)
+   6. paper                (freq: 1.17e-04)
+   7. practice             (freq: 1.15e-04)
+   8. piece                (freq: 1.10e-04)
+   9. create               (freq: 1.05e-04)
+  10. peace                (freq: 1.05e-04)
+
+================================================================================
+Done!
+================================================================================
+
+Full path to generated JSON: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_appreciate_2025-12-13-17-30.json
+Puzzle JSON created at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_appreciate_2025-12-13-17-30.json
+
+[3/4] Filtering and pruning words...
+================================================================================
+Word Filtering and Pruning
+================================================================================
+
+Loading puzzle JSON from: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/spelling_bee_puzzle_appreciate_2025-12-13-17-30.json
+✓ Loaded 276 words
+
+Filtering out words with frequency 0.0...
+✓ Removed 84 words with frequency 0.0
+  Examples: acater, accite, acrite, aperea, appete, apricate, aptate, apteria, arere, arietate...
+
+Classifying words (frequency threshold: 5e-06)...
+✓ 50 words always included (frequency > threshold)
+✓ 142 words to be processed by LLM
+
+Loading prompt template from: prune_word_list.txt
+✓ Prompt template loaded (2456 characters)
+
+Processing 142 words in batches of 5...
+
+  Processing batch 1/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 2/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 3/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 5 kept, 0 removed
+  Processing batch 4/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 5/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 6/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 7/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 4 kept, 1 removed
+  Processing batch 8/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 9/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 10/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 11/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 3 kept, 2 removed
+  Processing batch 12/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 13/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 14/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 15/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 16/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 2 kept, 3 removed
+  Processing batch 17/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 18/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Warning: Batch words mismatch!
+      Extra/variation words in response (ignored): ['wax']
+    Result: 2 kept, 3 removed
+  Processing batch 19/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 20/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 21/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 1 kept, 4 removed
+  Processing batch 22/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 23/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 24/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 25/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 26/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 27/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 28/29 (5 words)...
+    Sending 5 words with definitions to LLM
+    Result: 0 kept, 5 removed
+  Processing batch 29/29 (2 words)...
+    Sending 2 words with definitions to LLM
+    Result: 1 kept, 1 removed
+
+✓ Processed 29 batch(es)
+  Kept: 48 words
+  Removed: 94 words
+
+  ✓ All 48 kept words matched and have definitions preserved
+================================================================================
+REMOVED WORDS
+================================================================================
+Total removed: 94
+
+Word: accipiter
+Reason: Taxonomic genus of hawk-like birds; specialized biological terminology (Criterion 3).
+
+Word: accrete
+Reason: Category 1: rare verb mostly used in scientific contexts; unlikely to be guessed from simple clues.
+
+Word: acetate
+Reason: Acetate is a specialized chemical compound. Its use is confined to scientific or industrial contexts, which makes it a specialized food-processing/biochemical term (criterion 7).
+
+Word: acetic
+Reason: Specialized biochemical term; category 7: remove words whose definition refers to a chemical component (acetic acid).
+
+Word: apace
+Reason: Adverb meaning 'quickly', but considered archaic/obscure and not widely known to typical adults; category 1.
+
+Word: apatite
+Reason: Scientific mineral term; falls under rule 7 for specialized scientific vocabulary.
+
+Word: aper
+Reason: Category 1: very obscure term meaning 'one who apes'; not commonly known.
+
+Word: apert
+Reason: Archaic form of 'open'; not used in everyday language (criterion 1).
+
+Word: aptera
+Reason: Narrow scientific classification of insects; not widely recognized (criterion 3 and 7).
+
+Word: areca
+Reason: Botanical genus of palm; specific animal species or narrow taxonomic term.
+
+Word: aret
+Reason: Obsolete verb meaning 'to reckon'; not widely known (criterion 1).
+
+Word: arete
+Reason: Geological term for a ridge; niche technical word.
+
+Word: arietta
+Reason: Category 8: a musical term for a short aria; not widely known outside music circles.
+
+Word: arret
+Reason: Obsolete legal term; low frequency and not common to general audience (criterion 1).
+
+Word: atte
+Reason: Obsolete archaic preposition; too rare for general audience (Criterion 1).
+
+Word: atter
+Reason: Obsolete word for poison; unlikely to be known by typical adults (Criterion 1).
+
+Word: caeca
+Reason: Latin/medical term referring to caecum; uncommon outside specialist context (Criterion 7).
+
+Word: capitate
+Reason: Technical botanical adjective meaning 'headlike'; not everyday vocabulary (Criterion 7).
+
+Word: capite
+Reason: Obsolete and not widely known; typical adults would not know it (Criterion 1).
+
+Word: capper
+Reason: An agent noun describing a specialized occupation (cap maker or gambling decoy) not a common everyday role; category 2.
+
+Word: carper
+Reason: Derived '-er' agent noun describing a non‑common everyday role (Criterion 2).
+
+Word: carte
+Reason: The word is an obscure French-derived term with a niche meaning (Bill of fare). Typical adults are unlikely to know it or guess it from simple clues, so it falls under criterion 1 (obscure/rare).
+
+Word: cate
+Reason: Cate is an archaic, obsolete term for a type of food. It is rarely known to general adults and is therefore removed under criterion 1.
+
+Word: cere
+Reason: Specific bird anatomy term; highly specialized and obscure.
+
+Word: ceria
+Reason: Specialized chemical substance; not common everyday vocabulary (Criterion 7).
+
+Word: cetacea
+Reason: Category 1: an obscure, technical term for a marine mammal order; not likely to be guessed by typical adults.
+
+Word: crappie
+Reason: A specific fish species; falls under category 3 (specific animal species) and is unlikely to be widely known by typical adults.
+
+Word: creat
+Reason: Specialized role of an usher to a riding master; not a broad everyday role and is obscure, meeting rule 2/7.
+
+Word: crete
+Reason: Geographical proper noun; not part of everyday vocabulary, classified as an obscure geographical name (criterion 8).
+
+Word: crier
+Reason: Derived '-er' occupation/agent noun that is a narrow, archaic role (town‑crier); not a broad familiar role per criterion 2.
+
+Word: eire
+Reason: Obsolete archaic term for air; meets rule 1 for removal.
+
+Word: epact
+Reason: Specialized astronomical/astronomical term; obscure for general audience (Criterion 7).
+
+Word: ipecac
+Reason: Specialized medical term; not everyday vocabulary (Criterion 7).
+
+Word: iter
+Reason: Obscure Latin-derived term for a passage; very low frequency and unlikely to be guessed by typical adults.
+
+Word: pape
+Reason: Obsolete term for pope, not used in modern English; fits criterion 1.
+
+Word: parer
+Reason: Category 1/4: uncommon tool; not widely recognizable outside niche contexts.
+
+Word: paretic
+Reason: Medical/biological term referring to paralysis; specialized vocabulary (criterion 7).
+
+Word: parter
+Reason: An archaic, obscure noun not in common use; falls under category 1 (obsolete/rare word).
+
+Word: parterre
+Reason: Criterion 1: a specialized horticultural or theatrical term; too niche for general audience.
+
+Word: partite
+Reason: Category 1: obscure botanical term; unlikely to be known by typical adults.
+
+Word: pate
+Reason: The definition given is archaic and obscure; the word is not commonly used in everyday language and would be hard to guess (criterion 1).
+
+Word: patera
+Reason: Ancient Greek term for a dish or ornament; rare in everyday use (Criterion 1).
+
+Word: patriciate
+Reason: Very low frequency, uncommon word for aristocracy; not widely known to typical adults (criterion 1).
+
+Word: patte
+Reason: Highly specialized term describing a cross shape; obscure and not widely known (Criterion 1).
+
+Word: pattee
+Reason: Category 8: a specific ornamental shape; uncommon and technical.
+
+Word: peart
+Reason: Archaic/obsolete adjective; unlikely to be known by typical adults (Criterion 1).
+
+Word: pectic
+Reason: Obsolete, specialized biochemical term (criterion 1 and 7).
+
+Word: peeper
+Reason: Criterion 1: an obscure, low-frequency word referring to a young chicken or spy; not widely known by typical adults.
+
+Word: perca
+Reason: Specific fish genus; narrow taxonomic term not commonly known (Criterion 3).
+
+Word: perce
+Reason: Obsolete verb meaning 'to pierce'; category 1 (very low frequency).
+
+Word: percept
+Reason: Criterion 1: a philosophical/academic term meaning 'that which is perceived'; uncommon in everyday usage.
+
+Word: pere
+Reason: Obsolete archaic word meaning peer; likely unknown by typical adults.
+
+Word: peri
+Reason: This word refers to a niche mythical being; it is not widely known or guessable by typical adults (criterion 5).
+
+Word: perrie
+Reason: Obsolete noun for jewels; very low frequency and archaic (Criterion 1).
+
+Word: perrier
+Reason: An obsolete, archaic term for a short mortar; qualifies as an obsolete word with very low modern usage.
+
+Word: petar
+Reason: An obsolete term for a petard; not commonly known today, also falls under category 1 (obsolete/rare word).
+
+Word: petit
+Reason: Obsolete/archaic term with very low frequency; not commonly known by typical adults (criterion 1).
+
+Word: petre
+Reason: Specialized term for saltpeter, a chemical compound; not common everyday vocabulary (Criterion 7).
+
+Word: pice
+Reason: Very rare, archaic coin; frequency < 1e-6.
+
+Word: picea
+Reason: Taxonomic genus name for spruce trees; too obscure for general audience (Criterion 3).
+
+Word: piet
+Reason: A rare dialect term for a bird species; falls under the category of specific animal species/narrow taxonomic terms and is not widely known by typical adults.
+
+Word: pirie
+Reason: Obsolete word for a pear tree, a specific plant term; category 4 (niche botanical).
+
+Word: pirrie
+Reason: Archaic term for a rough gale of wind; not common in everyday language (Criterion 1).
+
+Word: pitter
+Reason: Obsolete and niche tool; very low frequency and unlikely to be known by typical adults (Criterion 1).
+
+Word: preterit
+Reason: Obscure grammatical term rarely used in everyday language (criterion 1).
+
+Word: preterite
+Reason: Linguistic term for past tense; too specialized for a general audience.
+
+Word: prie
+Reason: Criterion 1: an archaic name for the privet plant; extremely rare and unlikely to be known.
+
+Word: prier
+Reason: Obsolete/niche term meaning a prying person; unlikely to be guessed by general audience (criterion 1).
+
+Word: ratite
+Reason: Specific taxonomic group of birds; falls under category of narrow animal species (criterion 3).
+
+Word: ratter
+Reason: Category 1: niche animal-related term; not familiar to general audience.
+
+Word: reata
+Reason: Obscure term for a lariat; specialized, not common in everyday language (Criterion 4).
+
+Word: reit
+Reason: Obsolete or extremely rare term; category 1: remove words with very low frequency such as 'reit'.
+
+Word: reiter
+Reason: Obsolete historical term for a German cavalry soldier; falls under category 1 (extremely rare, archaic).
+
+Word: rete
+Reason: Very low-frequency, specialized anatomical term; not common to general audience.
+
+Word: rette
+Reason: Obsolete variant of 'aret'; rare usage (criterion 1).
+
+Word: ripper
+Reason: Obscure and niche usage; not a common everyday word, falling under specialized or niche terminology (criterion 4/7).
+
+Word: tace
+Reason: Obsolete/archaic term referring to a specific church cross; very low frequency and not recognizable by typical adults (Criterion 1).
+
+Word: tacet
+Reason: Musical direction meaning silent; specialized musical jargon, not common for general audience (criterion 1).
+
+Word: tapper
+Reason: Specific animal species; category 3: remove terms like 'tapper' that name a particular woodpecker.
+
+Word: tappet
+Reason: Category 7/8: a specialized mechanical component; outside everyday vocabulary.
+
+Word: tatter
+Reason: Archaic noun/verb not commonly known; obscure definition (criterion 1).
+
+Word: terce
+Reason: Very obscure musical term; unlikely to be guessed (criterion 1).
+
+Word: tercet
+Reason: Poetic/ literary term for a three-line stanza; too specialized for everyday knowledge (criterion 1).
+
+Word: terete
+Reason: Very obscure botanical/geometry term; typical adults would not know it (Criterion 1).
+
+Word: terra
+Reason: Foreign loanword not widely adopted in everyday English; considered too obscure for general-audience puzzles.
+
+Word: tete
+Reason: Obscure word for a wig; extremely rare and not widely recognized; fits criterion 1.
+
+Word: tetter
+Reason: The word refers to obscure, medical/dermatological conditions and botanical terms, making it highly specialized and unlikely to be known or guessed by typical adults. It falls under the criteria for very low‑frequency, niche medical terminology (criterion 1 and 7).
+
+Word: tice
+Reason: Archaic verb meaning 'to entice'; low frequency and obsolete, fitting criterion 1.
+
+Word: tipper
+Reason: Very obscure, archaic ale term with extremely low frequency; fits criterion 1 (obsolete/rare).
+
+Word: tippet
+Reason: Archaic/Scottish term for a cape or a tuft of hair; not widely known.
+
+Word: tractate
+Reason: Obsolete or specialized terminology describing a treatise; uncommon to typical adults.
+
+Word: tret
+Reason: Category 1: archaic third‑person form of 'tread'; extremely low frequency and not recognizable.
+
+Word: trier
+Reason: Derived '-er' agent noun for 'try'; not a common everyday role (criterion 2).
+
+Word: tripartite
+Reason: An academic or formal term meaning divided into three parts; uncommon for general audience.
+
+
+Saving filtered words to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-30.json
+✓ Saved 98 words to output file
+
+================================================================================
+SUMMARY
+================================================================================
+Original words: 276
+  - Removed (frequency = 0.0): 84
+  - Always included (frequency > 5e-06): 50
+  - Processed by LLM: 142
+    * Kept: 48
+    * Removed: 94
+Final words: 98
+Total removed: 178 (64.5%)
+  - Zero frequency: 84
+  - Removed by LLM: 94
+================================================================================
+
+[4/4] Pipeline complete.
+Final pruned list saved to: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-30.json
+Full log stored at: /home/mhealth-admin/jin/words_with_friends/spelling_bee/logs/spelling_bee_word_list_generation_2025-12-13-17-30.log
+======================================================================
+Using generated pruned list: /home/mhealth-admin/jin/words_with_friends/spelling_bee/generated_jsons/pruned_spelling_bee_word_list_2025-12-13-17-30.json
+<EVENT>
+  <TIME>12:00 AM - 08:27 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just woke up.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:27 AM - 08:54 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Grove Hall (Roxbury) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Cycling | -Sitting</UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>08:54 AM - 09:05 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>It's getting into Library standing. | I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:05 AM - 09:07 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, DISTRACTED, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to class leaving Snell Library.</UEMA_NOTES>
+  <POIS>Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, Dunkin', Burger 373</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:07 AM - 10:17 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Northeastern University (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm sitting down repeating course material. | -Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:17 AM - 10:20 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Northeastern University (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, Chaat House</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>10:20 AM - 11:09 AM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:09 AM - 11:42 AM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, RUSHED, SOCIAL_ATMOSPHERE, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I was running to the train station. | I'm writing Subway to go to Seaport. | I'm walking to my friend's office in Seaport.</UEMA_NOTES>
+  <POIS>Boston South Station, Boston Back Bay, Ruggles, Au Bon Pain, South Station, McDonald's, Boston Back Bay, Melting Sun, Dunkin', Master Wok, Argo Tea, Ruggles, Pink Taco, Boston South Station, Auntie Anne's, Boston Wharf Co. Sign, Back Bay, Row 34, Caffé Strega</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>11:42 AM - 01:51 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Amazon Boston (Seaport)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking to my friend's office in Seaport. | I'm sitting down waiting for my friend in the lobby. | -Sitting | I'm walking to bathroom. | But it changed me. Mind is older one.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>01:51 PM - 02:18 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Amazon Boston (Seaport) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, LOUD_ENVIRONMENT, HEAVY_PHONE_USE, RUSHED, HIGH_EXERTION, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to school from Seaport. | I'm sitting here on the train. Going back to school.</UEMA_NOTES>
+  <POIS>Dunkin', Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald's, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne's, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, Lolita</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:18 PM - 02:48 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, AUDIBLE_MOVEMENT, QUIET_ATMOSPHERE, LOUD_ENVIRONMENT</CONTEXT_TAGS>
+  <UEMA_NOTES>-Sitting</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:48 PM - 02:50 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>AUDIBLE_MOVEMENT, HEAVY_PHONE_USE, RUSHED, HIGH_EXERTION, DISTRACTED</CONTEXT_TAGS>
+  <UEMA_NOTES></UEMA_NOTES>
+  <POIS>Subway, Dunkin'</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>02:50 PM - 04:45 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Ryder Hall (Fenway)</LOCATION>
+  <CONTEXT_TAGS>HEAVY_PHONE_USE, SOCIAL_ATMOSPHERE, DISTRACTED, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking into the class. | -Sitting | -Walking</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:45 PM - 04:49 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Ryder Hall (Fenway) -> Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, RUSHED, HIGH_EXERTION</CONTEXT_TAGS>
+  <UEMA_NOTES>I'm walking back to library.</UEMA_NOTES>
+  <POIS>Subway</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>04:49 PM - 09:21 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Snell Library (Fenway)</LOCATION>
+  <CONTEXT_TAGS>SOCIAL_ATMOSPHERE, QUIET_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>I just sat down, crave back to the library. | -Sitting | I'm sitting down, taking course. | I'm walking to the bathroom. | I'm taking class sitting down. | I'm sitting down taking class and Snell. | I'm sitting down taking class in library. | I'm sitting down patient class in snow. | I'm sitting down taking class in snow. | I'm sitting down taking classes now, | Sitting down taking classes. Now | I'm opening door standing. | Sitting down. | I'm sitting down doing homework. | I'm sitting down to being assignment. | I'm walking in library.</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:21 PM - 09:45 PM</TIME>
+  <TYPE>MOVEMENT</TYPE>
+  <LOCATION>Snell Library (Fenway) -> Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>FOCUSED_OBSERVATION, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>R-R-Others | -Sitting</UEMA_NOTES>
+  <POIS>ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee's, Uphams Corner</POIS>
+</EVENT>
+
+<EVENT>
+  <TIME>09:45 PM - 11:59 PM</TIME>
+  <TYPE>STAY</TYPE>
+  <LOCATION>Grove Hall (Roxbury)</LOCATION>
+  <CONTEXT_TAGS>LOUD_ENVIRONMENT, FOCUSED_OBSERVATION, QUIET_ATMOSPHERE, SOCIAL_ATMOSPHERE</CONTEXT_TAGS>
+  <UEMA_NOTES>ST-Standing</UEMA_NOTES>
+  <POIS></POIS>
+</EVENT>
+
+--- GENERATING DIARY (gemma3:27b) ---
+
+12:00 AM - 8:27 AM. Woke up in Grove Hall, Roxbury. It was a quiet morning, a peaceful start to the day. Just a slow, calm feeling.
+
+8:27 AM. I rushed out of Grove Hall and headed toward Snell Library in Fenway. I cycled, then sat for a moment before heading inside. I passed Dunkin’ and the Subway on the way, grabbing a quick coffee. 
+
+8:54 AM. It was hectic getting into Snell Library, a real push through the crowds. I was already walking to class when I left.
+
+9:05 AM. A quick walk from Snell Library to Northeastern University in Fenway, glued to my screen as usual. I passed Argo Tea, Sweet Tomatoes Pizza, Tu Taco, The Boston Globe Library, more Dunkin’, and Burger 373. So many choices!
+
+9:07 AM - 10:17 AM. Settled down at Northeastern University, trying to repeat some course material. Just sitting, trying to focus, though it was a loud environment.
+
+10:17 AM. Rushed back to Snell Library, passing Sweet Tomatoes Pizza, Tu Taco, Argo Tea, Burger 373, Churchill's, Kigo Kitchen, Popeyes, and Chaat House. 
+
+10:20 AM - 11:09 AM. Back to sitting at Snell Library, trying to focus again. It was relatively quiet, just the hum of people studying.
+
+11:09 AM. Then a real dash – running to the train station to get to the Seaport. I was writing on my phone, getting directions for the Subway. Passed Boston South Station, Boston Back Bay, and Ruggles. Spotted Au Bon Pain, South Station, McDonald’s, Melting Sun, another Dunkin’, Master Wok, Ruggles, Pink Taco, Boston South Station, Auntie Anne’s, and the Boston Wharf Co. Sign. Quite a trek!
+
+11:42 AM - 1:51 PM. Walking to my friend’s office in the Seaport, then just sitting in the lobby waiting. I walked to the bathroom, and something felt… different. My mind felt older, somehow.
+
+1:51 PM. Time to head back to school! I sat on the train, heading back toward Fenway. Passed Dunkin’, Au Bon Pain, Boston South Station, Master Wok, Ruggles, Pink Taco, Massachusetts Avenue, McDonald’s, Melting Sun, Row 34, South Station, Boston Back Bay, Boston Back Bay, Auntie Anne’s, Back Bay, Boston South Station, Caffè Nero, Sportello, Ruggles, Boston Wharf Co. Sign, La Colombe Coffee Roasters, and even Lolita. 
+
+2:18 PM - 2:48 PM. Back at Snell Library, just sitting and trying to regroup. It was a mix of noise and quiet.
+
+2:48 PM. A quick walk over to Ryder Hall, passing the Subway and Dunkin’ again.
+
+2:50 PM - 4:45 PM. Settled into class at Ryder Hall, then just sitting and taking notes. Walked around a bit during the session.
+
+4:45 PM. Back to Snell Library, walking quickly.
+
+4:49 PM - 9:21 PM. Finally sat down at Snell, craving that library atmosphere. I sat and took classes, walked to the bathroom, and kept working. I've been sitting here, taking classes, taking more classes… Just sitting. I opened the door, standing for a moment, then sat down again. I'm finally doing some homework, working on an assignment, and walking around a bit in the library. 
+
+9:21 PM. Headed back to Grove Hall, passing ilona, Kura Sushi, ISEC Pedestrian Bridge, Starbucks, Farmer Horse Coffee, Ruggles, Caffé Bene, MIDA, Applebee’s, and finally, Uphams Corner.
+
+9:45 PM - 11:59 PM. Back in Grove Hall, and finally trying to relax. It’s a mix of loud and quiet tonight. ST-Standing.
+
+
+--- END OF ENTRY ---
+[
+  {
+    "word": "AREA",
+    "clue": "You traveled throughout several _______s of Boston today, including Fenway and the Seaport.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "RACE",
+    "clue": "Your day felt like a _______ against the clock, rushing between locations like Snell Library and Grove Hall.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "RATE",
+    "clue": "The speed at which you were traveling today could be described as a fast _______.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid a _______ to travel on the subway or train today.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "CARE",
+    "clue": "You took _______ to travel around, taking the subway, trains, and walking.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "PIECE",
+    "clue": "You felt like something was missing, a _______ of your younger self, after visiting the bathroom at 1:51 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "PRACTICE",
+    "clue": "You spent a significant portion of your day in _______ of your coursework, moving between Snell Library and Ryder Hall.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "PAPER",
+    "clue": "You were taking notes in class and working on an assignment, likely using _______ at Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "PEACE",
+    "clue": "The morning in Grove Hall started with a feeling of _______ and calm.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "APPEAR",
+    "clue": "After walking to the bathroom, something felt different, as if something had _______-ed to change your mind.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TREE",
+    "clue": "While at Northeastern University, you passed Argo Tea and were surrounded by so many choices, like branches on a _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "PETER",
+    "clue": "You walked around a bit during class at Ryder Hall, as if you were _______-ing around.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "PREPARE",
+    "clue": "You seemed to _______ for class by repeatedly visiting Snell Library and Ryder Hall.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TREAT",
+    "clue": "You passed many places to get a quick _______, like Dunkin\u2019 and Subway.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "APPRECIATE",
+    "clue": "You seemed to _______ the 'library atmosphere' at Snell, craving it at 9:21 PM.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "RICE",
+    "clue": "You walked by many restaurants, perhaps considering a meal with _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "ERIC",
+    "clue": "Perhaps you were meeting a friend named _______, as the diary lacks personal interactions.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 1
+  },
+  {
+    "word": "REPEAT",
+    "clue": "You seemed to _______ the same route, passing Dunkin\u2019 multiple times throughout the day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "REPEAT",
+    "clue": "You kept returning to Snell Library, _______-ing the cycle of studying and attending class.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TEAR",
+    "clue": "Something felt like it was starting to _______ as you reflected in the Seaport bathroom at 1:51 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "CARTER",
+    "clue": "The user spent the day as a student _______-ing between different buildings and locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "REPAIR",
+    "clue": "After a long day, the user went back to Grove Hall hoping to _______ some relaxation at 9:45 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CARRIER",
+    "clue": "You used your phone as a _______ for directions while rushing to the Seaport.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "PIPE",
+    "clue": "You might have seen a steam _______ while walking around Boston in the cold.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "TRACE",
+    "clue": "Your day left a _______ of footsteps from Grove Hall to the Seaport and back.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "CARPET",
+    "clue": "You spent most of the day sitting on the _______ of Snell Library.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TIRE",
+    "clue": "After a long day of walking and taking the train, you must have felt _______-d.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "REACT",
+    "clue": "After a strange feeling in the bathroom at 1:51 PM, you may have had to _______ to the change.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "PEER",
+    "clue": "While at Snell Library, you likely had to _______ over your laptop at the screen.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "TIRE",
+    "clue": "You traveled back and forth between Grove Hall, Snell, Ryder, and the Seaport - it sounds like a _______-some day!",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "ACRE",
+    "clue": "The area surrounding Northeastern University might span several _______.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "PIERCE",
+    "clue": "You repeatedly traveled through the _______ of the city, passing many locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "RECEIPT",
+    "clue": "After grabbing coffee at Dunkin\u2019, you probably received a _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TERRACE",
+    "clue": "You spent time at Grove Hall _______, a place for quiet relaxation.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 3
+  },
+  {
+    "word": "PIER",
+    "clue": "You traveled between areas like Boston South Station and Back Bay, almost as if navigating a _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "APPETITE",
+    "clue": "You passed numerous eateries, potentially stimulating your _______ throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "REAP",
+    "clue": "After a long day of classes and travel, you could say you _______ what you sowed.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "RITE",
+    "clue": "Returning to Snell Library felt like a daily _______ of passage.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CATER",
+    "clue": "With so many restaurants passed, the area seemed to _______ to every possible taste.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CITE",
+    "clue": "You passed The Boston Globe Library, a place to find sources to _______ in your work.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "EATER",
+    "clue": "You passed Sweet Tomatoes, a likely stop for a hungry _______.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ERECT",
+    "clue": "After a moment of standing, you finally sat _______ to study at Snell Library.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "PEAR",
+    "clue": "You might have enjoyed a sweet _______ with your coffee at Dunkin\u2019.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "PETITE",
+    "clue": "You walked a _______ distance from Snell Library to Northeastern University at 9:05 AM.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "PEEP",
+    "clue": "You took a _______ into the bathroom, noting a change in your perspective at 1:51 PM.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "ERRATIC",
+    "clue": "Your day felt quite _______, constantly moving between Grove Hall, Snell Library, Northeastern, and the Seaport.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "ERRATIC",
+    "clue": "The constant back-and-forth between locations suggests a rather _______ pattern to your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "ERRATIC",
+    "clue": "You dashed from the train station to your friend's office and then back to school \u2013 an _______ series of movements!",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "CREPT",
+    "clue": "As you walked to the bathroom in the Seaport, you may have _______ along, feeling a change in your mind.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TERRIER",
+    "clue": "You passed many establishments\u2014Dunkin\u2019, Au Bon Pain, McDonald\u2019s\u2014a veritable pack of _______ for the hungry commuter.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CREEPER",
+    "clue": "You walked to the bathroom, and something felt\u2026 different. A subtle _______ sensation, perhaps?",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "IRRITATE",
+    "clue": "The loud environment at Northeastern University might _______ someone trying to focus on course material.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "RETRACT",
+    "clue": "After rushing to the Seaport, you had to _______ your steps and head back toward Fenway on the train.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "PARE",
+    "clue": "You seemed to _______ down your activities, frequently returning to Snell Library to focus.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "TRITE",
+    "clue": "Passing Dunkin\u2019 repeatedly felt a bit _______, given how many times you saw it.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "PACER",
+    "clue": "You were a busy _______, constantly walking between buildings like Snell Library and Ryder Hall.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "CARAPACE",
+    "clue": "You passed Dunkin\u2019 multiple times, a shell-like _______ surrounding your day.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "CATERER",
+    "clue": "With so many restaurants passed - Dunkin\u2019, Subway, Lolita - you could've hired a _______ for a feast!",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "PERT",
+    "clue": "After a long day, you were feeling a little _______, noticing a change in your mindset at 1:51 PM.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "ERRATA",
+    "clue": "After a long day, your thoughts felt like a list of _______, jumping from place to place.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "RAPIER",
+    "clue": "Your movements between classes and locations were quick and _______-like, rushing to get things done.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 2
+  },
+  {
+    "word": "TEAT",
+    "clue": "You walked past several coffee shops, likely serving _______-ers throughout the day.",
+    "strategy": "Logical Association",
+    "relevance_score": 2
+  },
+  {
+    "word": "PERIPATETIC",
+    "clue": "Today felt very _______, with constant movement between Grove Hall, Snell Library, Northeastern, and the Seaport.",
+    "strategy": "Time/Space Labeling",
+    "relevance_score": 5
+  },
+  {
+    "word": "TEETER",
+    "clue": "Between classes, the library, and your friend's office, your day felt like you were _______ between locations.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 4
+  },
+  {
+    "word": "TRIPPER",
+    "clue": "You were a constant _______, moving between Grove Hall, Snell Library, Northeastern, and the Seaport all day.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 5
+  },
+  {
+    "word": "FARE",
+    "clue": "You likely paid _______ today when you took the subway at 11:09 AM.",
+    "strategy": "Logical Association",
+    "relevance_score": 5
+  },
+  {
+    "word": "PEPTIC",
+    "clue": "After walking to the bathroom in the Seaport, your mind felt older, perhaps due to a _______ upset.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  },
+  {
+    "word": "RECITER",
+    "clue": "You spent hours at Snell Library, perhaps a dedicated _______ of knowledge.",
+    "strategy": "Logical Association",
+    "relevance_score": 4
+  },
+  {
+    "word": "TITTER",
+    "clue": "The constant movement between buildings might have caused a slight _______ in your step.",
+    "strategy": "Action Paraphrasing",
+    "relevance_score": 3
+  },
+  {
+    "word": "AIRER",
+    "clue": "You repeatedly passed Dunkin', an _______ of coffee aromas.",
+    "strategy": "Logical Association",
+    "relevance_score": 3
+  }
+]

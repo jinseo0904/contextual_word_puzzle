@@ -1,0 +1,318 @@
+{
+  "seed_word": "STOPPING",
+  "seed_word_clue": "",
+  "distinct_letters": [
+    "g",
+    "i",
+    "n",
+    "o",
+    "p",
+    "s",
+    "t"
+  ],
+  "center_letter": "o",
+  "total_words": 43,
+  "words": [
+    {
+      "word": "into",
+      "contextual_clue": "You walked _______ Snell Library several times throughout the day.",
+      "generic_clue": "Immerse oneself, perhaps",
+      "frequency": 0.00129,
+      "score": 5.0
+    },
+    {
+      "word": "going",
+      "contextual_clue": "The diary details a day of _______ back and forth between Snell Library and other locations.",
+      "generic_clue": "Currently in progress",
+      "frequency": 0.000871,
+      "score": 5.0
+    },
+    {
+      "word": "point",
+      "contextual_clue": "N/A",
+      "generic_clue": "Sharp end or a reason",
+      "frequency": 0.000347,
+      "score": 0
+    },
+    {
+      "word": "stop",
+      "contextual_clue": "You made multiple _______ at Dunkin' and Subway throughout the day.",
+      "generic_clue": "Halt!",
+      "frequency": 0.000331,
+      "score": 5.0
+    },
+    {
+      "word": "post",
+      "contextual_clue": "N/A",
+      "generic_clue": "Mail delivery item",
+      "frequency": 0.000269,
+      "score": 0
+    },
+    {
+      "word": "soon",
+      "contextual_clue": "N/A",
+      "generic_clue": "In a little while",
+      "frequency": 0.000209,
+      "score": 0
+    },
+    {
+      "word": "song",
+      "contextual_clue": "N/A",
+      "generic_clue": "Musical composition",
+      "frequency": 0.000182,
+      "score": 0
+    },
+    {
+      "word": "position",
+      "contextual_clue": "You spent a lot of time in a seated _______, especially at Snell Library.",
+      "generic_clue": "Place or rank",
+      "frequency": 0.000162,
+      "score": 5.0
+    },
+    {
+      "word": "opinion",
+      "contextual_clue": "N/A",
+      "generic_clue": "What one thinks",
+      "frequency": 8.71e-05,
+      "score": 0
+    },
+    {
+      "word": "spot",
+      "contextual_clue": "Snell Library was your go-to _______ for studying today.",
+      "generic_clue": "A small mark",
+      "frequency": 7.76e-05,
+      "score": 5.0
+    },
+    {
+      "word": "option",
+      "contextual_clue": "Sweet Tomatoes Pizza was one _______ among many eateries you passed today.",
+      "generic_clue": "Choice or alternative",
+      "frequency": 6.31e-05,
+      "score": 5.0
+    },
+    {
+      "word": "onto",
+      "contextual_clue": "You moved _______ the next location in a hectic race against the clock.",
+      "generic_clue": "Following closely behind",
+      "frequency": 5.89e-05,
+      "score": 4.0
+    },
+    {
+      "word": "opposition",
+      "contextual_clue": "N/A",
+      "generic_clue": "Resistance or disagreement",
+      "frequency": 3.72e-05,
+      "score": 0
+    },
+    {
+      "word": "ongoing",
+      "contextual_clue": "Your day felt like an _______ series of movements between libraries and buildings.",
+      "generic_clue": "Currently happening",
+      "frequency": 2.09e-05,
+      "score": 5.0
+    },
+    {
+      "word": "notion",
+      "contextual_clue": "The quiet hum of the library gave you the _______ of peaceful solitude.",
+      "generic_clue": "A thought or idea",
+      "frequency": 1.48e-05,
+      "score": 4.0
+    },
+    {
+      "word": "noon",
+      "contextual_clue": "You spent a significant amount of time at Snell Library well past _______, studying and taking class.",
+      "generic_clue": "Midday, for many a lunch break",
+      "frequency": 1.29e-05,
+      "score": 5.0
+    },
+    {
+      "word": "poison",
+      "contextual_clue": "N/A",
+      "generic_clue": "Something that can be deadly",
+      "frequency": 1.2e-05,
+      "score": 0
+    },
+    {
+      "word": "toss",
+      "contextual_clue": "You were constantly on the move, _______-ing between Snell Library, Northeastern, and Amazon Boston.",
+      "generic_clue": "Lightly throw",
+      "frequency": 8.13e-06,
+      "score": 5.0
+    },
+    {
+      "word": "onion",
+      "contextual_clue": "You passed many layers of restaurants, like peeling an _______, traveling between locations.",
+      "generic_clue": "It might make you cry while chopping",
+      "frequency": 7.76e-06,
+      "score": 4.0
+    },
+    {
+      "word": "gossip",
+      "contextual_clue": "N/A",
+      "generic_clue": "Sharing rumors, often unkindly",
+      "frequency": 7.59e-06,
+      "score": 0
+    },
+    {
+      "word": "spoon",
+      "contextual_clue": "N/A",
+      "generic_clue": "Utensil for soup",
+      "frequency": 7.59e-06,
+      "score": 0
+    },
+    {
+      "word": "popping",
+      "contextual_clue": "You were _______ back and forth between Snell Library, Northeastern, and Amazon all day.",
+      "generic_clue": "What corn does in a hot machine",
+      "frequency": 6.76e-06,
+      "score": 5.0
+    },
+    {
+      "word": "ignition",
+      "contextual_clue": "N/A",
+      "generic_clue": "Starting a car, for example",
+      "frequency": 4.79e-06,
+      "score": 0
+    },
+    {
+      "word": "poop",
+      "contextual_clue": "N/A",
+      "generic_clue": "What a baby does in a diaper",
+      "frequency": 4.57e-06,
+      "score": 0
+    },
+    {
+      "word": "topping",
+      "contextual_clue": "You passed several restaurants, including Sweet Tomatoes Pizza, making it easy to add a _______ to your meal.",
+      "generic_clue": "Sprinkles on ice cream, for instance",
+      "frequency": 3.63e-06,
+      "score": 4.0
+    },
+    {
+      "word": "piston",
+      "contextual_clue": "N/A",
+      "generic_clue": "Engine component that moves up and down",
+      "frequency": 2.95e-06,
+      "score": 0
+    },
+    {
+      "word": "gong",
+      "contextual_clue": "N/A",
+      "generic_clue": "Large metal disc struck to make a resonant sound",
+      "frequency": 2.82e-06,
+      "score": 0
+    },
+    {
+      "word": "potion",
+      "contextual_clue": "You stopped at Argo Tea and Starbucks, perhaps searching for a calming _______ to help you focus.",
+      "generic_clue": "Magical brew, perhaps",
+      "frequency": 2.09e-06,
+      "score": 4.0
+    },
+    {
+      "word": "stoop",
+      "contextual_clue": "N/A",
+      "generic_clue": "Bend one's shoulders forward",
+      "frequency": 1.38e-06,
+      "score": 0
+    },
+    {
+      "word": "toot",
+      "contextual_clue": "You passed Dunkin’ multiple times, perhaps hoping for a sweet _______ to keep you energized.",
+      "generic_clue": "Short, sharp sound from a horn",
+      "frequency": 1.07e-06,
+      "score": 4.0
+    },
+    {
+      "word": "soot",
+      "contextual_clue": "N/A",
+      "generic_clue": "Black residue from a fire",
+      "frequency": 1.05e-06,
+      "score": 0
+    },
+    {
+      "word": "snot",
+      "contextual_clue": "N/A",
+      "generic_clue": "What drips when you have a cold",
+      "frequency": 8.13e-07,
+      "score": 0
+    },
+    {
+      "word": "tongs",
+      "contextual_clue": "N/A",
+      "generic_clue": "Kitchen tools for grabbing",
+      "frequency": 6.31e-07,
+      "score": 0
+    },
+    {
+      "word": "posit",
+      "contextual_clue": "You seemed to _______ yourself in Snell Library, spending hours there throughout the day.",
+      "generic_clue": "Assert strongly",
+      "frequency": 5.75e-07,
+      "score": 4.0
+    },
+    {
+      "word": "potting",
+      "contextual_clue": "N/A",
+      "generic_clue": "Related to planting in containers",
+      "frequency": 5.13e-07,
+      "score": 0
+    },
+    {
+      "word": "noggin",
+      "contextual_clue": "N/A",
+      "generic_clue": "Head, informally",
+      "frequency": 3.47e-07,
+      "score": 0
+    },
+    {
+      "word": "spigot",
+      "contextual_clue": "N/A",
+      "generic_clue": "Faucet, often for outdoor use",
+      "frequency": 3.09e-07,
+      "score": 0
+    },
+    {
+      "word": "stooping",
+      "contextual_clue": "N/A",
+      "generic_clue": "Bending low, perhaps to pick something up",
+      "frequency": 2.95e-07,
+      "score": 0
+    },
+    {
+      "word": "sopping",
+      "contextual_clue": "If you were caught in the snowfall at 9:21 PM, you could've ended up _______ wet on your way back to Grove Hall.",
+      "generic_clue": "Very wet, like a sponge",
+      "frequency": 1.23e-07,
+      "score": 5.0
+    },
+    {
+      "word": "togs",
+      "contextual_clue": "N/A",
+      "generic_clue": "Clothes, particularly for swimming",
+      "frequency": 1e-07,
+      "score": 0
+    },
+    {
+      "word": "tiptop",
+      "contextual_clue": "N/A",
+      "generic_clue": "First-rate, excellent",
+      "frequency": 7.76e-08,
+      "score": 0
+    },
+    {
+      "word": "pinon",
+      "contextual_clue": "N/A",
+      "generic_clue": "Nut often used in Southwestern cuisine",
+      "frequency": 7.59e-08,
+      "score": 0
+    },
+    {
+      "word": "spittoon",
+      "contextual_clue": "N/A",
+      "generic_clue": "Cowboy's receptacle",
+      "frequency": 7.08e-08,
+      "score": 0
+    }
+  ]
+}
